@@ -3492,12 +3492,22 @@ def auto_deploy():
         _deploy_state["last_status"] = "success"
         _deploy_state["last_error"] = None
 
-        log.info("[DEPLOY] ═══ GÜNCELLEME TAMAMLANDI — Restart gerekebilir ═══")
+        # ★ Passenger restart — yeni Python kodunu yükle
+        try:
+            restart_file = os.path.join(PROJECT_ROOT, "tmp", "restart.txt")
+            os.makedirs(os.path.dirname(restart_file), exist_ok=True)
+            with open(restart_file, "w") as f:
+                f.write(datetime.now().isoformat())
+            log.info("[DEPLOY] ✅ tmp/restart.txt dokunuldu — Passenger restart edecek")
+        except Exception as re:
+            log.warning(f"[DEPLOY] restart.txt hatası: {re}")
+
+        log.info("[DEPLOY] ═══ GÜNCELLEME TAMAMLANDI ═══")
 
         return jsonify({
             "status": "success",
             "git_output": git_output.strip(),
-            "message": "Güncelleme başarılı. Değişiklikler hemen aktif — büyük değişikliklerde Python restart gerekebilir.",
+            "message": "Güncelleme başarılı + Passenger restart tetiklendi.",
             "deployed_at": _deploy_state["last_deploy"],
         })
 
