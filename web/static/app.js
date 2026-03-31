@@ -1,4 +1,4 @@
-﻿/**
+/**
  * SmartMailer Ultimate — Professional Dashboard Application v2
  * New: Sent Mail Viewer, Follow-Up Engine tab, Agent Self-Improvement,
  * Duplicate Prevention, Brevo spam info, Sector Tags
@@ -50,6 +50,7 @@ function switchTab(tab) {
         case 'automation': loadAutomationStatus(); loadLogs('automation-log'); startLogPolling(); break;
         case 'responses': loadResponses(); break;
         case 'settings': loadSettings(); loadLogs('logs-container'); break;
+        case 'system': loadSystemHealth(); break;
     }
 }
 
@@ -1706,4 +1707,136 @@ document.addEventListener('DOMContentLoaded', () => {
     initOfficeAgents();
     // Socket.IO aktifse daha az polling (60s), değilse 30s
     autoRefreshInterval = setInterval(refreshAll, socket ? 60000 : 30000);
+    // Sistem sağlık durumu her 60 saniyede kontrol et
+    setInterval(updateNavHealthDot, 60000);
+    setTimeout(updateNavHealthDot, 3000);
 });
+
+// ═══════════════════════════════════════════════════════════
+// SYSTEM (OPS) TAB — Birleşik Kontrol Merkezi
+// ═══════════════════════════════════════════════════════════
+let sysRefreshTimer = null;
+
+async function loadSystemHealth() {
+    try {
+        const [health, autoStatus, stats] = await Promise.all([
+            api('/api/ops/health'),
+            api('/api/automation/status'),
+            api('/api/stats'),
+        ]);
+
+        // Metrikleri güncelle
+        if (stats) {
+            setText('sys-total-leads', (stats.total_leads || 0).toLocaleString('tr-TR'));
+            setText('sys-hot-leads', stats.hot_leads || 0);
+        }
+        if (autoStatus) {
+            setText('sys-today-sent', autoStatus.today_sent || 0);
+            setText('sys-cycle', autoStatus.cycle ? `#${autoStatus.cycle}` : '—');
+
+            // Pipeline durumu
+            const pipeEl = document.getElementById('sys-pipeline-status');
+            if (pipeEl) {
+                const isActive = !!autoStatus.running;
+                pipeEl.innerHTML = `
+                    <span class="auto-indicator ${isActive ? 'running' : 'stopped'}"></span>
+                    <strong>${isActive ? '🟢 Aktif' : '🔴 Durdurulmuş'} — Cycle ${autoStatus.cycle || 0}</strong>
+                    <span class="text-muted" style="margin-left:12px">${autoStatus.last_action || '—'}</span>
+                `;
+            }
+        }
+
+        // Watchdog kontrolleri
+        if (health && health.checks) {
+            const checksEl = document.getElementById('sys-watchdog-checks');
+            if (checksEl) {
+                checksEl.innerHTML = health.checks.map(c => {
+                    const icon = c.status === 'OK' ? '✅' : c.status === 'WARNING' ? '⚠️' : '❌';
+                    const cls = c.status === 'OK' ? 'ok' : c.status === 'WARNING' ? 'warning' : 'critical';
+                    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 8px;border-radius:6px;background:rgba(255,255,255,0.02)">
+                        <span>${icon} ${esc(c.name)}</span>
+                        <span class="agent-status ${cls}" style="font-size:11px">${esc(c.detail || c.status)}</span>
+                    </div>`;
+                }).join('');
+            }
+
+            // Genel sağlık badge
+            const failed = health.checks.filter(c => c.status === 'CRITICAL').length;
+            const warnings = health.checks.filter(c => c.status === 'WARNING').length;
+            const badge = document.getElementById('sys-health-badge');
+            const wdBadge = document.getElementById('sys-wd-badge');
+            const navDot = document.getElementById('nav-health-dot');
+
+            if (failed > 0) {
+                if (badge) { badge.textContent = '❌ Sorun Var'; badge.style.color = 'var(--red)'; }
+                if (wdBadge) { wdBadge.textContent = 'CRITICAL'; wdBadge.className = 'system-health-badge critical'; }
+                if (navDot) { navDot.style.color = 'var(--red)'; }
+            } else if (warnings > 0) {
+                if (badge) { badge.textContent = '⚠️ Uyarı'; badge.style.color = 'var(--amber)'; }
+                if (wdBadge) { wdBadge.textContent = 'WARNING'; wdBadge.className = 'system-health-badge warning'; }
+                if (navDot) { navDot.style.color = 'var(--amber)'; }
+            } else {
+                if (badge) { badge.textContent = '✅ Sağlıklı'; badge.style.color = 'var(--green)'; }
+                if (wdBadge) { wdBadge.textContent = 'OK'; wdBadge.className = 'system-health-badge ok'; }
+                if (navDot) { navDot.style.color = 'var(--green)'; }
+            }
+
+            // Meta info
+            const metaEl = document.getElementById('sys-wd-meta');
+            if (metaEl) {
+                metaEl.textContent = `Son kontrol: ${new Date().toLocaleTimeString('tr-TR')} — ${health.checks.length} kontrol yapıldı`;
+            }
+        }
+
+        // Logları yükle
+        loadLogs('sys-log-container');
+
+    } catch (e) {
+        console.error('System health load error:', e);
+    }
+
+    // Auto-refresh her 10 sn
+    if (!sysRefreshTimer) {
+        sysRefreshTimer = setInterval(loadSystemHealth, 10000);
+    }
+}
+
+async function sysAction(action) {
+    showToast(`Sistem komutu: ${action}...`, 'info');
+    try {
+        let result;
+        switch (action) {
+            case 'start':
+                result = await api('/api/automation/start', 'POST');
+                showToast(result?.message || 'Pipeline başlatıldı', 'success');
+                break;
+            case 'stop':
+                result = await api('/api/automation/stop', 'POST');
+                showToast('Pipeline durduruldu', 'success');
+                break;
+            case 'cycle':
+                result = await api('/api/ops/action', 'POST', { action: 'run_cycle' });
+                showToast(result?.message || 'Tek cycle tetiklendi', 'success');
+                break;
+            case 'watchdog':
+                result = await api('/api/ops/health');
+                showToast('Watchdog kontrolü tamamlandı', 'success');
+                break;
+        }
+        setTimeout(loadSystemHealth, 1500);
+    } catch (e) {
+        showToast('Komut hatası: ' + e.message, 'error');
+    }
+}
+
+async function updateNavHealthDot() {
+    try {
+        const health = await api('/api/ops/health');
+        if (!health?.checks) return;
+        const dot = document.getElementById('nav-health-dot');
+        if (!dot) return;
+        const failed = health.checks.filter(c => c.status === 'CRITICAL').length;
+        const warnings = health.checks.filter(c => c.status === 'WARNING').length;
+        dot.style.color = failed > 0 ? 'var(--red)' : warnings > 0 ? 'var(--amber)' : 'var(--green)';
+    } catch (e) { /* silent */ }
+}

@@ -30,6 +30,7 @@
         <button class="nav-btn" data-tab="automation"><span class="nav-icon">⚙️</span><span class="nav-text">Otomasyon</span></button>
         <button class="nav-btn" data-tab="responses"><span class="nav-icon">📥</span><span class="nav-text">Yanıtlar</span></button>
         <button class="nav-btn" data-tab="settings"><span class="nav-icon">🔧</span><span class="nav-text">Ayarlar</span></button>
+        <button class="nav-btn" data-tab="system" id="nav-system"><span class="nav-icon">🛡️</span><span class="nav-text">Sistem</span><span class="nav-badge-health" id="nav-health-dot" title="Sistem durumu">●</span></button>
     </div>
     <div class="sidebar-footer">
         <div class="mode-badge" id="mode-badge" onclick="toggleSystemMode()" title="Sistemi başlat/durdur — Tüm otomasyonu kontrol eder">
@@ -670,6 +671,62 @@
     <div class="card">
         <div class="card-header"><h3>📋 Sistem Logları</h3></div>
         <div class="log-container" id="logs-container">Log yükleniyor...</div>
+    </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     TAB 10: SİSTEM (OPS)
+     ═══════════════════════════════════════════════════════════ -->
+<div id="tab-system" class="tab-content">
+    <div class="page-header">
+        <div><h2>🛡️ Sistem & Sağlık Monitörü</h2><p class="page-desc">Tüm sistemin sağlık durumunu izle, pipeline'ı kontrol et — uzaktan komuta merkezi</p></div>
+        <div class="header-actions">
+            <span class="system-health-badge" id="sys-health-badge">Kontrol ediliyor...</span>
+        </div>
+    </div>
+
+    <!-- Sistem Metrikleri -->
+    <div class="stats-grid stats-grid-small">
+        <div class="stat-card gradient-1"><div class="stat-icon">📊</div><div class="stat-info"><span class="stat-value" id="sys-total-leads">—</span><span class="stat-label">Toplam Lead</span></div></div>
+        <div class="stat-card gradient-2"><div class="stat-icon">📧</div><div class="stat-info"><span class="stat-value" id="sys-today-sent">—</span><span class="stat-label">Bugün Gönderilen</span></div></div>
+        <div class="stat-card gradient-3"><div class="stat-icon">🔥</div><div class="stat-info"><span class="stat-value" id="sys-hot-leads">—</span><span class="stat-label">Hot Leads</span></div></div>
+        <div class="stat-card gradient-6"><div class="stat-icon">🔄</div><div class="stat-info"><span class="stat-value" id="sys-cycle">—</span><span class="stat-label">Pipeline Cycle</span></div></div>
+    </div>
+
+    <div class="dashboard-grid">
+        <!-- Pipeline Kontrol -->
+        <div class="card">
+            <div class="card-header"><h3>🎛️ Pipeline Kontrol</h3></div>
+            <div style="padding:8px 0;display:flex;gap:8px;flex-wrap:wrap">
+                <button class="btn btn-primary" onclick="sysAction('start')">▶ Başlat</button>
+                <button class="btn btn-danger" onclick="sysAction('stop')">⏹ Durdur</button>
+                <button class="btn btn-accent" onclick="sysAction('cycle')">🔄 Tek Cycle</button>
+                <button class="btn btn-ghost" style="border:1px solid var(--amber)" onclick="sysAction('watchdog')">🛡️ Watchdog Check</button>
+            </div>
+            <div id="sys-pipeline-status" style="margin-top:12px">
+                <span class="auto-indicator stopped"></span>
+                <strong>Durum yükleniyor...</strong>
+            </div>
+        </div>
+
+        <!-- Watchdog Sağlık Raporu -->
+        <div class="card">
+            <div class="card-header"><h3>🛡️ Watchdog Sağlık Raporu</h3><span class="system-health-badge" id="sys-wd-badge">—</span></div>
+            <div id="sys-watchdog-checks" style="display:flex;flex-direction:column;gap:8px"></div>
+            <div class="text-muted" style="margin-top:12px;font-size:12px" id="sys-wd-meta"></div>
+        </div>
+    </div>
+
+    <!-- Canlı Log -->
+    <div class="card">
+        <div class="card-header"><h3>📋 Canlı Sistem Log</h3><span class="text-muted" id="sys-log-count">0 satır</span></div>
+        <div class="log-container" id="sys-log-container" style="max-height:300px;overflow-y:auto;font-family:monospace;font-size:12px">Yükleniyor...</div>
+    </div>
+
+    <!-- Son Sorunlar -->
+    <div class="card">
+        <div class="card-header"><h3>⚠️ Son Sorunlar</h3></div>
+        <div id="sys-issues-list"><span style="color:var(--green)">✅ Sorun yok — sistem sağlıklı</span></div>
     </div>
 </div>
 
