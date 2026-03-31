@@ -109,12 +109,15 @@ def _init_agents():
         _agents_initialized = True
         log.info("[INIT] Tüm agent'lar başarıyla yüklendi.")
 
-        # ★ Watchdog v2.0 — arka plan sağlık kontrolünü başlat
-        try:
-            watchdog.start()
-            log.info("[INIT] Watchdog v2.0 arka plan gözetleme aktif!")
-        except Exception as wd_err:
-            log.warning(f"[INIT] Watchdog başlatılamadı: {wd_err}")
+        # ★ Watchdog v2.0 — arka plan sağlık kontrolünü başlat (sadece non-Passenger)
+        if not os.environ.get("PASSENGER_MODE"):
+            try:
+                watchdog.start()
+                log.info("[INIT] Watchdog v2.0 arka plan gözetleme aktif!")
+            except Exception as wd_err:
+                log.warning(f"[INIT] Watchdog başlatılamadı: {wd_err}")
+        else:
+            log.info("[INIT] Passenger mod — Watchdog thread başlatılmadı (cron ile çalışacak)")
 
         # ★ AUTO WEBHOOK SETUP — Her başlangıçta Brevo webhook'ları otomatik kur
         _auto_setup_webhooks()
