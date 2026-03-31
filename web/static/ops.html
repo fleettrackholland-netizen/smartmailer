@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartMailer Ops — Control Center</title>
+    <meta name="description" content="SmartMailer Ultimate Operations Dashboard">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg-primary: #0a0a1a;
+            --bg-secondary: #111127;
+            --bg-card: #161632;
+            --bg-card-hover: #1c1c3e;
+            --border: rgba(255,255,255,0.06);
+            --text-primary: #e8e8f0;
+            --text-secondary: #8888aa;
+            --text-muted: #5555778;
+            --accent: #6c5ce7;
+            --accent-glow: rgba(108,92,231,0.3);
+            --success: #00d2a0;
+            --success-glow: rgba(0,210,160,0.2);
+            --warning: #f9a825;
+            --warning-glow: rgba(249,168,37,0.2);
+            --danger: #ff4757;
+            --danger-glow: rgba(255,71,87,0.2);
+            --radius: 16px;
+            --radius-sm: 10px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ─── LOGIN SCREEN ────────────────────────────── */
+        #login-screen {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: radial-gradient(ellipse at 50% 30%, rgba(108,92,231,0.08), transparent 60%),
+                        var(--bg-primary);
+        }
+
+        .login-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 48px 40px;
+            width: 100%;
+            max-width: 420px;
+            margin: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 80px var(--accent-glow);
+        }
+
+        .login-card .logo {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .login-card .logo h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), #a29bfe);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .login-card .logo p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 6px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: all 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, var(--accent), #7c6cf0);
+            border: none;
+            border-radius: var(--radius-sm);
+            color: white;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 8px;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px var(--accent-glow);
+        }
+
+        .login-error {
+            display: none;
+            background: var(--danger-glow);
+            border: 1px solid var(--danger);
+            border-radius: var(--radius-sm);
+            padding: 12px 16px;
+            color: var(--danger);
+            font-size: 0.85rem;
+            margin-top: 16px;
+            text-align: center;
+        }
+
+        /* ─── MAIN DASHBOARD ─────────────────────────── */
+        #dashboard {
+            display: none;
+            min-height: 100vh;
+            background: radial-gradient(ellipse at 20% 10%, rgba(108,92,231,0.04), transparent 50%),
+                        radial-gradient(ellipse at 80% 90%, rgba(0,210,160,0.03), transparent 50%),
+                        var(--bg-primary);
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 24px;
+            background: rgba(17,17,39,0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .topbar .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .topbar .brand h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), #a29bfe);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status-badge.ok { background: var(--success-glow); color: var(--success); border: 1px solid rgba(0,210,160,0.3); }
+        .status-badge.warning { background: var(--warning-glow); color: var(--warning); border: 1px solid rgba(249,168,37,0.3); }
+        .status-badge.critical { background: var(--danger-glow); color: var(--danger); border: 1px solid rgba(255,71,87,0.3); }
+
+        .status-badge .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .status-badge.ok .dot { background: var(--success); }
+        .status-badge.warning .dot { background: var(--warning); }
+        .status-badge.critical .dot { background: var(--danger); }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        .topbar-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-icon {
+            padding: 8px 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .btn-icon:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px 20px;
+        }
+
+        /* ─── METRICS GRID ─────────────────────────── */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .metric-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        .metric-card:hover {
+            border-color: rgba(108,92,231,0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        }
+
+        .metric-card .label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metric-card .value {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-top: 8px;
+            line-height: 1;
+        }
+
+        .metric-card .sub {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 6px;
+        }
+
+        .metric-card.accent .value { color: var(--accent); }
+        .metric-card.success .value { color: var(--success); }
+        .metric-card.warning .value { color: var(--warning); }
+        .metric-card.danger .value { color: var(--danger); }
+
+        /* ─── SPLIT LAYOUT ──────────────────────────── */
+        .split-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .split-layout { grid-template-columns: 1fr; }
+            .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        /* ─── CARD ───────────────────────────────────── */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .card-header h3 {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .card-body {
+            padding: 16px 20px;
+        }
+
+        /* ─── HEALTH CHECK LIST ──────────────────────── */
+        .check-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .check-item:last-child { border-bottom: none; }
+
+        .check-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .check-icon.ok { background: var(--success-glow); }
+        .check-icon.warning { background: var(--warning-glow); }
+        .check-icon.critical { background: var(--danger-glow); }
+
+        .check-info { flex: 1; min-width: 0; }
+        .check-info .name { font-weight: 600; font-size: 0.85rem; }
+        .check-info .detail { font-size: 0.78rem; color: var(--text-secondary); margin-top: 2px; word-break: break-word; }
+
+        /* ─── LOG FEED ───────────────────────────────── */
+        .log-feed {
+            max-height: 400px;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--bg-card-hover) transparent;
+        }
+
+        .log-line {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.78rem;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .log-line:last-child { border-bottom: none; }
+        .log-line .time { color: var(--accent); }
+        .log-line.error { color: var(--danger); }
+        .log-line.success { color: var(--success); }
+        .log-line.warning { color: var(--warning); }
+
+        /* ─── CONTROL BUTTONS ────────────────────────── */
+        .controls {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .ctrl-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-size: 0.85rem;
+            font-weight: 700;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .ctrl-btn.primary {
+            background: linear-gradient(135deg, var(--success), #00b894);
+            color: white;
+        }
+
+        .ctrl-btn.danger {
+            background: linear-gradient(135deg, var(--danger), #ee5a6f);
+            color: white;
+        }
+
+        .ctrl-btn.secondary {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .ctrl-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        }
+
+        .ctrl-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* ─── TIMELINE ───────────────────────────────── */
+        .timeline-item {
+            display: flex;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .timeline-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-top: 5px;
+            flex-shrink: 0;
+        }
+
+        .timeline-item .text { font-size: 0.8rem; }
+        .timeline-item .ts { font-size: 0.7rem; color: var(--text-muted); margin-top: 2px; }
+
+        /* ─── LOADING SPINNER ────────────────────────── */
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .last-updated {
+            text-align: center;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            padding: 16px;
+        }
+
+        .logout-btn {
+            padding: 6px 14px;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+
+        .logout-btn:hover { background: var(--danger-glow); color: var(--danger); border-color: var(--danger); }
+    </style>
+</head>
+<body>
+    <!-- ═══ LOGIN SCREEN ═══ -->
+    <div id="login-screen">
+        <div class="login-card">
+            <div class="logo">
+                <h1>⚡ SmartMailer Ops</h1>
+                <p>Operations Control Center</p>
+            </div>
+            <form id="login-form" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="login-email" placeholder="admin@example.com" required autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="login-password" placeholder="••••••••" required autocomplete="current-password">
+                </div>
+                <button type="submit" class="login-btn">Giriş Yap</button>
+                <div class="login-error" id="login-error">Geçersiz kimlik bilgileri</div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ═══ DASHBOARD ═══ -->
+    <div id="dashboard">
+        <!-- Top Bar -->
+        <div class="topbar">
+            <div class="brand">
+                <h2>⚡ SmartMailer Ops</h2>
+                <span class="status-badge ok" id="overall-badge">
+                    <span class="dot"></span>
+                    <span id="overall-text">YÜKLENİYOR</span>
+                </span>
+            </div>
+            <div class="topbar-actions">
+                <button class="btn-icon" onclick="refreshAll()" title="Yenile">🔄</button>
+                <button class="logout-btn" onclick="logout()">Çıkış</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Metrics -->
+            <div class="metrics-grid" id="metrics-grid">
+                <div class="metric-card accent">
+                    <div class="label">Toplam Lead</div>
+                    <div class="value" id="m-leads">—</div>
+                    <div class="sub" id="m-leads-sub">yükleniyor</div>
+                </div>
+                <div class="metric-card success">
+                    <div class="label">Gönderilen</div>
+                    <div class="value" id="m-sent">—</div>
+                    <div class="sub" id="m-sent-sub">toplam</div>
+                </div>
+                <div class="metric-card warning">
+                    <div class="label">Bugün</div>
+                    <div class="value" id="m-today">—</div>
+                    <div class="sub" id="m-today-sub">/ 650 limit</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Hot Leads</div>
+                    <div class="value" id="m-hot">—</div>
+                    <div class="sub" id="m-hot-sub">ilgilenen firmalar</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Pipeline</div>
+                    <div class="value" id="m-cycle" style="font-size:1.4rem;">—</div>
+                    <div class="sub" id="m-cycle-sub">son aktivite</div>
+                </div>
+            </div>
+
+            <!-- Controls + Health -->
+            <div class="split-layout">
+                <!-- Controls -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>🎛️ Pipeline Kontrol</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="controls">
+                            <button class="ctrl-btn primary" id="btn-start" onclick="controlPipeline('start')">▶️ Başlat</button>
+                            <button class="ctrl-btn danger" id="btn-stop" onclick="controlPipeline('stop')">⏹️ Durdur</button>
+                            <button class="ctrl-btn secondary" onclick="runCronCycle()">🔁 Tek Cycle</button>
+                            <button class="ctrl-btn secondary" onclick="runWatchdogCheck()">🛡️ Watchdog Check</button>
+                        </div>
+                        <div style="margin-top:16px;">
+                            <div class="check-item" style="border:none;padding:8px 0;">
+                                <div class="check-info">
+                                    <div class="name" id="pipeline-status">Pipeline durumu yükleniyor...</div>
+                                    <div class="detail" id="pipeline-action">—</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Checks -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>🛡️ Watchdog Sağlık Raporu</h3>
+                        <span class="status-badge ok" id="health-badge"><span class="dot"></span><span id="health-text">—</span></span>
+                    </div>
+                    <div class="card-body" id="health-checks">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Log Feed + Issues -->
+            <div class="split-layout">
+                <!-- Live Log -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>📋 Canlı Log</h3>
+                        <span style="font-size:0.7rem;color:var(--text-muted);" id="log-count">0 satır</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="log-feed" id="log-feed">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Issues -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>⚠️ Son Sorunlar</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="log-feed" id="issues-feed" style="max-height:300px;">
+                            <div style="color:var(--text-secondary);font-size:0.8rem;padding:20px 0;text-align:center;">Yükleniyor...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last-updated" id="last-updated">—</div>
+        </div>
+    </div>
+
+    <script>
+    const API_BASE = window.location.origin;
+    let authToken = '';
+    let refreshTimer = null;
+
+    // ─── AUTH ─────────────────────────────────────────────
+    function handleLogin(e) {
+        e.preventDefault();
+        const email = document.getElementById('login-email').value;
+        const password = document.getElementById('login-password').value;
+        
+        fetch(`${API_BASE}/api/ops/login`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({email, password})
+        })
+        .then(r => r.json())
+        .then(data => {
+            if (data.success) {
+                authToken = data.token;
+                sessionStorage.setItem('ops_token', authToken);
+                showDashboard();
+            } else {
+                const err = document.getElementById('login-error');
+                err.textContent = data.error || 'Geçersiz kimlik bilgileri';
+                err.style.display = 'block';
+            }
+        })
+        .catch(() => {
+            const err = document.getElementById('login-error');
+            err.textContent = 'Sunucuya bağlanılamadı';
+            err.style.display = 'block';
+        });
+    }
+
+    function showDashboard() {
+        document.getElementById('login-screen').style.display = 'none';
+        document.getElementById('dashboard').style.display = 'block';
+        refreshAll();
+        refreshTimer = setInterval(refreshAll, 30000); // Her 30 saniyede güncelle
+    }
+
+    function logout() {
+        sessionStorage.removeItem('ops_token');
+        authToken = '';
+        clearInterval(refreshTimer);
+        document.getElementById('login-screen').style.display = 'flex';
+        document.getElementById('dashboard').style.display = 'none';
+    }
+
+    // Check existing session
+    (function() {
+        const saved = sessionStorage.getItem('ops_token');
+        if (saved) {
+            authToken = saved;
+            // Validate token
+            fetch(`${API_BASE}/api/ops/summary`, {
+                headers: {'Authorization': `Bearer ${authToken}`}
+            })
+            .then(r => {
+                if (r.ok) { showDashboard(); }
+            })
+            .catch(() => {});
+        }
+    })();
+
+    // ─── API HELPERS ─────────────────────────────────────
+    function apiGet(path) {
+        return fetch(`${API_BASE}${path}`, {
+            headers: {'Authorization': `Bearer ${authToken}`}
+        }).then(r => {
+            if (r.status === 403) { logout(); throw new Error('Unauthorized'); }
+            return r.json();
+        });
+    }
+
+    function apiPost(path, body = {}) {
+        return fetch(`${API_BASE}${path}`, {
+            method: 'POST',
+            headers: {'Authorization': `Bearer ${authToken}`, 'Content-Type': 'application/json'},
+            body: JSON.stringify(body)
+        }).then(r => {
+            if (r.status === 403) { logout(); throw new Error('Unauthorized'); }
+            return r.json();
+        });
+    }
+
+    // ─── REFRESH ALL ─────────────────────────────────────
+    async function refreshAll() {
+        try {
+            const data = await apiGet('/api/ops/summary');
+            updateMetrics(data);
+            updateHealthChecks(data.health);
+            updateLogFeed(data.logs);
+            updateIssues(data.health?.recent_issues || []);
+            updatePipelineStatus(data);
+            document.getElementById('last-updated').textContent = 
+                `Son güncelleme: ${new Date().toLocaleTimeString('tr-TR')} — her 30sn otomatik`;
+        } catch (e) {
+            console.error('Refresh error:', e);
+        }
+    }
+
+    function updateMetrics(data) {
+        const s = data.stats || {};
+        const a = data.automation || {};
+        
+        setText('m-leads', s.total_leads ?? '—');
+        setText('m-leads-sub', `${s.unsent_leads ?? 0} gönderilmemiş`);
+        setText('m-sent', s.total_sent ?? '—');
+        setText('m-sent-sub', `toplam gönderim`);
+        setText('m-today', data.today_sent ?? '—');
+        setText('m-today-sub', `/ ${data.daily_limit ?? 650} limit`);
+        setText('m-hot', s.hot_leads ?? '—');
+
+        // Pipeline cycle
+        const cycle = a.cycle || 0;
+        const lastAt = a.last_cycle_at || '';
+        let cycleText = cycle > 0 ? `Cycle ${cycle}` : 'Bekliyor';
+        setText('m-cycle', cycleText);
+        if (lastAt) {
+            try {
+                const d = new Date(lastAt);
+                const diff = Math.floor((Date.now() - d.getTime()) / 60000);
+                setText('m-cycle-sub', diff < 60 ? `${diff} dk önce` : `${Math.floor(diff/60)} saat önce`);
+            } catch { setText('m-cycle-sub', lastAt); }
+        }
+
+        // Overall badge
+        const overall = data.health?.overall || 'OK';
+        const badge = document.getElementById('overall-badge');
+        const badgeText = document.getElementById('overall-text');
+        badge.className = `status-badge ${overall.toLowerCase()}`;
+        badgeText.textContent = overall === 'OK' ? 'SAĞLIKLI' : 
+                                overall === 'WARNING' ? 'UYARI' : 'KRİTİK';
+    }
+
+    function updateHealthChecks(health) {
+        if (!health || !health.checks) return;
+        const container = document.getElementById('health-checks');
+        
+        // Health badge
+        const hBadge = document.getElementById('health-badge');
+        const hText = document.getElementById('health-text');
+        hBadge.className = `status-badge ${(health.overall || 'ok').toLowerCase()}`;
+        hText.textContent = health.overall || 'OK';
+
+        let html = '';
+        for (const check of health.checks) {
+            const status = (check.status || 'OK').toLowerCase();
+            const icon = status === 'ok' ? '✅' : (status === 'warning' ? '⚠️' : '🔴');
+            html += `
+                <div class="check-item">
+                    <div class="check-icon ${status}">${icon}</div>
+                    <div class="check-info">
+                        <div class="name">${check.name.replace(/_/g, ' ')}</div>
+                        <div class="detail">${check.detail || ''}</div>
+                    </div>
+                </div>
+            `;
+        }
+        if (health.total_checks) {
+            html += `<div style="font-size:0.7rem;color:var(--text-muted);padding-top:8px;">
+                ${health.total_checks} kontrol yapıldı | ${health.critical_incidents} kritik olay | 
+                Uptime: ${health.uptime_hours}h
+            </div>`;
+        }
+        container.innerHTML = html || '<div style="color:var(--text-secondary);text-align:center;padding:20px;">Henüz kontrol yapılmadı</div>';
+    }
+
+    function updateLogFeed(logs) {
+        if (!logs) return;
+        const container = document.getElementById('log-feed');
+        setText('log-count', `${logs.length} satır`);
+
+        let html = '';
+        const recent = logs.slice(-50).reverse();
+        for (const line of recent) {
+            let cls = '';
+            if (line.includes('❌') || line.includes('HATA') || line.includes('CRITICAL')) cls = 'error';
+            else if (line.includes('✅') || line.includes('gönderildi')) cls = 'success';
+            else if (line.includes('⚠️') || line.includes('WARNING')) cls = 'warning';
+            
+            const timeMatch = line.match(/\[(\d{2}:\d{2}:\d{2})\]/);
+            if (timeMatch) {
+                const rest = line.replace(timeMatch[0], '').trim();
+                html += `<div class="log-line ${cls}"><span class="time">${timeMatch[1]}</span> ${escapeHtml(rest)}</div>`;
+            } else {
+                html += `<div class="log-line ${cls}">${escapeHtml(line)}</div>`;
+            }
+        }
+        container.innerHTML = html || '<div style="color:var(--text-secondary);text-align:center;padding:20px;">Henüz log yok</div>';
+    }
+
+    function updateIssues(issues) {
+        const container = document.getElementById('issues-feed');
+        if (!issues || issues.length === 0) {
+            container.innerHTML = '<div style="color:var(--success);text-align:center;padding:20px;font-size:0.85rem;">✅ Sorun yok — sistem sağlıklı</div>';
+            return;
+        }
+
+        let html = '';
+        for (const issue of issues.slice(-20).reverse()) {
+            const icon = issue.status === 'CRITICAL' ? '🔴' : '⚠️';
+            const color = issue.status === 'CRITICAL' ? 'var(--danger)' : 'var(--warning)';
+            html += `
+                <div class="timeline-item">
+                    <div class="timeline-dot" style="background:${color};"></div>
+                    <div>
+                        <div class="text" style="color:${color};">${icon} ${issue.name}: ${issue.detail}</div>
+                        <div class="ts">${new Date(issue.time).toLocaleString('tr-TR')}</div>
+                    </div>
+                </div>`;
+        }
+        container.innerHTML = html;
+    }
+
+    function updatePipelineStatus(data) {
+        const a = data.automation || {};
+        const running = a.running;
+        
+        setText('pipeline-status', running ? '🟢 Pipeline Aktif' : '🔴 Pipeline Durmuş');
+        setText('pipeline-action', a.last_action || 'Bilinmiyor');
+
+        document.getElementById('btn-start').disabled = running;
+        document.getElementById('btn-stop').disabled = !running;
+    }
+
+    // ─── ACTIONS ─────────────────────────────────────────
+    async function controlPipeline(action) {
+        try {
+            const data = await apiPost(`/api/automation/${action}`);
+            refreshAll();
+        } catch (e) { console.error(e); }
+    }
+
+    async function runCronCycle() {
+        try {
+            const data = await apiPost('/api/ops/run-cycle');
+            alert(`Cycle tamamlandı!\n\nLead: ${data.phase_1_discover?.total_discovered ?? '?'}\nEmail: ${data.phase_3_send?.sent ?? '?'}`);
+            refreshAll();
+        } catch (e) { 
+            alert('Cycle çalıştırılamadı: ' + e.message);
+        }
+    }
+
+    async function runWatchdogCheck() {
+        try {
+            const data = await apiGet('/api/ops/watchdog-check');
+            refreshAll();
+        } catch (e) { console.error(e); }
+    }
+
+    // ─── HELPERS ─────────────────────────────────────────
+    function setText(id, text) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = text;
+    }
+
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+    </script>
+</body>
+</html>

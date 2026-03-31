@@ -85,6 +85,19 @@ class Config:
     EMAIL_VERIFY_MX         = os.getenv("EMAIL_VERIFY_MX", "true").lower() == "true"
     EMAIL_VERIFY_SMTP       = os.getenv("EMAIL_VERIFY_SMTP", "false").lower() == "true"
 
+    # ─── WATCHDOG ALARM SİSTEMİ ─────────────────────────────────
+    ALARM_EMAIL        = os.getenv("ALARM_EMAIL", "doganagahm@gmail.com")
+    ALARM_WHATSAPP     = os.getenv("ALARM_WHATSAPP", "+31627246429")
+    ALARM_WHATSAPP_API = os.getenv("ALARM_WHATSAPP_API", "http://178.104.100.94:18789")
+    ALARM_COOLDOWN_MIN = int(os.getenv("ALARM_COOLDOWN_MIN", "30"))  # Min. alarm arası dk
+    DAILY_REPORT_HOUR  = int(os.getenv("DAILY_REPORT_HOUR", "8"))    # Sabah rapor saati
+    HEARTBEAT_MAX_AGE  = int(os.getenv("HEARTBEAT_MAX_AGE", "1800")) # 30dk heartbeat süresi
+
+    # ─── OPS DASHBOARD ───────────────────────────────────────────
+    OPS_EMAIL          = os.getenv("OPS_EMAIL", "doganagahm@gmail.com")
+    OPS_PASSWORD       = os.getenv("OPS_PASSWORD", "FleetTrack2026!")
+    OPS_SESSION_SECRET = os.getenv("OPS_SESSION_SECRET", "ft-ops-secret-2026-x7k9")
+
     # ─── DOSYA YOLLARI ───────────────────────────────────────────
     BASE_DIR           = os.path.dirname(os.path.abspath(__file__))
     DATA_DIR           = os.path.join(BASE_DIR, "data")

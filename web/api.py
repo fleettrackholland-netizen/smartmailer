@@ -109,6 +109,13 @@ def _init_agents():
         _agents_initialized = True
         log.info("[INIT] Tüm agent'lar başarıyla yüklendi.")
 
+        # ★ Watchdog v2.0 — arka plan sağlık kontrolünü başlat
+        try:
+            watchdog.start()
+            log.info("[INIT] Watchdog v2.0 arka plan gözetleme aktif!")
+        except Exception as wd_err:
+            log.warning(f"[INIT] Watchdog başlatılamadı: {wd_err}")
+
         # ★ AUTO WEBHOOK SETUP — Her başlangıçta Brevo webhook'ları otomatik kur
         _auto_setup_webhooks()
 
@@ -216,6 +223,175 @@ def health_check():
 @app.route("/")
 def serve_index():
     return send_from_directory(app.static_folder, "index.html")
+
+
+# ─── OPS DASHBOARD (GÜVENLI ADMIN PANELİ) ─────────────────────
+import hashlib
+import secrets
+
+_ops_sessions = {}  # token → {email, created_at}
+
+
+def _ops_generate_token(email: str) -> str:
+    """Güvenli session token üret."""
+    token = secrets.token_urlsafe(48)
+    _ops_sessions[token] = {
+        "email": email,
+        "created_at": datetime.now().isoformat(),
+    }
+    return token
+
+
+def _ops_validate_token(token: str) -> bool:
+    """Token geçerli mi?"""
+    if not token:
+        return False
+    session = _ops_sessions.get(token)
+    if not session:
+        return False
+    # 24 saat geçerli
+    try:
+        created = datetime.fromisoformat(session["created_at"])
+        if (datetime.now() - created).total_seconds() > 86400:
+            del _ops_sessions[token]
+            return False
+    except Exception:
+        pass
+    return True
+
+
+def _ops_auth_required(f):
+    """Ops API için auth decorator."""
+    from functools import wraps
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        auth_header = request.headers.get("Authorization", "")
+        token = auth_header.replace("Bearer ", "") if auth_header.startswith("Bearer ") else ""
+        if not _ops_validate_token(token):
+            return jsonify({"error": "Unauthorized"}), 403
+        return f(*args, **kwargs)
+    return decorated
+
+
+@app.route("/ops")
+def serve_ops():
+    """Ops dashboard sayfası."""
+    return send_from_directory(app.static_folder, "ops.html")
+
+
+@app.route("/api/ops/login", methods=["POST"])
+def ops_login():
+    """Ops dashboard login — sadece doganagahm@gmail.com."""
+    data = request.json or {}
+    email = (data.get("email") or "").strip().lower()
+    password = data.get("password", "")
+
+    if email != config.OPS_EMAIL.lower():
+        log.warning(f"[OPS] Başarısız giriş denemesi: {email}")
+        return jsonify({"success": False, "error": "Bu email yetkili değil"})
+
+    if password != config.OPS_PASSWORD:
+        log.warning(f"[OPS] Yanlış şifre: {email}")
+        return jsonify({"success": False, "error": "Yanlış şifre"})
+
+    token = _ops_generate_token(email)
+    log.info(f"[OPS] ✅ Başarılı giriş: {email}")
+    return jsonify({"success": True, "token": token})
+
+
+@app.route("/api/ops/summary", methods=["GET"])
+@_ops_auth_required
+def ops_summary():
+    """Tek API call ile tüm ops verisi — dashboard için."""
+    _init_agents()
+
+    result = {
+        "stats": {},
+        "automation": {},
+        "health": {},
+        "logs": [],
+        "today_sent": 0,
+        "daily_limit": config.DAILY_SEND_LIMIT,
+    }
+
+    # DB stats
+    try:
+        result["stats"] = db.get_stats()
+    except Exception as e:
+        result["stats"] = {"error": str(e)}
+
+    # Today sent
+    try:
+        result["today_sent"] = db.get_today_sent_count()
+    except Exception:
+        pass
+
+    # Automation status
+    try:
+        _HEARTBEAT = os.path.join(PROJECT_ROOT, "data", "heartbeat.txt")
+        running = False
+        last_cycle_at = ""
+
+        if os.path.exists(_HEARTBEAT):
+            with open(_HEARTBEAT, "r") as f:
+                hb_time = f.read().strip()
+            if hb_time:
+                last_cycle_at = hb_time
+                try:
+                    hb_dt = datetime.fromisoformat(hb_time)
+                    if (datetime.now() - hb_dt).total_seconds() < 1800:
+                        running = True
+                except Exception:
+                    pass
+
+        if _automation_state.get("running"):
+            running = True
+
+        result["automation"] = {
+            "running": running,
+            "cycle": _automation_state.get("cycle", 0),
+            "last_action": _automation_state.get("last_action", ""),
+            "last_cycle_at": last_cycle_at or _automation_state.get("last_cycle_at", ""),
+        }
+    except Exception:
+        pass
+
+    # Watchdog health report
+    try:
+        if watchdog:
+            result["health"] = watchdog.get_health_report()
+        else:
+            result["health"] = {"overall": "WARNING", "checks": [], "total_checks": 0,
+                                "critical_incidents": 0, "uptime_hours": 0, "recent_issues": []}
+    except Exception as e:
+        result["health"] = {"overall": "CRITICAL", "checks": [{"name": "watchdog", "status": "CRITICAL",
+                            "detail": str(e), "checked_at": datetime.now().isoformat()}]}
+
+    # Logs
+    result["logs"] = _automation_state.get("logs", [])[-100:]
+
+    return jsonify(result)
+
+
+@app.route("/api/ops/run-cycle", methods=["POST"])
+@_ops_auth_required
+def ops_run_cycle():
+    """Dashboard'dan tek cycle tetikle (cron gibi ama auth ile)."""
+    # Mevcut cron endpoint'i çağır ama secret bypass ile
+    from werkzeug.test import EnvironBuilder
+    with app.test_request_context(f"/cron/run-cycle?secret={config.DEPLOY_SECRET}"):
+        return cron_run_cycle()
+
+
+@app.route("/api/ops/watchdog-check", methods=["GET"])
+@_ops_auth_required
+def ops_watchdog_check():
+    """Watchdog sağlık kontrolü tetikle."""
+    _init_agents()
+    if watchdog:
+        results = watchdog.run_checks()
+        return jsonify(watchdog.get_health_report())
+    return jsonify({"error": "Watchdog yüklenmedi"}), 500
 
 
 # ─── LEADS ─────────────────────────────────────────────────────
@@ -2136,6 +2312,19 @@ def _automation_loop():
         _auto_log("═══ PIPELINE THREAD BAŞLADI ═══")
         _automation_state["last_action"] = "Pipeline başlatılıyor..."
 
+        # ★ AGENT YÜKLEME — Pipeline başlamadan önce tüm agentları yükle
+        _auto_log("⏳ Agent'lar yükleniyor...")
+        _init_agents()
+        # Agent'ların hazır olmasını bekle (max 30 saniye)
+        for _wait in range(30):
+            if lead_finder is not None and db is not None:
+                break
+            time.sleep(1)
+        if lead_finder is None:
+            _auto_log("⚠️ LeadFinder yüklenemedi — pipeline devam ediyor ama lead keşfi çalışmayabilir", "warning")
+        else:
+            _auto_log("✅ Tüm agent'lar hazır")
+
         # Başlangıçta duplicate sent_log kayıtlarını temizle
         try:
             removed = db.cleanup_duplicate_sent()
@@ -2288,9 +2477,11 @@ def _automation_loop():
                     else:  # Mon-Sat
                         _s_start, _s_end = 8, 19
                     _day_names = ['Pzt','Sal','Çar','Per','Cum','Cmt','Paz']
+                    _outside_hours = False
                     if _hour < _s_start or _hour >= _s_end:
                         _auto_log(f"⏰ Gönderim saati dışı ({_day_names[_wday]} saat {_hour}:00) — Phase 3 atlanıyor. İzin: {_s_start}:00-{_s_end}:00")
                         batch_size = 0  # Gönderim yapılmasın
+                        _outside_hours = True
 
                     if batch_size > 0:
                         unsent = db.get_unsent_leads(limit=batch_size)
@@ -2453,7 +2644,12 @@ def _automation_loop():
                         else:
                             _auto_log("ℹ️ Gönderilecek yeni lead yok (tümü gönderilmiş)")
                     else:
-                        _auto_log(f"⚠️ Günlük limit doldu: {today_sent}/{config.DAILY_SEND_LIMIT} — yarına bekletiliyor")
+                        if _outside_hours:
+                            _auto_log(f"ℹ️ Gönderim saati dışı — sonraki pencere bekleniyor ({today_sent} gönderilmiş)")
+                        elif remaining <= 0:
+                            _auto_log(f"⚠️ Günlük limit doldu: {today_sent}/{config.DAILY_SEND_LIMIT} — yarına bekletiliyor")
+                        else:
+                            _auto_log(f"ℹ️ Phase 3 atlandı (batch_size=0)")
                 except Exception as e:
                     _auto_log(f"❌ Phase 3 HATA: {e}", "error")
 
@@ -3173,6 +3369,31 @@ def cron_run_cycle():
     except Exception as e:
         _auto_log(f"❌ Phase 5 HATA: {e}", "error")
         results["phase_5_tracking"] = {"error": str(e)}
+
+    # ═══ PHASE 6: WATCHDOG SAĞLIK KONTROLÜ ═══
+    try:
+        _automation_state["last_action"] = f"Cron Cycle {cycle}: Phase 6 — Watchdog sağlık kontrolü"
+        if watchdog:
+            wd_results = watchdog.run_checks()
+            wd_critical = sum(1 for r in wd_results if r.is_critical())
+            wd_warn = sum(1 for r in wd_results if r.is_warning())
+            results["phase_6_watchdog"] = {
+                "critical": wd_critical,
+                "warnings": wd_warn,
+                "total_checks": len(wd_results),
+            }
+            if wd_critical > 0:
+                _auto_log(f"🔴 Watchdog: {wd_critical} KRİTİK sorun!", "error")
+            elif wd_warn > 0:
+                _auto_log(f"⚠️ Watchdog: {wd_warn} uyarı", "warning")
+            else:
+                _auto_log("✅ Phase 6: Watchdog — tüm kontroller OK")
+        else:
+            _auto_log("⚠️ Watchdog yüklenmedi", "warning")
+            results["phase_6_watchdog"] = {"error": "watchdog_not_loaded"}
+    except Exception as e:
+        _auto_log(f"❌ Phase 6 HATA: {e}", "error")
+        results["phase_6_watchdog"] = {"error": str(e)}
 
     # Finalize
     _automation_state["last_action"] = f"Cron Cycle {cycle} tamamlandı"
