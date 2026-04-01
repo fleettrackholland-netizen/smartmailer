@@ -3468,6 +3468,70 @@ def _find_leads_file():
     return None
 
 
+# ─── PIPELINE DEBUG ───────────────────────────────────────────
+@app.route("/api/debug/pipeline", methods=["GET"])
+def debug_pipeline():
+    """Pipeline teşhis endpoint — neden sent=0 sorusunu cevaplar."""
+    secret = request.args.get("secret", "")
+    deploy_secret = getattr(config, 'DEPLOY_SECRET', 'fleettrack2026')
+    if secret != deploy_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    _init_agents()
+    result = {}
+
+    # 1. DB stats
+    try:
+        total_leads = db.get_all_leads()
+        unsent = db.get_unsent_leads(limit=5)
+        today_sent = db.get_today_sent_count()
+        total_sent = db.get_sent_count()
+        result["db"] = {
+            "total_leads": len(total_leads),
+            "total_sent": total_sent,
+            "today_sent": today_sent,
+            "unsent_count": len(db.get_unsent_leads(limit=999)),
+            "unsent_sample": [{"email": l.get("email"), "status": l.get("status"), "ai_score": l.get("ai_score")} for l in unsent],
+        }
+    except Exception as e:
+        result["db"] = {"error": str(e)}
+
+    # 2. Send engine test
+    try:
+        from core.send_engine import SendEngine
+        se = SendEngine()
+        can, reason = se.can_send_today()
+        result["send_engine"] = {
+            "loaded": True,
+            "can_send": can,
+            "reason": reason,
+            "brevo_api_key_set": bool(config.BREVO_API_KEY),
+        }
+    except Exception as e:
+        result["send_engine"] = {"loaded": False, "error": str(e)}
+
+    # 3. Time check
+    import datetime as dt
+    now = dt.datetime.now()
+    result["time_check"] = {
+        "server_time": now.isoformat(),
+        "hour": now.hour,
+        "weekday": now.weekday(),
+        "in_send_window": (8 <= now.hour < 19) if now.weekday() < 6 else (12 <= now.hour < 19),
+    }
+
+    # 4. Recent automation logs
+    result["last_logs"] = _automation_state.get("logs", [])[-20:]
+
+    # 5. Automation state
+    result["automation"] = {
+        "cycle": _automation_state.get("cycle", 0),
+        "last_action": _automation_state.get("last_action", ""),
+    }
+
+    return jsonify(result)
+
+
 # ─── AUTO-DEPLOY (GitHub → Server otomatik güncelleme) ─────────
 _deploy_state = {
     "last_deploy": None,
