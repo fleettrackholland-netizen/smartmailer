@@ -2345,6 +2345,15 @@ def _automation_loop():
         except Exception as e:
             _auto_log(f"⚠️ SendEngine yüklenemedi (devam ediliyor): {e}", "warning")
 
+        # ★ Template Engine — tek instance, rotasyon korunur
+        _loop_template_engine = None
+        try:
+            from core.template_engine import TemplateEngine
+            _loop_template_engine = TemplateEngine()
+            _auto_log("✅ TemplateEngine hazır (rotasyon aktif)")
+        except Exception as e:
+            _auto_log(f"⚠️ TemplateEngine yüklenemedi: {e}", "warning")
+
         # ═══ MIDDLE LAYER: Her cycle'ı koru ═══
         while _automation_state["running"]:
             try:
@@ -2467,8 +2476,8 @@ def _automation_loop():
                     _auto_log("✉️ Phase 3: Email yazma & gönderme")
                     today_sent = db.get_today_sent_count()
                     remaining = max(0, config.DAILY_SEND_LIMIT - today_sent)
-                    batch_size = min(10, remaining)
-                    _auto_log(f"📊 Bugün gönderilen: {today_sent}/{config.DAILY_SEND_LIMIT}, kalan kota: {remaining}")
+                    batch_size = min(50, remaining)
+                    _auto_log(f"📊 Bugün gönderilen: {today_sent}/{config.DAILY_SEND_LIMIT}, kalan kota: {remaining}, batch: {batch_size}")
 
                     # ★ SAAT KONTROLÜ — Hollanda saati ile gönderim penceresi
                     # Pazartesi-Cuma: 08:00-19:00, Cumartesi: 08:00-19:00, Pazar: 12:00-19:00
@@ -2577,13 +2586,14 @@ def _automation_loop():
                                             from core.send_engine import EmailMessage
                                             # ★ Template engine ile body_html'i sar
                                             try:
-                                                from core.template_engine import TemplateEngine
-                                                _te = TemplateEngine()
-                                                wrapped_html = _te.render(
-                                                    body_html=body_html,
-                                                    company_name=company,
-                                                    sector=sector,
-                                                )
+                                                if _loop_template_engine:
+                                                    wrapped_html = _loop_template_engine.render(
+                                                        body_html=body_html,
+                                                        company_name=company,
+                                                        sector=sector,
+                                                    )
+                                                else:
+                                                    wrapped_html = body_html
                                             except Exception:
                                                 wrapped_html = body_html  # fallback
 
@@ -2639,7 +2649,7 @@ def _automation_loop():
 
                                 except Exception as e:
                                     _auto_log(f"❌ Email işleme hatası: {e}", "error")
-                                time.sleep(2)
+                                time.sleep(0.5)  # Brevo Standard hızlı gönderime izin verir
 
                             _auto_log(f"📧 Phase 3 TAMAM: {sent_count} email gönderildi")
                             _automation_state["last_action"] = f"Phase 3: {sent_count} email gönderildi"
@@ -2692,7 +2702,7 @@ def _automation_loop():
                 # ═══════════════════════════════════════════════════
                 # CYCLE TAMAMLANDI
                 # ═══════════════════════════════════════════════════
-                _automation_state["last_action"] = f"Cycle {cycle} tamamlandı — 5 dk bekleniyor..."
+                _automation_state["last_action"] = f"Cycle {cycle} tamamlandı — 90 sn bekleniyor..."
                 _automation_state["last_cycle_at"] = datetime.now().isoformat()
                 try:
                     _automation_state["stats"] = db.get_stats()
@@ -2705,11 +2715,11 @@ def _automation_loop():
                     "running": True,
                 })
 
-                _auto_log(f"✅ ═══ Cycle {cycle} TAMAMLANDI ═══ Sonraki: 5 dk")
+                _auto_log(f"✅ ═══ Cycle {cycle} TAMAMLANDI ═══ Sonraki: 90 sn")
                 gc.collect()
 
-                # 5 dakika bekle (300 saniye) — her saniye kontrol et
-                for _ in range(300):
+                # 90 saniye bekle — her saniye kontrol et
+                for _ in range(90):
                     if not _automation_state["running"]:
                         break
                     time.sleep(1)
@@ -3150,8 +3160,16 @@ def cron_run_cycle():
 
         today_sent = db.get_today_sent_count()
         remaining = max(0, config.DAILY_SEND_LIMIT - today_sent)
-        batch_size = min(10, remaining)
-        _auto_log(f"📊 Bugün gönderilen: {today_sent}/{config.DAILY_SEND_LIMIT}, kalan: {remaining}")
+        batch_size = min(50, remaining)
+        _auto_log(f"📊 Bugün gönderilen: {today_sent}/{config.DAILY_SEND_LIMIT}, kalan: {remaining}, batch: {batch_size}")
+
+        # ★ Template Engine — tek instance, rotasyon korunasın
+        _cron_template_engine = None
+        try:
+            from core.template_engine import TemplateEngine
+            _cron_template_engine = TemplateEngine()
+        except Exception:
+            pass
 
         # ★ SAAT KONTROLÜ — Hollanda saati ile gönderim penceresi
         # Pazartesi-Cuma: 08:00-19:00, Cumartesi: 08:00-19:00, Pazar: 12:00-19:00
@@ -3241,13 +3259,14 @@ def cron_run_cycle():
                         if send_engine:
                             # Template engine ile body_html'i sar
                             try:
-                                from core.template_engine import TemplateEngine
-                                _te = TemplateEngine()
-                                wrapped_html = _te.render(
-                                    body_html=body_html,
-                                    company_name=company,
-                                    sector=sector,
-                                )
+                                if _cron_template_engine:
+                                    wrapped_html = _cron_template_engine.render(
+                                        body_html=body_html,
+                                        company_name=company,
+                                        sector=sector,
+                                    )
+                                else:
+                                    wrapped_html = body_html
                             except Exception:
                                 wrapped_html = body_html  # fallback
 
@@ -3279,7 +3298,7 @@ def cron_run_cycle():
                                 _auto_log(f"❌ Gönderim başarısız: {email_addr} — {err_msg}")
                     except Exception as e:
                         _auto_log(f"❌ Email işleme hatası: {e}", "error")
-                    time.sleep(2)
+                    time.sleep(0.5)  # Brevo Standard hızlı gönderime izin verir
             else:
                 _auto_log("ℹ️ Gönderilecek yeni lead yok")
         else:

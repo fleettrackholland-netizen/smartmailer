@@ -548,14 +548,37 @@ TEMPLATES = {
 
 # ─── SECTOR → TEMPLATE MAPPING ─────────────────────────────────
 SECTOR_TEMPLATE_MAP = {
+    # Transport & logistics → mavi template
     "transport": "fleet_transport",
     "logistiek": "fleet_transport",
     "koerier": "fleet_transport",
+    "verhuisbedrijf": "fleet_transport",
+    "bezorgdienst": "fleet_transport",
+    "taxi": "fleet_transport",
+    "autoverhuur": "fleet_transport",
+    # Bouw & beveiliging → kırmızı security template
     "bouw": "fleet_security",
     "beveiliging": "fleet_security",
+    "dakdekker": "fleet_security",
+    "loodgieter": "fleet_security",
+    "elektricien": "fleet_security",
+    "stukadoor": "fleet_security",
+    "timmerman": "fleet_security",
+    "metselaar": "fleet_security",
+    "glas": "fleet_security",
+    "schildersbedrijf": "fleet_security",
+    "installatiebedrijf": "fleet_security",
+    # Service & zorg → yeşil savings template
     "schoonmaak": "fleet_savings",
     "thuiszorg": "fleet_savings",
     "catering": "fleet_savings",
+    "groenvoorziening": "fleet_savings",
+    "ambulance": "fleet_savings",
+    # Overig → corporate template
+    "afvalverwerking": "fleet_corporate",
+    "vuilophaal": "fleet_corporate",
+    "autorijschool": "fleet_corporate",
+    "garage": "fleet_corporate",
 }
 
 # Varsayılan CTA
@@ -565,14 +588,18 @@ DEFAULT_UNSUB_URL = "https://www.fleettrackholland.nl/unsubscribe"
 
 
 class TemplateEngine:
-    """Email şablon motoru v3 — Çoklu ürün görseli, profesyonel newsletter."""
+    """Email şablon motoru v5 — Template rotasyon + sektör eşleştirme."""
 
     def __init__(self):
         self._active_template = "brevo_official_v2"
-        log.info(f"TemplateEngine v5 hazır ({len(TEMPLATES)} şablon — varsayılan: Brevo Official V2).")
+        self._send_counter = 0  # Rotasyon için sayaç
+        # Brevo templates arası rotasyon: v2 ve original dönüşümlü
+        self._brevo_rotation = ["brevo_official_v2", "brevo_official_v2", "brevo_official", 
+                                "brevo_official_v2", "brevo_official"]
+        log.info(f"TemplateEngine v5 hazır ({len(TEMPLATES)} şablon — rotasyon aktif, V1+V2 dönüşümlü).")
 
     def get_templates(self) -> list[dict]:
-        """Mevcut şablonları listele."""
+        """Şablonları listele."""
         return [
             {
                 "id": tid,
@@ -593,9 +620,17 @@ class TemplateEngine:
         return False
 
     def get_best_template(self, sector: str = "") -> str:
-        """Sektöre göre en uygun şablonu seç."""
+        """Sektöre göre en uygun şablonu seç — eşleşmeyen sektörlerde rotasyon uygula."""
         sector_lower = (sector or "").lower().strip()
-        return SECTOR_TEMPLATE_MAP.get(sector_lower, "brevo_official_v2")
+        # Sektör map'te varsa direkt dön
+        if sector_lower in SECTOR_TEMPLATE_MAP:
+            return SECTOR_TEMPLATE_MAP[sector_lower]
+        # Sektör map'te yoksa brevo_official ve brevo_official_v2 arasında dön
+        idx = self._send_counter % len(self._brevo_rotation)
+        self._send_counter += 1
+        chosen = self._brevo_rotation[idx]
+        log.info(f"[TEMPLATE] Rotasyon: {sector_lower} → {chosen} (sayı: {self._send_counter})")
+        return chosen
 
     def render(self, body_html: str, company_name: str = "",
                cta_url: str = None, cta_text: str = None,
