@@ -3532,6 +3532,94 @@ def debug_pipeline():
     return jsonify(result)
 
 
+@app.route("/api/debug/test-send", methods=["GET"])
+def debug_test_send():
+    """Tek lead'i tam pipeline'dan geçir — her adımı raporla. Gerçek email GÖNDERİR."""
+    secret = request.args.get("secret", "")
+    deploy_secret = getattr(config, 'DEPLOY_SECRET', 'fleettrack2026')
+    if secret != deploy_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    _init_agents()
+    steps = {}
+
+    # 1. Unsent lead al
+    try:
+        unsent = db.get_unsent_leads(limit=1)
+        if not unsent:
+            return jsonify({"error": "Gönderilecek unsent lead yok", "total_sent": db.get_sent_count()})
+        lead_data = unsent[0]
+        email_addr = lead_data.get("email", "")
+        company = lead_data.get("company", "")
+        sector = lead_data.get("sector", "")
+        steps["lead"] = {"email": email_addr, "company": company, "sector": sector, "ai_score": lead_data.get("ai_score")}
+    except Exception as e:
+        return jsonify({"error": f"Lead alınamadı: {e}"})
+
+    # 2. Compliance
+    try:
+        ok, reason = compliance.is_ok_to_send(email_addr)
+        steps["compliance"] = {"ok": ok, "reason": reason}
+        if not ok:
+            return jsonify({"blocked_at": "compliance", "steps": steps})
+    except Exception as e:
+        steps["compliance"] = {"error": str(e)}
+        return jsonify({"blocked_at": "compliance_error", "steps": steps})
+
+    # 3. Copywriter
+    try:
+        draft = copywriter.write(lead_data)
+        if not draft:
+            steps["copywriter"] = {"error": "draft None döndü"}
+            return jsonify({"blocked_at": "copywriter_null", "steps": steps})
+        steps["copywriter"] = {
+            "subject": draft.chosen_subject,
+            "body_length": len(draft.body_html or ""),
+            "has_html": bool(draft.body_html),
+        }
+    except Exception as e:
+        steps["copywriter"] = {"error": str(e)}
+        return jsonify({"blocked_at": "copywriter_error", "steps": steps})
+
+    # 4. QC
+    try:
+        qc_result = quality.check(draft.chosen_subject, draft.body_text, company, draft.body_html)
+        steps["qc"] = {"score": qc_result.score, "passed": qc_result.passed, "issues": qc_result.issues[:3]}
+        if not qc_result.passed and qc_result.score < 40:
+            return jsonify({"blocked_at": "qc_fail", "steps": steps})
+    except Exception as e:
+        steps["qc"] = {"error": str(e), "note": "QC hatası — devam ediliyor"}
+
+    # 5. Send engine
+    try:
+        from core.send_engine import SendEngine, EmailMessage
+        se = SendEngine()
+        msg = EmailMessage(
+            to_email=email_addr, to_name=company,
+            subject=draft.chosen_subject,
+            html_body=draft.body_html,
+            text_body=draft.body_text,
+            lead_id=email_addr,
+        )
+        result = se.send(msg)
+        success = result.success if hasattr(result, "success") else result.get("success", False)
+        error_msg = getattr(result, "error", "") or (result.get("error", "") if isinstance(result, dict) else "")
+        method = getattr(result, "method", "") or (result.get("method", "") if isinstance(result, dict) else "")
+        msg_id = getattr(result, "message_id", "") or (result.get("message_id", "") if isinstance(result, dict) else "")
+        steps["send"] = {"success": success, "method": method, "message_id": msg_id, "error": error_msg}
+
+        if success:
+            db.log_sent(email=email_addr, company=company, sector=sector,
+                        subject=draft.chosen_subject, method=method, message_id=msg_id, ab_variant="A")
+            return jsonify({"status": "✅ EMAIL GÖNDERİLDİ", "steps": steps})
+        else:
+            return jsonify({"status": "❌ GÖNDERİM BAŞARISIZ", "steps": steps})
+
+    except Exception as e:
+        steps["send"] = {"error": str(e)}
+        return jsonify({"blocked_at": "send_error", "steps": steps})
+
+
 # ─── AUTO-DEPLOY (GitHub → Server otomatik güncelleme) ─────────
 _deploy_state = {
     "last_deploy": None,
