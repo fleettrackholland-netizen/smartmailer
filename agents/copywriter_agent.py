@@ -397,7 +397,8 @@ Maak belangrijke cijfers GROOT en OPVALLEND in de HTML."""
         resp = api_guard.call(payload, self._headers, timeout=60)
         if not resp or not resp.ok:
             status = resp.status_code if resp else 'guard blocked'
-            raise Exception(f"Claude API hatası {status}")
+            log.warning(f"[Copywriter] AI hatası: {status} — static template fallback kullanılıyor")
+            return self._static_fallback(company, sector, v_count, accent_color, ctx)
         raw = resp.json()["content"][0]["text"]
         return self._parse(raw, company)
 
@@ -499,6 +500,52 @@ SUBJECT_C: [onderwerp — social proof]
             subject_c=subject_c,
             body_text=body_text,
             body_html=body_html,
+        )
+
+    def _static_fallback(self, company: str, sector: str, v_count: int,
+                         accent_color: str, ctx: dict) -> EmailDraft:
+        """AI unavailable — hızlı ama kaliteli statik Hollandaca template üretir."""
+        log.info(f"[Copywriter] Static fallback: {company} ({sector})")
+
+        pain = ctx.get("pain_points", "voertuigen bijhouden en kosten beheersen")
+        roi  = ctx.get("roi_example", "Bedrijven besparen gemiddeld €200 per voertuig per maand")
+        urgency = ctx.get("urgency", "Bedrijven die GPS-tracking gebruiken besparen gemiddeld 15-25% op vlootkosten")
+
+        if v_count > 0:
+            monthly = v_count * 9.99
+            price_line = (f"Bij uw {v_count} voertuig{'en' if v_count > 1 else ''} "
+                          f"betaalt u slechts <strong>€{monthly:.2f}/maand</strong> all-in.")
+        else:
+            price_line = "Onze tarieven starten <strong>vanaf €9,99 per voertuig per maand</strong> — alles inclusief."
+
+        body_html = f"""<p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">Dag {company},</p>
+<p style="margin:0 0 16px;font-size:15px;color:#555;font-style:italic;line-height:1.7;">Veel ondernemers in uw sector hebben moeite met: {pain.split(',')[0].strip()}.</p>
+<p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">{urgency}. FleetTrack Holland helpt u dit probleem direct aan te pakken met slimme GPS-tracking — speciaal voor bedrijven zoals het uwe.</p>
+<p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">{roi}. {price_line}</p>
+<p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;"><span style="color:{accent_color};font-weight:bold;">▸</span> Live voertuigtracking via app en webportaal — 24/7</p>
+<p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;"><span style="color:{accent_color};font-weight:bold;">▸</span> Fiscaal goedgekeurde ritregistratie (Belastingdienst-proof)</p>
+<p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;"><span style="color:{accent_color};font-weight:bold;">▸</span> 30 dagen uitproberen — geen contract, opzeggen wanneer u wilt</p>
+<p style="margin:24px 0 0;font-size:15px;color:#333;line-height:1.7;">Met vriendelijke groet,<br><strong>FleetTrack Holland Team</strong><br><a href="https://www.fleettrackholland.nl" style="color:#CC0000;text-decoration:none;font-weight:600;font-size:14px;">www.fleettrackholland.nl</a><br><span style="font-size:13px;color:#888;">sales@fleettrackholland.nl</span></p>"""
+
+        body_text = (
+            f"Dag {company},\n\n"
+            f"{urgency}.\n\n"
+            f"FleetTrack Holland biedt GPS-tracking voor uw vloot.\n"
+            f"{roi}. {price_line.replace('<strong>', '').replace('</strong>', '')}\n\n"
+            f"▸ Live voertuigtracking via app en webportaal — 24/7\n"
+            f"▸ Fiscaal goedgekeurde ritregistratie\n"
+            f"▸ 30 dagen uitproberen — geen contract\n\n"
+            f"Met vriendelijke groet,\nFleetTrack Holland Team\n"
+            f"www.fleettrackholland.nl | sales@fleettrackholland.nl"
+        )
+
+        subject_a = f"GPS tracking voor {company} — vanaf €9,99/maand"
+        subject_b = f"Elke maand zonder tracking verliest u honderden euro's"
+        subject_c = f"300+ bedrijven vertrouwen op FleetTrack — ook {company}?"
+
+        return EmailDraft(
+            subject_a=subject_a, subject_b=subject_b, subject_c=subject_c,
+            body_html=body_html, body_text=body_text,
         )
 
     def _to_html(self, text: str) -> str:
