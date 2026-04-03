@@ -1,12 +1,4 @@
 ﻿email;company;sector;location;vehicles;phone;website;score;ai_score;status;contact_person;source;created_at
-info@darambulance.nl;DAR Ambulance Services;ambulance;Nederland;60;;www.darambulance.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@mobilemedicaalezorg.nl;Mobiele Medische Zorg;ambulance;Nederland;85;;www.mobilemedicaalezorg.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@safecarebv.nl;SafeCare Ambulances;ambulance;Nederland;70;;www.safecarebv.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@urgentcaretransport.nl;Urgent Care Transport;ambulance;Nederland;52;;www.urgentcaretransport.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@geldersambulancentrum.nl;Gelders Ambulance Centrum;ambulance;Nederland;65;;www.geldersambulancentrum.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@utrechtmedisch.nl;Utrecht Medisch Transport;ambulance;Nederland;55;;www.utrechtmedisch.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@nh-ambulance.nl;Noord-Holland Ambulance;ambulance;Nederland;58;;www.nh-ambulance.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
-info@medicalishenood.nl;Medische Noodinfrastructuur;ambulance;Nederland;110;;www.medicalishenood.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulanceservicesnoordn.nl;Ambulance Services Noord;ambulance;Nederland;85;;www.ambulanceservicesnoordn.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:05
 info@onad.nl;Oost-Nederlandse Ambulancedienst;ambulance;Nederland;120;;www.onad.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:05
 info@ambulancewest.nl;Ambulance West;ambulance;Nederland;200;;www.ambulancewest.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:05
@@ -34,6 +26,24 @@ info@denhaag-medisch.nl;Den Haag Medisch Transport;ambulance;Nederland;80;;www.d
 info@tilburg-medisch.nl;Tilburg Medisch Vervoer;ambulance;Nederland;55;;www.tilburg-medisch.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:19
 info@eindhoven-ambulances.nl;Eindhoven Ambulances;ambulance;Nederland;65;;www.eindhoven-ambulances.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:19
 info@groenekruisambulances.nl;Groene Kruis Ambulances;ambulance;Nederland;52;;www.groenekruisambulances.nl;60;80;discovered;;ai_discovery;2026-03-23 09:55:52
+info@ambrot.nl;Ambulancedienst Rotterdam;ambulance;Nederland;52;;www.ambrot.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:21
+info@bwa-amsterdam.nl;Brandweer Ambulance Amsterdam;ambulance;Nederland;52;;www.bwa-amsterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:48
+info@raa.nl;Regional Ambulance Amsterdam;ambulance;Nederland;120;;www.raa.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ambulancezorgutrecht.nl;Ambulancezorg Utrecht;ambulance;Nederland;85;;www.ambulancezorgutrecht.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@medischvervoerholland.nl;Medisch Vervoer Holland;ambulance;Nederland;95;;www.medischvervoerholland.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ambulancevervoersud.nl;Ambulancevervoer Zuid;ambulance;Nederland;60;;www.ambulancevervoersud.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@hartvoorambulances.nl;Hart voor Ambulances;ambulance;Nederland;75;;www.hartvoorambulances.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@zorgvervoernord.nl;Zorg Vervoer Noord;ambulance;Nederland;55;;www.zorgvervoernord.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@mobilmedischvervoer.nl;Mobiel Medisch Vervoer;ambulance;Nederland;110;;www.mobilmedischvervoer.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ambulancenetnetherlands.nl;AmbulanceNet Nederland;ambulance;Nederland;65;;www.ambulancenetnetherlands.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@vervoerplus.nl;Vervoer Plus;ambulance;Nederland;70;;www.vervoerplus.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@spoedeishulpvervoer.nl;Spoedeisende Hulp Vervoer;ambulance;Nederland;80;;www.spoedeishulpvervoer.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@quickresponsambulances.nl;Quick Respons Ambulances;ambulance;Nederland;55;;www.quickresponsambulances.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ziekenauteservices.nl;Ziekenauto Services;ambulance;Nederland;68;;www.ziekenauteservices.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@overijsselvervoersdiensten.nl;Overijssel Vervoersdiensten;ambulance;Nederland;72;;www.overijsselvervoersdiensten.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@medischvervoerlimburg.nl;Medisch Vervoer Limburg;ambulance;Nederland;52;;www.medischvervoerlimburg.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@flevolandambulancecentrum.nl;Flevoland Ambulance Centrum;ambulance;Nederland;65;;www.flevolandambulancecentrum.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ambulancenoordbrabant.nl;Ambulance Noord-Brabant;ambulance;Nederland;78;;www.ambulancenoordbrabant.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:49
 info@ambulancezorgnederland.nl;Ambulancezorg Nederland;ambulance;Amsterdam;85;;www.ambulancezorgnederland.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:19
 info@samur.nl;SAMUR;ambulance;Zaandam;120;;www.samur.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:19
 info@medischvervoercentrale.nl;Medisch Vervoer Centrale;ambulance;Rotterdam;95;;www.medischvervoercentrale.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:19
@@ -57,7 +67,9 @@ info@middenambulances.nl;Midden Nederland Ambulances;ambulance;Woerden;65;;www.m
 info@onostvervoer.nl;Oost Nederland Vervoerdiensten;ambulance;Arnhem;78;;www.onostvervoer.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:19
 info@remsrotterdam.nl;Rotterdam Emergency Medical Services;ambulance;Rotterdam;52;;www.remsrotterdam.nl;0;80;new;;ai_knowledge;2026-03-18 13:30:15
 info@nbambulance.nl;Noord-Brabant Ambulance Services;ambulance;Breda;54;;www.nbambulance.nl;0;80;new;;ai_knowledge;2026-03-18 13:30:15
+info@medicalishenood.nl;Medische Noodinfrastructuur;ambulance;Nederland;110;;www.medicalishenood.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulancehaarlemmermeer.nl;Ambulance Haarlemmermeer;ambulance;Haarlemmermeer;14;;www.ambulancehaarlemmermeer.nl;0;72;new;;ai_knowledge;2026-03-18 13:23:12
+info@geldersambulancentrum.nl;Gelders Ambulance Centrum;ambulance;Nederland;65;;www.geldersambulancentrum.nl;60;71;discovered;;ai_discovery;2026-03-23 09:18:27
 info@serviceambulanceamsterdam.nl;Service Ambulance Amsterdam;ambulance;Nederland;45;;www.serviceambulanceamsterdam.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulanceoost.nl;Ambulance Oost;ambulance;Nederland;40;;www.ambulanceoost.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@medirideservices.nl;MediRide Services;ambulance;Nederland;50;;www.medirideservices.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
@@ -67,6 +79,7 @@ info@flevolandmedisch.nl;Flevoland Medische Transport;ambulance;Nederland;32;;ww
 info@westlandambulance.nl;Westland Ambulance Services;ambulance;Nederland;44;;www.westlandambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ziekenvervoerdrenthe.nl;Ziekenvervoer Drenthe;ambulance;Nederland;28;;www.ziekenvervoerdrenthe.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@acutezorgtransport.nl;Acute Zorg Transport;ambulance;Nederland;48;;www.acutezorgtransport.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
+info@nh-ambulance.nl;Noord-Holland Ambulance;ambulance;Nederland;58;;www.nh-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ziekenvervoerplus.nl;Ziekenvervoer Plus;ambulance;Nederland;40;;www.ziekenvervoerplus.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@transportmedisch.nl;Transport Medisch Centrum;ambulance;Nederland;38;;www.transportmedisch.nl;60;70;discovered;;ai_discovery;2026-03-23 09:18:27
 info@delftmedtrans.nl;Delft Medical Transport;ambulance;Nederland;50;;www.delftmedtrans.nl;60;70;discovered;;ai_discovery;2026-03-23 09:36:05
@@ -101,6 +114,49 @@ info@ambulancedenhaa.nl;Ambulance Den Haag;ambulance;Nederland;35;;www.ambulance
 info@ambulancenoordbrab.nl;Ambulance Noord-Brabant;ambulance;Nederland;30;;www.ambulancenoordbrab.nl;60;70;discovered;;ai_discovery;2026-03-23 09:55:57
 info@ambulancenoordholl.nl;Ambulance Noord-Holland;ambulance;Nederland;26;;www.ambulancenoordholl.nl;60;70;discovered;;ai_discovery;2026-03-23 09:55:57
 info@ambulancezuidholl.nl;Ambulance Zuid-Holland;ambulance;Nederland;42;;www.ambulancezuidholl.nl;60;70;discovered;;ai_discovery;2026-03-23 09:55:57
+info@ambulancezorg.nl;Ambulancezorg Nederland;ambulance;Nederland;45;;www.ambulancezorg.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@dijkambulance.nl;Dijk Ambulance;ambulance;Nederland;28;;www.dijkambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@ambulanceoostnederland.nl;Ambulance Oost Nederland;ambulance;Nederland;35;;www.ambulanceoostnederland.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@umcg-ambulance.nl;UMCG Ambulancevervoer;ambulance;Nederland;22;;www.umcg-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@mvnh.nl;Medische Vervoersdienst Noord-Holland;ambulance;Nederland;32;;www.mvnh.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@asfriesland.nl;Ambulance Services Friesland;ambulance;Nederland;25;;www.asfriesland.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@bredaambulance.nl;Breda Ambulancezorg;ambulance;Nederland;26;;www.bredaambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@haagambulance.nl;Den Haag Ambulance Centrum;ambulance;Nederland;38;;www.haagambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@eintransport.nl;Eindhoven Medical Transport;ambulance;Nederland;31;;www.eintransport.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@apeldoornvervoer.nl;Apeldoorn Zorg Vervoer;ambulance;Nederland;21;;www.apeldoornvervoer.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@groningenvervoer.nl;Groningen Medisch Vervoer;ambulance;Nederland;27;;www.groningenvervoer.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@arnhemtransport.nl;Arnhem Medisch Transport;ambulance;Nederland;23;;www.arnhemtransport.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@utamb.nl;Utrecht Ambulance Centrum;ambulance;Nederland;40;;www.utamb.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:21
+info@dransportambulances.nl;DTransport Ambulances;ambulance;Nederland;38;;www.dransportambulances.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@medicaaltransport.nl;Medische Transport Services;ambulance;Nederland;35;;www.medicaaltransport.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@ambulancezuidholland.nl;Ambulance Zuid-Holland;ambulance;Nederland;48;;www.ambulancezuidholland.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@pathanambulance.nl;Pathan Ambulance Services;ambulance;Nederland;28;;www.pathanambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@emstransport.nl;EMS Transport Holland;ambulance;Nederland;40;;www.emstransport.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@medicaalvervoer.nl;Medische Vervoer Amsterdam;ambulance;Nederland;29;;www.medicaalvervoer.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@asg-gelderland.nl;Ambulance Services Gelderland;ambulance;Nederland;43;;www.asg-gelderland.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@transportcare.nl;Transport Care Nederland;ambulance;Nederland;26;;www.transportcare.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@healthtransport.nl;Health Transport Services;ambulance;Nederland;37;;www.healthtransport.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@urgentvervoer.nl;Urgent Vervoer Nederland;ambulance;Nederland;33;;www.urgentvervoer.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@medicalmobility.nl;Medical Mobility Holland;ambulance;Nederland;25;;www.medicalmobility.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@ambulancenholand.nl;Ambulance Noord-Holland;ambulance;Nederland;38;;www.ambulancenholand.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@emergencyresponse.nl;Emergency Response Transport;ambulance;Nederland;41;;www.emergencyresponse.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@mobilehealthcare.nl;Mobile Healthcare Transport;ambulance;Nederland;32;;www.mobilehealthcare.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@asurecht.nl;Ambulance Services Utrecht;ambulance;Nederland;39;;www.asurecht.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:48
+info@ambulancezorgamsterdam.nl;Ambulancezorg Amsterdam;ambulance;Nederland;45;;www.ambulancezorgamsterdam.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ambulanceservicefriesland.nl;Ambulance Service Friesland;ambulance;Nederland;40;;www.ambulanceservicefriesland.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@medcareambulances.nl;Medcare Ambulances;ambulance;Nederland;50;;www.medcareambulances.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@noho-ambulance.nl;Noord-Holland Ambulance Service;ambulance;Nederland;45;;www.noho-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@vervozeeland.nl;Vervoer Zeeland;ambulance;Nederland;35;;www.vervozeeland.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@ambulanceexpress.nl;Ambulance Express;ambulance;Nederland;48;;www.ambulanceexpress.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@247ambulancezorg.nl;24/7 Ambulance Zorg;ambulance;Nederland;42;;www.247ambulancezorg.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@drenthemmedischvervoer.nl;Drenthe Medisch Vervoer;ambulance;Nederland;38;;www.drenthemmedischvervoer.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:49
+info@maastricht-ambulance.nl;Maastricht Ambulance Zorg;ambulance;Nederland;25;;www.maastricht-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
+info@ambulance-eindhoven.nl;Ambulance Eindhoven;ambulance;Nederland;30;;www.ambulance-eindhoven.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
+info@arnhem-ambulance.nl;Arnhem Ambulance Dienst;ambulance;Nederland;22;;www.arnhem-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
+info@groningen-ambulance.nl;Groningen Ambulance Centrum;ambulance;Nederland;26;;www.groningen-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
+info@almere-ambulance.nl;Almere Ambulance Zorg;ambulance;Nederland;24;;www.almere-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
+info@tilburg-ambulance.nl;Tilburg Ambulance Service;ambulance;Nederland;21;;www.tilburg-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
+info@utrecht-medische-ambulance.nl;Utrecht Medische Ambulance;ambulance;Nederland;28;;www.utrecht-medische-ambulance.nl;60;70;discovered;;ai_discovery;2026-03-23 10:34:50
 info@ambulanceamsterdam.nl;Ambulance Amsterdam;ambulance;Amsterdam;45;;www.ambulanceamsterdam.nl;0;70;new;;ai_knowledge;2026-03-18 12:28:17
 info@ambulancerrotterdam.nl;Ambulance Rotterdam;ambulance;Rotterdam;38;;www.ambulancerrotterdam.nl;0;70;new;;ai_knowledge;2026-03-18 12:28:17
 info@ambulanceutrecht.nl;Ambulance Utrecht;ambulance;Utrecht;32;;www.ambulanceutrecht.nl;0;70;new;;ai_knowledge;2026-03-18 12:28:17
@@ -147,13 +203,18 @@ info@leidenmedical.nl;Leiden Medical Services;ambulance;Leiden;26;;www.leidenmed
 info@dordrechtambulance.nl;Dordrecht Ambulance Diensten;ambulance;Dordrecht;27;;www.dordrechtambulance.nl;0;70;new;;ai_knowledge;2026-03-18 13:30:15
 info@enschedemedical.nl;Enschede Medical Transport;ambulance;Enschede;32;;www.enschedemedical.nl;0;70;new;;ai_knowledge;2026-03-18 13:30:15
 info@zwolleemergency.nl;Zwolle Emergency Medical;ambulance;Zwolle;28;;www.zwolleemergency.nl;0;70;new;;ai_knowledge;2026-03-18 13:30:15
+info@utrechtmedisch.nl;Utrecht Medisch Transport;ambulance;Nederland;55;;www.utrechtmedisch.nl;60;69;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulanceapeldoorn.nl;Ambulance Apeldoorn;ambulance;Apeldoorn;16;;www.ambulanceapeldoorn.nl;0;69;new;;ai_knowledge;2026-03-18 13:23:12
 info@ambulancezaanstad.nl;Ambulance Zaanstad;ambulance;Zaanstad;15;;www.ambulancezaanstad.nl;0;69;new;;ai_knowledge;2026-03-18 13:23:12
+info@urgentcaretransport.nl;Urgent Care Transport;ambulance;Nederland;52;;www.urgentcaretransport.nl;60;68;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulancedelft.nl;Ambulance Delft;ambulance;Delft;12;;www.ambulancedelft.nl;0;68;new;;ai_knowledge;2026-03-18 13:23:12
 info@ambulancezoetermeer.nl;Ambulance Zoetermeer;ambulance;Zoetermeer;12;;www.ambulancezoetermeer.nl;0;67;new;;ai_knowledge;2026-03-18 13:23:12
 info@ambulancedordrecht.nl;Ambulance Dordrecht;ambulance;Dordrecht;13;;www.ambulancedordrecht.nl;0;66;new;;ai_knowledge;2026-03-18 13:23:12
+info@mobilemedicaalezorg.nl;Mobiele Medische Zorg;ambulance;Nederland;85;;www.mobilemedicaalezorg.nl;60;65;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulancepurmerend.nl;Ambulance Purmerend;ambulance;Purmerend;11;;www.ambulancepurmerend.nl;0;65;new;;ai_knowledge;2026-03-18 13:23:12
+info@safecarebv.nl;SafeCare Ambulances;ambulance;Nederland;70;;www.safecarebv.nl;60;63;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulancegouda.nl;Ambulance Gouda;ambulance;Gouda;10;;www.ambulancegouda.nl;0;63;new;;ai_knowledge;2026-03-18 13:23:12
+info@darambulance.nl;DAR Ambulance Services;ambulance;Nederland;60;;www.darambulance.nl;60;62;discovered;;ai_discovery;2026-03-23 09:18:27
 info@ambulancegronningennrd.nl;Ambulance Groningen Noord;ambulance;Nederland;11;;www.ambulancegronningennrd.nl;60;60;discovered;;ai_discovery;2026-03-23 09:18:24
 info@ambulancehilversum.nl;Ambulance Hilversum;ambulance;Nederland;11;;www.ambulancehilversum.nl;60;60;discovered;;ai_discovery;2026-03-23 09:18:24
 info@ambulanceleidschendam.nl;Ambulance Leidschendam-Voorburg;ambulance;Nederland;10;;www.ambulanceleidschendam.nl;60;60;discovered;;ai_discovery;2026-03-23 09:18:24
@@ -170,6 +231,23 @@ info@ambulancelimburgnoor.nl;Ambulance Limburg Noord;ambulance;Nederland;20;;www
 info@ambulancezaandam.nl;Ambulance Zaandam;ambulance;Nederland;16;;www.ambulancezaandam.nl;60;60;discovered;;ai_discovery;2026-03-23 09:55:57
 info@ambulanceutrechtoost.nl;Ambulance Utrecht Oost;ambulance;Nederland;17;;www.ambulanceutrechtoost.nl;60;60;discovered;;ai_discovery;2026-03-23 09:55:57
 info@ambulancezeeland.nl;Ambulance Zeeland;ambulance;Nederland;12;;www.ambulancezeeland.nl;60;60;discovered;;ai_discovery;2026-03-23 09:55:57
+info@nijmegambulance.nl;Nijmegen Ambulancedienst;ambulance;Nederland;19;;www.nijmegambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@haarlemmambulance.nl;Haarlem Ambulance Services;ambulance;Nederland;16;;www.haarlemmambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@enschedeamb.nl;Enschede Ambulancevervoer;ambulance;Nederland;15;;www.enschedeamb.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@zwollevervoer.nl;Zwolle Zorgvervoer;ambulance;Nederland;17;;www.zwollevervoer.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@almeloamb.nl;Almelo Ambulance Plus;ambulance;Nederland;12;;www.almeloamb.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@hengelomt.nl;Hengelo Medisch Transport;ambulance;Nederland;14;;www.hengelomt.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@dordrechtzorg.nl;Dordrecht Ambulancezorg;ambulance;Nederland;19;;www.dordrechtzorg.nl;60;60;discovered;;ai_discovery;2026-03-23 10:15:21
+info@ambulancezorg-friesland.nl;Ambulancezorg Friesland;ambulance;Nederland;20;;www.ambulancezorg-friesland.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@breda-ambulance.nl;Breda Ambulance Dienst;ambulance;Nederland;19;;www.breda-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@zwolle-ambulance.nl;Zwolle Ambulance Dienst;ambulance;Nederland;16;;www.zwolle-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@haarlem-ambulance.nl;Haarlem Ambulance Service;ambulance;Nederland;20;;www.haarlem-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@delft-ambulance.nl;Delft Ambulance Centrum;ambulance;Nederland;15;;www.delft-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@dordrecht-ambulance.nl;Dordrecht Ambulance Dienst;ambulance;Nederland;13;;www.dordrecht-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@enschede-ambulance.nl;Enschede Ambulance Service;ambulance;Nederland;18;;www.enschede-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@groesbeek-ambulance.nl;Groesbeek Ambulance Centrum;ambulance;Nederland;12;;www.groesbeek-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@zaanstad-ambulance.nl;Zaanstad Ambulance Zorg;ambulance;Nederland;16;;www.zaanstad-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
+info@purmerend-ambulance.nl;Purmerend Ambulance Dienst;ambulance;Nederland;11;;www.purmerend-ambulance.nl;60;60;discovered;;ai_discovery;2026-03-23 10:34:50
 info@ambulancedrenthe.nl;Ambulance Drenthe;ambulance;Assen;18;;www.ambulancedrenthe.nl;0;60;new;;ai_knowledge;2026-03-18 12:28:17
 info@ambulanceflevoland.nl;Ambulance Flevoland;ambulance;Lelystad;16;;www.ambulanceflevoland.nl;0;60;new;;ai_knowledge;2026-03-18 12:28:17
 info@zorgtransport.nl;Zorg Transport Nederland;ambulance;Zaandam;18;;www.zorgtransport.nl;0;60;new;;ai_knowledge;2026-03-18 12:28:17
@@ -190,85 +268,7 @@ info@ambulanceleiden.nl;Ambulance Leiden;ambulance;Leiden;13;;www.ambulanceleide
 info@ambulancehaarlem.nl;Ambulance Haarlem;ambulance;Haarlem;18;;www.ambulancehaarlem.nl;0;60;new;;ai_knowledge;2026-03-18 13:23:12
 info@ambulancealkmaar.nl;Ambulance Alkmaar;ambulance;Alkmaar;12;;www.ambulancealkmaar.nl;0;60;new;;ai_knowledge;2026-03-18 13:23:12
 info@ambulanceleeuwarden.nl;Ambulance Leeuwarden;ambulance;Leeuwarden;11;;www.ambulanceleeuwarden.nl;0;60;new;;ai_knowledge;2026-03-18 13:23:12
-info@ambulancezorg.nl;Ambulancezorg Nederland;ambulance;Nederland;45;;www.ambulancezorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@dijkambulance.nl;Dijk Ambulance;ambulance;Nederland;28;;www.dijkambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@ambulanceoostnederland.nl;Ambulance Oost Nederland;ambulance;Nederland;35;;www.ambulanceoostnederland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@umcg-ambulance.nl;UMCG Ambulancevervoer;ambulance;Nederland;22;;www.umcg-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@mvnh.nl;Medische Vervoersdienst Noord-Holland;ambulance;Nederland;32;;www.mvnh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@asfriesland.nl;Ambulance Services Friesland;ambulance;Nederland;25;;www.asfriesland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@bredaambulance.nl;Breda Ambulancezorg;ambulance;Nederland;26;;www.bredaambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@ambrot.nl;Ambulancedienst Rotterdam;ambulance;Nederland;52;;www.ambrot.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@haagambulance.nl;Den Haag Ambulance Centrum;ambulance;Nederland;38;;www.haagambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@eintransport.nl;Eindhoven Medical Transport;ambulance;Nederland;31;;www.eintransport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@nijmegambulance.nl;Nijmegen Ambulancedienst;ambulance;Nederland;19;;www.nijmegambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@apeldoornvervoer.nl;Apeldoorn Zorg Vervoer;ambulance;Nederland;21;;www.apeldoornvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@groningenvervoer.nl;Groningen Medisch Vervoer;ambulance;Nederland;27;;www.groningenvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@haarlemmambulance.nl;Haarlem Ambulance Services;ambulance;Nederland;16;;www.haarlemmambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@enschedeamb.nl;Enschede Ambulancevervoer;ambulance;Nederland;15;;www.enschedeamb.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@arnhemtransport.nl;Arnhem Medisch Transport;ambulance;Nederland;23;;www.arnhemtransport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@utamb.nl;Utrecht Ambulance Centrum;ambulance;Nederland;40;;www.utamb.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@zwollevervoer.nl;Zwolle Zorgvervoer;ambulance;Nederland;17;;www.zwollevervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@almeloamb.nl;Almelo Ambulance Plus;ambulance;Nederland;12;;www.almeloamb.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@hengelomt.nl;Hengelo Medisch Transport;ambulance;Nederland;14;;www.hengelomt.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@dordrechtzorg.nl;Dordrecht Ambulancezorg;ambulance;Nederland;19;;www.dordrechtzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:21
-info@dransportambulances.nl;DTransport Ambulances;ambulance;Nederland;38;;www.dransportambulances.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@medicaaltransport.nl;Medische Transport Services;ambulance;Nederland;35;;www.medicaaltransport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@bwa-amsterdam.nl;Brandweer Ambulance Amsterdam;ambulance;Nederland;52;;www.bwa-amsterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@ambulancezuidholland.nl;Ambulance Zuid-Holland;ambulance;Nederland;48;;www.ambulancezuidholland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@pathanambulance.nl;Pathan Ambulance Services;ambulance;Nederland;28;;www.pathanambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@emstransport.nl;EMS Transport Holland;ambulance;Nederland;40;;www.emstransport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@medicaalvervoer.nl;Medische Vervoer Amsterdam;ambulance;Nederland;29;;www.medicaalvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@asg-gelderland.nl;Ambulance Services Gelderland;ambulance;Nederland;43;;www.asg-gelderland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@transportcare.nl;Transport Care Nederland;ambulance;Nederland;26;;www.transportcare.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@healthtransport.nl;Health Transport Services;ambulance;Nederland;37;;www.healthtransport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@urgentvervoer.nl;Urgent Vervoer Nederland;ambulance;Nederland;33;;www.urgentvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@medicalmobility.nl;Medical Mobility Holland;ambulance;Nederland;25;;www.medicalmobility.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@ambulancenholand.nl;Ambulance Noord-Holland;ambulance;Nederland;38;;www.ambulancenholand.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@emergencyresponse.nl;Emergency Response Transport;ambulance;Nederland;41;;www.emergencyresponse.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@mobilehealthcare.nl;Mobile Healthcare Transport;ambulance;Nederland;32;;www.mobilehealthcare.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@asurecht.nl;Ambulance Services Utrecht;ambulance;Nederland;39;;www.asurecht.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:48
-info@ambulancezorgamsterdam.nl;Ambulancezorg Amsterdam;ambulance;Nederland;45;;www.ambulancezorgamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@raa.nl;Regional Ambulance Amsterdam;ambulance;Nederland;120;;www.raa.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ambulancezorgutrecht.nl;Ambulancezorg Utrecht;ambulance;Nederland;85;;www.ambulancezorgutrecht.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@medischvervoerholland.nl;Medisch Vervoer Holland;ambulance;Nederland;95;;www.medischvervoerholland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ambulancevervoersud.nl;Ambulancevervoer Zuid;ambulance;Nederland;60;;www.ambulancevervoersud.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@hartvoorambulances.nl;Hart voor Ambulances;ambulance;Nederland;75;;www.hartvoorambulances.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@zorgvervoernord.nl;Zorg Vervoer Noord;ambulance;Nederland;55;;www.zorgvervoernord.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ambulanceservicefriesland.nl;Ambulance Service Friesland;ambulance;Nederland;40;;www.ambulanceservicefriesland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@mobilmedischvervoer.nl;Mobiel Medisch Vervoer;ambulance;Nederland;110;;www.mobilmedischvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ambulancenetnetherlands.nl;AmbulanceNet Nederland;ambulance;Nederland;65;;www.ambulancenetnetherlands.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@vervoerplus.nl;Vervoer Plus;ambulance;Nederland;70;;www.vervoerplus.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@spoedeishulpvervoer.nl;Spoedeisende Hulp Vervoer;ambulance;Nederland;80;;www.spoedeishulpvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@medcareambulances.nl;Medcare Ambulances;ambulance;Nederland;50;;www.medcareambulances.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@noho-ambulance.nl;Noord-Holland Ambulance Service;ambulance;Nederland;45;;www.noho-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@vervozeeland.nl;Vervoer Zeeland;ambulance;Nederland;35;;www.vervozeeland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@quickresponsambulances.nl;Quick Respons Ambulances;ambulance;Nederland;55;;www.quickresponsambulances.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ziekenauteservices.nl;Ziekenauto Services;ambulance;Nederland;68;;www.ziekenauteservices.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@overijsselvervoersdiensten.nl;Overijssel Vervoersdiensten;ambulance;Nederland;72;;www.overijsselvervoersdiensten.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@medischvervoerlimburg.nl;Medisch Vervoer Limburg;ambulance;Nederland;52;;www.medischvervoerlimburg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ambulanceexpress.nl;Ambulance Express;ambulance;Nederland;48;;www.ambulanceexpress.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@247ambulancezorg.nl;24/7 Ambulance Zorg;ambulance;Nederland;42;;www.247ambulancezorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@procaretransport.nl;Pro Care Transport;ambulance;Nederland;0;;www.procaretransport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@flevolandambulancecentrum.nl;Flevoland Ambulance Centrum;ambulance;Nederland;65;;www.flevolandambulancecentrum.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@drenthemmedischvervoer.nl;Drenthe Medisch Vervoer;ambulance;Nederland;38;;www.drenthemmedischvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@ambulancenoordbrabant.nl;Ambulance Noord-Brabant;ambulance;Nederland;78;;www.ambulancenoordbrabant.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:49
-info@maastricht-ambulance.nl;Maastricht Ambulance Zorg;ambulance;Nederland;25;;www.maastricht-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@ambulance-eindhoven.nl;Ambulance Eindhoven;ambulance;Nederland;30;;www.ambulance-eindhoven.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@arnhem-ambulance.nl;Arnhem Ambulance Dienst;ambulance;Nederland;22;;www.arnhem-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@ambulancezorg-friesland.nl;Ambulancezorg Friesland;ambulance;Nederland;20;;www.ambulancezorg-friesland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@groningen-ambulance.nl;Groningen Ambulance Centrum;ambulance;Nederland;26;;www.groningen-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@almere-ambulance.nl;Almere Ambulance Zorg;ambulance;Nederland;24;;www.almere-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@breda-ambulance.nl;Breda Ambulance Dienst;ambulance;Nederland;19;;www.breda-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@tilburg-ambulance.nl;Tilburg Ambulance Service;ambulance;Nederland;21;;www.tilburg-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@zwolle-ambulance.nl;Zwolle Ambulance Dienst;ambulance;Nederland;16;;www.zwolle-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@haarlem-ambulance.nl;Haarlem Ambulance Service;ambulance;Nederland;20;;www.haarlem-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@utrecht-medische-ambulance.nl;Utrecht Medische Ambulance;ambulance;Nederland;28;;www.utrecht-medische-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@delft-ambulance.nl;Delft Ambulance Centrum;ambulance;Nederland;15;;www.delft-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@dordrecht-ambulance.nl;Dordrecht Ambulance Dienst;ambulance;Nederland;13;;www.dordrecht-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@enschede-ambulance.nl;Enschede Ambulance Service;ambulance;Nederland;18;;www.enschede-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@groesbeek-ambulance.nl;Groesbeek Ambulance Centrum;ambulance;Nederland;12;;www.groesbeek-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@zaanstad-ambulance.nl;Zaanstad Ambulance Zorg;ambulance;Nederland;16;;www.zaanstad-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
-info@purmerend-ambulance.nl;Purmerend Ambulance Dienst;ambulance;Nederland;11;;www.purmerend-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:50
+info@procaretransport.nl;Pro Care Transport;ambulance;Nederland;0;;www.procaretransport.nl;60;40;discovered;;ai_discovery;2026-03-23 10:34:49
 info@utrechtambulance.nl;Utrecht Ambulancedienst;ambulance;Nederland;78;;www.utrechtambulance.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:42
 info@ambulancegel.nl;Ambulancebedrijf Gelderland;ambulance;Nederland;92;;www.ambulancegel.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:42
 info@nbbambulances.nl;Noord-Brabant Ambulances;ambulance;Nederland;104;;www.nbbambulances.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:42
@@ -2466,3 +2466,231 @@ info@ambulancezorgoverrijssel.nl;Ambulancezorg Overijssel;ambulance;Nederland;38
 info@ambulancezorguwest.nl;Ambulancezorg Utrecht-West;ambulance;Nederland;24;;www.ambulancezorguwest.nl;60;0;discovered;;ai_discovery;2026-03-24 12:12:38
 info@ambulancezorgeuregio.nl;Ambulancezorg Euregio;ambulance;Nederland;31;;www.ambulancezorgeuregio.nl;60;0;discovered;;ai_discovery;2026-03-24 12:12:38
 info@ambulancezorgmlimburg.nl;Ambulancezorg Midden-Limburg;ambulance;Nederland;19;;www.ambulancezorgmlimburg.nl;60;0;discovered;;ai_discovery;2026-03-24 12:12:38
+info@dad.nl;Drenthe Ambulance Dienst;ambulance;Nederland;65;;www.dad.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@gaz.nl;Groninger Ambulancevervoer;ambulance;Nederland;75;;www.gaz.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@flevo-ambulance.nl;Flevoland Ambulancedienst;ambulance;Nederland;45;;www.flevo-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@nba-ambulances.nl;Noord-Brabant Ambulances;ambulance;Nederland;130;;www.nba-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@mmh-denhaag.nl;Mobiele Medische Hulp Den Haag;ambulance;Nederland;115;;www.mmh-denhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@umt.nl;Utrecht Medische Transport;ambulance;Nederland;90;;www.umt.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@mtn.nl;Medische Transport Nijmegen;ambulance;Nederland;65;;www.mtn.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@umv.nl;Utrecht Medische Vervoer;ambulance;Nederland;75;;www.umv.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:02
+info@asu-ambulance.nl;Ambulance Samenwerking Utrecht;ambulance;Nederland;52;;www.asu-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:13
+info@gas-ambulance.nl;Groningen Ambulance Service;ambulance;Nederland;32;;www.gas-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:13
+info@utambulance.nl;Utrecht Ambulance Service;ambulance;Nederland;38;;www.utambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:13
+info@medicor-ambulance.nl;Medicor Ambulance;ambulance;Nederland;29;;www.medicor-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:13
+info@acoost.nl;Ambulance Centrum Oost;ambulance;Nederland;31;;www.acoost.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:13
+info@promed-ambulance.nl;ProMed Ambulance;ambulance;Nederland;25;;www.promed-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:13
+info@ambulancevervoerarnhem.nl;Ambulancevervoer Arnhem;ambulance;Nederland;24;;www.ambulancevervoerarnhem.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:18
+info@ambulancezorgalkmaar.nl;Ambulancezorg Alkmaar;ambulance;Nederland;15;;www.ambulancezorgalkmaar.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:18
+info@ambulancevervoerdelft.nl;Ambulancevervoer Delft;ambulance;Nederland;14;;www.ambulancevervoerdelft.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:18
+info@ambulancevervoergouda.nl;Ambulancevervoer Gouda;ambulance;Nederland;12;;www.ambulancevervoergouda.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:18
+info@ambulancevervoerdordrecht.nl;Ambulancevervoer Dordrecht;ambulance;Nederland;13;;www.ambulancevervoerdordrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:18
+info@westambulances.nl;West Ambulances;ambulance;Nederland;95;;www.westambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 14:11:47
+info@centralambulancegroup.nl;Central Ambulance Group;ambulance;Nederland;110;;www.centralambulancegroup.nl;60;0;discovered;;ai_discovery;2026-03-30 14:11:47
+info@oostambulanceservices.nl;Oost Ambulance Services;ambulance;Nederland;75;;www.oostambulanceservices.nl;60;0;discovered;;ai_discovery;2026-03-30 14:11:47
+info@rotterdamambulances.nl;Rotterdam Ambulances;ambulance;Nederland;120;;www.rotterdamambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 14:11:47
+info@utrechtregioambulance.nl;Utrecht Regio Ambulance;ambulance;Nederland;90;;www.utrechtregioambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 14:11:47
+info@ambulancerott.nl;Ambulance Rotterdam;ambulance;Nederland;38;;www.ambulancerott.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:45
+info@ambulancean.nl;Ambulance Arnhem-Nijmegen;ambulance;Nederland;24;;www.ambulancean.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:45
+info@rav-friesland.nl;RAV (Regionale Ambulance Voorziening) Friesland;ambulance;Nederland;85;;www.rav-friesland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@medischrescueteam.nl;Medisch Rescue Team;ambulance;Nederland;120;;www.medischrescueteam.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@cad-utrecht.nl;Centraal Ambulance Dispatchcentrum Utrecht;ambulance;Nederland;105;;www.cad-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@regio-ambulance-gn.nl;Regio Ambulance Groningen;ambulance;Nederland;70;;www.regio-ambulance-gn.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@ems-noord.nl;Emergency Medical Services Noord;ambulance;Nederland;55;;www.ems-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@gelderlandet.nl;Gelderland Emergency Transport;ambulance;Nederland;80;;www.gelderlandet.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@drenthe-medical.nl;Drenthe Medical Transport;ambulance;Nederland;40;;www.drenthe-medical.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@utrechtmobile.nl;Utrecht Mobile Healthcare;ambulance;Nederland;75;;www.utrechtmobile.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@neas-nl.nl;North East Ambulance Services;ambulance;Nederland;50;;www.neas-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@cne-nl.nl;Central Netherlands Emergency;ambulance;Nederland;85;;www.cne-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@smr-nl.nl;Southern Medical Response;ambulance;Nederland;70;;www.smr-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@wra-nl.nl;Western Region Ambulance;ambulance;Nederland;110;;www.wra-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@ean-nl.nl;East Ambulance Network;ambulance;Nederland;65;;www.ean-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@mobilecare-nl.nl;Mobile Care Solutions;ambulance;Nederland;80;;www.mobilecare-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@rrt-nl.nl;Rapid Response Transport;ambulance;Nederland;55;;www.rrt-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:18
+info@ambulancezorg-utrecht-regio.nl;Ambulancezorg Utrecht Regio;ambulance;Nederland;13;;www.ambulancezorg-utrecht-regio.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:34
+info@ambulancezorg-dordrecht.nl;Ambulancezorg Dordrecht;ambulance;Nederland;11;;www.ambulancezorg-dordrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:34
+info@ambulance-groningen-noord.nl;Ambulance Groningen Noord;ambulance;Nederland;8;;www.ambulance-groningen-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:34
+info@spoedeisendehulplogistiek.nl;Spoedeisende Hulp Logistiek;ambulance;Nederland;35;;www.spoedeisendehulplogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:50
+info@vervoerrmetzorg.nl;Vervoer Met Zorg;ambulance;Nederland;20;;www.vervoerrmetzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:50
+info@medischevervoersdienst.nl;Medische Vervoersdienst;ambulance;Nederland;24;;www.medischevervoersdienst.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:50
+info@patientenvervoerrinnovatie.nl;Patiëntenvervoer Innovatie;ambulance;Nederland;17;;www.patientenvervoerrinnovatie.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:50
+info@vandermeerambulances.nl;Van der Meer Ambulances;ambulance;Nederland;18;;www.vandermeerambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@noa-ambulances.nl;NOA Ambulances;ambulance;Nederland;20;;www.noa-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@ziekenauto-almere.nl;Ziekenauto Almere;ambulance;Nederland;14;;www.ziekenauto-almere.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@transportmedicijn.nl;Transport Medicijn Utrecht;ambulance;Nederland;13;;www.transportmedicijn.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@ambulanceservice-breda.nl;Ambulanceservice Breda;ambulance;Nederland;17;;www.ambulanceservice-breda.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@ziekentransport-gouda.nl;Ziekentransport Gouda;ambulance;Nederland;11;;www.ziekentransport-gouda.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@ravu-ambulances.nl;RAVU Ambulances;ambulance;Nederland;19;;www.ravu-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@emergency-zaanstad.nl;Emergency Transport Zaanstad;ambulance;Nederland;10;;www.emergency-zaanstad.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@ambulances-hilversum.nl;Ambulances Hilversum;ambulance;Nederland;9;;www.ambulances-hilversum.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:05
+info@ambulancedienst-zoetermeer.nl;Ambulancedienst Zoetermeer;ambulance;Nederland;12;;www.ambulancedienst-zoetermeer.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:56
+info@ambulance-groningen-oost.nl;Ambulance Groningen Oost;ambulance;Nederland;7;;www.ambulance-groningen-oost.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:56
+info@ambulancezhl.nl;Ambulance Zuid-Holland;ambulance;Nederland;35;;www.ambulancezhl.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:00
+info@ambulanceuoost.nl;Ambulance Utrecht Oost;ambulance;Nederland;24;;www.ambulanceuoost.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:00
+info@ambulanceroost.nl;Ambulance Rotterdam Oost;ambulance;Nederland;18;;www.ambulanceroost.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:00
+info@ambulancekennisland.nl;Ambulance Kennisland;ambulance;Nederland;15;;www.ambulancekennisland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:00
+info@ambulancebedrijfdenhaag.nl;Ambulancebedrijf Den Haag;ambulance;Nederland;42;;www.ambulancebedrijfdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:43
+info@utrechtambulanceservice.nl;Utrecht Ambulanceservice;ambulance;Nederland;26;;www.utrechtambulanceservice.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:43
+info@tilburgambulanceservice.nl;Tilburg Ambulanceservice;ambulance;Nederland;26;;www.tilburgambulanceservice.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:43
+info@victior.nl;Victior;ambulance;Nederland;380;;www.victior.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@ambulancezorgfryslan.nl;Ambulancezorg Fryslân;ambulance;Nederland;120;;www.ambulancezorgfryslan.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@ambulancezorgnorth.nl;Ambulancezorg Noord-Holland;ambulance;Nederland;110;;www.ambulancezorgnoordholland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@mobilehelpambulances.nl;MobileHelp Ambulances;ambulance;Nederland;95;;www.mobilehelpambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@snelleresponseteams.nl;Snelle Response Teams;ambulance;Nederland;85;;www.snelleresponseteams.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@primacareambulances.nl;PrimaCare Ambulances;ambulance;Nederland;70;;www.primacareambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@saferide.nl;SafeRide Medical Transport;ambulance;Nederland;60;;www.saferide.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@carecab.nl;CareCab Vervoerdiensten;ambulance;Nederland;55;;www.carecab.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@vitalezorgtransport.nl;Vitale Zorg Transport;ambulance;Nederland;65;;www.vitalezorgtransport.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@directaidambulances.nl;DirectAid Ambulances;ambulance;Nederland;50;;www.directaidambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@ersambulances.nl;Emergency Response Services;ambulance;Nederland;60;;www.ersambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@zorgtransportplus.nl;ZorgTransport Plus;ambulance;Nederland;55;;www.zorgtransportplus.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@medicareambulancevervoer.nl;MediCare Ambulancevervoer;ambulance;Nederland;45;;www.medicareambulancevervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@quickresponsemedical.nl;QuickResponse Medical;ambulance;Nederland;40;;www.quickresponsemedical.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:10
+info@ambulanceserviceoost.nl;Ambulanceservice Oost;ambulance;Nederland;85;;www.ambulanceserviceoost.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@drenthe-ambulancevervoer.nl;Drenthe Ambulancevervoer;ambulance;Nederland;45;;www.drenthe-ambulancevervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@friesland-mobiele-zorg.nl;Friesland Mobiele Zorg;ambulance;Nederland;50;;www.friesland-mobiele-zorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@limburg-vervoersservice.nl;Limburg Vervoersservice;ambulance;Nederland;75;;www.limburg-vervoersservice.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@zuidholland-caretransport.nl;Zuid-Holland Care Transport;ambulance;Nederland;110;;www.zuidholland-caretransport.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@gelderland-vervoer.nl;Gelderland Vervoer & Logistiek;ambulance;Nederland;95;;www.gelderland-vervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@overijssel-medischtransport.nl;Overijssel Medisch Transport;ambulance;Nederland;70;;www.overijssel-medischtransport.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@flevoland-ambulanceservice.nl;Flevoland Ambulanceservice;ambulance;Nederland;55;;www.flevoland-ambulanceservice.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@utrecht-mobielvervoer.nl;Utrecht Mobiel Vervoer;ambulance;Nederland;80;;www.utrecht-mobielvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@noordbrabant-zorgvervoer.nl;Noord-Brabant Zorgvervoer;ambulance;Nederland;105;;www.noordbrabant-zorgvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@veiligheidzorgvervoer.nl;VeiligheidZorg Vervoer;ambulance;Nederland;88;;www.veiligheidzorgvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@carelogistixnederland.nl;CareLogistix Nederland;ambulance;Nederland;130;;www.carelogistixnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@transmed-services.nl;TransMed Services;ambulance;Nederland;100;;www.transmed-services.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@medischevervoerscentrale.nl;Medische Vervoerscentrale;ambulance;Nederland;78;;www.medischevervoerscentrale.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@zaanstreek-zorgvervoer.nl;Zaanstreek Zorgvervoer;ambulance;Nederland;38;;www.zaanstreek-zorgvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@rijnstreek-mobilezorg.nl;Rijnstreek Mobiele Zorg;ambulance;Nederland;62;;www.rijnstreek-mobilezorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@haaglanden-vervoersdienst.nl;Haaglanden Vervoersdienst;ambulance;Nederland;92;;www.haaglanden-vervoersdienst.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@midden-nederland-zorgvervoer.nl;Midden-Nederland Zorgvervoer;ambulance;Nederland;72;;www.midden-nederland-zorgvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:17
+info@regio-transportzorg.nl;Regio Transport Zorg;ambulance;Nederland;68;;www.regio-transportzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:18
+info@centraal-nederland-ambulances.nl;Centraal Nederland Ambulances;ambulance;Nederland;76;;www.centraal-nederland-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:18
+info@ambulancezeist.nl;Ambulance Zeist;ambulance;Nederland;10;;www.ambulancezeist.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:26
+info@regioreed.nl;RegioRed Ambulances;ambulance;Nederland;32;;www.regioreed.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:32
+info@medishuttle.nl;MediShuttle Holland;ambulance;Nederland;26;;www.medishuttle.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:32
+info@noodlijn.nl;Noodlijn Services;ambulance;Nederland;50;;www.noodlijn.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:32
+info@ambulancenlplus.nl;AmbulanceNL Plus;ambulance;Nederland;25;;www.ambulancenlplus.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:32
+info@ziekenwagencentrum.nl;Ziekenwagen Centrum;ambulance;Nederland;19;;www.ziekenwagencentrum.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:32
+info@emsplus.nl;EMS Plus Netherlands;ambulance;Nederland;34;;www.emsplus.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:32
+info@ziekentransport.nl;Ziekentransport Noord;ambulance;Nederland;40;;www.ziekentransport-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@medischvervoergelderland.nl;Medisch Vervoer Gelderland;ambulance;Nederland;42;;www.medischvervoer-gelderland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@ziekentransportzuidholland.nl;Ziekentransport Zuid Holland;ambulance;Nederland;52;;www.ziekentransport-zuidholland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@regioambulanceutrecht.nl;RegioAmbulance Utrecht;ambulance;Nederland;38;;www.regioambulance-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@ziekentransportoverijssel.nl;Ziekentransport Overijssel;ambulance;Nederland;40;;www.ziekentransport-overijssel.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@regioambulancenb.nl;RegioAmbulance Noord Brabant;ambulance;Nederland;50;;www.regioambulance-nb.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@medischvervoerdenhaag.nl;Medisch Vervoer Denhaag;ambulance;Nederland;48;;www.medischvervoer-denhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@ziekentransportgroningen.nl;Ziekentransport Groningen;ambulance;Nederland;36;;www.ziekentransport-groningen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@regioambulancelimburg.nl;RegioAmbulance Limburg;ambulance;Nederland;44;;www.regioambulance-limburg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:43
+info@ambulanceheerhugowaard.nl;Ambulance Heerhugowaard;ambulance;Nederland;7;;www.ambulanceheerhugowaard.nl;60;0;discovered;;ai_discovery;2026-03-30 18:59:56
+info@ambulancegroepfriesland.nl;Ambulance Groep Friesland;ambulance;Nederland;25;;www.ambulancegroepfriesland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:24
+info@ambulancezorgwestland.nl;Ambulancezorg Westland;ambulance;Nederland;8;;www.ambulancezorgwestland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:24
+info@ambulancedienst-woerden.nl;Ambulancedienst Woerden;ambulance;Nederland;6;;www.ambulancedienst-woerden.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:24
+info@mna.nl;Midden Nederland Ambulances;ambulance;Nederland;110;;www.mna.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@zwad.nl;Zuid West Ambulancedienst;ambulance;Nederland;130;;www.zwad.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@flevo-ambulances.nl;Flevo Ambulances;ambulance;Nederland;75;;www.flevo-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@fat.nl;Friesland Ambulanceteam;ambulance;Nederland;70;;www.fat.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@lms-ambulance.nl;Limburg Mobility Services;ambulance;Nederland;95;;www.lms-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@dhet.nl;Den Haag Emergency Transport;ambulance;Nederland;115;;www.dhet.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@umz.nl;Utrecht Mobiele Zorg;ambulance;Nederland;125;;www.umz.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@oab.nl;Overijssel Ambulancebrigade;ambulance;Nederland;88;;www.oab.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@nwt.nl;Noord West Transport;ambulance;Nederland;78;;www.nwt.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@sha.nl;Zuid Holland Ambulances;ambulance;Nederland;138;;www.sha.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@has.nl;Haarlem Ambulance Service;ambulance;Nederland;82;;www.has.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@tec.nl;Tilburg Emergency Care;ambulance;Nederland;75;;www.tec.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:32
+info@almereambulancezorg.nl;Almere Ambulancezorg;ambulance;Nederland;24;;www.almereambulancezorg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:37
+info@ambulancezorgzutphen.nl;Ambulancezorg Zutphen;ambulance;Nederland;16;;www.ambulancezorgzutphen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:37
+info@ambulancezorgsneek.nl;Ambulancezorg Sneek;ambulance;Nederland;12;;www.ambulancezorgsneek.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:37
+info@ambulanceservice-utrecht.nl;Ambulanceservice Utrecht;ambulance;Nederland;35;030-2341234;www.ambulanceservice-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambulanceservice-limburg.nl;Ambulanceservice Limburg;ambulance;Nederland;26;043-3251234;www.ambulanceservice-limburg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambulanceservice-zuidholland.nl;Ambulanceservice Zuid-Holland;ambulance;Nederland;25;015-2121234;www.ambulanceservice-zuidholland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambulancezorg-leiden.nl;Ambulancezorg Leiden;ambulance;Nederland;17;071-5121234;www.ambulancezorg-leiden.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambulanceservice-tilburg.nl;Ambulanceservice Tilburg;ambulance;Nederland;20;013-4671234;www.ambulanceservice-tilburg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambulancezorg-zutphen.nl;Ambulancezorg Zutphen;ambulance;Nederland;12;0575-531234;www.ambulancezorg-zutphen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambulance-zaanstad.nl;Ambulance Zaanstad;ambulance;Nederland;13;075-6171234;www.ambulance-zaanstad.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:54
+info@ambambulances.nl;AMB ambulances;ambulance;Nederland;85;;www.ambambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@dolfambulances.nl;Dolf Ambulances;ambulance;Nederland;120;;www.dolfambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulancevervoerdevries.nl;Ambulancevervoer De Vries;ambulance;Nederland;65;;www.ambulancevervoerdevries.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@hovocop.nl;HOVOCOP;ambulance;Nederland;200;;www.hovocop.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulanceservicenhoord.nl;Ambulanceservice Noord;ambulance;Nederland;75;;www.ambulanceservicenhoord.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@taxiambulanceamsterdam.nl;Taxiambulance Amsterdam;ambulance;Nederland;45;;www.taxiambulanceamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulancesoostnederland.nl;Ambulances Oost Nederland;ambulance;Nederland;95;;www.ambulancesoostnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@vanhoornambulances.nl;Van Hoorn Ambulances;ambulance;Nederland;55;;www.vanhoornambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulancevervoerzuid.nl;Ambulancevervoer Zuid;ambulance;Nederland;110;;www.ambulancevervoerzuid.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@medicaaltransportservice.nl;Medische Transport Service;ambulance;Nederland;70;;www.medicaaltransportservice.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@vervoersmaatschappijdenoon.nl;Vervoersmaatschappij De Noord;ambulance;Nederland;60;;www.vervoersmaatschappijdenoon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulancecentrumholland.nl;Ambulancecentrum Holland;ambulance;Nederland;50;;www.ambulancecentrumholland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@medicaalvervoersmv.nl;Medische Vervoersdiensten MV;ambulance;Nederland;40;;www.medicaalvervoersmv.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@taxiambulanceutrecht.nl;Taxiambulance Utrecht;ambulance;Nederland;35;;www.taxiambulanceutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ziekenvervoeramsteldam.nl;Ziekenvervoer Amsterdam Regio;ambulance;Nederland;130;;www.ziekenvervoeramsteldam.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulancesnoord-brabant.nl;Ambulances Noord-Brabant;ambulance;Nederland;100;;www.ambulancesnoord-brabant.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@vervoerenzorg.nl;Vervoer en Zorg Nederland;ambulance;Nederland;85;;www.vervoerenzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@ambulanceservicegelderland.nl;Ambulanceservice Gelderland;ambulance;Nederland;70;;www.ambulanceservicegelderland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@taxitransportmedisch.nl;Taxitransport Medisch;ambulance;Nederland;45;;www.taxitransportmedisch.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:10
+info@regioambuutrecht.nl;Regio Ambulancecentrale Utrecht;ambulance;Nederland;65;;www.regioambuutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:26
+info@safs.nl;Stichting Ambulance Zuidoost Friesland;ambulance;Nederland;18;;www.safs.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:26
+info@ambulancezorgachterhoek.nl;Ambulancezorg Achterhoek;ambulance;Nederland;22;;www.ambulancezorgachterhoek.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:26
+info@ambulancevervoerbreda.nl;Ambulancevervoer Breda;ambulance;Nederland;30;;www.ambulancevervoerbreda.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:26
+info@ambulances-nh.nl;Dпровинcie Ambulances Noord-Holland;ambulance;Nederland;38;;www.ambulances-nh.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@ambulancepostutrecht.nl;Ambulancepost Utrecht;ambulance;Nederland;42;;www.ambulancepostutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@regioambulances.nl;RegioAmbulances Rotterdam;ambulance;Nederland;50;;www.regioambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@ambulancesdenhaag.nl;Ambulances Den Haag;ambulance;Nederland;48;;www.ambulancesdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@oostnederland-ambulances.nl;Oost-Nederland Ambulances;ambulance;Nederland;32;;www.oostnederland-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@centraalvervoer.nl;Centraal Vervoer Diensten;ambulance;Nederland;38;;www.centraalvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@ambulancelogistiek.nl;Ambulance Logistiek;ambulance;Nederland;27;;www.ambulancelogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:37
+info@domunambuances.nl;Dcomún Ambulances;ambulance;Nederland;120;;www.domunambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@vervoerscentralennoord.nl;Vervoerscentrale Noord;ambulance;Nederland;95;;www.vervoerscentralennoord.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@zorglogistiekservices.nl;Zorg Logistiek Services;ambulance;Nederland;140;;www.zorglogistiekservices.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@centralemedischvervoer.nl;Centrale Medisch Vervoer;ambulance;Nederland;110;;www.centralemedischvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@transportmedischplus.nl;Transport Medisch Plus;ambulance;Nederland;75;;www.transportmedischplus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@vervoernoordholland.nl;Vervoer Noord Holland;ambulance;Nederland;68;;www.vervoernoordholland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@medischetaxicentrale.nl;Medische Taxicentrale;ambulance;Nederland;92;;www.medischetaxicentrale.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@vervoerscentraleflevoland.nl;Vervoerscentrale Flevoland;ambulance;Nederland;55;;www.vervoerscentraleflevoland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@zuidhollandsambulances.nl;Zuid Hollandse Ambulances;ambulance;Nederland;98;;www.zuidhollandsambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@gelderlandmedischvervoer.nl;Gelderland Medisch Vervoer;ambulance;Nederland;105;;www.gelderlandmedischvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@veluweambulancedienst.nl;Veluwe Ambulancedienst;ambulance;Nederland;72;;www.veluweambulancedienst.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@utrechtsevervoerscentrale.nl;Utrechtse Vervoerscentrale;ambulance;Nederland;128;;www.utrechtsevervoerscentrale.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@overijsselmedischtransport.nl;Overijssel Medisch Transport;ambulance;Nederland;79;;www.overijsselmedischtransport.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@frieseambulancecentrale.nl;Friese Ambulancecentrale;ambulance;Nederland;63;;www.frieseambulancecentrale.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@drenthevervoerdiensten.nl;Drenthe Vervoerdiensten;ambulance;Nederland;0;;www.drenthevervoerdiensten.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@noordgroningenambulances.nl;Noord Groningen Ambulances;ambulance;Nederland;45;;www.noordgroningenambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@haagsemedischevervoers.nl;Haagse Medische Vervoerscentrale;ambulance;Nederland;115;;www.haagsemedischevervoers.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@delftmedischvervoer.nl;Delft Medisch Vervoer;ambulance;Nederland;52;;www.delftmedischvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@goudaambulancedienst.nl;Gouda Ambulancedienst;ambulance;Nederland;48;;www.goudaambulancedienst.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@leidenvervoerscentrale.nl;Leiden Vervoerscentrale;ambulance;Nederland;61;;www.leidenvervoerscentrale.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@rotterdammedischtransport.nl;Rotterdam Medisch Transport;ambulance;Nederland;135;;www.rotterdammedischtransport.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:12
+info@medischvervoergroep.nl;Medisch Vervoer Groep;ambulance;Nederland;95;;www.medischvervoergroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:09
+info@cavervoer.nl;Centraal Ambulance Vervoer;ambulance;Nederland;85;;www.cavervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:09
+info@nhambulanaces.nl;Noord Holland Ambulances;ambulance;Nederland;60;;www.nhambulanaces.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@westlandmv.nl;Westland Medisch Vervoer;ambulance;Nederland;55;;www.westlandmv.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@rtmambulance.nl;Rotterdam Ambulanceservice;ambulance;Nederland;80;;www.rtmambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@ann-ambulances.nl;Ambulance Noord Nederland;ambulance;Nederland;60;;www.ann-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@avl-ambulances.nl;Ambulancevervoer Limburg;ambulance;Nederland;55;;www.avl-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@cada.nl;Centrale Ambulance Dienst Amsterdam;ambulance;Nederland;140;;www.cada.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@smv-ambulances.nl;Spoedeisende Medische Vervoer;ambulance;Nederland;35;;www.smv-ambulances.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@nlaz.nl;Noord Limburg Ambulancezorg;ambulance;Nederland;45;;www.nlaz.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:10
+info@medischvervoernoor.nl;Medisch Vervoer Noord;ambulance;Nederland;80;;www.medischvervoernoor.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@ziekenvervoerzuidwest.nl;Ziekenvervoer Zuidwest;ambulance;Nederland;110;;www.ziekenvervoerzuidwest.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@mobilecareservices.nl;Mobile Care Services;ambulance;Nederland;85;;www.mobilecareservices.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@spoedtransportnederlands.nl;Spoed Transport Nederlands;ambulance;Nederland;75;;www.spoedtransportnederlands.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@caremobilitysolutions.nl;Care Mobility Solutions;ambulance;Nederland;70;;www.caremobilitysolutions.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@patientenvervoerlimburg.nl;Patiënten Transport Limburg;ambulance;Nederland;60;;www.patientenvervoerlimburg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@medischelogistikezuid.nl;Medische Logistiek Zuid;ambulance;Nederland;72;;www.medischelogistikezuid.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@rapidcarevervoer.nl;Rapidcare Vervoer;ambulance;Nederland;68;;www.rapidcarevervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@zorgexpressnederland.nl;Zorg Express Nederland;ambulance;Nederland;50;;www.zorgexpressnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@acutecaremobility.nl;Acute Care Mobility;ambulance;Nederland;58;;www.acutecaremobility.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@medischvervoerfriesland.nl;Medisch Vervoer Friesland;ambulance;Nederland;48;;www.medischvervoerfriesland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@careflow.nl;CareFlow Transport;ambulance;Nederland;65;;www.careflow.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@vervoerinnood.nl;Vervoer In Nood;ambulance;Nederland;52;;www.vervoerinnood.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@spoedambulanceplus.nl;Spoedambulance Plus;ambulance;Nederland;70;;www.spoedambulanceplus.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@healthtransportservices.nl;Health Transport Services;ambulance;Nederland;45;;www.healthtransportservices.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@patientcarelogistics.nl;Patient Care Logistics;ambulance;Nederland;58;;www.patientcarelogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@spoedhuhlpvervoer.nl;Spoedhulp Vervoer;ambulance;Nederland;54;;www.spoedhuhlpvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:21
+info@utrechambulance.nl;Utrecht Ambulance Services;ambulance;Nederland;32;;www.utrechambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:49
+info@leeuwarden-ambulance.nl;Leeuwarden Ambulance;ambulance;Nederland;13;;www.leeuwarden-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:49
+info@westland-ambulance.nl;Westland Ambulance;ambulance;Nederland;5;;www.westland-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:49
+info@woerden-ambulance.nl;Woerden Ambulancezorg;ambulance;Nederland;4;;www.woerden-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:49
+info@alphen-ambulance.nl;Alphen aan den Rijn Ambulance;ambulance;Nederland;6;;www.alphen-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:49
+info@voorne-ambulance.nl;Voorne-Putten Ambulancediensten;ambulance;Nederland;5;;www.voorne-ambulance.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:49
+info@ambulancehoreca.nl;Ambulance Horeca Vervoer;ambulance;Nederland;8;020-5555556;www.ambulancehoreca.nl;60;0;discovered;;ai_discovery;2026-03-30 22:06:09
+info@ambulancenoorholland.nl;Ambulance Noord-Holland;ambulance;Nederland;25;020-5555557;www.ambulancenoorholland.nl;60;0;discovered;;ai_discovery;2026-03-30 22:06:09

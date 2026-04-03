@@ -36,13 +36,24 @@ def import_csv_to_db(csv_path, db_path):
     
     try:
         with open(csv_path, encoding="utf-8-sig", newline="") as f:
-            reader = csv.DictReader(f)
+            # Delimiter tespiti (semicolon vs comma)
+            sample = f.read(2048)
+            f.seek(0)
+            dialect = csv.Sniffer().sniff(sample, delimiters=',;')
+            reader = csv.DictReader(f, dialect=dialect)
+            
             if not reader.fieldnames:
                 print(f"  ⚠️ Boş CSV: {csv_path}")
                 return 0, 0, 0
             
             # CSV sütun isimlerini normalize et
             fieldnames = [fn.strip() for fn in reader.fieldnames]
+            # Eğer tek bir sütun geldiyse (semicolon ile ayrılmış ama virgül aranmışsa)
+            if len(fieldnames) == 1 and ';' in fieldnames[0]:
+                f.seek(0)
+                reader = csv.DictReader(f, delimiter=';')
+                fieldnames = [fn.strip() for fn in reader.fieldnames]
+            
             print(f"  📋 Sütunlar: {fieldnames}")
             
             for row in reader:

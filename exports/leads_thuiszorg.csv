@@ -1,19 +1,37 @@
 ﻿email;company;sector;location;vehicles;phone;website;score;ai_score;status;contact_person;source;created_at
+info@dichterbij.nl;Dichterbij;thuiszorg;Nederland;95;;www.dichterbij.nl;60;94;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorgservicesnbrabant.nl;Zorgservices Noord-Brabant;thuiszorg;Nederland;130;;www.zorgservicesnbrabant.nl;60;92;discovered;;ai_discovery;2026-03-23 10:17:19
+info@homecareplusnl.nl;Homecare Plus Nederland;thuiszorg;Nederland;105;;www.homecareplusnl.nl;60;91;discovered;;ai_discovery;2026-03-23 10:17:19
+info@zorgserviceutrecht.nl;Zorg Service Utrecht;thuiszorg;Nederland;92;;www.zorgserviceutrecht.nl;60;91;discovered;;ai_discovery;2026-03-23 10:17:20
+info@zorghuidzuidholland.nl;Zorggroep Zuid-Holland;thuiszorg;Nederland;120;;www.zorghuidzuidholland.nl;60;90;discovered;;ai_discovery;2026-03-23 10:17:19
+info@wijkhuiszorg.nl;Wijkhuis Zorg;thuiszorg;Nederland;90;;www.wijkhuiszorg.nl;60;90;discovered;;ai_discovery;2026-03-23 10:17:19
+info@afyna.nl;Afyna;thuiszorg;Nederland;72;;www.afyna.nl;60;88;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorggroephaaglanden.nl;Zorggroep Haaglanden;thuiszorg;Nederland;67;;www.zorggroephaaglanden.nl;60;87;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorgbijuthuis.nl;Zorg bij U Thuis;thuiszorg;Nederland;58;;www.zorgbijuthuis.nl;60;86;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zaanhauseindhoven.nl;Zorg aan Huis Eindhoven;thuiszorg;Nederland;56;;www.zaanhauseindhoven.nl;60;85;discovered;;ai_discovery;2026-03-23 10:36:50
+info@groningenwijkverpleging.nl;Groningen Wijkverpleging;thuiszorg;Nederland;52;;www.groningenwijkverpleging.nl;60;83;discovered;;ai_discovery;2026-03-23 10:36:50
+info@careaathome.nl;Care@home;thuiszorg;Nederland;52;;www.careathome.nl;60;82;discovered;;ai_discovery;2026-03-23 10:36:50
 info@buurtzorg.nl;Buurtzorg Nederland;thuiszorg;Nederland;120;;www.buurtzorg.nl;60;80;discovered;;ai_discovery;2026-03-23 09:20:31
+info@wijkverplegingnholand.nl;Wijkverpleging Noord-Holland;thuiszorg;Nederland;85;;www.wijkverplegingnholand.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:19
 info@vivazorg.nl;ViVa Zorg;thuiszorg;Utrecht;65;;www.vivazorg.nl;0;80;new;;ai_knowledge;2026-03-18 12:51:53
 info@wijkverpleging-utrecht.nl;Wijkverpleging Utrecht;thuiszorg;Nederland;52;;www.wijkverpleging-utrecht.nl;60;79;discovered;;ai_discovery;2026-03-23 09:38:09
 info@stza.nl;Samenwerking Thuiszorg Amsterdam;thuiszorg;Nederland;67;;www.stza.nl;60;79;discovered;;ai_discovery;2026-03-23 09:57:57
+info@verpleegservicemeierij.nl;Verpleegservice De Meierij;thuiszorg;Nederland;85;;www.verpleegservicemeierij.nl;60;79;discovered;;ai_discovery;2026-03-23 10:17:19
+info@regionaalezorggroost.nl;Regionale Zorggroep Oost;thuiszorg;Nederland;80;;www.regionaalezorggroost.nl;60;79;discovered;;ai_discovery;2026-03-23 10:17:19
 info@wijkverpleging-amsterdam.nl;Wijkverpleging Amsterdam;thuiszorg;Nederland;64;;www.wijkverpleging-amsterdam.nl;60;78;discovered;;ai_discovery;2026-03-23 09:57:57
+info@voorkantzorggroep.nl;Voorkant Zorggroep;thuiszorg;Nederland;88;;www.voorkantzorggroep.nl;60;78;discovered;;ai_discovery;2026-03-23 10:17:20
 info@thuiszorgdenhaag.nl;Thuiszorg Den Haag;thuiszorg;Den Haag;55;;www.thuiszorgdenhaag.nl;0;78;new;;ai_knowledge;2026-03-18 12:51:53
 info@wijkverpleegingutrecht.nl;Wijkverpleging Utrecht;thuiszorg;Utrecht;52;;www.wijkverpleegingutrecht.nl;0;78;new;;ai_knowledge;2026-03-18 12:51:54
 info@woonzorgnederland.nl;Woonzorg Nederland;thuiszorg;Nederland;62;;www.woonzorgnederland.nl;60;77;discovered;;ai_discovery;2026-03-23 09:20:31
 info@sensire.nl;Sensire;thuiszorg;Nederland;62;;www.sensire.nl;60;77;discovered;;ai_discovery;2026-03-23 09:57:57
+info@wijkverplegingliimburg.nl;Wijkverpleging Limburg;thuiszorg;Nederland;75;;www.wijkverplegingliimburg.nl;60;77;discovered;;ai_discovery;2026-03-23 10:17:19
 info@amstelring.nl;Amstelring;thuiszorg;Amsterdam;58;;www.amstelring.nl;0;77;new;;ai_knowledge;2026-03-18 12:51:53
 info@zorgaanhuis.nl;Zorg aan Huis;thuiszorg;Nederland;52;;www.zorgaanhuis.nl;60;76;discovered;;ai_discovery;2026-03-23 09:20:31
 info@hanzezorg.nl;Hanze Thuiszorg;thuiszorg;Nederland;55;;www.hanzezorg.nl;60;76;discovered;;ai_discovery;2026-03-23 09:57:57
 info@mobielbzorg.nl;Mobiel Zorg Limburg;thuiszorg;Nederland;58;;www.mobielbzorg.nl;60;76;discovered;;ai_discovery;2026-03-23 09:57:57
 info@zorgverlenersnederland.nl;Zorgverleners Nederland;thuiszorg;Nederland;72;;www.zorgverlenersnederland.nl;60;76;discovered;;ai_discovery;2026-03-23 09:57:57
 info@zorgteamrotterdam.nl;Zorgteam Rotterdam;thuiszorg;Nederland;55;;www.zorgteamrotterdam.nl;60;76;discovered;;ai_discovery;2026-03-23 09:57:57
+info@verpleegzorgholwest.nl;Verpleegzorg Holland West;thuiszorg;Nederland;55;;www.verpleegzorgholwest.nl;60;76;discovered;;ai_discovery;2026-03-23 10:17:19
 info@zorggroepamsterdam.nl;Zorggroep Amsterdam;thuiszorg;Amsterdam;72;;www.zorggroepamsterdam.nl;0;76;new;;ai_knowledge;2026-03-18 12:51:53
 info@dezorggroep.nl;Zorgbedrijf de Zorggroep;thuiszorg;Nederland;38;;www.dezorggroep.nl;60;75;discovered;;ai_discovery;2026-03-23 09:20:27
 info@buurtzorg.com;Buurtzorg Nederland;thuiszorg;Nederland;120;;www.buurtzorg.com;60;75;discovered;;ai_discovery;2026-03-23 09:20:27
@@ -125,6 +143,57 @@ info@mctzorg.nl;Medisch Centrum Thuiszorg;thuiszorg;Nederland;43;;www.mctzorg.nl
 info@thuiszorgplustwente.nl;Thuiszorgplus Twente;thuiszorg;Nederland;46;;www.thuiszorgplustwente.nl;60;75;discovered;;ai_discovery;2026-03-23 09:57:57
 info@zorgconnectnooord.nl;Zorgconnect Noord;thuiszorg;Nederland;49;;www.zorgconnectnord.nl;60;75;discovered;;ai_discovery;2026-03-23 09:57:57
 info@thuiszorghoekschewaard.nl;Thuiszorg Hoeksche Waard;thuiszorg;Nederland;32;;www.thuiszorghoekschewaard.nl;60;75;discovered;;ai_discovery;2026-03-23 09:57:57
+info@thuiszorgdrenthe.nl;Thuiszorg Drenthe;thuiszorg;Nederland;35;;www.thuiszorgdrenthe.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:19
+info@thuiszorgnetwerk.nl;Thuiszorgnetwerk Holland;thuiszorg;Nederland;50;;www.thuiszorgnetwerk.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:19
+info@huiszorgnoop.nl;Huiszorg Noord;thuiszorg;Nederland;48;;www.huiszorgnoord.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:19
+info@zorgplusleiden.nl;Zorgplus Leiden;thuiszorg;Nederland;45;;www.zorgplusleiden.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:19
+info@thuispluszorg.nl;Thuis Plus Zorg;thuiszorg;Nederland;38;;www.thuispluszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:19
+info@wijkzorgnoordfriesland.nl;Wijkzorg Noord-Friesland;thuiszorg;Nederland;28;;www.wijkzorgnoordfriesland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:20
+info@huiszorggroepzeeland.nl;Huiszorggroep Zeeland;thuiszorg;Nederland;42;;www.huiszorggroepzeeland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:20
+info@zorgpluswageningen.nl;Zorgplus Wageningen;thuiszorg;Nederland;35;;www.zorgpluswageningen.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:20
+info@zgt.nl;Ziekenhuisgruep Twente;thuiszorg;Nederland;45;;www.zgt.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@thuiszorgthebe.nl;Thuiszorg Thebe;thuiszorg;Nederland;35;;www.thuiszorgthebe.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@mchaaglanden.nl;Medisch Centrum Haaglanden;thuiszorg;Nederland;55;;www.mchaaglanden.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@asvplain.nl;AsvPlain Thuiszorg;thuiszorg;Nederland;28;;www.asvplain.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@thuiszorgamersfoort.nl;Thuiszorg Amerpoort;thuiszorg;Nederland;32;;www.thuiszorgamersfoort.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@zorgenhuisnoard.nl;Zorg aan Huis Noord;thuiszorg;Nederland;25;;www.zorgenhuisnoard.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@viventzorg.nl;Vivent Thuiszorg;thuiszorg;Nederland;40;;www.viventzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@zgt-wijkverpleging.nl;ZiekenhuisGroep Twente Wijkverpleging;thuiszorg;Nederland;35;;www.zgt-wijkverpleging.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@meezuidholland.nl;MEE Zuid-Holland;thuiszorg;Nederland;42;;www.meezuidholland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@thuiszorgbreda.nl;Thuiszorg Breda;thuiszorg;Nederland;30;;www.thuiszorgbreda.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@zorghuisflevoland.nl;Zorghuis Flevoland;thuiszorg;Nederland;22;;www.zorghuisflevoland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@thuiszorglimburg.nl;Thuiszorg Limburg;thuiszorg;Nederland;35;;www.thuiszorglimburg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@wijkverplegingnaam.nl;Wijkverpleging Amsterdam Noord;thuiszorg;Nederland;45;;www.wijkverplegingnaam.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@borgzorg.nl;Borg Thuiszorg;thuiszorg;Nederland;33;;www.borgzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@archipelzorg.nl;Archipel Zorg;thuiszorg;Nederland;39;;www.archipelzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@zorgwestland.nl;Zorg Westland;thuiszorg;Nederland;29;;www.zorgwestland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@thuiszorgoverijssel.nl;Thuiszorg Overijssel;thuiszorg;Nederland;40;;www.thuiszorgoverijssel.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@zorgwelzijnnhland.nl;Zorg en Welzijn Noord-Holland;thuiszorg;Nederland;37;;www.zorgwelzijnnhland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:17:51
+info@amersfoorthuiszorg.nl;Amersfoort Thuiszorg;thuiszorg;Nederland;38;;www.amersfoorthuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zwarnhem.nl;Zorg en Welzijn Arnhem;thuiszorg;Nederland;44;;www.zwarnhem.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@nijmegenhuiszorg.nl;Nijmegen Thuiszorg;thuiszorg;Nederland;35;;www.nijmegenhuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@tilburghuiszorg.nl;Tilburg Thuiszorg;thuiszorg;Nederland;42;;www.tilburghuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@helpwanted.nl;Helpwanted Thuiszorg;thuiszorg;Nederland;35;;www.helpwanted.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@bredawijkzorg.nl;Breda Wijkzorg;thuiszorg;Nederland;39;;www.bredawijkzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorggroepdrchtsteden.nl;Zorggroep Drechtsteden;thuiszorg;Nederland;41;;www.zorggroepdrchtsteden.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@thuszorg.nl;Thuszorg Nederland;thuiszorg;Nederland;28;;www.thuszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@apeldoornhuiszorg.nl;Apeldoorn Thuiszorg;thuiszorg;Nederland;46;;www.apeldoornhuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@vitalis-thuiszorg.nl;Vitalis Thuiszorg;thuiszorg;Nederland;41;;www.vitalis-thuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorgoverijssel.nl;Zorg Overijssel;thuiszorg;Nederland;50;;www.zorgoverijssel.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@mca.nl;Medisch Centrum Alkmaar;thuiszorg;Nederland;22;;www.mca.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorggroepnh.nl;Zorggroep Noord-Holland;thuiszorg;Nederland;48;;www.zorggroepnh.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@enschedewijkverpleging.nl;Enschede Wijkverpleging;thuiszorg;Nederland;36;;www.enschedewijkverpleging.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@icarethuiszorg.nl;Icare Thuiszorg;thuiszorg;Nederland;31;;www.icarethuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@haarlemhuiszorg.nl;Haarlem Thuiszorg;thuiszorg;Nederland;43;;www.haarlemhuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@thuiszorgaanhuis.nl;Thuiszorg aan Huis;thuiszorg;Nederland;25;;www.thuiszorgaanhuis.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@alkmaaarzorg.nl;Alkmaar Zorg;thuiszorg;Nederland;29;;www.alkmaaarzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@oostwestzorg.nl;Oost West Thuiszorg;thuiszorg;Nederland;44;;www.oostwestzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zaandamwijkzorg.nl;Zaandam Wijkzorg;thuiszorg;Nederland;32;;www.zaandamwijkzorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@zorgenwelzijn.nl;Zorg en Welzijn;thuiszorg;Nederland;33;;www.zorgenwelzijn.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@maastrichthuiszorg.nl;Maastricht Thuiszorg;thuiszorg;Nederland;37;;www.maastrichthuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@homecarespecialists.nl;Home Care Specialists;thuiszorg;Nederland;29;;www.homecarespecialists.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@venlowijkverpleging.nl;Venlo Wijkverpleging;thuiszorg;Nederland;31;;www.venlowijkverpleging.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
+info@leidenhuiszorg.nl;Leiden Thuiszorg;thuiszorg;Nederland;34;;www.leidenhuiszorg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:36:50
 info@thuiszorggroningen.nl;Thuiszorg Groningen;thuiszorg;Groningen;45;;www.thuiszorggroningen.nl;0;75;new;;ai_knowledge;2026-03-18 12:51:53
 info@zorggroepdrenthe.nl;Zorggroep Drenthe;thuiszorg;Assen;38;;www.zorggroepdrenthe.nl;0;75;new;;ai_knowledge;2026-03-18 12:51:53
 info@thuiszorgfriesland.nl;Thuiszorg Friesland;thuiszorg;Leeuwarden;42;;www.thuiszorgfriesland.nl;0;75;new;;ai_knowledge;2026-03-18 12:51:53
@@ -142,20 +211,27 @@ info@thuiszorghaarlem.nl;Thuiszorg Haarlem;thuiszorg;Haarlem;38;;www.thuiszorgha
 info@zorggroephilversum.nl;Zorggroep Hilversum;thuiszorg;Hilversum;32;;www.zorggroephilversum.nl;0;75;new;;ai_knowledge;2026-03-18 12:51:54
 info@zorgpartnerstilburg.nl;Zorgpartners Tilburg;thuiszorg;Tilburg;41;;www.zorgpartnerstilburg.nl;0;75;new;;ai_knowledge;2026-03-18 12:51:54
 info@thuishulp-nederland.nl;Thuishulp Nederland;thuiszorg;Nederland;61;;www.thuishulp-nederland.nl;60;74;discovered;;ai_discovery;2026-03-23 09:38:10
+info@regiozorgtwente.nl;RegioZorg Twente;thuiszorg;Nederland;70;;www.regiozorgtwente.nl;60;74;discovered;;ai_discovery;2026-03-23 10:17:19
+info@wijkzorgrotterdam.nl;Wijkzorg Rotterdam;thuiszorg;Nederland;58;;www.wijkzorgrotterdam.nl;60;74;discovered;;ai_discovery;2026-03-23 10:17:51
 info@thuiszorggelderland.nl;Thuiszorg Gelderland;thuiszorg;Arnhem;61;;www.thuiszorggelderland.nl;0;74;new;;ai_knowledge;2026-03-18 12:51:53
 info@surpluszorg.nl;Surplus Zorg;thuiszorg;Nederland;52;;www.surpluszorg.nl;60;73;discovered;;ai_discovery;2026-03-23 09:38:22
 info@thuiszorgplus.nl;Thuiszorg Plus;thuiszorg;Rotterdam;58;;www.thuiszorgplus.nl;0;73;new;;ai_knowledge;2026-03-18 12:51:54
+info@verpleeghuisoverijssel.nl;Verpleeghuis Overijssel;thuiszorg;Nederland;60;;www.verpleeghuisoverijssel.nl;60;72;discovered;;ai_discovery;2026-03-23 10:17:19
+info@thuiszorgutrechtregio.nl;Thuiszorg Utrecht Regio;thuiszorg;Nederland;52;;www.thuiszorgutrechtregio.nl;60;72;discovered;;ai_discovery;2026-03-23 10:17:51
 info@thuiszorgnb.nl;Thuiszorg Noord Brabant;thuiszorg;Breda;52;;www.thuiszorgnb.nl;0;72;new;;ai_knowledge;2026-03-18 12:51:53
 info@wijkverpleegingroterdam.nl;Wijkverpleging Rotterdam;thuiszorg;Rotterdam;56;;www.wijkverpleegingroterdam.nl;0;72;new;;ai_knowledge;2026-03-18 12:51:54
 info@wijkverpleginamsterdam.nl;Wijkverpleging Amsterdam;thuiszorg;Nederland;67;;www.wijkverpleginamsterdam.nl;60;71;discovered;;ai_discovery;2026-03-23 09:20:31
 info@careyn.nl;Careyn;thuiszorg;Nederland;85;;www.careyn.nl;60;70;discovered;;ai_discovery;2026-03-23 09:20:27
+info@zorginbeweging.nl;Zorg in Beweging;thuiszorg;Nederland;65;;www.zorginbeweging.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:19
 info@thuiszorgeindhoven.nl;Thuiszorg Eindhoven;thuiszorg;Eindhoven;54;;www.thuiszorgeindhoven.nl;0;70;new;;ai_knowledge;2026-03-18 12:51:54
 info@wijkzogrotterdam.nl;Wijkzorg Rotterdam;thuiszorg;Nederland;63;;www.wijkzogrotterdam.nl;60;69;discovered;;ai_discovery;2026-03-23 09:20:31
 info@humanitas-thuiszorg.nl;Humanitas Thuiszorg;thuiszorg;Nederland;52;;www.humanitas-thuiszorg.nl;60;68;discovered;;ai_discovery;2026-03-23 09:20:28
 info@zorgwelzijnutrecht.nl;Zorg & Welzijn Utrecht;thuiszorg;Nederland;55;;www.zorgwelzijnUtrecht.nl;60;68;discovered;;ai_discovery;2026-03-23 09:20:31
 info@thuiszorgservices.nl;Thuis Zorgservices;thuiszorg;Nederland;58;;www.thuiszorgservices.nl;60;68;discovered;;ai_discovery;2026-03-23 09:20:31
+info@zorgplusfriesland.nl;Zorgplus Friesland;thuiszorg;Nederland;55;;www.zorgplusfriesland.nl;60;68;discovered;;ai_discovery;2026-03-23 10:17:19
 info@wijkverplegingutrecht.nl;Wijkverpleging Utrecht;thuiszorg;Nederland;54;;www.wijkverplegingutrecht.nl;60;67;discovered;;ai_discovery;2026-03-23 09:20:31
 info@zorgplusgelderland.nl;Zorgplus Gelderland;thuiszorg;Nederland;51;;www.zorgplusgelderland.nl;60;66;discovered;;ai_discovery;2026-03-23 09:20:31
+info@wijkverplegingzuid.nl;Wijkverpleging Zuid;thuiszorg;Nederland;55;;www.wijkverplegingzuid.nl;60;66;discovered;;ai_discovery;2026-03-23 10:17:19
 info@zorghuis-vrijheid.nl;Zorghuis de Vrijheid;thuiszorg;Nederland;18;;www.zorghuis-vrijheid.nl;60;65;discovered;;ai_discovery;2026-03-23 09:20:28
 info@wijkverpleging-gouda.nl;Wijkverpleging Gouda;thuiszorg;Nederland;19;;www.wijkverpleging-gouda.nl;60;65;discovered;;ai_discovery;2026-03-23 09:20:28
 info@zorgvantoen.nl;Zorg van Toen;thuiszorg;Nederland;19;;www.zorgvantoen.nl;60;65;discovered;;ai_discovery;2026-03-23 09:57:52
@@ -163,6 +239,8 @@ info@defriese.nl;Zorgboerderij De Friese Meerpalen;thuiszorg;Nederland;15;;www.d
 info@zorgstroom.nl;Zorgstroom;thuiszorg;Nederland;18;;www.zorgstroom.nl;60;65;discovered;;ai_discovery;2026-03-23 09:57:52
 info@orbitzorg.nl;Orbit Zorggroep;thuiszorg;Nederland;20;;www.orbitzorg.nl;60;65;discovered;;ai_discovery;2026-03-23 09:57:52
 info@zorg-aanhuis-nh.nl;Zorg aan Huis Noord-Holland;thuiszorg;Nederland;0;;www.zorg-aanhuis-nh.nl;60;45;discovered;;ai_discovery;2026-03-23 09:38:10
+info@zorgpuntmiddennl.nl;Zorgpunt Midden-Nederland;thuiszorg;Nederland;0;;www.zorgpuntmiddennl.nl;60;45;discovered;;ai_discovery;2026-03-23 10:17:19
+info@derietvoorn.nl;Thuiszorg de Rietvoorn;thuiszorg;Nederland;0;;www.derietvoorn.nl;60;45;discovered;;ai_discovery;2026-03-23 10:17:51
 info@thuiszorgsoesa.nl;Thuiszorg Soesa;thuiszorg;Den Haag;0;;;0;45;new;;openstreetmap;2026-03-18 12:51:53
 info@multicarethuiszorg.nl;Multi Care Thuiszorg;thuiszorg;Den Haag;0;;;0;45;new;;openstreetmap;2026-03-18 12:51:53
 info@btothuiszorg.nl;BTO Thuiszorg;thuiszorg;Den Haag;0;;;0;45;new;;openstreetmap;2026-03-18 12:51:53
@@ -171,84 +249,6 @@ info@mozaiekthuiszorg.nl;Mozaiek Thuiszorg;thuiszorg;Den Haag;0;;;0;45;new;;open
 info@thuiszorgdeommejas.nl;Thuiszorg de Ommejas;thuiszorg;Uithuizen;0;;;0;45;new;;openstreetmap;2026-03-18 12:51:53
 info@thuiszorgmoc.nl;Thuiszorg M.O.C.;thuiszorg;Nijmegen;0;;;0;45;new;;openstreetmap;2026-03-18 12:51:53
 info@thuiszorgeanske.nl;Thuiszorg Eanske;thuiszorg;Enschede;0;;;0;45;new;;openstreetmap;2026-03-18 12:51:53
-info@zorghuidzuidholland.nl;Zorggroep Zuid-Holland;thuiszorg;Nederland;120;;www.zorghuidzuidholland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@wijkverplegingnholand.nl;Wijkverpleging Noord-Holland;thuiszorg;Nederland;85;;www.wijkverplegingnholand.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@zorgplusfriesland.nl;Zorgplus Friesland;thuiszorg;Nederland;55;;www.zorgplusfriesland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@verpleeghuisoverijssel.nl;Verpleeghuis Overijssel;thuiszorg;Nederland;60;;www.verpleeghuisoverijssel.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@zorgservicesnbrabant.nl;Zorgservices Noord-Brabant;thuiszorg;Nederland;130;;www.zorgservicesnbrabant.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@wijkverplegingliimburg.nl;Wijkverpleging Limburg;thuiszorg;Nederland;75;;www.wijkverplegingliimburg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@homecareplusnl.nl;Homecare Plus Nederland;thuiszorg;Nederland;105;;www.homecareplusnl.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@thuiszorgdrenthe.nl;Thuiszorg Drenthe;thuiszorg;Nederland;35;;www.thuiszorgdrenthe.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@regiozorgtwente.nl;RegioZorg Twente;thuiszorg;Nederland;70;;www.regiozorgtwente.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@verpleegservicemeierij.nl;Verpleegservice De Meierij;thuiszorg;Nederland;85;;www.verpleegservicemeierij.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@zorginbeweging.nl;Zorg in Beweging;thuiszorg;Nederland;65;;www.zorginbeweging.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@wijkhuiszorg.nl;Wijkhuis Zorg;thuiszorg;Nederland;90;;www.wijkhuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@thuiszorgnetwerk.nl;Thuiszorgnetwerk Holland;thuiszorg;Nederland;50;;www.thuiszorgnetwerk.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@zorgpuntmiddennl.nl;Zorgpunt Midden-Nederland;thuiszorg;Nederland;0;;www.zorgpuntmiddennl.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@wijkverplegingzuid.nl;Wijkverpleging Zuid;thuiszorg;Nederland;55;;www.wijkverplegingzuid.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@huiszorgnoop.nl;Huiszorg Noord;thuiszorg;Nederland;48;;www.huiszorgnoord.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@zorgplusleiden.nl;Zorgplus Leiden;thuiszorg;Nederland;45;;www.zorgplusleiden.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@verpleegzorgholwest.nl;Verpleegzorg Holland West;thuiszorg;Nederland;55;;www.verpleegzorgholwest.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@thuispluszorg.nl;Thuis Plus Zorg;thuiszorg;Nederland;38;;www.thuispluszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@regionaalezorggroost.nl;Regionale Zorggroep Oost;thuiszorg;Nederland;80;;www.regionaalezorggroost.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:19
-info@zorgserviceutrecht.nl;Zorg Service Utrecht;thuiszorg;Nederland;92;;www.zorgserviceutrecht.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:20
-info@wijkzorgnoordfriesland.nl;Wijkzorg Noord-Friesland;thuiszorg;Nederland;28;;www.wijkzorgnoordfriesland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:20
-info@huiszorggroepzeeland.nl;Huiszorggroep Zeeland;thuiszorg;Nederland;42;;www.huiszorggroepzeeland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:20
-info@zorgpluswageningen.nl;Zorgplus Wageningen;thuiszorg;Nederland;35;;www.zorgpluswageningen.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:20
-info@voorkantzorggroep.nl;Voorkant Zorggroep;thuiszorg;Nederland;88;;www.voorkantzorggroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:20
-info@zgt.nl;Ziekenhuisgruep Twente;thuiszorg;Nederland;45;;www.zgt.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@thuiszorgthebe.nl;Thuiszorg Thebe;thuiszorg;Nederland;35;;www.thuiszorgthebe.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@mchaaglanden.nl;Medisch Centrum Haaglanden;thuiszorg;Nederland;55;;www.mchaaglanden.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@asvplain.nl;AsvPlain Thuiszorg;thuiszorg;Nederland;28;;www.asvplain.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@thuiszorgamersfoort.nl;Thuiszorg Amerpoort;thuiszorg;Nederland;32;;www.thuiszorgamersfoort.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@zorgenhuisnoard.nl;Zorg aan Huis Noord;thuiszorg;Nederland;25;;www.zorgenhuisnoard.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@viventzorg.nl;Vivent Thuiszorg;thuiszorg;Nederland;40;;www.viventzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@zgt-wijkverpleging.nl;ZiekenhuisGroep Twente Wijkverpleging;thuiszorg;Nederland;35;;www.zgt-wijkverpleging.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@meezuidholland.nl;MEE Zuid-Holland;thuiszorg;Nederland;42;;www.meezuidholland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@thuiszorgbreda.nl;Thuiszorg Breda;thuiszorg;Nederland;30;;www.thuiszorgbreda.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@zorghuisflevoland.nl;Zorghuis Flevoland;thuiszorg;Nederland;22;;www.zorghuisflevoland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@thuiszorglimburg.nl;Thuiszorg Limburg;thuiszorg;Nederland;35;;www.thuiszorglimburg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@wijkverplegingnaam.nl;Wijkverpleging Amsterdam Noord;thuiszorg;Nederland;45;;www.wijkverplegingnaam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@borgzorg.nl;Borg Thuiszorg;thuiszorg;Nederland;33;;www.borgzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@thuiszorgutrechtregio.nl;Thuiszorg Utrecht Regio;thuiszorg;Nederland;52;;www.thuiszorgutrechtregio.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@archipelzorg.nl;Archipel Zorg;thuiszorg;Nederland;39;;www.archipelzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@zorgwestland.nl;Zorg Westland;thuiszorg;Nederland;29;;www.zorgwestland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@wijkzorgrotterdam.nl;Wijkzorg Rotterdam;thuiszorg;Nederland;58;;www.wijkzorgrotterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@thuiszorgoverijssel.nl;Thuiszorg Overijssel;thuiszorg;Nederland;40;;www.thuiszorgoverijssel.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@zorgwelzijnnhland.nl;Zorg en Welzijn Noord-Holland;thuiszorg;Nederland;37;;www.zorgwelzijnnhland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@derietvoorn.nl;Thuiszorg de Rietvoorn;thuiszorg;Nederland;0;;www.derietvoorn.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:51
-info@zorgbijuthuis.nl;Zorg bij U Thuis;thuiszorg;Nederland;58;;www.zorgbijuthuis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zorggroephaaglanden.nl;Zorggroep Haaglanden;thuiszorg;Nederland;67;;www.zorggroephaaglanden.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@amersfoorthuiszorg.nl;Amersfoort Thuiszorg;thuiszorg;Nederland;38;;www.amersfoorthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zwarnhem.nl;Zorg en Welzijn Arnhem;thuiszorg;Nederland;44;;www.zwarnhem.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@nijmegenhuiszorg.nl;Nijmegen Thuiszorg;thuiszorg;Nederland;35;;www.nijmegenhuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@groningenwijkverpleging.nl;Groningen Wijkverpleging;thuiszorg;Nederland;52;;www.groningenwijkverpleging.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zaanhauseindhoven.nl;Zorg aan Huis Eindhoven;thuiszorg;Nederland;56;;www.zaanhauseindhoven.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@careaathome.nl;Care@home;thuiszorg;Nederland;52;;www.careathome.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@tilburghuiszorg.nl;Tilburg Thuiszorg;thuiszorg;Nederland;42;;www.tilburghuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@helpwanted.nl;Helpwanted Thuiszorg;thuiszorg;Nederland;35;;www.helpwanted.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@bredawijkzorg.nl;Breda Wijkzorg;thuiszorg;Nederland;39;;www.bredawijkzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zorggroepdrchtsteden.nl;Zorggroep Drechtsteden;thuiszorg;Nederland;41;;www.zorggroepdrchtsteden.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@thuszorg.nl;Thuszorg Nederland;thuiszorg;Nederland;28;;www.thuszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@apeldoornhuiszorg.nl;Apeldoorn Thuiszorg;thuiszorg;Nederland;46;;www.apeldoornhuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@vitalis-thuiszorg.nl;Vitalis Thuiszorg;thuiszorg;Nederland;41;;www.vitalis-thuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@afyna.nl;Afyna;thuiszorg;Nederland;72;;www.afyna.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zorgoverijssel.nl;Zorg Overijssel;thuiszorg;Nederland;50;;www.zorgoverijssel.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@mca.nl;Medisch Centrum Alkmaar;thuiszorg;Nederland;22;;www.mca.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zorggroepnh.nl;Zorggroep Noord-Holland;thuiszorg;Nederland;48;;www.zorggroepnh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@enschedewijkverpleging.nl;Enschede Wijkverpleging;thuiszorg;Nederland;36;;www.enschedewijkverpleging.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@dichterbij.nl;Dichterbij;thuiszorg;Nederland;95;;www.dichterbij.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@icarethuiszorg.nl;Icare Thuiszorg;thuiszorg;Nederland;31;;www.icarethuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@haarlemhuiszorg.nl;Haarlem Thuiszorg;thuiszorg;Nederland;43;;www.haarlemhuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@thuiszorgaanhuis.nl;Thuiszorg aan Huis;thuiszorg;Nederland;25;;www.thuiszorgaanhuis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@alkmaaarzorg.nl;Alkmaar Zorg;thuiszorg;Nederland;29;;www.alkmaaarzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@oostwestzorg.nl;Oost West Thuiszorg;thuiszorg;Nederland;44;;www.oostwestzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zaandamwijkzorg.nl;Zaandam Wijkzorg;thuiszorg;Nederland;32;;www.zaandamwijkzorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@zorgenwelzijn.nl;Zorg en Welzijn;thuiszorg;Nederland;33;;www.zorgenwelzijn.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@maastrichthuiszorg.nl;Maastricht Thuiszorg;thuiszorg;Nederland;37;;www.maastrichthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@homecarespecialists.nl;Home Care Specialists;thuiszorg;Nederland;29;;www.homecarespecialists.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@venlowijkverpleging.nl;Venlo Wijkverpleging;thuiszorg;Nederland;31;;www.venlowijkverpleging.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
-info@leidenhuiszorg.nl;Leiden Thuiszorg;thuiszorg;Nederland;34;;www.leidenhuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:50
 info@wijkzorglimburg.nl;Wijkzorg Limburg;thuiszorg;Nederland;47;;www.wijkzorglimburg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:51
 info@zorgverleneersplus.nl;Zorgverleners Plus;thuiszorg;Nederland;36;;www.zorgverleneersplus.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:51
 info@delftzoraghuis.nl;Delft Zorg aan Huis;thuiszorg;Nederland;30;;www.delftzoraghuis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:51
@@ -3055,3 +3055,365 @@ info@samensterk.nl;Zorggroep Samen Sterk;thuiszorg;Nederland;50;;www.samensterk.
 info@mobilezorgservices.nl;Mobile Zorg Services;thuiszorg;Nederland;58;;www.mobilezorgservices.nl;60;0;discovered;;ai_discovery;2026-03-24 12:10:28
 info@thuiszorgcentral.nl;Thuiszorg Central;thuiszorg;Nederland;54;;www.thuiszorgcentral.nl;60;0;discovered;;ai_discovery;2026-03-24 12:10:28
 info@zorggroepconnect.nl;Zorggroep Connect;thuiszorg;Nederland;37;;www.zorggroepconnect.nl;60;0;discovered;;ai_discovery;2026-03-24 12:10:28
+info@thuiszorggroepnoord.nl;Thuiszorg Groep Noord;thuiszorg;Nederland;45;;www.thuiszorggroepnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@thuiszorgdemaasstreek.nl;Thuiszorg De Maasstreek;thuiszorg;Nederland;28;;www.thuiszorgdemaasstreek.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@zorggroepsudwest.nl;Zorggroep Südwest;thuiszorg;Nederland;50;;www.zorggroepsudwest.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@zorgcaop.nl;Thuiszorg Caop;thuiszorg;Nederland;29;;www.zorgcaop.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@zorgrotterdam.nl;Zorgcentrum Rotterdam Oost;thuiszorg;Nederland;47;;www.zorgrotterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@wijkverplegingzoetermeer.nl;Wijkverpleging Zoetermeer;thuiszorg;Nederland;34;;www.wijkverplegingzoetermeer.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@zorggroepuoost.nl;Zorggroep Utrecht Oost;thuiszorg;Nederland;40;;www.zorggroepuoost.nl;60;0;discovered;;ai_discovery;2026-03-30 13:03:04
+info@charium.nl;Zorggroep Charium;thuiszorg;Nederland;38;;www.charium.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@groeppraktijken.nl;GroepPraktijken;thuiszorg;Nederland;35;;www.groeppraktijken.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@wsw.nl;Woon- en Zorgcorporatie WSW;thuiszorg;Nederland;55;;www.wsw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@mca-zorg.nl;Medisch Centrum Alkmaar;thuiszorg;Nederland;29;;www.mca-zorg.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@zorgwelhaarlem.nl;Zorg en Welzijn Haarlem;thuiszorg;Nederland;37;;www.zorgwelhaarlem.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@zorgpuntdenhaag.nl;Zorgpunt Den Haag;thuiszorg;Nederland;54;;www.zorgpuntdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@mzdrenthe.nl;Medisch Zorgcentrum Drenthe;thuiszorg;Nederland;26;;www.mzdrenthe.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@zorgbedrijflimburg.nl;Zorgbedrijf Limburg;thuiszorg;Nederland;38;;www.zorgbedrijflimburg.nl;60;0;discovered;;ai_discovery;2026-03-30 13:26:13
+info@zgnwv.nl;Zorggroep Noordwest-Veluwe;thuiszorg;Nederland;65;;www.zgnwv.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@dewoudhoek.nl;Verzorgingstehuis de Woudhoek;thuiszorg;Nederland;35;;www.dewoudhoek.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@orientatie.nl;Thuiszorg Oriëntatie;thuiszorg;Nederland;55;;www.orientatie.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@zchm.nl;Zorgcentrum Haarlemmermeer;thuiszorg;Nederland;40;;www.zchm.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@szutrecht.nl;Stichting Zorg Utrecht;thuiszorg;Nederland;110;;www.szutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@zorggroepvia.nl;Zorggroep Via;thuiszorg;Nederland;75;;www.zorggroepvia.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@thuiszorgbalans.nl;Thuiszorg Balans;thuiszorg;Nederland;50;;www.thuiszorgbalans.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@thuiszorgrhenen.nl;Thuiszorg Rhenen;thuiszorg;Nederland;35;;www.thuiszorgrhenen.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@zorgcentrumwaalre.nl;Zorgcentrum Waalre;thuiszorg;Nederland;30;;www.zorgcentrumwaalre.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@zorggroephelios.nl;Zorggroep Helios;thuiszorg;Nederland;70;;www.zorggroephelios.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@thuiszorgroggel.nl;Thuiszorg Roggel;thuiszorg;Nederland;40;;www.thuiszorgroggel.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@thuiszorgbetuwe.nl;Thuiszorg Betuwe;thuiszorg;Nederland;50;;www.thuiszorgbetuwe.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@zorggroepoostbrabant.nl;Zorggroep Oost-Brabant;thuiszorg;Nederland;85;;www.zorggroepoostbrabant.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@thuiszorgweert.nl;Thuiszorg Weert;thuiszorg;Nederland;0;;www.thuiszorgweert.nl;60;0;discovered;;ai_discovery;2026-03-30 13:49:19
+info@surplushuiszorg.nl;Surplus Thuiszorg;thuiszorg;Nederland;35;;www.surplushuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@willemdezwijger.nl;Willem de Zwijger;thuiszorg;Nederland;55;;www.willemdezwijger.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@zorggrouplinburg.nl;Zorggroep Limburg;thuiszorg;Nederland;65;;www.zorggrouplinburg.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@zorgcombinatie.nl;Zorgcombinatie Fryslân;thuiszorg;Nederland;42;;www.zorgcombinatie.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@mtz.nl;Medische Thuiszorg Nederland;thuiszorg;Nederland;70;;www.mtz.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@zorgbelegflevoland.nl;Zorgbelang Flevoland;thuiszorg;Nederland;45;;www.zorgbelegflevoland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@thun.nl;Thuiszorg Utrecht Noord;thuiszorg;Nederland;52;;www.thun.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:48
+info@zgnhaanzorg.nl;Zorggroep Noord-Holland;thuiszorg;Nederland;48;;www.zgnhaanzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@wijkverplgeldland.nl;Wijkverpleging Gelderland;thuiszorg;Nederland;58;;www.wijkverplgeldland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@zorgplusoverij.nl;Zorgplus Overijssel;thuiszorg;Nederland;44;;www.zorgplusoverij.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@zorggroepijssel.nl;Zorggroep IJsselmuiden;thuiszorg;Nederland;33;;www.zorggroepijssel.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@mdzuidoost.nl;Medische Diensten Zuidoost;thuiszorg;Nederland;56;;www.mdzuidoost.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@zcnoo.nl;Zorgcentrum Noord-Oost;thuiszorg;Nederland;43;;www.zcnoo.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@wijkverplholland.nl;Wijkverpleging Holland;thuiszorg;Nederland;41;;www.wijkverplholland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:49
+info@huisartsplusthuiszorg.nl;Huisarts Plus Thuiszorg;thuiszorg;Nederland;29;;www.huisartsplusthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@nhzc.nl;Noord-Hollandse Zorgcentra;thuiszorg;Nederland;50;;www.nhzc.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@thuiszorgalkmaar.nl;Thuiszorg Regio Alkmaar;thuiszorg;Nederland;18;;www.thuiszorgalkmaar.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@zggv.nl;Zorggroep Gooi- en Vechtstreek;thuiszorg;Nederland;27;;www.zggv.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@zorggroepamstelland.nl;Zorggroep Amstelland;thuiszorg;Nederland;24;;www.zorggroepamstelland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@zorggroeprijnland.nl;Zorggroep Rijnland;thuiszorg;Nederland;0;;www.zorggroeprijnland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@zgpn.nl;Zorggroep Pijnacker-Nootdorp;thuiszorg;Nederland;17;;www.zgpn.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@zorggroepoverbetuwe.nl;Zorggroep Overbetuwe;thuiszorg;Nederland;19;;www.zorggroepoverbetuwe.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:47
+info@espria.nl;Espria;thuiszorg;Nederland;32;;www.espria.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@thoza.nl;Thoza;thuiszorg;Nederland;26;;www.thoza.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@zorgleiden.nl;Stichting Zorg Leiden;thuiszorg;Nederland;24;;www.zorgleiden.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@zorgbreda.nl;Stichting Zorg Breda;thuiszorg;Nederland;27;;www.zorgbreda.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@humanitasvitaal.nl;Humanitas Vitaal;thuiszorg;Nederland;39;;www.humanitasvitaal.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@thuisverpleegingutrecht.nl;Thuisverpleging Utrecht;thuiszorg;Nederland;33;;www.thuisverpleegingutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@zorgzuidoost.nl;Zorg Zuidoost;thuiszorg;Nederland;34;;www.zorgzuidoost.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@verpleegkundigende.nl;Verpleegkundigen Centrale;thuiszorg;Nederland;40;;www.verpleegkundigende.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:17
+info@fivoor.nl;Zorggroep Fivoor;thuiszorg;Nederland;25;;www.fivoor.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:18
+info@zono.nl;Zorg en Ondersteuning Noord;thuiszorg;Nederland;37;;www.zono.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:18
+info@vitaalzorgroep.nl;Vitaal Zorgroep;thuiszorg;Nederland;30;;www.vitaalzorgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:18
+info@zorhuiszaandam.nl;Zorghuis Zaandam;thuiszorg;Nederland;19;;www.zorhuiszaandam.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:18
+info@dewaalgelanden.nl;Stichting Zorggroep De Waalgelanden;thuiszorg;Nederland;21;;www.dewaalgelanden.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:18
+info@gezholland.nl;Gezondheidszorg Holland;thuiszorg;Nederland;42;;www.gezholland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:59:18
+info@zorgpartnersholland.nl;Zorgpartners Holland;thuiszorg;Nederland;28;;www.zorgpartnersholland.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:35
+info@zorgverleningsuid.nl;Zorgverlening Zuid;thuiszorg;Nederland;29;;www.zorgverleningsuid.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@zorgzaamnhn.nl;Zorgzaam Noord-Holland;thuiszorg;Nederland;26;;www.zorgzaamnhn.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@wijkverpleingld.nl;Wijkverpleging Gelderland;thuiszorg;Nederland;33;;www.wijkverpleingld.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@zorgcentrummnl.nl;Zorgcentrum Midden-Nederland;thuiszorg;Nederland;39;;www.zorgcentrummnl.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@zorgverleninoord.nl;Zorgverlening Noord;thuiszorg;Nederland;25;;www.zorgverleninoord.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@zorgbeleidsned.nl;Zorgbeleid Nederland;thuiszorg;Nederland;30;;www.zorgbeleidsned.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@wijkzorgalmere.nl;Wijkzorg Almere;thuiszorg;Nederland;23;;www.wijkzorgalmere.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@thuiszorgexcellence.nl;Thuiszorg Excellence;thuiszorg;Nederland;20;;www.thuiszorgexcellence.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:36
+info@thuiszorganders.nl;Thuiszorg Anders;thuiszorg;Nederland;15;;www.thuiszorganders.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zgnhoofddorp.nl;Zorggroep Noord-Holland;thuiszorg;Nederland;41;;www.zgnhoofddorp.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@stichtseeng.nl;Zorgboerderij De Stichtse Eng;thuiszorg;Nederland;8;;www.stichtseeng.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zorgdrechtsteden.nl;Zorg Drechtsteden;thuiszorg;Nederland;31;;www.zorgdrechtsteden.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zorggroepooste.nl;Zorggroep Oost Gelre;thuiszorg;Nederland;27;;www.zorggroepooste.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zorgaanbiedersfr.nl;Zorgaanbieders Friesland;thuiszorg;Nederland;25;;www.zorgaanbiedersfr.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zorggroepeutrecht.nl;Zorggroep Utrecht;thuiszorg;Nederland;55;;www.zorggroepeutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@boreel.nl;Zorghuis Boreel;thuiszorg;Nederland;12;;www.boreel.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zorghuiszh.nl;Zorg aan Huis Zuid-Holland;thuiszorg;Nederland;48;;www.zorghuiszh.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@zorgoverrijssel.nl;Stichting Zorg Overijssel;thuiszorg;Nederland;40;;www.zorgoverrijssel.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:52
+info@beterthuis.nl;Beterthuis;thuiszorg;Nederland;30;;www.beterthuis.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:53
+info@xtrazorg.nl;Xtra Zorg;thuiszorg;Nederland;52;;www.xtrazorg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@zorgboerderijfriesland.nl;Zorgboerderij Friesland;thuiszorg;Nederland;22;;www.zorgboerderijfriesland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@wijkverpleggingdenhaag.nl;Wijkverpleging Den Haag;thuiszorg;Nederland;43;;www.wijkverpleggingdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@thuispluscnoord.nl;Thuis Plus Noord;thuiszorg;Nederland;25;;www.thuisplusnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@zorggrouphaarlem.nl;Zorggroep Haarlem;thuiszorg;Nederland;32;;www.zorggrouphaarlem.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@zorgservicearnhem.nl;Zorgservice Arnhem;thuiszorg;Nederland;36;;www.zorgservicearnhem.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@thuiszogtilburg.nl;Thuiszorg Tilburg;thuiszorg;Nederland;33;;www.thuiszogtilburg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:08:04
+info@aetheras.nl;Aetheras Thuiszorg;thuiszorg;Nederland;52;;www.aetheras.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@svao.nl;Stichting Verzorging Oost;thuiszorg;Nederland;32;;www.svao.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@tandjehoger.nl;Tandje Hoger Thuiszorg;thuiszorg;Nederland;28;;www.tandjehoger.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@avoort.nl;Avoort;thuiszorg;Nederland;38;;www.avoort.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@ziekenzorgfry.nl;Ziekenhuiszorg Fryslân;thuiszorg;Nederland;25;;www.ziekenzorgfry.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@zog-nl.nl;Zorgverlening Oost-Gelderland;thuiszorg;Nederland;51;;www.zog-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@happlus.nl;Huisartsenposten Plus;thuiszorg;Nederland;33;;www.happlus.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@mobilzorgcentrum.nl;Mobiel Zorgcentrum;thuiszorg;Nederland;46;;www.mobilzorgcentrum.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@welzijnnoord.nl;Welzijn Noord;thuiszorg;Nederland;31;;www.welzijnnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@thuis4u.nl;Thuis4u;thuiszorg;Nederland;29;;www.thuis4u.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@wijkgezondheidzuid.nl;Wijkgezondheid Zuid;thuiszorg;Nederland;47;;www.wijkgezondheidzuid.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@zorgbureauholland.nl;Zorgbureau Holland;thuiszorg;Nederland;40;;www.zorgbureauholland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:57
+info@zorgenleventhuis.nl;Zorg en Leven;thuiszorg;Nederland;35;;www.zorgenleventhuis.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:58
+info@thuiszorgnieuuwamsterdam.nl;Thuiszorg Nieuw Amsterdam;thuiszorg;Nederland;45;;www.thuiszorgnieuuwamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorghuis-utrecht.nl;Zorghuis Utrecht;thuiszorg;Nederland;38;;www.zorghuis-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@wijkgezond.nl;WijkGezond;thuiszorg;Nederland;35;;www.wijkgezond.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@thuisfirst.nl;ThuisFirst;thuiszorg;Nederland;28;;www.thuisfirst.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@medicaalethuis.nl;Medische Thuis;thuiszorg;Nederland;41;;www.medicaalethuis.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorgaanhuisplus.nl;Zorg aan Huis Plus;thuiszorg;Nederland;34;;www.zorgaanhuisplus.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@thuiszorgdekaap.nl;Thuiszorg de Kaap;thuiszorg;Nederland;18;;www.thuiszorgdekaap.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@voelzorg.nl;Voelzorg;thuiszorg;Nederland;31;;www.voelzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorgopmaat-limburg.nl;Zorg op Maat Limburg;thuiszorg;Nederland;29;;www.zorgopmaat-limburg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorgbundel.nl;Zorgbundel;thuiszorg;Nederland;42;;www.zorgbundel.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorgcentrall.nl;Zorg Centraal;thuiszorg;Nederland;39;;www.zorgcentrall.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@mobielethuiszorg.nl;Mobiele Thuiszorg;thuiszorg;Nederland;22;;www.mobielethuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorgconnect.nl;ZorgConnect;thuiszorg;Nederland;25;;www.zorgconnect.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@drachten-zorg.nl;Drachten Zorg;thuiszorg;Nederland;16;;www.drachten-zorg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@zorgverlof-friesland.nl;Zorgverlof Friesland;thuiszorg;Nederland;14;;www.zorgverlof-friesland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@thuiszorgadvies.nl;Thuiszorg Advies;thuiszorg;Nederland;23;;www.thuiszorgadvies.nl;60;0;discovered;;ai_discovery;2026-03-30 16:54:00
+info@acopulco.nl;Ascopulco;thuiszorg;Nederland;28;;www.acopulco.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@deopvijver.nl;Zorggroep De Opvijver;thuiszorg;Nederland;41;;www.deopvijver.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@waeldriehoek.nl;Zorggroep De Waeldriehoek;thuiszorg;Nederland;39;;www.waeldriehoek.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@infinitumzorg.nl;Infinitum Zorg;thuiszorg;Nederland;33;;www.infinitumzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@maasstad.nl;Thuiszorg Maasstad;thuiszorg;Nederland;27;;www.maasstad.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@thuiszongnord.nl;Thuiszorg Noord;thuiszorg;Nederland;24;;www.thuiszorgnord.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@almerehazcentralezorg.nl;Zorggroep Almere Midt;thuiszorg;Nederland;34;;www.almerehazcentralezorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@zozijn.nl;Zorggroep Zozijn;thuiszorg;Nederland;28;;www.zozijn.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@caphri.nl;Thuiszorg Caphri;thuiszorg;Nederland;25;;www.caphri.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@thuiszorghanze.nl;Thuiszorg Hanze;thuiszorg;Nederland;32;;www.thuiszorghanze.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:47
+info@dewoonpartners.nl;Thuiszorg De Woonpartners;thuiszorg;Nederland;52;;www.dewoonpartners.nl;60;0;discovered;;ai_discovery;2026-03-30 17:30:02
+info@zorggroepmnl.nl;Zorggroep Midden-Nederland;thuiszorg;Nederland;83;;www.zorggroepmnl.nl;60;0;discovered;;ai_discovery;2026-03-30 17:30:02
+info@zorggroepml.nl;Zorggroep Midden-Limburg;thuiszorg;Nederland;44;;www.zorggroepml.nl;60;0;discovered;;ai_discovery;2026-03-30 17:30:02
+info@thuiszorgwaterland.nl;Thuiszorg Waterland;thuiszorg;Nederland;25;;www.thuiszorgwaterland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:30:02
+info@zorggroep-rijnmond.nl;Zorggroep Rijnmond;thuiszorg;Nederland;112;;www.zorggroep-rijnmond.nl;60;0;discovered;;ai_discovery;2026-03-30 17:30:02
+info@zgzw.nl;Zorggroep Zaanstreek-Waterland;thuiszorg;Nederland;180;;www.zgzw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@aveea.nl;Aveéa Thuiszorg;thuiszorg;Nederland;160;;www.aveea.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@enver.nl;Enver Thuiszorg;thuiszorg;Nederland;140;;www.enver.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@hvazorg.nl;HvA Zorg;thuiszorg;Nederland;110;;www.hvazorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@fluvium.nl;Zorggroep Fluvium;thuiszorg;Nederland;130;;www.fluvium.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@tintenthuiszorg.nl;Tinten Thuiszorg;thuiszorg;Nederland;95;;www.tintenthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@czvc.nl;CZVC Zorggroep;thuiszorg;Nederland;190;;www.czvc.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@zgnk.nl;Zorggroep Noord-Kennemerland;thuiszorg;Nederland;110;;www.zgnk.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@zgrivierenland.nl;Zorggroep Rivierenland;thuiszorg;Nederland;105;;www.zgrivierenland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@ziezozorg.nl;ZieZo Zorg;thuiszorg;Nederland;100;;www.ziezozorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@zgwz.nl;Zorggroep Welzijn Zuid;thuiszorg;Nederland;145;;www.zgwz.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@liever-thuis.nl;Zorggroep Liever Thuis;thuiszorg;Nederland;90;;www.liever-thuis.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@zgemmmen.nl;Zorggroep Emmen;thuiszorg;Nederland;85;;www.zgemmen.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@zgheuvelland.nl;Zorggroep Heuvelland;thuiszorg;Nederland;70;;www.zgheuvelland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:43:13
+info@aarding.nl;Aarding Thuiszorg;thuiszorg;Nederland;28;;www.aarding.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@tanejazorg.nl;Taneja Zorg;thuiszorg;Nederland;31;;www.tanejazorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@thuisoratie.nl;Stichting Thuisoratie;thuiszorg;Nederland;22;;www.thuisoratie.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@medischplusthuiszorg.nl;Medisch Plus Thuiszorg;thuiszorg;Nederland;25;;www.medischplusthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@thzs.nl;THZS Thuiszorg;thuiszorg;Nederland;48;;www.thzs.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@zorgeerstelijn.nl;Zorg Eerste Lijn;thuiszorg;Nederland;44;;www.zorgeerstelijn.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@atlaszorg.nl;Atlas Zorg;thuiszorg;Nederland;39;;www.atlaszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@zorggroepbrabantplus.nl;Zorggroep Brabant Plus;thuiszorg;Nederland;51;;www.zorggroepbrabantplus.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@zorgzeker.nl;ZorgZeker;thuiszorg;Nederland;27;;www.zorgzeker.nl;60;0;discovered;;ai_discovery;2026-03-30 17:56:17
+info@dezorgstee.nl;Thuiszorg De Zorgstee;thuiszorg;Nederland;28;;www.dezorgstee.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@caringhomeservices.nl;Caring Home Services;thuiszorg;Nederland;35;;www.caringhomeservices.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@zorgcentrumoverijssel.nl;Zorgcentrum Overijssel;thuiszorg;Nederland;33;;www.zorgcentrumoverijssel.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@wijkverplegingtrecht.nl;Wijkverpleging Utrecht;thuiszorg;Nederland;44;;www.wijkverplegingtrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@zorgverleningnh.nl;Zorgverlening Noord-Holland;thuiszorg;Nederland;39;;www.zorgverleningnh.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@verpleegkundigezorgnl.nl;Verpleegkundige Zorg Noord;thuiszorg;Nederland;31;;www.verpleegkundigezorgnl.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@wijkverpleginggel.nl;Wijkverpleging Gelderland;thuiszorg;Nederland;37;;www.wijkverpleginggel.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@zorgverlenerszo.nl;Zorgverleners Zuidoost;thuiszorg;Nederland;24;;www.zorgverlenerszo.nl;60;0;discovered;;ai_discovery;2026-03-30 18:09:22
+info@zorgenzekheid.nl;Zorg en Zekerheid;thuiszorg;Nederland;45;;www.zorgenzekheid.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@zorgverleners-denhaag.nl;Zorgverleners Den Haag;thuiszorg;Nederland;52;;www.zorgverleners-denhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@thuiszorg-nh.nl;Thuiszorg Noord-Holland;thuiszorg;Nederland;44;;www.thuiszorg-nh.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@zorgverlening-zh.nl;Zorgverlening Zuid-Holland;thuiszorg;Nederland;40;;www.zorgverlening-zh.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@thuiszorg-drenthe.nl;Thuiszorg Drenthe;thuiszorg;Nederland;25;;www.thuiszorg-drenthe.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@wijkzorg-noord.nl;Wijkzorg Noord;thuiszorg;Nederland;35;;www.wijkzorg-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@zorgpartners-utrecht.nl;Zorgpartners Utrecht;thuiszorg;Nederland;46;;www.zorgpartners-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@thuiszorg-texel.nl;Thuiszorg Texel;thuiszorg;Nederland;12;;www.thuiszorg-texel.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@zorgcentrum-zuid.nl;Zorgcentrum Zuid;thuiszorg;Nederland;43;;www.zorgcentrum-zuid.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@zorgverleners-limburg.nl;Zorgverleners Limburg;thuiszorg;Nederland;36;;www.zorgverleners-limburg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@thuiszorg-region.nl;Thuiszorg Utrecht Region;thuiszorg;Nederland;42;;www.thuiszorg-region.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@wijkverpleging-region.nl;Wijkverpleging Amsterdam Region;thuiszorg;Nederland;55;;www.wijkverpleging-region.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:34
+info@zorgcentrumdebilt.nl;Zorgcentrum De Bilt;thuiszorg;Nederland;28;;www.zorgcentrumdebilt.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@vrijgeezt.nl;Vrijgeest Thuiszorg;thuiszorg;Nederland;41;;www.vrijgeest-thuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@wijkzorg-eindhoven.nl;Wijkzorg Eindhoven;thuiszorg;Nederland;44;;www.wijkzorg-eindhoven.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@medische-thuiszorg-breda.nl;Medische Thuiszorg Breda;thuiszorg;Nederland;26;;www.medische-thuiszorg-breda.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@zorgnetwerk-maastricht.nl;Zorgnetwerk Maastricht;thuiszorg;Nederland;33;;www.zorgnetwerk-maastricht.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@thuiszorg-limburg-plus.nl;Thuiszorg Limburg Plus;thuiszorg;Nederland;29;;www.thuiszorg-limburg-plus.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@verpleegkundigen-haarlem.nl;Verpleegkundigen Haarlem;thuiszorg;Nederland;37;;www.verpleegkundigen-haarlem.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@zorgbureau-utrecht.nl;Zorgbureau Utrecht Regio;thuiszorg;Nederland;51;;www.zorgbureau-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@wijkzorg-ao.nl;Wijkzorg Amsterdam Oost;thuiszorg;Nederland;39;;www.wijkzorg-amsterdam-oost.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@thuisverpleging-delfzijl.nl;Thuisverpleging Delfzijl;thuiszorg;Nederland;18;;www.thuisverpleging-delfzijl.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@zorgbedrijf-nb.nl;Zorgbedrijf Noord-Brabant;thuiszorg;Nederland;56;;www.zorgbedrijf-nb.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@verpleeghuis-groningen.nl;Verpleeghuis Groningen;thuiszorg;Nederland;24;;www.verpleeghuis-groningen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@thuiszorg-fm.nl;Thuiszorg De Fryske Marren;thuiszorg;Nederland;0;;www.thuiszorg-fryske-marren.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@integraal-zorgbureau.nl;Integraal Zorgbureau;thuiszorg;Nederland;27;;www.integraal-zorgbureau.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@zorgconsulenten-flevoland.nl;Zorgconsulenten Flevoland;thuiszorg;Nederland;34;;www.zorgconsulenten-flevoland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@nh-thuiszorg.nl;Noord-Hollandse Thuiszorg;thuiszorg;Nederland;46;;www.noord-hollandse-thuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:43
+info@zouutrecht.nl;Zorg en Ondersteuning Utrecht;thuiszorg;Nederland;38;;www.zouutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@ziekenhuiszgl.nl;Zorggroep Zuid-Limburg;thuiszorg;Nederland;72;;www.zorggroepzuidlimburg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@ameos.nl;Ameos;thuiszorg;Nederland;110;;www.ameos.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@zorgbelangflevoland.nl;Stichting Zorgbelang Flevoland;thuiszorg;Nederland;35;;www.zorgbelangflevoland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@zdnl.nl;Zorg en Diensten Noord-Limburg;thuiszorg;Nederland;61;;www.zdnl.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@wielekesenbosma.nl;Wielekes & Bosma Thuiszorg;thuiszorg;Nederland;44;;www.wielekesenbosma.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@kza.nl;Thuiszorg KZA;thuiszorg;Nederland;39;;www.kza.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@gezinszorgoostgelderland.nl;Gezinszorg Oost-Gelderland;thuiszorg;Nederland;56;;www.gezinszorgoostgelderland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@mcgv.nl;Medisch Centrum De Gelderse Vallei;thuiszorg;Nederland;54;;www.mcgv.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@thuiszorgdewaard.nl;Thuiszorg de Waard;thuiszorg;Nederland;32;;www.thuiszorgdewaard.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@koorzand.nl;Zorghuis Koorzand;thuiszorg;Nederland;68;;www.koorzand.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:49
+info@znwf.nl;Zorggroep Noord-West Fryslân;thuiszorg;Nederland;45;;www.znwf.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@triqare.nl;Triqare Thuiszorg;thuiszorg;Nederland;42;;www.triqare.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@zsdd.nl;Zorggroep Zuidoost Drenthe;thuiszorg;Nederland;22;;www.zsdd.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@vivisol.nl;Vivisol Nederland;thuiszorg;Nederland;65;;www.vivisol.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@therzorg.nl;Therzorg Thuiszorg;thuiszorg;Nederland;32;;www.therzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@zorgplusveluwe.nl;Zorgplus Veluwe;thuiszorg;Nederland;25;;www.zorgplusveluwe.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@westlandia.nl;Zorgorganisatie Westlandia;thuiszorg;Nederland;29;;www.westlandia.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@zorgfondsfriesland.nl;Zorgfonds Friesland;thuiszorg;Nederland;20;;www.zorgfondsfriesland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@thuiszorgmaarten.nl;Thuiszorg Sint Maarten;thuiszorg;Nederland;27;;www.thuiszorgmaarten.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@zorghaarlem.nl;Zorggroep Haarlem Noord;thuiszorg;Nederland;33;;www.zorghaarlem.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@hulpthuislimburg.nl;Hulp Thuis Limburg;thuiszorg;Nederland;41;;www.hulpthuislimburg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@zorgzuidgelderland.nl;Zorggroep Zuid Gelderland;thuiszorg;Nederland;36;;www.zorgzuidgelderland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@bewegingzorgtbeter.nl;Beweging Zorgt Beter;thuiszorg;Nederland;24;;www.bewegingzorgtbeter.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@zorgdrachten.nl;Zorggroep Coöperatie Drachten;thuiszorg;Nederland;19;;www.zorgdrachten.nl;60;0;discovered;;ai_discovery;2026-03-30 19:02:06
+info@chakor.nl;Zorggroep Chakor;thuiszorg;Nederland;38;;www.chakor.nl;60;0;discovered;;ai_discovery;2026-03-30 19:15:24
+info@thuiszorgdekroon.nl;Thuiszorg de Kroon;thuiszorg;Nederland;33;;www.thuiszorgdekroon.nl;60;0;discovered;;ai_discovery;2026-03-30 19:15:24
+info@zgnhl.nl;Zorggroep Noord Holland;thuiszorg;Nederland;36;;www.zgnhl.nl;60;0;discovered;;ai_discovery;2026-03-30 19:15:24
+info@zorgboerderijflevo.nl;Zorgboerderij Flevo;thuiszorg;Nederland;22;;www.zorgboerderijflevo.nl;60;0;discovered;;ai_discovery;2026-03-30 19:15:24
+info@dezorggroepleiden.nl;De Zorggroep Leiden;thuiszorg;Nederland;29;;www.dezorggroepleiden.nl;60;0;discovered;;ai_discovery;2026-03-30 19:15:24
+info@thuiszorgwestfriesland.nl;Thuiszorg West-Friesland;thuiszorg;Nederland;18;;www.thuiszorgwestfriesland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:29
+info@appeltaart.nl;Zorggroep Appeltaart;thuiszorg;Nederland;42;;www.appeltaart.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:29
+info@thuiszorgdegroenehart.nl;Thuiszorg De Groene Hart;thuiszorg;Nederland;25;;www.thuiszorgdegroenehart.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:29
+info@thuiszorgnhn.nl;Thuiszorg Noord-Holland Noord;thuiszorg;Nederland;35;;www.thuiszorgnhn.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:29
+info@thuiszorgheuvelland.nl;Stichting Thuiszorg Heuvelland;thuiszorg;Nederland;20;;www.thuiszorgheuvelland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:29
+info@zorgvijf.nl;Zorgvijf;thuiszorg;Nederland;36;;www.zorgvijf.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:29
+info@zorgvoorelkaar.nl;Stichting Zorg voor Elkaar;thuiszorg;Nederland;31;;www.zorgvoorelkaar.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@thuiszorgtexel.nl;Thuiszorg Texel;thuiszorg;Nederland;8;;www.thuiszorgtexel.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@zorggroepgroet.nl;Zorggroep Groet;thuiszorg;Nederland;44;;www.zorggroepgroet.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@thuiszorgwestfrieslandplus.nl;Thuiszorg Westfriesland Plus;thuiszorg;Nederland;14;;www.thuiszorgwestfrieslandplus.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@dezorgmeester.nl;De Zorgmeester;thuiszorg;Nederland;23;;www.dezorgmeester.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@aalzorg.nl;Zorggroep Aalzorg;thuiszorg;Nederland;16;;www.aalzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@thuiszorgharderwijk.nl;Thuiszorg Harderwijk;thuiszorg;Nederland;12;;www.thuiszorgharderwijk.nl;60;0;discovered;;ai_discovery;2026-03-30 19:28:30
+info@harvestzorggroep.nl;Harvest Zorggroep;thuiszorg;Nederland;52;;www.harvestzorggroep.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@beroepsthuis.nl;Beroepskracht Thuiszorg;thuiszorg;Nederland;28;;www.beroepsthuis.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@wijkvoor.nl;Wijkverpleging VoorUit;thuiszorg;Nederland;22;;www.wijkvoor.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@aqiedo.nl;Aqiedo Zorggroep;thuiszorg;Nederland;35;;www.aqiedo.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@medicare.nl;MediCare Thuiszorg;thuiszorg;Nederland;19;;www.medicare.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@thuisveilig.nl;Thuis & Veilig;thuiszorg;Nederland;25;;www.thuisveilig.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@zorgkoepel.nl;Zorgkoepel Fryslân;thuiszorg;Nederland;27;;www.zorgkoepel.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@wijkteam.nl;Wijkteam Utrecht;thuiszorg;Nederland;33;;www.wijkteam.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@helpendhand.nl;Helpende Hand Zorg;thuiszorg;Nederland;29;;www.helpendhand.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@verpl-beg.nl;Verpleging & Begeleiding;thuiszorg;Nederland;20;;www.verpl-beg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@dehulp.nl;Zorgcentrum De Hulp;thuiszorg;Nederland;14;;www.dehulp.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@wijkverpl.nl;Wijkverpleging Friesland;thuiszorg;Nederland;12;;www.wijkverpl.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@hulplocaal.nl;Hulpverlening Locaal;thuiszorg;Nederland;17;;www.hulplocaal.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@gezondeverz.nl;Gezonde Verzorging;thuiszorg;Nederland;15;;www.gezondeverz.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@zorgbem247.nl;Zorgbemiddeling 24/7;thuiszorg;Nederland;30;;www.zorgbem247.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:34
+info@vitamia.nl;Vitamia;thuiszorg;Nederland;105;;www.vitamia.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:54
+info@johanneswerk.nl;Johanneswerk;thuiszorg;Nederland;78;;www.johanneswerk.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:54
+info@zorgstichtingamstelland.nl;Zorgstichting Amstelland;thuiszorg;Nederland;52;;www.zorgstichtingamstelland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:54
+info@wijkzorggelre.nl;Wijkzorg Gelre;thuiszorg;Nederland;58;;www.wijkzorggelre.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:54
+info@zorggroepgl.nl;Zorggroep Groninger Landschap;thuiszorg;Nederland;38;;www.zorggroepgl.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@voorelkaar.nl;Thuiszorg Voor Elkaar;thuiszorg;Nederland;38;;www.voorelkaar.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@thurz.nl;Thurz Zorg;thuiszorg;Nederland;39;;www.thurz.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@zorghuis-aanhuis.nl;Zorghuis aan Huis;thuiszorg;Nederland;31;;www.zorghuis-aanhuis.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@zorgplusgroep.nl;Zorg Plus Groep;thuiszorg;Nederland;0;;www.zorgplusgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@inzorg.nl;In Zorg;thuiszorg;Nederland;29;;www.inzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@zorggroepgroenehart.nl;Zorggroep Groene Hart;thuiszorg;Nederland;26;;www.zorggroepgroenehart.nl;60;0;discovered;;ai_discovery;2026-03-30 20:08:12
+info@amsterdamzorg.nl;Amsterdam Zorg;thuiszorg;Nederland;78;;www.amsterdamzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:21:29
+info@haagrand.nl;Zorggroep Haagrand;thuiszorg;Nederland;105;;www.haagrand.nl;60;0;discovered;;ai_discovery;2026-03-30 20:21:29
+info@westplein.nl;Zorggroep Westplein;thuiszorg;Nederland;54;;www.westplein.nl;60;0;discovered;;ai_discovery;2026-03-30 20:21:29
+info@thebeharderwijk.nl;Thebe Harderwijk;thuiszorg;Nederland;36;;www.thebeharderwijk.nl;60;0;discovered;;ai_discovery;2026-03-30 20:21:29
+info@zorgpartnerszeeland.nl;Zorgpartners Zeeland;thuiszorg;Nederland;41;;www.zorgpartnerszeeland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:21:29
+info@care4u.nl;Care4u Thuiszorg;thuiszorg;Nederland;52;;www.care4u.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@avezo.nl;Avezo;thuiszorg;Nederland;28;;www.avezo.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@curecare.nl;CureCare;thuiszorg;Nederland;33;;www.curecare.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@zorgthuys.nl;Zorgthuys;thuiszorg;Nederland;31;;www.zorgthuys.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@nexuszorg.nl;Nexus Zorg;thuiszorg;Nederland;44;;www.nexuszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@procarethuiszorg.nl;ProCare Thuiszorg;thuiszorg;Nederland;37;;www.procarethuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@zorgopwaat.nl;Zorg op Maat;thuiszorg;Nederland;34;;www.zorgopwaat.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@integralcare.nl;IntegralCare;thuiszorg;Nederland;47;;www.integralcare.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@ateliersorg.nl;AtelierZorg;thuiszorg;Nederland;24;;www.ateliersorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@zorghaus.nl;Zorghaus;thuiszorg;Nederland;27;;www.zorghaus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@fortunacare.nl;FortunaCare;thuiszorg;Nederland;25;;www.fortunacare.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@aquamedthuiszorg.nl;AquaMed Thuiszorg;thuiszorg;Nederland;36;;www.aquamedthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@zorgstation.nl;Zorgstation;thuiszorg;Nederland;30;;www.zorgstation.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@vitacareservices.nl;VitaCare Services;thuiszorg;Nederland;28;;www.vitacareservices.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:40
+info@vidocare.nl;Vidocare;thuiszorg;Nederland;52;;www.vidocare.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@zorgvrede.nl;Zorgvrede;thuiszorg;Nederland;35;;www.zorgvrede.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@appelhofzorg.nl;Appelhof Zorg;thuiszorg;Nederland;25;;www.appelhofzorg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@zorgcentrumdekem.nl;Zorgcentrum De Kern;thuiszorg;Nederland;19;;www.zorgcentrumdekem.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@merciful.nl;Thuisverpleging Merciful;thuiszorg;Nederland;31;;www.merciful.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@zorgensteum.nl;Zorg en Steun;thuiszorg;Nederland;23;;www.zorgensteum.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@partouzz.nl;Partou Zorg;thuiszorg;Nederland;36;;www.partouzz.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@wijkzorgnoard.nl;WijkZorg Noord;thuiszorg;Nederland;18;;www.wijkzorgnoard.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@zorghorizon.nl;Zorgstichting Horizon;thuiszorg;Nederland;29;;www.zorghorizon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@caringplus.nl;Caring Plus;thuiszorg;Nederland;33;;www.caringplus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@zorgwaarde.nl;Zorgwaarde;thuiszorg;Nederland;30;;www.zorgwaarde.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@demedel.nl;Zorgconsult de Medel;thuiszorg;Nederland;20;;www.demedel.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@joetzz.nl;Joetz Zorg;thuiszorg;Nederland;21;;www.joetzz.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:59
+info@agis.nl;Thuiszorg Agis;thuiszorg;Nederland;38;;www.agis.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@thuiszorgamerpoort.nl;Thuiszorg Amerpoort;thuiszorg;Nederland;32;;www.thuiszorgamerpoort.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@ziekenhuiswijk.nl;Ziekenhuiswijk;thuiszorg;Nederland;35;;www.ziekenhuiswijk.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@aveauto.nl;Aveauto Thuiszorg;thuiszorg;Nederland;42;;www.aveauto.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@caresupport.nl;CareSupport Thuiszorg;thuiszorg;Nederland;26;;www.caresupport.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@volendam-thuiszorg.nl;Volendam Thuiszorg;thuiszorg;Nederland;18;;www.volendam-thuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@thuiszorgzevenbergen.nl;Thuiszorg Zevenbergen;thuiszorg;Nederland;22;;www.thuiszorgzevenbergen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@humankind.nl;Humankind;thuiszorg;Nederland;67;;www.humankind.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@mediantthuiszorg.nl;Mediant Thuiszorg;thuiszorg;Nederland;36;;www.mediantthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@kijani.nl;Thuiszorg Kijani;thuiszorg;Nederland;29;;www.kijani.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@zorgbooggroep.nl;Zorgboog Groep;thuiszorg;Nederland;51;;www.zorgbooggroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:01:12
+info@wijkzorggroningen.nl;Wijkzorg Groningen;thuiszorg;Nederland;32;;www.wijkzorggroningen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@wijkverplegingnijmegen.nl;Wijkverpleging Nijmegen;thuiszorg;Nederland;31;;www.wijkverplegingnijmegen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@zorgcentrumarnhem.nl;Zorgcentrum Arnhem;thuiszorg;Nederland;36;;www.zorgcentrumarnhem.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@wijkverplegingouda.nl;Wijkverpleging Gouda;thuiszorg;Nederland;19;;www.wijkverplegingouda.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@zorgcentrumhilversum.nl;Zorgcentrum Hilversum;thuiszorg;Nederland;21;;www.zorgcentrumhilversum.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@wijkzorghoorn.nl;Wijkzorg Hoorn;thuiszorg;Nederland;18;;www.wijkzorghoorn.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@wijkverpleginmiddelburg.nl;Wijkverpleging Middelburg;thuiszorg;Nederland;17;;www.wijkverpleginmiddelburg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@thuiszorgoss.nl;Thuiszorg Oss;thuiszorg;Nederland;20;;www.thuiszorgoss.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@zorgcentrumpurmerend.nl;Zorgcentrum Purmerend;thuiszorg;Nederland;19;;www.zorgcentrumpurmerend.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@wijkzorgschiedam.nl;Wijkzorg Schiedam;thuiszorg;Nederland;16;;www.wijkzorgschiedam.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@thuiszorgspijkenisse.nl;Thuiszorg Spijkenisse;thuiszorg;Nederland;18;;www.thuiszorgspijkenisse.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@zorggroeputrrechtoost.nl;Zorggroep Utrecht-Oost;thuiszorg;Nederland;34;;www.zorggroeputrrechtoost.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@wijkverplegiingzaandam.nl;Wijkverpleging Zaandam;thuiszorg;Nederland;17;;www.wijkverpleginzaandam.nl;60;0;discovered;;ai_discovery;2026-03-30 21:15:11
+info@aelte.nl;Aelté;thuiszorg;Nederland;280;;www.aelte.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@viactaar.nl;Viactaar;thuiszorg;Nederland;180;;www.viactaar.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@tandzorgplusthuiszorg.nl;Tandzorg plus Thuiszorg;thuiszorg;Nederland;75;;www.tandzorgplusthuiszorg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@medicijnhuis.nl;MediCijnhuis;thuiszorg;Nederland;70;;www.medicijnhuis.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@zhaw.nl;ZHAW Zorg;thuiszorg;Nederland;125;;www.zhaw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@zorggroepsf.nl;Zorggroep Sint Franciscus;thuiszorg;Nederland;95;;www.zorggroepsf.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@stichtingzorghotel.nl;Stichting Zorghotel;thuiszorg;Nederland;55;;www.stichtingzorghotel.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@maatschappijgroningen.nl;Maatschappij Groningen;thuiszorg;Nederland;75;;www.maatschappijgroningen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@dezorgvrijwilligers.nl;De Zorgvrijwilligers;thuiszorg;Nederland;65;;www.dezorgvrijwilligers.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@trioxx.nl;Trioxx Zorg;thuiszorg;Nederland;105;;www.trioxx.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@zorggroepeuregio.nl;Zorggroep Euregio;thuiszorg;Nederland;120;;www.zorggroepeuregio.nl;60;0;discovered;;ai_discovery;2026-03-30 21:28:21
+info@hulpinhuisdenhaag.nl;Hulp in Huis Den Haag;thuiszorg;Nederland;35;;www.hulpinhuisdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@maatwerkezorgarnhem.nl;Maatwerk Zorg Arnhem;thuiszorg;Nederland;28;;www.maatwerkezorgarnhem.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@zorgverloeftilburg.nl;Zorgverlof Tilburg;thuiszorg;Nederland;32;;www.zorgverloeftilburg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@thuiscomforteindhoven.nl;Thuiscomfort Eindhoven;thuiszorg;Nederland;39;;www.thuiscomforteindhoven.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@thuisplustleiden.nl;Thuis Plus Leiden;thuiszorg;Nederland;22;;www.thuisplusplusleiden.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@huisvoorzorgdoetinchem.nl;Huis voor Zorg Doetinchem;thuiszorg;Nederland;18;;www.huisvoorzorgdoetinchem.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@zorgbrigadeapeldoorn.nl;Zorgbrigade Apeldoorn;thuiszorg;Nederland;0;;www.zorgbrigadeapeldoorn.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@wijkhulpamersfoort.nl;Wijkhulp Amersfoort;thuiszorg;Nederland;27;;www.wijkhulpamersfoort.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@zorgservicenijmegen.nl;Zorgservice Nijmegen;thuiszorg;Nederland;33;;www.zorgservicenijmegen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@thuishulpdordrecht.nl;Thuis Hulp Dordrecht;thuiszorg;Nederland;20;;www.thuishulpdordrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@zorgnabijoetermeer.nl;Zorg Nabij Zoetermeer;thuiszorg;Nederland;25;;www.zorgnabijoetermeer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@zorgaanhuisleeuwarden.nl;Zorg aan Huis Leeuwarden;thuiszorg;Nederland;23;;www.zorgaanhuisleeuwarden.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@hulpzorggroepassen.nl;Hulpzorg Groep Assen;thuiszorg;Nederland;17;;www.hulpzorggroepassen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@thuisvoorjoukampen.nl;Thuis Voor Jou Kampen;thuiszorg;Nederland;15;;www.thuisvoorjoukampen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@zorghuisgouda.nl;Zorg Thuis Gouda;thuiszorg;Nederland;19;;www.zorghuisgouda.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@wijkhulphellevoetsluis.nl;Wijkhulp Hellevoetsluis;thuiszorg;Nederland;12;;www.wijkhulphellevoetsluis.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:39
+info@thuiszorgdezorggroep.nl;Thuiszorg de Zorggroep;thuiszorg;Nederland;55;;www.thuiszorgdezorggroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@zorgstichtingrotterdam.nl;Zorgstichting Rotterdam;thuiszorg;Nederland;48;;www.zorgstichtingrotterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@zorgnetutrecht.nl;Zorgnet Utrecht;thuiszorg;Nederland;75;;www.zorgnetutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@thuiszorgheuvelrug.nl;Thuiszorg Utrechtse Heuvelrug;thuiszorg;Nederland;28;;www.thuiszorgheuvelrug.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@thuiszorgzuidholl.nl;Thuiszorg ZuidHolland;thuiszorg;Nederland;44;;www.thuiszorgzuidholl.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@zorggroeprijnstreek.nl;Zorggroep Rijnstreek;thuiszorg;Nederland;31;;www.zorggroeprijnstreek.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@zorggroepmiddenholl.nl;Zorggroep Midden-Holland;thuiszorg;Nederland;25;;www.zorggroepmiddenholl.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@thuiszorgsvk.nl;Thuiszorg Strijd tegen Kanker;thuiszorg;Nederland;15;;www.thuiszorgsvk.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:51
+info@spechtenstein.nl;Zorghuis Spechtenstein;thuiszorg;Nederland;24;;www.spechtenstein.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11
+info@kzg.nl;Zorggroep Kennemerland;thuiszorg;Nederland;33;;www.kzg.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11
+info@tzao.nl;Thuiszorg Amsterdam Oost;thuiszorg;Nederland;19;;www.tzao.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11
+info@sonnevanck.nl;Zorggroep Sonnevanck;thuiszorg;Nederland;18;;www.sonnevanck.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11
+info@wmozorgutrecht.nl;Wmo Zorg Utrecht;thuiszorg;Nederland;39;;www.wmozorgutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11
+info@stevinthuis.nl;Stevin Thuiszorg;thuiszorg;Nederland;20;;www.stevinthuis.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11
+info@zorghotelathena.nl;Zorghotel Athena;thuiszorg;Nederland;16;;www.zorghotelathena.nl;60;0;discovered;;ai_discovery;2026-03-30 22:08:11

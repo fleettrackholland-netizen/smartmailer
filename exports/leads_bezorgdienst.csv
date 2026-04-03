@@ -1,40 +1,28 @@
 ﻿email;company;sector;location;vehicles;phone;website;score;ai_score;status;contact_person;source;created_at
+info@snel.com;Snel.com;bezorgdienst;Nederland;510;;www.snel.com;60;98;discovered;;ai_discovery;2026-03-23 09:18:42
+info@pickup.nl;Pickup.nl;bezorgdienst;Nederland;420;;www.pickup.nl;60;98;discovered;;ai_discovery;2026-03-23 09:18:42
+info@bpostgroup.com;Bpost Express;bezorgdienst;Nederland;680;;www.bpostgroup.com;60;98;discovered;;ai_discovery;2026-03-23 09:18:44
+info@eurologistics.nl;Euro Logistics;bezorgdienst;Nederland;200;;www.eurologistics.nl;60;98;discovered;;ai_discovery;2026-03-23 09:18:44
 info@xldelivery.nl;XL Delivery;bezorgdienst;Nederland;520;;www.xldelivery.nl;60;98;discovered;;ai_discovery;2026-03-23 09:56:08
 info@transfollow.nl;TransFollow;bezorgdienst;Nederland;410;;www.transfollow.nl;60;97;discovered;;ai_discovery;2026-03-23 09:56:08
+info@interlake.nl;Interlake Logistics;bezorgdienst;Nederland;450;;www.interlake.nl;60;96;discovered;;ai_discovery;2026-03-23 09:18:41
+info@bertkoreman.nl;Bert Koreman Logistiek;bezorgdienst;Nederland;220;;www.bertkoreman.nl;60;96;discovered;;ai_discovery;2026-03-23 09:18:41
+info@matlog.nl;Matlog;bezorgdienst;Nederland;450;;www.matlog.nl;60;96;discovered;;ai_discovery;2026-03-23 09:18:44
 info@rapidexpress.nl;Rapid Express;bezorgdienst;Nederland;360;;www.rapidexpress.nl;60;96;discovered;;ai_discovery;2026-03-23 09:56:08
 info@parcelmiles.nl;Parcelmiles;bezorgdienst;Nederland;290;;www.parcelmiles.nl;60;95;discovered;;ai_discovery;2026-03-23 09:56:08
+info@ecomexpress.nl;ECOM Express;bezorgdienst;Nederland;205;;www.ecomexpress.nl;60;94;discovered;;ai_discovery;2026-03-23 09:18:42
+info@pall-ex.com;Pall-Ex;bezorgdienst;Nederland;420;;www.pall-ex.com;60;94;discovered;;ai_discovery;2026-03-23 09:18:44
 info@kroonlogistics.nl;Kroon Logistics;bezorgdienst;Nederland;250;;www.kroonlogistics.nl;60;94;discovered;;ai_discovery;2026-03-23 09:56:13
 info@spotlessdelivery.nl;Spotless Delivery;bezorgdienst;Nederland;240;;www.spotlessdelivery.nl;60;93;discovered;;ai_discovery;2026-03-23 09:56:08
+info@fleurdelys.nl;Fleur de Lys Logistics;bezorgdienst;Nederland;180;;www.fleurdelys.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:42
+info@fiege.com;Fiege;bezorgdienst;Nederland;350;;www.fiege.com;60;92;discovered;;ai_discovery;2026-03-23 09:18:44
+info@asglogistics.nl;ASG Logistics;bezorgdienst;Nederland;160;;www.asglogistics.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:44
+info@flexportexpress.nl;Flexport Express;bezorgdienst;Nederland;110;;www.flexportexpress.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:44
+info@kobologistics.nl;Kobo Logistics;bezorgdienst;Nederland;145;;www.kobologistics.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:44
 info@vanexpress.nl;VAN Express;bezorgdienst;Nederland;195;;www.vanexpress.nl;60;92;discovered;;ai_discovery;2026-03-23 09:56:08
 info@wespeed.nl;WeSpeed Logistics;bezorgdienst;Nederland;285;;www.wespeed.nl;60;92;discovered;;ai_discovery;2026-03-23 09:56:08
-klantenservice@postnl.nl;PostNL Pakketten;bezorgdienst;Nederland;3500;;www.postnl.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:41
-info@keurhier.nl;Keurhier;bezorgdienst;Nederland;150;;www.keurhier.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:41
-info@sameday.nl;Sameday Express;bezorgdienst;Nederland;320;;www.sameday.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:41
-info@interlake.nl;Interlake Logistics;bezorgdienst;Nederland;450;;www.interlake.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:41
-info@bertkoreman.nl;Bert Koreman Logistiek;bezorgdienst;Nederland;220;;www.bertkoreman.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:41
-info@fleurdelys.nl;Fleur de Lys Logistics;bezorgdienst;Nederland;180;;www.fleurdelys.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@oxypharma.nl;Oxypharma Logistics;bezorgdienst;Nederland;95;;www.oxypharma.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@snel.com;Snel.com;bezorgdienst;Nederland;510;;www.snel.com;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@jderijke.nl;Jan de Rijke Transport;bezorgdienst;Nederland;165;;www.jderijke.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@pickup.nl;Pickup.nl;bezorgdienst;Nederland;420;;www.pickup.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@wittepaard.nl;Witte Paard Logistics;bezorgdienst;Nederland;125;;www.wittepaard.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@goshippo.nl;GoShippo;bezorgdienst;Nederland;85;;www.goshippo.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@ecomexpress.nl;ECOM Express;bezorgdienst;Nederland;205;;www.ecomexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@amslogistics.nl;AMS Logistics;bezorgdienst;Nederland;160;;www.amslogistics.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@prologue.nl;Prologue Logistics;bezorgdienst;Nederland;130;;www.prologue.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:42
-info@matlog.nl;Matlog;bezorgdienst;Nederland;450;;www.matlog.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@fiege.com;Fiege;bezorgdienst;Nederland;350;;www.fiege.com;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@pall-ex.com;Pall-Ex;bezorgdienst;Nederland;420;;www.pall-ex.com;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@maven-logistics.nl;Maven Logistics;bezorgdienst;Nederland;150;;www.maven-logistics.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@transallers.nl;Trans Allers;bezorgdienst;Nederland;210;;www.transallers.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@zendlogistiek.nl;Zendlogistiek;bezorgdienst;Nederland;95;;www.zendlogistiek.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@livraisonexpress.nl;Livraison Express;bezorgdienst;Nederland;75;;www.livraisonexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@bpostgroup.com;Bpost Express;bezorgdienst;Nederland;680;;www.bpostgroup.com;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@asglogistics.nl;ASG Logistics;bezorgdienst;Nederland;160;;www.asglogistics.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@tranzit.nl;Tranzit;bezorgdienst;Nederland;135;;www.tranzit.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@flexportexpress.nl;Flexport Express;bezorgdienst;Nederland;110;;www.flexportexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@kobologistics.nl;Kobo Logistics;bezorgdienst;Nederland;145;;www.kobologistics.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
-info@eurologistics.nl;Euro Logistics;bezorgdienst;Nederland;200;;www.eurologistics.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:44
+info@sameday.nl;Sameday Express;bezorgdienst;Nederland;320;;www.sameday.nl;60;91;discovered;;ai_discovery;2026-03-23 09:18:41
+info@tranzit.nl;Tranzit;bezorgdienst;Nederland;135;;www.tranzit.nl;60;90;discovered;;ai_discovery;2026-03-23 09:18:44
 info@transoflex.nl;Trans-O-Flex;bezorgdienst;Nederland;350;;www.transoflex.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:23
 info@gammaexpress.nl;Gamma Express;bezorgdienst;Nederland;250;;www.gammaexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:23
 info@puurservice.nl;Puur Bezorgservice;bezorgdienst;Nederland;120;;www.puurservice.nl;60;80;discovered;;ai_discovery;2026-03-23 09:36:23
@@ -66,6 +54,49 @@ info@myparcel.nl;MyParcel;bezorgdienst;Nederland;1200;;www.myparcel.nl;60;80;dis
 info@nanosexpress.nl;Nanos Express;bezorgdienst;Nederland;340;;www.nanosexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 09:56:08
 info@orange-logistics.nl;Orange Logistics;bezorgdienst;Nederland;650;;www.orange-logistics.nl;60;80;discovered;;ai_discovery;2026-03-23 09:56:08
 info@urgentexpress.nl;UrgentExpress;bezorgdienst;Nederland;180;;www.urgentexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 09:56:08
+info@fedor.nl;Fedor Logistics;bezorgdienst;Nederland;450;;www.fedor.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+info@stunextday.nl;StuNextday;bezorgdienst;Nederland;220;;www.stunextday.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+logistics@ubereats.com;UberEats Logistics;bezorgdienst;Nederland;600;;www.ubereats.com;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+logistics@ah.nl;Albert Heijn Logistics;bezorgdienst;Nederland;850;;www.ah.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+info@gehelehuis.nl;Gehele Huis Logistics;bezorgdienst;Nederland;180;;www.gehelehuis.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+info@directexpress.nl;Direct Express;bezorgdienst;Nederland;120;;www.directexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+info@easypost.nl;EasyPost;bezorgdienst;Nederland;95;;www.easypost.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:37
+info@deltec.nl;Deltec Logistics;bezorgdienst;Nederland;350;;www.deltec.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@getflink.com;Flink;bezorgdienst;Nederland;250;;www.getflink.com;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@perfetti.nl;Perfetti Van Melle Logistics;bezorgdienst;Nederland;180;;www.perfetti.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@wijnnebar.nl;Wijnne Barends;bezorgdienst;Nederland;380;;www.wijnnebar.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@gebroeders-weijn.nl;Gebroeders Weijn;bezorgdienst;Nederland;160;;www.gebroeders-weijn.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@kooijman.nl;Kooijman Logistics;bezorgdienst;Nederland;290;;www.kooijman.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@seurhuis.nl;Seurhuis Logistics;bezorgdienst;Nederland;210;;www.seurhuis.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@dronten.nl;Dronten Logistics;bezorgdienst;Nederland;175;;www.dronten.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@zieglergroup.nl;Ziegler Group;bezorgdienst;Nederland;125;;www.zieglergroup.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@vanaspen.nl;Van Aspen Logistics;bezorgdienst;Nederland;95;;www.vanaspen.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:05
+info@inpost.nl;Kiala/InPost;bezorgdienst;Nederland;650;;www.inpost.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@parcela.nl;Parcela;bezorgdienst;Nederland;280;;www.parcela.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@speed4trade.nl;Speed4Trade;bezorgdienst;Nederland;150;;www.speed4trade.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@flycatcher.eu;Flycatcher;bezorgdienst;Nederland;200;;www.flycatcher.eu;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@duurzaambezorgd.nl;DuurzaamBezorgd;bezorgdienst;Nederland;180;;www.duurzaambezorgd.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@restore-logistics.nl;Restore Logistics;bezorgdienst;Nederland;320;;www.restore-logistics.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@interdruk.nl;InterDruk Logistics;bezorgdienst;Nederland;280;;www.interdruk.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@acslogistics.nl;ACS Logistics;bezorgdienst;Nederland;350;;www.acslogistics.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@roodexpedite.nl;Rood Expeditie;bezorgdienst;Nederland;180;;www.roodexpedite.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@topsped.nl;Topsped Logistics;bezorgdienst;Nederland;160;;www.topsped.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@swiftbox.nl;Swiftbox;bezorgdienst;Nederland;120;;www.swiftbox.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@avantoo.nl;Avantoo Logistics;bezorgdienst;Nederland;140;;www.avantoo.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:06
+info@interlloyd.nl;Interlloyd;bezorgdienst;Nederland;280;;www.interlloyd.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@unifaun.nl;Unifaun;bezorgdienst;Nederland;350;;www.unifaun.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@cyclelogistics.nl;Cycle Logistics;bezorgdienst;Nederland;85;;www.cyclelogistics.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@parcourant.nl;Parcourant;bezorgdienst;Nederland;250;;www.parcourant.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@wehkamplogistics.nl;Wehkamp Logistics;bezorgdienst;Nederland;600;;www.wehkamplogistics.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@amazon.nl;Amazon Logistics Netherlands;bezorgdienst;Nederland;1400;;www.amazon.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@daoexpress.nl;DAO Express;bezorgdienst;Nederland;320;;www.daoexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@transmec.nl;Transmec;bezorgdienst;Nederland;160;;www.transmec.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@logistiek-totaal.nl;Logistiek Totaal;bezorgdienst;Nederland;240;;www.logistiek-totaal.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@baxlogistics.nl;Bax Logistics;bezorgdienst;Nederland;180;;www.baxlogistics.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@cyclooncargo.nl;CycloonCargo;bezorgdienst;Nederland;95;;www.cyclooncargo.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@colislimo.nl;Colislimo;bezorgdienst;Nederland;140;;www.colislimo.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@eurexexpress.nl;Eurex Express;bezorgdienst;Nederland;175;;www.eurexexpress.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
+info@puurlogistiek.nl;Puur Logistiek;bezorgdienst;Nederland;130;;www.puurlogistiek.nl;60;80;discovered;;ai_discovery;2026-03-23 10:35:08
 info@dockwise.nl;Dockwise Logistics;bezorgdienst;Barendrecht;280;;www.dockwise.nl;0;80;new;;ai_knowledge;2026-03-18 12:31:36
 info@gwe.nl;Gebroeders We積 Express;bezorgdienst;Almelo;180;;www.gwe.nl;0;80;new;;ai_knowledge;2026-03-18 12:31:36
 info@icl-logistics.nl;InterContinental Logistics;bezorgdienst;Capelle aan den IJssel;320;;www.icl-logistics.nl;0;80;new;;ai_knowledge;2026-03-18 12:31:36
@@ -96,9 +127,18 @@ info@directional.nl;Directional Logistics;bezorgdienst;Rotterdam;640;;www.direct
 info@vanrossen.nl;Van Rossen;bezorgdienst;Eindhoven;520;;www.vanrossen.nl;0;80;new;;ai_knowledge;2026-03-18 13:33:34
 info@sprintpack.nl;Sprintpack;bezorgdienst;Amsterdam;340;;www.sprintpack.nl;0;80;new;;ai_knowledge;2026-03-18 13:33:34
 info@hermes.nl;Hermes Netherlands;bezorgdienst;Amsterdam;1100;;www.hermes.nl;0;80;new;;ai_knowledge;2026-03-18 13:33:34
+info@jderijke.nl;Jan de Rijke Transport;bezorgdienst;Nederland;165;;www.jderijke.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:42
+info@transallers.nl;Trans Allers;bezorgdienst;Nederland;210;;www.transallers.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:44
+info@wittepaard.nl;Witte Paard Logistics;bezorgdienst;Nederland;125;;www.wittepaard.nl;60;78;discovered;;ai_discovery;2026-03-23 09:18:42
+info@amslogistics.nl;AMS Logistics;bezorgdienst;Nederland;160;;www.amslogistics.nl;60;77;discovered;;ai_discovery;2026-03-23 09:18:42
+info@keurhier.nl;Keurhier;bezorgdienst;Nederland;150;;www.keurhier.nl;60;76;discovered;;ai_discovery;2026-03-23 09:18:41
+info@prologue.nl;Prologue Logistics;bezorgdienst;Nederland;130;;www.prologue.nl;60;74;discovered;;ai_discovery;2026-03-23 09:18:42
+info@oxypharma.nl;Oxypharma Logistics;bezorgdienst;Nederland;95;;www.oxypharma.nl;60;72;discovered;;ai_discovery;2026-03-23 09:18:42
 info@flytlogistics.nl;Flyt Logistics;bezorgdienst;Nederland;150;;www.flytlogistics.nl;60;72;discovered;;ai_discovery;2026-03-23 09:56:13
 info@fietspostbus.nl;Fiets & Postbus;bezorgdienst;Nederland;45;;www.fietspostbus.nl;60;70;discovered;;ai_discovery;2026-03-23 09:36:23
 info@vanburen.nl;Van Buren Transport;bezorgdienst;Nederland;130;;www.vanburen.nl;60;70;discovered;;ai_discovery;2026-03-23 09:56:13
+info@goshippo.nl;GoShippo;bezorgdienst;Nederland;85;;www.goshippo.nl;60;68;discovered;;ai_discovery;2026-03-23 09:18:42
+info@maven-logistics.nl;Maven Logistics;bezorgdienst;Nederland;150;;www.maven-logistics.nl;60;68;discovered;;ai_discovery;2026-03-23 09:18:44
 info@eurochemlogistics.nl;Eurochem Logistics;bezorgdienst;Nederland;120;;www.eurochemlogistics.nl;60;68;discovered;;ai_discovery;2026-03-23 09:56:13
 info@martenstransport.nl;Martens Transport;bezorgdienst;Nederland;110;;www.martenstransport.nl;60;66;discovered;;ai_discovery;2026-03-23 09:56:13
 info@jansenvandoorn.nl;Jansen van Doorn;bezorgdienst;Nederland;95;;www.jansenvanDoorn.nl;60;63;discovered;;ai_discovery;2026-03-23 09:56:13
@@ -106,49 +146,9 @@ info@boekvoorn.nl;Boekvoorn Logistiek;bezorgdienst;Nederland;80;;www.boekvoorn.n
 info@bergmans.nl;Bart Bergmans Logistics;bezorgdienst;Nederland;85;;www.bergmans.nl;60;60;discovered;;ai_discovery;2026-03-23 09:56:13
 info@heuvelman.nl;Heuvelman Logistiek;bezorgdienst;Nederland;90;;www.heuvelman.nl;60;59;discovered;;ai_discovery;2026-03-23 09:56:13
 info@schuitmaker.nl;Schuitmaker Logistiek;bezorgdienst;Nederland;70;;www.schuitmaker.nl;60;56;discovered;;ai_discovery;2026-03-23 09:56:13
-info@fedor.nl;Fedor Logistics;bezorgdienst;Nederland;450;;www.fedor.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-info@stunextday.nl;StuNextday;bezorgdienst;Nederland;220;;www.stunextday.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-logistics@ubereats.com;UberEats Logistics;bezorgdienst;Nederland;600;;www.ubereats.com;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-logistics@ah.nl;Albert Heijn Logistics;bezorgdienst;Nederland;850;;www.ah.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-info@gehelehuis.nl;Gehele Huis Logistics;bezorgdienst;Nederland;180;;www.gehelehuis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-info@directexpress.nl;Direct Express;bezorgdienst;Nederland;120;;www.directexpress.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-info@easypost.nl;EasyPost;bezorgdienst;Nederland;95;;www.easypost.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:37
-info@deltec.nl;Deltec Logistics;bezorgdienst;Nederland;350;;www.deltec.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@getflink.com;Flink;bezorgdienst;Nederland;250;;www.getflink.com;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@perfetti.nl;Perfetti Van Melle Logistics;bezorgdienst;Nederland;180;;www.perfetti.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@wijnnebar.nl;Wijnne Barends;bezorgdienst;Nederland;380;;www.wijnnebar.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@gebroeders-weijn.nl;Gebroeders Weijn;bezorgdienst;Nederland;160;;www.gebroeders-weijn.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@kooijman.nl;Kooijman Logistics;bezorgdienst;Nederland;290;;www.kooijman.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@seurhuis.nl;Seurhuis Logistics;bezorgdienst;Nederland;210;;www.seurhuis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@dronten.nl;Dronten Logistics;bezorgdienst;Nederland;175;;www.dronten.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@zieglergroup.nl;Ziegler Group;bezorgdienst;Nederland;125;;www.zieglergroup.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@vanaspen.nl;Van Aspen Logistics;bezorgdienst;Nederland;95;;www.vanaspen.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:05
-info@inpost.nl;Kiala/InPost;bezorgdienst;Nederland;650;;www.inpost.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@parcela.nl;Parcela;bezorgdienst;Nederland;280;;www.parcela.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@speed4trade.nl;Speed4Trade;bezorgdienst;Nederland;150;;www.speed4trade.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@flycatcher.eu;Flycatcher;bezorgdienst;Nederland;200;;www.flycatcher.eu;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@duurzaambezorgd.nl;DuurzaamBezorgd;bezorgdienst;Nederland;180;;www.duurzaambezorgd.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@restore-logistics.nl;Restore Logistics;bezorgdienst;Nederland;320;;www.restore-logistics.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@interdruk.nl;InterDruk Logistics;bezorgdienst;Nederland;280;;www.interdruk.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@acslogistics.nl;ACS Logistics;bezorgdienst;Nederland;350;;www.acslogistics.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@roodexpedite.nl;Rood Expeditie;bezorgdienst;Nederland;180;;www.roodexpedite.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@topsped.nl;Topsped Logistics;bezorgdienst;Nederland;160;;www.topsped.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@swiftbox.nl;Swiftbox;bezorgdienst;Nederland;120;;www.swiftbox.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@avantoo.nl;Avantoo Logistics;bezorgdienst;Nederland;140;;www.avantoo.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:06
-info@interlloyd.nl;Interlloyd;bezorgdienst;Nederland;280;;www.interlloyd.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@unifaun.nl;Unifaun;bezorgdienst;Nederland;350;;www.unifaun.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@cyclelogistics.nl;Cycle Logistics;bezorgdienst;Nederland;85;;www.cyclelogistics.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@parcourant.nl;Parcourant;bezorgdienst;Nederland;250;;www.parcourant.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@wehkamplogistics.nl;Wehkamp Logistics;bezorgdienst;Nederland;600;;www.wehkamplogistics.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@amazon.nl;Amazon Logistics Netherlands;bezorgdienst;Nederland;1400;;www.amazon.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@daoexpress.nl;DAO Express;bezorgdienst;Nederland;320;;www.daoexpress.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@transmec.nl;Transmec;bezorgdienst;Nederland;160;;www.transmec.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@logistiek-totaal.nl;Logistiek Totaal;bezorgdienst;Nederland;240;;www.logistiek-totaal.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@baxlogistics.nl;Bax Logistics;bezorgdienst;Nederland;180;;www.baxlogistics.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@cyclooncargo.nl;CycloonCargo;bezorgdienst;Nederland;95;;www.cyclooncargo.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@colislimo.nl;Colislimo;bezorgdienst;Nederland;140;;www.colislimo.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@eurexexpress.nl;Eurex Express;bezorgdienst;Nederland;175;;www.eurexexpress.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
-info@puurlogistiek.nl;Puur Logistiek;bezorgdienst;Nederland;130;;www.puurlogistiek.nl;60;0;discovered;;ai_discovery;2026-03-23 10:35:08
+info@zendlogistiek.nl;Zendlogistiek;bezorgdienst;Nederland;95;;www.zendlogistiek.nl;60;55;discovered;;ai_discovery;2026-03-23 09:18:44
+info@livraisonexpress.nl;Livraison Express;bezorgdienst;Nederland;75;;www.livraisonexpress.nl;60;48;discovered;;ai_discovery;2026-03-23 09:18:44
+klantenservice@postnl.nl;PostNL Pakketten;bezorgdienst;Nederland;3500;;www.postnl.nl;60;45;discovered;;ai_discovery;2026-03-23 09:18:41
 info@leijstra.nl;Leijstra Logistics;bezorgdienst;Nederland;280;;www.leijstra.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:59
 info@smals.nl;Smals Logistics;bezorgdienst;Nederland;350;;www.smals.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:59
 info@allstar-logistics.nl;Allstar Logistics;bezorgdienst;Nederland;310;;www.allstar-logistics.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:59
@@ -1685,3 +1685,191 @@ info@livrea.nl;Livrea;bezorgdienst;Nederland;180;;www.livrea.nl;60;0;discovered;
 info@coursier.nl;Coursier;bezorgdienst;Nederland;95;;www.coursier.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:54
 info@godpacket.nl;GodPacket;bezorgdienst;Nederland;110;;www.godpacket.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:54
 info@flycart.nl;Flycart;bezorgdienst;Nederland;85;;www.flycart.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:54
+support@jumper.nl;Jumper;bezorgdienst;Nederland;150;;www.jumper.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+info@asm-logistics.nl;ASM Geschäftslogistik;bezorgdienst;Nederland;450;;www.asm-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+info@fastfix.nl;FastFix;bezorgdienst;Nederland;180;;www.fastfix.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+info@geelegids.nl;Gele Gids Bezorgservice;bezorgdienst;Nederland;280;;www.geelegids.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+info@covergo.nl;Covergo Logistics;bezorgdienst;Nederland;140;;www.covergo.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+info@envoz.nl;Envoz;bezorgdienst;Nederland;420;;www.envoz.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+support@deliveryhero.nl;Delivery Hero;bezorgdienst;Nederland;1100;;www.deliveryhero.nl;60;0;discovered;;ai_discovery;2026-03-30 13:01:19
+info@roodexpedities.nl;Rood Expeditie;bezorgdienst;Nederland;220;;www.roodexpedities.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:29
+info@dolfkoster.nl;Dolf Koster;bezorgdienst;Nederland;450;;www.dolfkoster.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:29
+info@speedcargo.nl;Speed Cargo;bezorgdienst;Nederland;180;;www.speedcargo.nl;60;0;discovered;;ai_discovery;2026-03-30 13:24:29
+info@pakketten.net;Pakketten.net;bezorgdienst;Nederland;180;;www.pakketten.net;60;0;discovered;;ai_discovery;2026-03-30 13:47:34
+info@otoggo.nl;Otoggo;bezorgdienst;Nederland;120;;www.otoggo.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:34
+info@we-deliver.nl;We Deliver;bezorgdienst;Nederland;250;;www.we-deliver.nl;60;0;discovered;;ai_discovery;2026-03-30 14:12:03
+info@flycatcher.nl;Flycatcher;bezorgdienst;Nederland;180;;www.flycatcher.nl;60;0;discovered;;ai_discovery;2026-03-30 14:12:03
+info@asml.com;ASM Logistics;bezorgdienst;Nederland;300;;www.asm-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@dm-logistics.nl;DM Logistics;bezorgdienst;Nederland;120;;www.dm-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@logistiekgoudsmit.nl;Logistiek Goudsmit;bezorgdienst;Nederland;90;;www.logistiekgoudsmit.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@vandeuren.nl;Van Deuren Logistiek;bezorgdienst;Nederland;110;;www.vandeuren.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@deloton.nl;Deloton Express;bezorgdienst;Nederland;140;;www.deloton.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@uniekelogistics.nl;Uniek Logistics;bezorgdienst;Nederland;85;;www.uniekelogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@vandijkexpress.nl;Van Dijk Express;bezorgdienst;Nederland;75;;www.vandijkexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@quick2ship.nl;Quick2Ship;bezorgdienst;Nederland;65;;www.quick2ship.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@slingr.nl;Slingr;bezorgdienst;Nederland;180;;www.slingr.nl;60;0;discovered;;ai_discovery;2026-03-30 14:35:02
+info@broekels.nl;Broekels Express;bezorgdienst;Nederland;350;;www.broekels.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:35
+info@transmo.nl;Transmontaña;bezorgdienst;Nederland;120;;www.transmo.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:35
+info@hantec.nl;Hantec Logistics;bezorgdienst;Nederland;180;;www.hantec.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:35
+info@fracht-union.nl;Fracht Union;bezorgdienst;Nederland;240;;www.fracht-union.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:35
+info@gefco.net;Gefco Netherlands;bezorgdienst;Nederland;450;;www.gefco.net;60;0;discovered;;ai_discovery;2026-03-30 14:57:35
+info@vangenugten.nl;Van Genugten Transport;bezorgdienst;Nederland;85;;www.vangenugten.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:35
+info@fungloi.nl;Fung Loi Logistics;bezorgdienst;Nederland;150;;www.fungloi.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:52
+info@eafl.nl;EAFL (European Air Freight Ltd);bezorgdienst;Nederland;200;;www.eafl.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:52
+info@stiwa.nl;Stiwa Logistics;bezorgdienst;Nederland;90;;www.stiwa.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:52
+info@hollandia-logistics.nl;Hollandia Logistics;bezorgdienst;Nederland;140;;www.hollandia-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:52
+info@turboexpress.nl;TurboExpress;bezorgdienst;Nederland;85;;www.turboexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:52
+info@docksteps.nl;Docksteps;bezorgdienst;Nederland;75;;www.docksteps.nl;60;0;discovered;;ai_discovery;2026-03-30 15:43:07
+info@dpgmedialogistics.nl;DPG Media Logistics;bezorgdienst;Nederland;400;;www.dpgmedialogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 15:43:07
+info@wittezwaantjes.nl;Witte Zwaantjes;bezorgdienst;Nederland;180;;www.wittezwaantjes.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:22
+info@pallexnetwork.nl;Pall-Ex Netherlands;bezorgdienst;Nederland;200;;www.pallexnetwork.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:22
+info@dmlogistics.nl;DM Logistics;bezorgdienst;Nederland;210;;www.dmlogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 16:06:22
+info@mkbtransport.nl;MKB Transport;bezorgdienst;Nederland;85;;www.mkbtransport.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@logistiekdeboer.nl;Logistiek De Boer;bezorgdienst;Nederland;75;;www.logistiekdeboer.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@snelkoeriers.nl;Snelkoeriers;bezorgdienst;Nederland;65;;www.snelkoeriers.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@swiftway.nl;Swiftway Logistics;bezorgdienst;Nederland;45;;www.swiftway.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@noordzeetransport.nl;Noordzee Transport;bezorgdienst;Nederland;42;;www.noordzeetransport.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@perifeer.nl;Perifeer Logistics;bezorgdienst;Nederland;40;;www.perifeer.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@nedcourier.nl;NedCourier;bezorgdienst;Nederland;38;;www.nedcourier.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@snelpostexpress.nl;Snelpost Express;bezorgdienst;Nederland;35;;www.snelpostexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@tempobezorg.nl;Tempo Bezorgservice;bezorgdienst;Nederland;33;;www.tempobezorg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@eurokurier.nl;EuroKurier Netherlands;bezorgdienst;Nederland;28;;www.eurokurier.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@icourier.nl;iCourier;bezorgdienst;Nederland;24;;www.icourier.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@suredelivery.nl;SureDelivery;bezorgdienst;Nederland;22;;www.suredelivery.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@centralebezorgdiensten.nl;Centrale Bezorgdiensten;bezorgdienst;Nederland;16;;www.centralebezorgdiensten.nl;60;0;discovered;;ai_discovery;2026-03-30 16:29:13
+info@pathelogistics.nl;Pathé Logistics;bezorgdienst;Nederland;85;;www.pathelogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:17
+info@puurbezorgd.nl;Puur Bezorgd;bezorgdienst;Nederland;65;;www.puurbezorgd.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:17
+info@picniclogistiek.nl;Picnic Logistiek;bezorgdienst;Nederland;320;;www.picnic.app;60;0;discovered;;ai_discovery;2026-03-30 16:52:17
+info@ajaxexpress.nl;Ajax Express;bezorgdienst;Nederland;55;;www.ajaxexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:17
+info@globalreach.nl;Global Reach Logistics;bezorgdienst;Nederland;130;;www.globalreach.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:17
+info@ecokoeriersdiensten.nl;Eco Koeriersdiensten;bezorgdienst;Nederland;50;;www.ecokoeriersdiensten.nl;60;0;discovered;;ai_discovery;2026-03-30 16:52:17
+info@packexpress.nl;Pack Express;bezorgdienst;Nederland;280;;www.packexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:00
+info@buhrmann-logistics.nl;Buhrmann Logistics;bezorgdienst;Nederland;220;;www.buhrmann-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:00
+info@bertkramer.nl;Bert Kramer Transport;bezorgdienst;Nederland;95;;www.bertkramer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:00
+info@hoenkoop.nl;Hoenkoop Logistics;bezorgdienst;Nederland;120;;www.hoenkoop.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:00
+info@tktransport.nl;TK Transport;bezorgdienst;Nederland;85;;www.tktransport.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:01
+info@veraert.nl;Veraert Transport;bezorgdienst;Nederland;65;;www.veraert.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:01
+info@ecolog.nl;Ecolog Netherlands;bezorgdienst;Nederland;160;;www.ecolog.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:01
+info@lsp.nl;Logistiek Service Partner;bezorgdienst;Nederland;175;;www.lsp.nl;60;0;discovered;;ai_discovery;2026-03-30 17:15:01
+info@ldhaas.nl;Logistieke Diensten de Haas;bezorgdienst;Nederland;95;;www.ldhaas.nl;60;0;discovered;;ai_discovery;2026-03-30 17:28:18
+info@parcelbay.nl;Parcelbay;bezorgdienst;Nederland;150;;www.parcelbay.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:26
+info@beaux-logistics.nl;Beaux Logistics;bezorgdienst;Nederland;320;;www.beaux-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:26
+info@jumbo-koel.nl;Jumbo Koeltransport;bezorgdienst;Nederland;380;;www.jumbo-koel.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:26
+info@evoke-logistics.nl;Evoke Logistics;bezorgdienst;Nederland;140;;www.evoke-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:26
+info@royallogistics.nl;Royal Logistics;bezorgdienst;Nederland;175;;www.royallogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 17:41:26
+info@expedit.nl;Expedit;bezorgdienst;Nederland;280;;www.expedit.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:33
+info@neptun-logistics.nl;NepTun Logistics;bezorgdienst;Nederland;220;;www.neptun-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:33
+info@fastforwarddelivery.nl;Fast Forward Delivery;bezorgdienst;Nederland;95;;www.fastforwarddelivery.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:33
+info@postvak.nl;Postvak NL;bezorgdienst;Nederland;135;;www.postvak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:33
+info@ekokoeriersdienst.nl;Eco Koeriersdienst;bezorgdienst;Nederland;85;;www.ekokoeriersdienst.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:33
+info@directexpressdelivery.nl;Direct Express Delivery;bezorgdienst;Nederland;350;;www.directexpressdelivery.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@overniteexpress.nl;OverNite Express;bezorgdienst;Nederland;220;;www.overniteexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@safedelivery.nl;SafeDelivery;bezorgdienst;Nederland;160;;www.safedelivery.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@deepbox.nl;DeepBox;bezorgdienst;Nederland;80;;www.deepbox.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@layerz.nl;Layerz;bezorgdienst;Nederland;70;;www.layerz.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@brunaexpress.nl;Bruna Express;bezorgdienst;Nederland;140;;www.brunaexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@bringer.nl;Bringer;bezorgdienst;Nederland;130;;www.bringer.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:42
+info@wynnebarning.nl;Wijnne Barning;bezorgdienst;Nederland;280;;www.wynnebarning.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:53
+info@sieltransport.nl;Siel Transport;bezorgdienst;Nederland;160;;www.sieltransport.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:53
+info@vandeusen.nl;Van Deusen Transport;bezorgdienst;Nederland;140;;www.vandeusen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:53
+info@jepema.nl;Jepema Logistics;bezorgdienst;Nederland;250;;www.jepema.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:53
+info@mtslogistiek.nl;MTS Logistiek;bezorgdienst;Nederland;200;;www.mtslogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@carriot.nl;Carriot Logistics;bezorgdienst;Nederland;120;;www.carriot.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@shyp.nl;Shyp Netherlands;bezorgdienst;Nederland;85;;www.shyp.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@flitsbode.nl;Flitsbode;bezorgdienst;Nederland;65;;www.flitsbode.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@speedy-express.nl;Speedy Express;bezorgdienst;Nederland;80;;www.speedy-express.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@courier4you.nl;Courier4you;bezorgdienst;Nederland;60;;www.courier4you.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@distributiepluslogistics.nl;Distributie Plus;bezorgdienst;Nederland;110;;www.distributiepluslogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@fastdoor.nl;Fastdoor Delivery;bezorgdienst;Nederland;55;;www.fastdoor.nl;60;0;discovered;;ai_discovery;2026-03-30 18:34:00
+info@fillologistics.nl;Fillo Logistics;bezorgdienst;Nederland;150;;www.fillologistics.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@vanvlietexpress.nl;Van Vliet Express;bezorgdienst;Nederland;65;;www.vanvlietexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@voort-logistics.nl;Voort Logistics;bezorgdienst;Nederland;75;;www.voort-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@global-forwarding.nl;Global Forwarding;bezorgdienst;Nederland;85;;www.global-forwarding.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@pactware.nl;Pactware Logistics;bezorgdienst;Nederland;55;;www.pactware.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@teamsupplies.nl;Team Supplies Distribution;bezorgdienst;Nederland;70;;www.teamsupplies.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@verburgtransport.nl;Verburg Transport;bezorgdienst;Nederland;45;;www.verburgtransport.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@sengerslogistiek.nl;Sengers Logistiek;bezorgdienst;Nederland;50;;www.sengerslogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@eltjuco.nl;Eltjuco Logistics;bezorgdienst;Nederland;35;;www.eltjuco.nl;60;0;discovered;;ai_discovery;2026-03-30 18:47:06
+info@xelle.nl;Xelle;bezorgdienst;Nederland;220;;www.xelle.nl;60;0;discovered;;ai_discovery;2026-03-30 19:00:15
+info@mrspeedy.nl;Mr. Speedy;bezorgdienst;Nederland;100;;www.mrspeedy.nl;60;0;discovered;;ai_discovery;2026-03-30 19:00:15
+info@bezorg4u.nl;Bezorg4U;bezorgdienst;Nederland;85;;www.bezorg4u.nl;60;0;discovered;;ai_discovery;2026-03-30 19:00:15
+info@omniva.nl;Omniva;bezorgdienst;Nederland;95;;www.omniva.nl;60;0;discovered;;ai_discovery;2026-03-30 19:00:15
+info@logistiekeert.nl;Logistiekeert;bezorgdienst;Nederland;130;;www.logistiekeert.nl;60;0;discovered;;ai_discovery;2026-03-30 19:00:15
+info@logisped.nl;Logisped;bezorgdienst;Nederland;450;;www.logisped.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@fenulogistics.nl;Fenu Logistics;bezorgdienst;Nederland;600;;www.fenulogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@nicelogistics.nl;NICE Logistics;bezorgdienst;Nederland;420;;www.nicelogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@easydeliveries.nl;EasyDeliveries;bezorgdienst;Nederland;200;;www.easydeliveries.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@interlakeship.nl;Interlake Steamship;bezorgdienst;Nederland;150;;www.interlakeship.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@paquete.nl;Paquete;bezorgdienst;Nederland;310;;www.paquete.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@greenermile.nl;Greener Mile;bezorgdienst;Nederland;180;;www.greenermile.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:41
+info@milkroute.nl;Milkroute;bezorgdienst;Nederland;180;;www.milkroute.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:49
+info@supervanassen.nl;Super van Assen;bezorgdienst;Nederland;120;;www.supervanassen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:49
+info@drogistrlogistiek.nl;Drogist.nl Logistiek;bezorgdienst;Nederland;150;;www.drogistlogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:49
+info@pmollertransport.nl;P. Moller Transport;bezorgdienst;Nederland;240;;www.pmollertransport.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:49
+info@barentzlogistics.nl;Barentsz Logistics;bezorgdienst;Nederland;320;;www.barentzlogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:49
+info@wabeke.nl;Wabeke Transport;bezorgdienst;Nederland;180;;www.wabeke.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:49
+parcels@dhl.nl;DHLexpress Parcel;bezorgdienst;Nederland;450;;www.dhlexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:54
+info@dxgroup.nl;DX Logistics;bezorgdienst;Nederland;210;;www.dxgroup.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:54
+info@goofdelivery.nl;Goof Delivery;bezorgdienst;Nederland;140;;www.goofdelivery.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:54
+info@wyk.nl;Witte Gele Kruis;bezorgdienst;Nederland;85;;www.wyk.nl;60;0;discovered;;ai_discovery;2026-03-30 19:53:11
+info@bertzoutman.nl;Bert Zoutman Transport;bezorgdienst;Nederland;195;;www.bertzoutman.nl;60;0;discovered;;ai_discovery;2026-03-30 19:53:11
+info@layerl.com;Layerl;bezorgdienst;Nederland;300;;www.layerl.com;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@thedeliverygroup.nl;The Delivery Group;bezorgdienst;Nederland;600;;www.thedeliverygroup.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@fastlaneexpress.nl;FastLane Express;bezorgdienst;Nederland;220;;www.fastlaneexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@pakketreizen.nl;Pakketreizen;bezorgdienst;Nederland;190;;www.pakketreizen.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@logistiekeasy.nl;Logistiekeasy;bezorgdienst;Nederland;160;;www.logistiekeasy.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@quick4u.nl;Quick4u;bezorgdienst;Nederland;140;;www.quick4u.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@scholten-logistics.nl;Herman Scholten Logistics;bezorgdienst;Nederland;200;;www.scholten-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 20:06:27
+info@holland-international.nl;Holland International;bezorgdienst;Nederland;450;;www.holland-international.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@koopman-transport.nl;Koopman Transport;bezorgdienst;Nederland;195;;www.koopman-transport.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@gebroeders-douwe.nl;Gebroeders Douwe;bezorgdienst;Nederland;135;;www.gebroeders-douwe.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@degraaf-zonen.nl;De Graaf en Zonen;bezorgdienst;Nederland;98;;www.degraaf-zonen.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@vreugdenhil-logistiek.nl;Vreugdenhil Logistiek;bezorgdienst;Nederland;205;;www.vreugdenhil-logistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@stuiver-transport.nl;Stuiver Transport;bezorgdienst;Nederland;88;;www.stuiver-transport.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@voets-logistiek.nl;Voets Logistiek;bezorgdienst;Nederland;165;;www.voets-logistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:44
+info@fietes.nl;Fietes;bezorgdienst;Nederland;450;;www.fietes.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@carry.nl;Carry;bezorgdienst;Nederland;350;;www.carry.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@bringo.nl;BringGo;bezorgdienst;Nederland;320;;www.bringo.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@express-koerier.nl;Koeriersbedrijf Express;bezorgdienst;Nederland;180;;www.express-koerier.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@gentexpress.nl;Gent Express;bezorgdienst;Nederland;220;;www.gentexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@dtc-logistics.nl;DTC Logistics;bezorgdienst;Nederland;420;;www.dtc-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@kooijmanexpress.nl;Kooijman Express;bezorgdienst;Nederland;190;;www.kooijmanexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:55
+info@tebex.nl;Tebex;bezorgdienst;Nederland;320;;www.tebex.nl;60;0;discovered;;ai_discovery;2026-03-30 20:46:14
+info@takealot.nl;Take-a-lot;bezorgdienst;Nederland;400;;www.takealot.nl;60;0;discovered;;ai_discovery;2026-03-30 20:46:14
+info@dynalog.nl;DynaLog;bezorgdienst;Nederland;280;;www.dynalog.nl;60;0;discovered;;ai_discovery;2026-03-30 20:46:14
+info@covora.nl;Covora;bezorgdienst;Nederland;310;;www.covora.nl;60;0;discovered;;ai_discovery;2026-03-30 20:46:14
+nl-support@uber.com;UberEats;bezorgdienst;Nederland;500;;www.ubereats.com/nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:29
+nl-support@wolt.com;Wolt;bezorgdienst;Nederland;450;;www.wolt.com/nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:29
+nl-support@instacart.com;Instacart Netherlands;bezorgdienst;Nederland;280;;www.instacart.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:29
+nl-support@deliveroo.nl;Deliveroo;bezorgdienst;Nederland;380;;www.deliveroo.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:29
+info@logistiekbaars.nl;Logistiek Baars;bezorgdienst;Nederland;180;;www.logistiekbaars.nl;60;0;discovered;;ai_discovery;2026-03-30 20:59:29
+info@cvo.nl;CVO Logistics;bezorgdienst;Nederland;320;;www.cvo.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:29
+info@budel.nl;Budel Transport;bezorgdienst;Nederland;380;;www.budel.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:29
+info@zwaan.nl;Zwaan Transport;bezorgdienst;Nederland;340;;www.zwaan.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:29
+info@huijser.nl;Huijser Transport;bezorgdienst;Nederland;140;;www.huijser.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:29
+info@keo.nl;KEO Transport;bezorgdienst;Nederland;95;;www.keo.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:29
+info@vinklogistiek.nl;Vink Logistiek;bezorgdienst;Nederland;180;;www.vinklogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 21:13:29
+info@123laden.nl;123Laden;bezorgdienst;Nederland;65;;www.123laden.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:37
+info@stoneytransport.nl;Stoney Transport;bezorgdienst;Nederland;160;;www.stoneytransport.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:37
+info@quick2post.nl;Quick2Post;bezorgdienst;Nederland;85;;www.quick2post.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@brouwersbezorgdienst.nl;BrouwersBezorgdienst;bezorgdienst;Nederland;95;;www.brouwersbezorgdienst.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@tijetransport.nl;Tije Transport;bezorgdienst;Nederland;65;;www.tijetransport.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@westcologistics.nl;Westco Logistics;bezorgdienst;Nederland;105;;www.westcologistics.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@breekmanexpress.nl;Breekman Express;bezorgdienst;Nederland;68;;www.breekmanexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@zusenzoservice.nl;Zus en Zo Bezorgservice;bezorgdienst;Nederland;45;;www.zusenzoservice.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@centraal-transport.nl;Centraal Transport;bezorgdienst;Nederland;78;;www.centraal-transport.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:57
+info@economexpress.nl;Econom Express;bezorgdienst;Nederland;380;;www.economexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@interdriver.nl;Inter Driver Express;bezorgdienst;Nederland;420;;www.interdriver.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@kblogistics.nl;K&B Logistics;bezorgdienst;Nederland;310;;www.kblogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@lastmilenow.nl;Lastmilenow;bezorgdienst;Nederland;200;;www.lastmilenow.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@logpointexpress.nl;Logpoint Express;bezorgdienst;Nederland;270;;www.logpointexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@portlogistics.nl;Port Logistics;bezorgdienst;Nederland;410;;www.portlogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@siglogistics.nl;SIG Logistics;bezorgdienst;Nederland;260;;www.siglogistics.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@transfleet.nl;TransFleet Netherlands;bezorgdienst;Nederland;390;;www.transfleet.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@upl.nl;UPL Netherlands;bezorgdienst;Nederland;670;;www.upl.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@waboexpress.nl;Wabo Express;bezorgdienst;Nederland;165;;www.waboexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@yaller.nl;Yaller;bezorgdienst;Nederland;175;;www.yaller.nl;60;0;discovered;;ai_discovery;2026-03-30 21:53:08
+info@dockto.nl;Dockto;bezorgdienst;Nederland;80;;www.dockto.nl;60;0;discovered;;ai_discovery;2026-03-30 22:06:26
+info@vdmlogistiek.nl;Van der Meer Logistiek;bezorgdienst;Nederland;175;;www.vdmlogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 22:06:26
+info@tdg-group.nl;TDG Group;bezorgdienst;Nederland;185;;www.tdg-group.nl;60;0;discovered;;ai_discovery;2026-03-30 22:06:26
+info@quickdispatch.nl;Quick Dispatch;bezorgdienst;Nederland;110;;www.quickdispatch.nl;60;0;discovered;;ai_discovery;2026-03-30 22:06:26

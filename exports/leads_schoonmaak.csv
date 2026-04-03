@@ -1,8 +1,13 @@
 ﻿email;company;sector;location;vehicles;phone;website;score;ai_score;status;contact_person;source;created_at
+info@issworld.nl;ISS Nederland;schoonmaak;Nederland;250;;www.issworld.nl;60;98;discovered;;ai_discovery;2026-03-23 10:33:22
 info@iss.nl;ISS Facility Services;schoonmaak;Amsterdam;160;;www.iss.nl;0;95;new;;ai_knowledge;2026-03-18 10:43:34
+info@buva.nl;Buva Facility Services;schoonmaak;Nederland;140;;www.buva.nl;60;94;discovered;;ai_discovery;2026-03-23 10:33:22
 info@dussmann.nl;Dussmann;schoonmaak;Amsterdam;150;;www.dussmann.nl;0;94;new;;ai_knowledge;2026-03-18 10:42:46
 info@rentokil.nl;Rentokil Initial;schoonmaak;Amsterdam;150;;www.rentokil.nl;0;94;new;;ai_knowledge;2026-03-18 11:29:09
 info@corusfm.nl;Corus FM Services;schoonmaak;Amsterdam;135;;www.corusfm.nl;0;93;new;;ai_knowledge;2026-03-18 12:08:21
+info@ocs.nl;OCS Nederland;schoonmaak;Nederland;95;;www.ocs.nl;60;92;discovered;;ai_discovery;2026-03-23 10:13:56
+info@healygroup.nl;Healy Group;schoonmaak;Nederland;120;;www.healygroup.nl;60;92;discovered;;ai_discovery;2026-03-23 10:33:22
+info@servisys.nl;Servisys Facility Management;schoonmaak;Nederland;110;;www.servisys.nl;60;92;discovered;;ai_discovery;2026-03-23 10:33:22
 info@imtech.nl;Imtech Facility Services;schoonmaak;Arnhem;200;;www.imtech.nl;0;92;new;;ai_knowledge;2026-03-18 10:43:34
 info@iss-facilities.nl;ISS Facility Services Nederland;schoonmaak;Nederland;200;;www.iss-facilities.nl;60;91;discovered;;ai_discovery;2026-03-23 09:07:57
 info@imtech-fs.nl;Imtech Facility Services;schoonmaak;Arnhem;200;;www.imtech-fs.nl;0;91;new;;ai_knowledge;2026-03-18 11:29:09
@@ -14,6 +19,9 @@ info@ocsgroup.nl;OCS Group Nederland;schoonmaak;Rotterdam;180;;www.ocsgroup.nl;0
 info@fsamsterdam.nl;Facility Services Amsterdam;schoonmaak;Amsterdam;105;;www.fsamsterdam.nl;0;90;new;;ai_knowledge;2026-03-18 14:25:47
 info@ohra-schoonmaak.nl;Ohra Schoonmaak;schoonmaak;Nederland;85;;www.ohra-schoonmaak.nl;60;80;discovered;;ai_discovery;2026-03-23 09:34:51
 info@deschoonmaakgroep.nl;De Schoonmaak Groep;schoonmaak;Nederland;110;;www.deschoonmaakgroep.nl;60;80;discovered;;ai_discovery;2026-03-23 09:54:26
+info@becker.nl;Becker Professional Cleaning;schoonmaak;Nederland;95;;www.becker.nl;60;80;discovered;;ai_discovery;2026-03-23 10:14:23
+info@prisma.nl;Prisma Facility Services;schoonmaak;Nederland;105;;www.prisma.nl;60;80;discovered;;ai_discovery;2026-03-23 10:33:23
+info@fmc.nl;Facilities Management Company;schoonmaak;Nederland;95;;www.fmc.nl;60;80;discovered;;ai_discovery;2026-03-23 10:33:23
 info@stafide.nl;Stafide;schoonmaak;Utrecht;120;;www.stafide.nl;0;80;new;;ai_knowledge;2026-03-18 10:42:46
 info@issabenelux.nl;ISSA Benelux;schoonmaak;Hilversum;140;;www.issabenelux.nl;0;80;new;;ai_knowledge;2026-03-18 10:42:46
 info@cityservices.nl;City Services;schoonmaak;Rotterdam;90;;www.cityservices.nl;0;80;new;;ai_knowledge;2026-03-18 10:42:46
@@ -43,6 +51,9 @@ info@sdu.nl;Sdu Scholieren Diensten Uitzendbureau;schoonmaak;Amsterdam;75;;www.s
 info@nubly.nl;Nubly Facility Services;schoonmaak;Amsterdam;100;;www.nubly.nl;0;80;new;;ai_knowledge;2026-03-18 14:25:47
 info@clean2clean.nl;Clean2Clean;schoonmaak;Utrecht;80;;www.clean2clean.nl;0;80;new;;ai_knowledge;2026-03-18 14:25:47
 info@bfro.nl;BFRO Facility Management;schoonmaak;Nederland;135;;www.bfro.nl;60;79;discovered;;ai_discovery;2026-03-23 09:07:57
+info@zhnederland.nl;Ziekenhuisschoonmaak Nederland;schoonmaak;Nederland;85;;www.zhnederland.nl;60;79;discovered;;ai_discovery;2026-03-23 10:33:22
+info@ajaxfm.nl;Ajax Facility Management;schoonmaak;Nederland;95;;www.ajaxfm.nl;60;79;discovered;;ai_discovery;2026-03-23 10:33:22
+info@onix.nl;Onix Facility Services;schoonmaak;Nederland;95;;www.onix.nl;60;79;discovered;;ai_discovery;2026-03-23 10:33:23
 info@schoonmaakholland.nl;Schoonmaak Holland;schoonmaak;Rotterdam;85;;www.schoonmaakholland.nl;0;79;new;;ai_knowledge;2026-03-18 10:42:46
 info@ohraschoonmaak.nl;Ohra Schoonmaak;schoonmaak;Den Haag;95;;www.ohraschoonmaak.nl;0;79;new;;ai_knowledge;2026-03-18 10:42:46
 info@crownfacilities.nl;Crown Facilities;schoonmaak;Amsterdam;110;;www.crownfacilities.nl;0;79;new;;ai_knowledge;2026-03-18 10:42:46
@@ -64,6 +75,9 @@ info@immergrun.nl;Immergrün Facilityservices;schoonmaak;Nederland;92;;www.immer
 info@castellum.nl;Castellum Facilities;schoonmaak;Nederland;110;;www.castellum.nl;60;78;discovered;;ai_discovery;2026-03-23 09:16:59
 info@remondis-schoonmaak.nl;Remondis Schoonmaak;schoonmaak;Nederland;95;;www.remondis-schoonmaak.nl;60;78;discovered;;ai_discovery;2026-03-23 09:34:38
 info@heijmansfm.nl;Heijmans FM;schoonmaak;Nederland;130;;www.heijmansfm.nl;60;78;discovered;;ai_discovery;2026-03-23 09:54:26
+info@cleenservices.nl;Cleen Services;schoonmaak;Nederland;70;;www.cleenservices.nl;60;78;discovered;;ai_discovery;2026-03-23 10:14:23
+info@vermeerfs.nl;Vermeer Facility Services;schoonmaak;Nederland;90;;www.vermeerfs.nl;60;78;discovered;;ai_discovery;2026-03-23 10:33:22
+info@mvgm.nl;MVGM;schoonmaak;Nederland;110;;www.mvgm.nl;60;78;discovered;;ai_discovery;2026-03-23 10:33:23
 info@ecofacilities.nl;Eco Facilities;schoonmaak;Den Haag;85;;www.ecofacilities.nl;0;78;new;;ai_knowledge;2026-03-18 10:42:46
 info@sodexo.nl;Sodexo;schoonmaak;Utrecht;140;;www.sodexo.nl;0;78;new;;ai_knowledge;2026-03-18 10:43:34
 info@premiumfacility.nl;Premium Facility Services;schoonmaak;Almere;88;;www.premiumfacility.nl;0;78;new;;ai_knowledge;2026-03-18 10:43:34
@@ -80,6 +94,8 @@ info@sfk-schoonmaak.nl;SFK Schoonmaak;schoonmaak;Amsterdam;90;;www.sfk-schoonmaa
 info@csi.nl;Cleaning Services International;schoonmaak;Nederland;65;;www.csi.nl;60;77;discovered;;ai_discovery;2026-03-23 09:16:59
 info@newcom-cleaning.nl;Newcom Cleaning;schoonmaak;Nederland;90;;www.newcom-cleaning.nl;60;77;discovered;;ai_discovery;2026-03-23 09:34:38
 info@seco.nl;Seco;schoonmaak;Nederland;95;;www.seco.nl;60;77;discovered;;ai_discovery;2026-03-23 09:54:26
+info@servicemaster.nl;ServiceMaster Clean;schoonmaak;Nederland;75;;www.servicemaster.nl;60;77;discovered;;ai_discovery;2026-03-23 10:14:23
+info@manetfm.nl;Manet Facility Management;schoonmaak;Nederland;75;;www.manetfm.nl;60;77;discovered;;ai_discovery;2026-03-23 10:33:22
 info@jantjebeton.nl;Jantje Beton;schoonmaak;Amsterdam;60;;www.jantjebeton.nl;0;77;new;;ai_knowledge;2026-03-18 10:42:46
 info@facilicom.nl;Facilicom;schoonmaak;Maastricht;70;;www.facilicom.nl;0;77;new;;ai_knowledge;2026-03-18 10:42:46
 info@sterschoonmaak.nl;Ster Schoonmaak;schoonmaak;Groningen;58;;www.sterschoonmaak.nl;0;77;new;;ai_knowledge;2026-03-18 10:43:34
@@ -99,6 +115,9 @@ info@facilityexpress.nl;Facility Express;schoonmaak;Nederland;78;;www.facilityex
 info@cleansphere.nl;Cleansphere;schoonmaak;Nederland;52;;www.cleansphere.nl;60;76;discovered;;ai_discovery;2026-03-23 09:07:57
 info@waardenfs.nl;Waarden Facility Services;schoonmaak;Nederland;120;;www.waardenfs.nl;60;76;discovered;;ai_discovery;2026-03-23 09:16:59
 info@citycleaning.nl;City Cleaning Services;schoonmaak;Nederland;85;;www.citycleaning.nl;60;76;discovered;;ai_discovery;2026-03-23 09:34:38
+info@euroclean.nl;Euroclean Services;schoonmaak;Nederland;65;;www.euroclean.nl;60;76;discovered;;ai_discovery;2026-03-23 10:13:56
+info@futurafacility.nl;Futura Facility Services;schoonmaak;Nederland;65;;www.futurafacility.nl;60;76;discovered;;ai_discovery;2026-03-23 10:14:23
+info@serfaco.nl;Serfaco;schoonmaak;Nederland;110;;www.serfaco.nl;60;76;discovered;;ai_discovery;2026-03-23 10:33:23
 info@facilitairepartner.nl;Facilitaire Partner;schoonmaak;Zaandam;80;;www.facilitairepartner.nl;0;76;new;;ai_knowledge;2026-03-18 10:42:46
 info@bosschoonmaak.nl;Bos Schoonmaak Services;schoonmaak;Utrecht;72;;www.bosschoonmaak.nl;0;76;new;;ai_knowledge;2026-03-18 10:43:34
 info@cleanandcare.nl;Clean & Care;schoonmaak;Arnhem;66;;www.cleanandcare.nl;0;76;new;;ai_knowledge;2026-03-18 10:43:34
@@ -196,6 +215,37 @@ info@facilitiesdirect.nl;Facilities Direct;schoonmaak;Nederland;22;;www.faciliti
 info@hygienics.nl;Hygienics Nederland;schoonmaak;Nederland;25;;www.hygienics.nl;60;75;discovered;;ai_discovery;2026-03-23 09:54:28
 info@multiservefacilities.nl;Multiserve Facilities;schoonmaak;Nederland;21;;www.multiservefacilities.nl;60;75;discovered;;ai_discovery;2026-03-23 09:54:28
 info@professionelschoon.nl;ProfessionelSchoon;schoonmaak;Nederland;24;;www.professionelschoon.nl;60;75;discovered;;ai_discovery;2026-03-23 09:54:28
+info@havenarbeid.nl;Havenarbeid Schoonmaak;schoonmaak;Nederland;28;;www.havenarbeid.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@deschonezaak.nl;De Schone Zaak;schoonmaak;Nederland;22;;www.deschonezaak.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@jantjeschoon.nl;Jantje Schoon;schoonmaak;Nederland;32;;www.jantjeschoon.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@heesterberg.nl;Heesterberg Schoonmaak;schoonmaak;Nederland;25;;www.heesterberg.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@gekashoonmaak.nl;GEKA Schoonmaak;schoonmaak;Nederland;30;;www.gekashoonmaak.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@momentschoonmaak.nl;Moment Schoonmaak;schoonmaak;Nederland;28;;www.momentschoonmaak.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@synexis.nl;Synexis Facility Services;schoonmaak;Nederland;35;;www.synexis.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@urbanclean.nl;Urban Cleaning Solutions;schoonmaak;Nederland;40;;www.urbanclean.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@rgb.nl;Reiniging Groot Brittanie;schoonmaak;Nederland;50;;www.rgb.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@floortec.nl;Floortec Schoonmaak;schoonmaak;Nederland;27;;www.floortec.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@hygienus.nl;Hygienus Schoonmaak;schoonmaak;Nederland;44;;www.hygienus.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@kliniekeschoonmaak.nl;Kliniek Schoonmaak Services;schoonmaak;Nederland;36;;www.kliniekeschoonmaak.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:56
+info@eurocol.nl;Eurocol Facilities;schoonmaak;Nederland;45;;www.eurocol.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@crooncleaning.nl;Croon Cleaning;schoonmaak;Nederland;50;;www.crooncleaning.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@mertens-schoonmaak.nl;Mertens Schoonmaak;schoonmaak;Nederland;35;;www.mertens-schoonmaak.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@schoonmaakbedrijfholland.nl;Schoonmaakbedrijf Holland;schoonmaak;Nederland;30;;www.schoonmaakbedrijfholland.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@almeracleaning.nl;Almera Cleaning;schoonmaak;Nederland;45;;www.almeracleaning.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@perfecta.nl;Perfecta Schoonmaak;schoonmaak;Nederland;25;;www.perfecta.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@helioxfacilities.nl;Heliox Facilities;schoonmaak;Nederland;35;;www.helioxfacilities.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@centaur.nl;Centaur Cleaning;schoonmaak;Nederland;28;;www.centaur.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@primo-schoonmaak.nl;Primo Schoonmaak;schoonmaak;Nederland;32;;www.primo-schoonmaak.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@qualitycleaning.nl;Quality Cleaning Services;schoonmaak;Nederland;22;;www.qualitycleaning.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@sparta-facility.nl;Sparta Facility Management;schoonmaak;Nederland;25;;www.sparta-facility.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:23
+info@fdgroep.nl;Facilitaire Diensten Groep;schoonmaak;Nederland;80;;www.fdgroep.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:22
+info@clean2go.nl;Clean2Go Schoonmaak;schoonmaak;Nederland;35;;www.clean2go.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:22
+info@newclean.nl;NewClean Services;schoonmaak;Nederland;28;;www.newclean.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:22
+info@dixa.nl;Dixa Facility Services;schoonmaak;Nederland;70;;www.dixa.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:22
+info@hygieneschoone.nl;Hygiëne en Schoonmaak Experts;schoonmaak;Nederland;42;;www.hygieneschoone.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:22
+info@proservice.nl;Proservice;schoonmaak;Nederland;45;;www.proservice.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:23
+info@intermark.nl;Intermark;schoonmaak;Nederland;50;;www.intermark.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:23
+info@tempo.nl;Tempo Schoonmaak;schoonmaak;Nederland;40;;www.tempo.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:23
 info@abcschoonmaak.nl;ABC Schoonmaak;schoonmaak;Eindhoven;75;;www.abcschoonmaak.nl;0;75;new;;ai_knowledge;2026-03-18 10:42:46
 info@totalcleansolutions.nl;Total Clean Solutions;schoonmaak;Groningen;50;;www.totalcleansolutions.nl;0;75;new;;ai_knowledge;2026-03-18 10:42:46
 info@veenstraschoonmaak.nl;Veenstra Schoonmaak;schoonmaak;Leeuwarden;45;;www.veenstraschoonmaak.nl;0;75;new;;ai_knowledge;2026-03-18 10:42:46
@@ -311,6 +361,7 @@ info@oasis-fm.nl;OASIS Facility Management;schoonmaak;Nederland;68;;www.oasis-fm
 info@maxxclean.nl;Maxxclean;schoonmaak;Nederland;68;;www.maxxclean.nl;60;74;discovered;;ai_discovery;2026-03-23 09:07:57
 info@sofico.nl;Sofico Schoonmaak;schoonmaak;Nederland;75;;www.sofico.nl;60;74;discovered;;ai_discovery;2026-03-23 09:34:38
 info@schoonmakenplus.nl;Schoonmaken+;schoonmaak;Nederland;75;;www.schoonmakenplus.nl;60;74;discovered;;ai_discovery;2026-03-23 09:34:51
+info@stericlean.nl;Stericlean;schoonmaak;Nederland;80;;www.stericlean.nl;60;74;discovered;;ai_discovery;2026-03-23 10:33:23
 info@schoonmaakpro.nl;Schoonmaakpro;schoonmaak;Almere;75;;www.schoonmaakpro.nl;0;74;new;;ai_knowledge;2026-03-18 10:42:46
 info@servicepointfacility.nl;Servicepoint Facility;schoonmaak;Haarlem;55;;www.servicepointfacility.nl;0;74;new;;ai_knowledge;2026-03-18 10:42:46
 info@facilitiesunited.nl;Facilities United;schoonmaak;Amsterdam;55;;www.facilitiesunited.nl;0;74;new;;ai_knowledge;2026-03-18 11:09:19
@@ -323,6 +374,7 @@ info@totalfacilities.nl;Total Facilities Nederland;schoonmaak;Nederland;125;;www
 info@europese-schoon.nl;Europese Schoonmaak;schoonmaak;Nederland;65;;www.europese-schoon.nl;60;73;discovered;;ai_discovery;2026-03-23 09:07:57
 info@fmpro.nl;Facility Management Pro;schoonmaak;Nederland;75;;www.fmpro.nl;60;73;discovered;;ai_discovery;2026-03-23 09:16:59
 info@facta-facilities.nl;Facta Facilities;schoonmaak;Nederland;65;;www.facta-facilities.nl;60;73;discovered;;ai_discovery;2026-03-23 09:34:38
+info@facilitairned.nl;Facilitair Nederland;schoonmaak;Nederland;55;;www.facilitairned.nl;60;73;discovered;;ai_discovery;2026-03-23 10:13:56
 info@scholma.nl;Scholma Facility Services;schoonmaak;Groningen;65;;www.scholma.nl;0;73;new;;ai_knowledge;2026-03-18 11:09:37
 info@brioverde.nl;BrioVerde;schoonmaak;Arnhem;60;;www.brioverde.nl;0;73;new;;ai_knowledge;2026-03-18 11:29:21
 info@schoonmaakamsterdamplus.nl;Schoonmaak Amsterdam Plus;schoonmaak;Amsterdam;55;;www.schoonmaakamsterdamplus.nl;0;73;new;;ai_knowledge;2026-03-18 11:29:21
@@ -336,6 +388,12 @@ info@horizon-schoonmaak.nl;Horizon Schoonmaak;schoonmaak;Nederland;64;;www.horiz
 info@emte-facility.nl;EMTÉ Facility Services;schoonmaak;Nederland;120;;www.emte-facility.nl;60;72;discovered;;ai_discovery;2026-03-23 09:07:57
 info@apolux.nl;Apolux;schoonmaak;Nederland;60;;www.apolux.nl;60;72;discovered;;ai_discovery;2026-03-23 09:54:26
 info@faciliaairnederland.nl;Facilitair Nederland;schoonmaak;Nederland;90;;www.faciliaairnederland.nl;60;72;discovered;;ai_discovery;2026-03-23 09:54:26
+info@propercleaning.nl;Proper Cleaning Solutions;schoonmaak;Nederland;55;;www.propercleaning.nl;60;72;discovered;;ai_discovery;2026-03-23 10:14:23
+info@sticlean.nl;Sticlean Schoonmaak;schoonmaak;Nederland;60;;www.sticlean.nl;60;72;discovered;;ai_discovery;2026-03-23 10:33:22
+info@joolz.nl;Joolz;schoonmaak;Nederland;75;;www.joolz.nl;60;72;discovered;;ai_discovery;2026-03-23 10:33:23
+info@frisseschoonmaak.nl;Frisse Schoonmaak;schoonmaak;Nederland;60;;www.frisseschoonmaak.nl;60;72;discovered;;ai_discovery;2026-03-23 10:33:23
+info@unicco.nl;Unicco;schoonmaak;Nederland;140;;www.unicco.nl;60;72;discovered;;ai_discovery;2026-03-23 10:33:23
+info@zuiver.nl;Zuiver Services;schoonmaak;Nederland;85;;www.zuiver.nl;60;72;discovered;;ai_discovery;2026-03-23 10:33:23
 info@kuijpers-schoonmaak.nl;Kuijpers Schoonmaakbedrijf;schoonmaak;Tilburg;55;;www.kuijpers-schoonmaak.nl;0;72;new;;ai_knowledge;2026-03-18 10:42:46
 info@vandeputschoonmaak.nl;Van de Put Schoonmaak;schoonmaak;Breda;65;;www.vandeputschoonmaak.nl;0;72;new;;ai_knowledge;2026-03-18 10:42:46
 info@facilitair.nl;Facilitair;schoonmaak;Amsterdam;95;;www.facilitair.nl;0;72;new;;ai_knowledge;2026-03-18 10:43:34
@@ -356,6 +414,8 @@ info@deschoonmaakexperts.nl;De Schoonmaak Experts;schoonmaak;Nederland;65;;www.d
 info@nicos-facility.nl;Nicos Facility Management;schoonmaak;Nederland;55;;www.nicos-facility.nl;60;71;discovered;;ai_discovery;2026-03-23 09:34:38
 info@facilitair-plus.nl;Facilitair Plus;schoonmaak;Nederland;60;;www.facilitair-plus.nl;60;71;discovered;;ai_discovery;2026-03-23 09:34:38
 info@servicepointnederland.nl;Service Point Nederland;schoonmaak;Nederland;85;;www.servicepointnederland.nl;60;71;discovered;;ai_discovery;2026-03-23 09:54:26
+info@alliancehealthcare.nl;Alliance Healthcare Schoonmaak;schoonmaak;Nederland;130;;www.alliancehealthcare.nl;60;71;discovered;;ai_discovery;2026-03-23 10:33:23
+info@schoonheidsteam.nl;Schoonheidsteam;schoonmaak;Nederland;70;;www.schoonheidsteam.nl;60;71;discovered;;ai_discovery;2026-03-23 10:33:23
 info@bwtfacilitair.nl;BWT Facilitair;schoonmaak;Nijmegen;70;;www.bwtfacilitair.nl;0;71;new;;ai_knowledge;2026-03-18 10:42:46
 info@compasscleaning.nl;Compass Cleaning;schoonmaak;Apeldoorn;58;;www.compasscleaning.nl;0;71;new;;ai_knowledge;2026-03-18 10:43:34
 info@gc-nederland.nl;GC Nederland;schoonmaak;Eindhoven;65;;www.gc-nederland.nl;0;71;new;;ai_knowledge;2026-03-18 11:29:09
@@ -371,6 +431,9 @@ info@cimcor.nl;Cimcor;schoonmaak;Nederland;120;;www.cimcor.nl;60;70;discovered;;
 info@baerleschoonmaak.nl;Schoonmaak Baerle;schoonmaak;Nederland;65;;www.baerleschoonmaak.nl;60;70;discovered;;ai_discovery;2026-03-23 09:54:26
 info@sterkschoonmaak.nl;Sterk Schoonmaak;schoonmaak;Nederland;75;;www.sterkschoonmaak.nl;60;70;discovered;;ai_discovery;2026-03-23 09:54:26
 info@technoclean.nl;Techno Clean;schoonmaak;Nederland;80;;www.technoclean.nl;60;70;discovered;;ai_discovery;2026-03-23 09:54:26
+info@solucionescleaning.nl;Soluciones Cleaning;schoonmaak;Nederland;65;;www.solucionescleaning.nl;60;70;discovered;;ai_discovery;2026-03-23 10:33:22
+info@cleanfirst.nl;Cleanfirst;schoonmaak;Nederland;65;;www.cleanfirst.nl;60;70;discovered;;ai_discovery;2026-03-23 10:33:23
+info@antea.nl;Antea Group;schoonmaak;Nederland;125;;www.antea.nl;60;70;discovered;;ai_discovery;2026-03-23 10:33:23
 info@proclean.nl;ProClean Netherlands;schoonmaak;Apeldoorn;60;;www.proclean.nl;0;70;new;;ai_knowledge;2026-03-18 10:42:46
 info@deltafacilities.nl;Delta Facilities Management;schoonmaak;Den Bosch;65;;www.deltafacilities.nl;0;70;new;;ai_knowledge;2026-03-18 10:42:46
 info@aertsschoonmaak.nl;Aerts Schoonmaak;schoonmaak;Breda;62;;www.aertsschoonmaak.nl;0;70;new;;ai_knowledge;2026-03-18 10:43:34
@@ -385,6 +448,8 @@ info@aquaclean.nl;Aquaclean Services;schoonmaak;Nederland;54;;www.aquaclean.nl;6
 info@facilair.nl;Facilair Nederland;schoonmaak;Nederland;92;;www.facilair.nl;60;68;discovered;;ai_discovery;2026-03-23 09:34:51
 info@efsschoonmaak.nl;EFS Schoonmaak;schoonmaak;Nederland;55;;www.efsschoonmaak.nl;60;68;discovered;;ai_discovery;2026-03-23 09:54:26
 info@kaivac.nl;Kaivac Services;schoonmaak;Nederland;55;;www.kaivac.nl;60;68;discovered;;ai_discovery;2026-03-23 09:54:26
+info@rosenboomt.nl;Rosenboomt Facilitair;schoonmaak;Nederland;52;;www.rosenboomt.nl;60;68;discovered;;ai_discovery;2026-03-23 10:13:56
+info@klantbeleving.nl;Klantbeleving Schoonmaak;schoonmaak;Nederland;55;;www.klantbeleving.nl;60;68;discovered;;ai_discovery;2026-03-23 10:33:23
 info@vdbfacility.nl;VdB Facility Services;schoonmaak;Maastricht;55;;www.vdbfacility.nl;0;68;new;;ai_knowledge;2026-03-18 14:25:47
 info@schoonmaak-experts.nl;Schoonmaak Experts BV;schoonmaak;Nederland;59;;www.schoonmaak-experts.nl;60;67;discovered;;ai_discovery;2026-03-23 09:03:58
 info@spaansebocht.nl;Spaansebocht Facilitair;schoonmaak;Nederland;60;;www.spaansebocht.nl;60;67;discovered;;ai_discovery;2026-03-23 09:34:51
@@ -431,6 +496,9 @@ info@facilitysoo.nl;Facility Service Oost;schoonmaak;Nederland;8;;www.facilityso
 info@impeccablecg.nl;Impeccable Cleaning Group;schoonmaak;Nederland;12;;www.impeccablecg.nl;60;65;discovered;;ai_discovery;2026-03-23 09:54:28
 info@schoononderhoud.nl;Schoon Onderhoud Nederland;schoonmaak;Nederland;20;;www.schoononderhoud.nl;60;65;discovered;;ai_discovery;2026-03-23 09:54:28
 info@premierfacility.nl;Premier Facility Care;schoonmaak;Nederland;11;;www.premierfacility.nl;60;65;discovered;;ai_discovery;2026-03-23 09:54:28
+info@apolonia.nl;Apolonia Schoonmaak;schoonmaak;Nederland;18;;www.apolonia.nl;60;65;discovered;;ai_discovery;2026-03-23 10:13:56
+info@fan.nl;Facilitair Advies Nederland;schoonmaak;Nederland;20;;www.fan.nl;60;65;discovered;;ai_discovery;2026-03-23 10:13:56
+info@qualitas.nl;Qualitas Schoonmaak;schoonmaak;Nederland;19;;www.qualitas.nl;60;65;discovered;;ai_discovery;2026-03-23 10:13:56
 info@ohrmannschoon.nl;Ohrmann Schoonmaak;schoonmaak;Groningen;18;;www.ohrmannschoon.nl;0;65;new;;ai_knowledge;2026-03-18 11:09:19
 info@aalbertsschoon.nl;Schoonmaakbedrijf Aalberts;schoonmaak;Alkmaar;16;;www.aalbertsschoon.nl;0;65;new;;ai_knowledge;2026-03-18 11:09:19
 info@stadionschoon.nl;Stadion Schoonmaak;schoonmaak;Haarlem;20;;www.stadionschoon.nl;0;65;new;;ai_knowledge;2026-03-18 11:09:19
@@ -462,6 +530,7 @@ info@yulius.nl;Yulius Schoonmaak;schoonmaak;Drachten;11;;www.yulius.nl;0;65;new;
 info@hcl-facilitair.nl;HCL Facilitair;schoonmaak;Nederland;70;;www.hcl-facilitair.nl;60;64;discovered;;ai_discovery;2026-03-23 09:34:38
 info@servicelogistiek.nl;Servicelogistiek;schoonmaak;Nederland;60;;www.servicelogistiek.nl;60;62;discovered;;ai_discovery;2026-03-23 09:34:38
 info@janssen-schoonmaak.nl;Schoonmaakbedrijf Janssen;schoonmaak;Nederland;0;;www.janssen-schoonmaak.nl;60;45;discovered;;ai_discovery;2026-03-23 09:34:51
+info@grijswaert.nl;Grijswaert Schoonmaak;schoonmaak;Nederland;0;;www.grijswaert.nl;60;45;discovered;;ai_discovery;2026-03-23 10:13:56
 info@faciliservices.nl;Bel of mail Faciliservices Amsterdam voor onze diverse diensten;schoonmaak;Amsterdam;0;013 7779706;https://www.faciliservices.nl/contact;0;45;new;;web_scrape;2026-03-18 10:42:46
 info@dutchfacilityservices.nl;Contact;schoonmaak;Amsterdam;0;023-11-11;https://dutchfacilityservices.nl/contact/;0;45;new;;web_scrape;2026-03-18 10:42:46
 welcome@bouwensand.com;Facilitaire dienstverlening Amsterdam;schoonmaak;Amsterdam;0;0 642 28 20;https://bouwensen.nl/facilitaire-dienstverlening-amsterdam;0;45;new;;web_scrape;2026-03-18 10:42:46
@@ -988,75 +1057,6 @@ info@divide.nl;LDM Facility Services B.V.;schoonmaak;Delft;0;;https://www.ldmfac
 info@jaquetdegroot.nl;Jaquet & de Groot;schoonmaak;Rotterdam;0;;;0;45;new;;openstreetmap;2026-03-18 11:09:19
 info@timmermans-schoon.nl;Schoonmaak Specialist Timmermans;schoonmaak;Gouda;0;;www.timmermans-schoon.nl;0;45;new;;ai_knowledge;2026-03-18 11:09:19
 info@tiptopvastgoedverhuur.com;Tiptopvastgoedverhuur;schoonmaak;Rotterdam;0;088 6655444;https://www.tiptopvastgoedverhuur.com;0;45;new;;bedrijvenpagina;2026-03-18 14:25:47
-info@havenarbeid.nl;Havenarbeid Schoonmaak;schoonmaak;Nederland;28;;www.havenarbeid.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@deschonezaak.nl;De Schone Zaak;schoonmaak;Nederland;22;;www.deschonezaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@jantjeschoon.nl;Jantje Schoon;schoonmaak;Nederland;32;;www.jantjeschoon.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@heesterberg.nl;Heesterberg Schoonmaak;schoonmaak;Nederland;25;;www.heesterberg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@facilitairned.nl;Facilitair Nederland;schoonmaak;Nederland;55;;www.facilitairned.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@gekashoonmaak.nl;GEKA Schoonmaak;schoonmaak;Nederland;30;;www.gekashoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@euroclean.nl;Euroclean Services;schoonmaak;Nederland;65;;www.euroclean.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@apolonia.nl;Apolonia Schoonmaak;schoonmaak;Nederland;18;;www.apolonia.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@ocs.nl;OCS Nederland;schoonmaak;Nederland;95;;www.ocs.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@momentschoonmaak.nl;Moment Schoonmaak;schoonmaak;Nederland;28;;www.momentschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@synexis.nl;Synexis Facility Services;schoonmaak;Nederland;35;;www.synexis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@urbanclean.nl;Urban Cleaning Solutions;schoonmaak;Nederland;40;;www.urbanclean.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@rgb.nl;Reiniging Groot Brittanie;schoonmaak;Nederland;50;;www.rgb.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@fan.nl;Facilitair Advies Nederland;schoonmaak;Nederland;20;;www.fan.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@floortec.nl;Floortec Schoonmaak;schoonmaak;Nederland;27;;www.floortec.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@grijswaert.nl;Grijswaert Schoonmaak;schoonmaak;Nederland;0;;www.grijswaert.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@hygienus.nl;Hygienus Schoonmaak;schoonmaak;Nederland;44;;www.hygienus.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@kliniekeschoonmaak.nl;Kliniek Schoonmaak Services;schoonmaak;Nederland;36;;www.kliniekeschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@qualitas.nl;Qualitas Schoonmaak;schoonmaak;Nederland;19;;www.qualitas.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@rosenboomt.nl;Rosenboomt Facilitair;schoonmaak;Nederland;52;;www.rosenboomt.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:56
-info@becker.nl;Becker Professional Cleaning;schoonmaak;Nederland;95;;www.becker.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@cleenservices.nl;Cleen Services;schoonmaak;Nederland;70;;www.cleenservices.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@propercleaning.nl;Proper Cleaning Solutions;schoonmaak;Nederland;55;;www.propercleaning.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@eurocol.nl;Eurocol Facilities;schoonmaak;Nederland;45;;www.eurocol.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@servicemaster.nl;ServiceMaster Clean;schoonmaak;Nederland;75;;www.servicemaster.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@crooncleaning.nl;Croon Cleaning;schoonmaak;Nederland;50;;www.crooncleaning.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@mertens-schoonmaak.nl;Mertens Schoonmaak;schoonmaak;Nederland;35;;www.mertens-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@schoonmaakbedrijfholland.nl;Schoonmaakbedrijf Holland;schoonmaak;Nederland;30;;www.schoonmaakbedrijfholland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@almeracleaning.nl;Almera Cleaning;schoonmaak;Nederland;45;;www.almeracleaning.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@perfecta.nl;Perfecta Schoonmaak;schoonmaak;Nederland;25;;www.perfecta.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@helioxfacilities.nl;Heliox Facilities;schoonmaak;Nederland;35;;www.helioxfacilities.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@centaur.nl;Centaur Cleaning;schoonmaak;Nederland;28;;www.centaur.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@futurafacility.nl;Futura Facility Services;schoonmaak;Nederland;65;;www.futurafacility.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@primo-schoonmaak.nl;Primo Schoonmaak;schoonmaak;Nederland;32;;www.primo-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@qualitycleaning.nl;Quality Cleaning Services;schoonmaak;Nederland;22;;www.qualitycleaning.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@sparta-facility.nl;Sparta Facility Management;schoonmaak;Nederland;25;;www.sparta-facility.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:23
-info@healygroup.nl;Healy Group;schoonmaak;Nederland;120;;www.healygroup.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@sticlean.nl;Sticlean Schoonmaak;schoonmaak;Nederland;60;;www.sticlean.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@fdgroep.nl;Facilitaire Diensten Groep;schoonmaak;Nederland;80;;www.fdgroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@clean2go.nl;Clean2Go Schoonmaak;schoonmaak;Nederland;35;;www.clean2go.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@issworld.nl;ISS Nederland;schoonmaak;Nederland;250;;www.issworld.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@manetfm.nl;Manet Facility Management;schoonmaak;Nederland;75;;www.manetfm.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@newclean.nl;NewClean Services;schoonmaak;Nederland;28;;www.newclean.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@vermeerfs.nl;Vermeer Facility Services;schoonmaak;Nederland;90;;www.vermeerfs.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@solucionescleaning.nl;Soluciones Cleaning;schoonmaak;Nederland;65;;www.solucionescleaning.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@servisys.nl;Servisys Facility Management;schoonmaak;Nederland;110;;www.servisys.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@dixa.nl;Dixa Facility Services;schoonmaak;Nederland;70;;www.dixa.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@zhnederland.nl;Ziekenhuisschoonmaak Nederland;schoonmaak;Nederland;85;;www.zhnederland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@buva.nl;Buva Facility Services;schoonmaak;Nederland;140;;www.buva.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@hygieneschoone.nl;Hygiëne en Schoonmaak Experts;schoonmaak;Nederland;42;;www.hygieneschoone.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@ajaxfm.nl;Ajax Facility Management;schoonmaak;Nederland;95;;www.ajaxfm.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:22
-info@onix.nl;Onix Facility Services;schoonmaak;Nederland;95;;www.onix.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@serfaco.nl;Serfaco;schoonmaak;Nederland;110;;www.serfaco.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@joolz.nl;Joolz;schoonmaak;Nederland;75;;www.joolz.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@alliancehealthcare.nl;Alliance Healthcare Schoonmaak;schoonmaak;Nederland;130;;www.alliancehealthcare.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@frisseschoonmaak.nl;Frisse Schoonmaak;schoonmaak;Nederland;60;;www.frisseschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@unicco.nl;Unicco;schoonmaak;Nederland;140;;www.unicco.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@prisma.nl;Prisma Facility Services;schoonmaak;Nederland;105;;www.prisma.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@schoonheidsteam.nl;Schoonheidsteam;schoonmaak;Nederland;70;;www.schoonheidsteam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@stericlean.nl;Stericlean;schoonmaak;Nederland;80;;www.stericlean.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@cleanfirst.nl;Cleanfirst;schoonmaak;Nederland;65;;www.cleanfirst.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@klantbeleving.nl;Klantbeleving Schoonmaak;schoonmaak;Nederland;55;;www.klantbeleving.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@antea.nl;Antea Group;schoonmaak;Nederland;125;;www.antea.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@proservice.nl;Proservice;schoonmaak;Nederland;45;;www.proservice.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@mvgm.nl;MVGM;schoonmaak;Nederland;110;;www.mvgm.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@intermark.nl;Intermark;schoonmaak;Nederland;50;;www.intermark.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@zuiver.nl;Zuiver Services;schoonmaak;Nederland;85;;www.zuiver.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@fmc.nl;Facilities Management Company;schoonmaak;Nederland;95;;www.fmc.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
-info@tempo.nl;Tempo Schoonmaak;schoonmaak;Nederland;40;;www.tempo.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:23
 info@diepenbeek.nl;Maatschappij Diepenbeek;schoonmaak;Nederland;85;;www.diepenbeek.nl;60;0;discovered;;ai_discovery;2026-03-23 10:47:14
 info@sokrates.nl;Sokrates Facility Services;schoonmaak;Nederland;75;;www.sokrates.nl;60;0;discovered;;ai_discovery;2026-03-23 10:47:14
 info@duvera.nl;Duvera Schoonmaak;schoonmaak;Nederland;60;;www.duvera.nl;60;0;discovered;;ai_discovery;2026-03-23 10:47:14
@@ -3977,3 +3977,391 @@ info@saba-facilities.nl;Saba Facilities;schoonmaak;Nederland;55;;www.saba-facili
 info@schoonmaakprofs.nl;Schoonmaak Professionals;schoonmaak;Nederland;62;;www.schoonmaakprofs.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:19
 info@prestige-schoonmaak.nl;Prestige Schoonmaak;schoonmaak;Nederland;50;;www.prestige-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:19
 info@helderenschoon.nl;Helder & Schoon;schoonmaak;Nederland;48;;www.helder-schoon.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:19
+info@ankerfacility.nl;Anker Facility Services;schoonmaak;Nederland;95;;www.ankerfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@koss-schoonmaak.nl;Koss Schoonmaakbedrijf;schoonmaak;Nederland;55;;www.koss-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@heinekenservice.nl;Heinekenservice;schoonmaak;Nederland;40;;www.heinekenservice.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@bliksemschoonmaak.nl;Bliksem Schoonmaak;schoonmaak;Nederland;50;;www.bliksemschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@cleanking.nl;CleanKing;schoonmaak;Nederland;55;;www.cleanking.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@speedclean.nl;Speedclean;schoonmaak;Nederland;35;;www.speedclean.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@duro-schoonmaak.nl;Duro Schoonmaak;schoonmaak;Nederland;48;;www.duro-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@optimaal-schoon.nl;Optimaal Schoon;schoonmaak;Nederland;42;;www.optimaal-schoon.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@schoonstad.nl;Schoonstad;schoonmaak;Nederland;65;;www.schoonstad.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@vanorden-schoon.nl;Schoonmaakbedrijf van Orden;schoonmaak;Nederland;32;;www.vanorden-schoon.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@synergize.nl;Synergize Facility Services;schoonmaak;Nederland;45;;www.synergize.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:34
+info@cleanteamutrecht.nl;CleanTeam Utrecht;schoonmaak;Nederland;18;;www.cleanteamutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@hygienicsned.nl;Hygienics Nederland;schoonmaak;Nederland;25;;www.hygienicsned.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@schoonmaakproholland.nl;Schoonmaak Pro Holland;schoonmaak;Nederland;13;;www.schoonmaakproholland.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@perfectcleannl.nl;Perfect Clean NL;schoonmaak;Nederland;16;;www.perfectcleannl.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@cleanplussolutions.nl;Clean Plus Solutions;schoonmaak;Nederland;17;;www.cleanplussolutions.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@hygienefacilities.nl;Hygiene & Facilities NL;schoonmaak;Nederland;23;;www.hygienefacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@schoonmaakteam.nl;SchoonmaakTeam Nederland;schoonmaak;Nederland;13;;www.schoonmaakteam.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:47
+info@strabagclean.nl;Strabag Clean;schoonmaak;Nederland;100;;www.strabagclean.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@koppelit.nl;Koppelit Facility Services;schoonmaak;Nederland;95;;www.koppelit.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@intergra.nl;Intergra Facility Management;schoonmaak;Nederland;110;;www.intergra.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@bdofacility.nl;BDO Facility Services;schoonmaak;Nederland;75;;www.bdofacility.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@mondial-fs.nl;Mondial Facility Services;schoonmaak;Nederland;65;;www.mondial-fs.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@factorij.nl;Factorij Schoonmaak;schoonmaak;Nederland;70;;www.factorij.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@multicleanservices.nl;Multiclean Services;schoonmaak;Nederland;85;;www.multicleanservices.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@milieubeheerprofessionals.nl;Milieubeheer Professionals;schoonmaak;Nederland;50;;www.milieubeheerprofessionals.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@janttjeproper.nl;Jantje Proper Schoonmaak;schoonmaak;Nederland;40;;www.jantjeproper.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@verheijdenschoonmaak.nl;Verheijden Schoonmaak;schoonmaak;Nederland;35;;www.verheijdenschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@ofs-facility.nl;OFS Facility Services;schoonmaak;Nederland;55;;www.ofs-facility.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@scholing.nl;Scholing Schoonmaak Bedrijf;schoonmaak;Nederland;45;;www.scholing.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@groenex.nl;Groenex Facility Services;schoonmaak;Nederland;55;;www.groenex.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@proservefacilities.nl;ProServe Facilities;schoonmaak;Nederland;52;;www.proservefacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:47
+info@schoonprofessioneel.nl;Schoon Professioneel;schoonmaak;Nederland;18;;www.schoonprofessioneel.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@titanschoonmaak.nl;Titan Schoonmaak Services;schoonmaak;Nederland;25;;www.titanschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@sig-schoonmaak.nl;Schoonmaak Innovatie Groep;schoonmaak;Nederland;19;;www.sig-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@groenstandaard.nl;GroenStandaard;schoonmaak;Nederland;16;;www.groenstandaard.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@pristine-facilities.nl;Pristine Facilities;schoonmaak;Nederland;11;;www.pristine-facilities.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@ronsse-schoonmaak.nl;Schoonmaakbedrijf Ronsse;schoonmaak;Nederland;13;;www.ronsse-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@totaalfm.nl;Totaal Facility Management;schoonmaak;Nederland;24;;www.totaalfm.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@schoonpartner.nl;Schoon & Partner;schoonmaak;Nederland;17;;www.schoonpartner.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@impexcleaning.nl;Impex Cleaning Services;schoonmaak;Nederland;20;;www.impexcleaning.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@superiorschoonmaak.nl;Superior Schoonmaak;schoonmaak;Nederland;8;;www.superiorschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@sebrabant.nl;Schoonmaak Experts Brabant;schoonmaak;Nederland;31;;www.sebrabant.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@facilitydynamics.nl;Facility Dynamics;schoonmaak;Nederland;27;;www.facilitydynamics.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@sbnoord.nl;Schoon Bedrijf Noord;schoonmaak;Nederland;11;;www.sbnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@elitefs.nl;Elite Facility Services;schoonmaak;Nederland;23;;www.elitefs.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:22
+info@degrootschoonmaak.nl;De Groot;schoonmaak;Nederland;95;;www.degrootschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@sifgroep.nl;Sif Groep;schoonmaak;Nederland;110;;www.sifgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@cleanright.nl;Cleanright;schoonmaak;Nederland;70;;www.cleanright.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@steelk.nl;Steelk;schoonmaak;Nederland;55;;www.steelk.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@koenig-schoonmaak.nl;Schoonmaakbedrijf König;schoonmaak;Nederland;65;;www.koenig-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@cmcleaners.nl;CM Cleaners;schoonmaak;Nederland;60;;www.cmcleaners.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@hart-schoonmaak.nl;Schoonmaakbedrijf Hart;schoonmaak;Nederland;50;;www.hart-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@vosschoonmaak.nl;Schoonmaakbedrijf Vos;schoonmaak;Nederland;65;;www.vosschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@reinex.nl;Reinex;schoonmaak;Nederland;95;;www.reinex.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@skcl.nl;SKCL Facility Services;schoonmaak;Nederland;110;;www.skcl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@schoonmaakab.nl;Schoonmaakservice A&B;schoonmaak;Nederland;55;;www.schoonmaakab.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@phoenix-schoonmaak.nl;Phoenix Schoonmaak;schoonmaak;Nederland;75;;www.phoenix-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:17
+info@schoonmaakholding.nl;Schoonmaak Holding Nederland;schoonmaak;Nederland;85;;www.schoonmaakholding.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@bbus.nl;Bbus Facility Services;schoonmaak;Nederland;55;;www.bbus.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@servantes.nl;Servantes;schoonmaak;Nederland;50;;www.servantes.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@roodfaciliteiten.nl;Rood Faciliteiten;schoonmaak;Nederland;60;;www.roodfaciliteiten.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@antaresfacility.nl;Antares Facility Services;schoonmaak;Nederland;40;;www.antaresfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@fmservicesholland.nl;FM Services Holland;schoonmaak;Nederland;55;;www.fmservicesholland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@primeur.nl;Primeur Facility Management;schoonmaak;Nederland;80;;www.primeur.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@facitor.nl;Facitor;schoonmaak;Nederland;48;;www.facitor.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@marigoldservices.nl;Marigold Services;schoonmaak;Nederland;52;;www.marigoldservices.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@veeamfacility.nl;Veeam Facility Management;schoonmaak;Nederland;72;;www.veeamfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@havenservice.nl;Havenservice Schoonmaak;schoonmaak;Nederland;44;;www.havenservice.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@streifert.nl;Streifert Facilitair;schoonmaak;Nederland;65;;www.streifert.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@hygiene.nl;Hygiena Group;schoonmaak;Nederland;78;;www.hygiene.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@groeneschoonmaak.nl;Groene Schoonmaak;schoonmaak;Nederland;37;;www.groeneschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@sennheiserfacility.nl;Sennheiser Facility Services;schoonmaak;Nederland;46;;www.sennheiserfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:50
+info@facilitairservicenederland.nl;Facilitair Service Nederland;schoonmaak;Nederland;25;;www.facilitairservicenederland.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@jansenfacilities.nl;Jansen Facilities Management;schoonmaak;Nederland;30;;www.jansenfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@schoonmaakproservices.nl;Schoonmaak Pro Services;schoonmaak;Nederland;16;;www.schoonmaakproservices.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@perfecteschoon.nl;Perfecte Schoon BV;schoonmaak;Nederland;14;;www.perfecteschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@facilitairkompas.nl;Facilitair Kompas;schoonmaak;Nederland;28;;www.facilitairkompas.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@primafacilities.nl;Prima Facilities;schoonmaak;Nederland;24;;www.primafacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@reinigingonderhoud.nl;Reiniging & Onderhoud Nederland;schoonmaak;Nederland;17;;www.reinigingonderhoud.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@vancleeffacilities.nl;Van Cleef Facilities;schoonmaak;Nederland;21;;www.vancleeffacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@reinheidsplus.nl;Reinheid Plus;schoonmaak;Nederland;15;;www.reinheidsplus.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@facilitymanagementexpert.nl;Facility Management Expert;schoonmaak;Nederland;26;;www.facilitymanagementexpert.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@spotlessservice.nl;Spotless Service;schoonmaak;Nederland;12;;www.spotlessservice.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@schoonmaakserviceteam.nl;Schoonmaak & Service Team;schoonmaak;Nederland;14;;www.schoonmaakserviceteam.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@hygenecomfort.nl;Hygiëne & Comfort;schoonmaak;Nederland;9;;www.hygenecomfort.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@brightcleannederland.nl;BrightClean Nederland;schoonmaak;Nederland;11;;www.brightcleannederland.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@totaalfacilitycare.nl;Totaal Facility Care;schoonmaak;Nederland;35;;www.totaalfacilitycare.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@schoonmaakalliantie.nl;Schoonmaak Alliantie;schoonmaak;Nederland;23;;www.schoonmaakalliantie.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@nexusfacilities.nl;Nexus Facilities;schoonmaak;Nederland;27;;www.nexusfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:07
+info@schoonwerkelijk.nl;Schoon Werkelijk;schoonmaak;Nederland;13;;www.schoonwerkelijk.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:08
+info@mainforcefacilities.nl;Mainforce Facilities;schoonmaak;Nederland;32;;www.mainforcefacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 15:19:08
+info@quon.nl;Quon;schoonmaak;Nederland;200;;www.quon.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@opus-fs.nl;OPUS Facility Services;schoonmaak;Nederland;120;;www.opus-fs.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@triodon.nl;TrioDon Facility Services;schoonmaak;Nederland;75;;www.triodon.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@abm-fs.nl;ABM Facility Services;schoonmaak;Nederland;160;;www.abm-fs.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@vonk-fm.nl;Vonk Facility Management;schoonmaak;Nederland;82;;www.vonk-fm.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@rcn-fs.nl;RCN Facility Services;schoonmaak;Nederland;105;;www.rcn-fs.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@kroonschoon.nl;Schoonmaakbedrijf Kroon;schoonmaak;Nederland;0;;www.kroonschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@schoonmaak-innovatie.nl;Schoonmaak Innovatie;schoonmaak;Nederland;62;;www.schoonmaak-innovatie.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@solutions-fm.nl;Solutions FM;schoonmaak;Nederland;168;;www.solutions-fm.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@excellum.nl;Excellum Facility Services;schoonmaak;Nederland;98;;www.excellum.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@hygiene-nl.nl;Hygiëne Nederland;schoonmaak;Nederland;125;;www.hygiene-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:18
+info@arlan.nl;Arlan Facilities;schoonmaak;Nederland;120;;www.arlan.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@besfacility.nl;BES Facility Services;schoonmaak;Nederland;90;;www.besfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@preventus.nl;Preventus Facility Services;schoonmaak;Nederland;110;;www.preventus.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@faberfacilities.nl;Faber Facilities;schoonmaak;Nederland;65;;www.faberfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@hygie.nl;Hygie Schoonmaakbedrijf;schoonmaak;Nederland;85;;www.hygie.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@rcsfm.nl;RCS Facility Management;schoonmaak;Nederland;60;;www.rcsfm.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@vermeireschoonmaak.nl;Vermeire Schoonmaak;schoonmaak;Nederland;45;;www.vermeireschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@klaarschoonmaak.nl;Klaar Schoonmaakbedrijf;schoonmaak;Nederland;48;;www.klaarschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@serviceplusa.nl;Service Plus Facilities;schoonmaak;Nederland;130;;www.serviceplusa.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@spectrumfs.nl;Spectrum Facility Services;schoonmaak;Nederland;68;;www.spectrumfs.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@woonvondst.nl;Woonvondst Schoonmaak;schoonmaak;Nederland;40;;www.woonvondst.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:34
+info@facilityservicesnederland.nl;Facility Services Nederland;schoonmaak;Nederland;45;;www.facilityservicesnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@delfon.nl;Delfon Schoonmaak;schoonmaak;Nederland;35;;www.delfon.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@bmcfacility.nl;BMC Facility Services;schoonmaak;Nederland;42;;www.bmcfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@cleanpronederland.nl;Cleanpro Nederland;schoonmaak;Nederland;48;;www.cleanpronederland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@euroserviceschoonmaak.nl;Euroservice Schoonmaak;schoonmaak;Nederland;31;;www.euroserviceschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@schoonmaakspecialistutrecht.nl;Schoonmaak Specialist Utrecht;schoonmaak;Nederland;34;;www.schoonmaakspecialistutrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@twinty.nl;Twinty Facility Services;schoonmaak;Nederland;58;;www.twinty.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@neonschoonmaak.nl;Neon Schoonmaak;schoonmaak;Nederland;19;;www.neonschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@facilityholding.nl;Facility Holding Nederland;schoonmaak;Nederland;65;;www.facilityholding.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@brillianfacility.nl;Brillian Facility Services;schoonmaak;Nederland;44;;www.brillianfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@schoonmaakservicetwente.nl;Schoonmaak Service Twente;schoonmaak;Nederland;27;;www.schoonmaakservicetwente.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@buurmanfacility.nl;Buurman Facility;schoonmaak;Nederland;32;;www.buurmanfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@cleanserveinternational.nl;CleanServe International;schoonmaak;Nederland;51;;www.cleanserveinternational.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@facilitiesfirst.nl;Facilities First;schoonmaak;Nederland;39;;www.facilitiesfirst.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:28
+info@ssg.nl;Schoonmaak Specialist Groep;schoonmaak;Nederland;25;;www.ssg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@greenops.nl;GreenOps Facilities;schoonmaak;Nederland;17;;www.greenops.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@ccs.nl;Corporate Cleaning Services;schoonmaak;Nederland;24;;www.ccs.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@efm.nl;Efficient Facility Management;schoonmaak;Nederland;15;;www.efm.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@spotlightcleaning.nl;Spotlight Cleaning;schoonmaak;Nederland;8;;www.spotlightcleaning.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@integrated-facilities.nl;Integrated Facilities;schoonmaak;Nederland;12;;www.integrated-facilities.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@synergyfacilities.nl;Synergy Facilities;schoonmaak;Nederland;19;;www.synergyfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@promaint.nl;ProMaint Services;schoonmaak;Nederland;14;;www.promaint.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@nexusschoonmaak.nl;Nexus Schoonmaak;schoonmaak;Nederland;10;;www.nexusschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:31
+info@deschoorzaak.nl;Schoonmaakbedrijf De Schone Zaak;schoonmaak;Nederland;18;;www.deschoorzaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@duofacil.nl;Duofacil Schoonmaak;schoonmaak;Nederland;24;;www.duofacil.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@heldereruimtes.nl;Heldere Ruimtes;schoonmaak;Nederland;19;;www.heldereruimtes.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@pronederland.nl;Professioneel Onderhoud Nederland;schoonmaak;Nederland;21;;www.pronederland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@netwerkfacilitair.nl;Netwerk Facilitair;schoonmaak;Nederland;20;;www.netwerkfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@horizonschoon.nl;Horizon Schoonmaakdiensten;schoonmaak;Nederland;19;;www.horizonschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@stfb.nl;Stedelijk Facilitair Beheer;schoonmaak;Nederland;18;;www.stfb.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@efficacy.nl;Efficacy Facilities;schoonmaak;Nederland;22;;www.efficacy.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@schoonmanagement.nl;Schoon Management Services;schoonmaak;Nederland;21;;www.schoonmanagement.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@vastgoeddiensten.nl;Vastgoed Diensten Nederland;schoonmaak;Nederland;17;;www.vastgoeddiensten.nl;60;0;discovered;;ai_discovery;2026-03-30 17:13:16
+info@syphr.nl;Syphr Cleaning Services;schoonmaak;Nederland;85;;www.syphr.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@bmcfacilities.nl;BMC Facilities;schoonmaak;Nederland;90;;www.bmcfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@apolion.nl;Apolion Facility Services;schoonmaak;Nederland;110;;www.apolion.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@faciliterend.nl;Facilitair Nederland;schoonmaak;Nederland;80;;www.faciliterend.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@dekoning-schoonmaak.nl;Schoonmaakbedrijf De Koning;schoonmaak;Nederland;45;;www.dekoning-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@corusclean.nl;Corus Cleaning Solutions;schoonmaak;Nederland;70;;www.corusclean.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@excellentis.nl;Excellentis Facility Services;schoonmaak;Nederland;130;;www.excellentis.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@hygienederland.nl;Schoonmaakbedrijf Hygie;schoonmaak;Nederland;60;;www.hygienederland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@facilitaireplusnl.nl;Facilitaire Plus;schoonmaak;Nederland;55;;www.facilitaireplusnl.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@schoonmakerijpro.nl;SchoonmakerijPro;schoonmaak;Nederland;40;;www.schoonmakerijpro.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@steril.nl;Steril Nederland;schoonmaak;Nederland;65;;www.steril.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@schoonmaak-ams.nl;Schoonmaak Amsterdam Pro;schoonmaak;Nederland;70;;www.schoonmaak-ams.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:35
+info@sdu-schoonmaak.nl;Sdu Schoonmaak;schoonmaak;Nederland;85;;www.sdu-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@bendeschoonmaak.nl;Bende Schoonmaak;schoonmaak;Nederland;55;;www.bendeschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@heggies.nl;Heggies Schoonmaak;schoonmaak;Nederland;70;;www.heggies.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@facetfm.nl;Facet Facility Management;schoonmaak;Nederland;105;;www.facetfm.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@adifo.nl;Adifo Schoonmaak;schoonmaak;Nederland;50;;www.adifo.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@momentumfacilities.nl;Momentum Facilities;schoonmaak;Nederland;130;;www.momentumfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@opusfacilitair.nl;Opus Facilitair;schoonmaak;Nederland;115;;www.opusfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@novaschoonmaak.nl;Nova Schoonmaak;schoonmaak;Nederland;45;;www.novaschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@gdtschoonmaak.nl;GDT Schoonmaak;schoonmaak;Nederland;70;;www.gdtschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@bedin.nl;Bedin Schoonmaak;schoonmaak;Nederland;55;;www.bedin.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:42
+info@koppejanschoonmaak.nl;Koppejan Schoonmaak;schoonmaak;Nederland;80;;www.koppejanschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@intratuin.nl;Intratuin Facilitair;schoonmaak;Nederland;60;;www.intratuin.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@inprohabo.nl;Inprohabo;schoonmaak;Nederland;45;;www.inprohabo.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@multieservice.nl;Multie Service;schoonmaak;Nederland;85;;www.multieservice.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@schoonmaakmn.nl;Schoonmaak Midden Nederland;schoonmaak;Nederland;65;;www.schoonmaakmn.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@otanfacilitair.nl;Otan Facilitair;schoonmaak;Nederland;95;;www.otanfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@svenschoonmaak.nl;Sven Schoonmaak;schoonmaak;Nederland;35;;www.svenschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@econosti.nl;Econosti;schoonmaak;Nederland;110;;www.econosti.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@duurzaamschoonmaken.nl;Duurzaam Schoonmaken;schoonmaak;Nederland;45;;www.duurzaamschoonmaken.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@maatstaf.nl;Maatstaf Facilitair;schoonmaak;Nederland;38;;www.maatstaf.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@nederlandschoon.nl;Nederland Schoon;schoonmaak;Nederland;130;;www.nederlandschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:51
+info@destar.nl;Schoonmaakbedrijf De Ster;schoonmaak;Nederland;15;;www.destar.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@groenke.nl;Groenke Schoonmaak;schoonmaak;Nederland;18;;www.groenke.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@beursschoonmaak.nl;Beurs Schoonmaak;schoonmaak;Nederland;22;;www.beursschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@mvangijzen.nl;Maatschappij van Gijzen;schoonmaak;Nederland;28;;www.mvangijzen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@brenda.nl;Brenda Schoonmaakdiensten;schoonmaak;Nederland;11;;www.brenda.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@fbr.nl;Facilitair Bedrijf Rotterdam;schoonmaak;Nederland;31;;www.fbr.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@hygio.nl;Hygio Schoonmaak;schoonmaak;Nederland;17;;www.hygio.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@schoonmaakwest.nl;Schoonmaak West;schoonmaak;Nederland;24;;www.schoonmaakwest.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@raadvanschoon.nl;Raad van Schoon;schoonmaak;Nederland;9;;www.raadvanschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@grootschoonmaak.nl;Groot Schoonmaak;schoonmaak;Nederland;15;;www.grootschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@schoonmaakzuid.nl;Schoonmaakbedrijf Zuid;schoonmaak;Nederland;23;;www.schoonmaakzuid.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@facilitaircentrum.nl;Facilitair Centrum;schoonmaak;Nederland;32;;www.facilitaircentrum.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@helderschoon.nl;Helder Schoon;schoonmaak;Nederland;10;;www.helderschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 18:06:02
+info@healypartners.nl;HEALY & Partners;schoonmaak;Nederland;95;;www.healypartners.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@bresfacilities.nl;Bres Facilities;schoonmaak;Nederland;45;;www.bresfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@schoonmaakkoning.nl;Schoonmaak Koning;schoonmaak;Nederland;35;;www.schoonmaakkoning.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@envoygroup.nl;Envoy Group;schoonmaak;Nederland;75;;www.envoygroup.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@faamfacilities.nl;Faam Facilities;schoonmaak;Nederland;50;;www.faamfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@havenclean.nl;Havenclean;schoonmaak;Nederland;40;;www.havenclean.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@medusaschoonmaak.nl;Medusa Schoonmaakdiensten;schoonmaak;Nederland;30;;www.medusaschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@sanicleaning.nl;SANI Cleaning Services;schoonmaak;Nederland;25;;www.sanicleaning.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@schoonmaakbedrijfdirk.nl;Schoonmaakbedrijf Dirk;schoonmaak;Nederland;20;;www.schoonmaakbedrijfdirk.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@serveon.nl;Serveon Facilities;schoonmaak;Nederland;48;;www.serveon.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@pci-clean.nl;Professional Cleaners International;schoonmaak;Nederland;80;;www.pci-clean.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@heluxschoonmaak.nl;Helux Schoonmaak;schoonmaak;Nederland;35;;www.heluxschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@engreen.nl;Engreen Facility Services;schoonmaak;Nederland;90;;www.engreen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@schoonmaakspecialized.nl;Schoonmaak Specialized;schoonmaak;Nederland;28;;www.schoonmaakspecialized.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@devriesschoonmaak.nl;De Vries Schoonmaak en Facility;schoonmaak;Nederland;38;;www.devriesschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@neosfacilities.nl;Neos Facilities;schoonmaak;Nederland;55;;www.neosfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:08
+info@fmpfacilities.nl;FMP Facilities Management;schoonmaak;Nederland;44;;www.fmpfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:09
+info@compassfacility.nl;Compass Facility Services;schoonmaak;Nederland;37;;www.compassfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 18:19:09
+info@facilitysupportgroup.nl;Facility Support Group;schoonmaak;Nederland;120;;www.facilitysupportgroup.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@fmprofessionals.nl;FM Professionals;schoonmaak;Nederland;75;;www.fmprofessionals.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@sda-schoonmaak.nl;Schoonmaak Diensten Amsterdam;schoonmaak;Nederland;62;;www.sda-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@millenniumfacilities.nl;Millennium Facilities;schoonmaak;Nederland;73;;www.millenniumfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@pieterbakkerschoonmaak.nl;Pieter Bakker Schoonmaak;schoonmaak;Nederland;52;;www.pieterbakkerschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@bavoschoonmaak.nl;Bavo Schoonmaak;schoonmaak;Nederland;54;;www.bavoschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@tbsschoonmaak.nl;TBS Schoonmaak;schoonmaak;Nederland;47;;www.tbsschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@cleanhuis.nl;Cleanhuis;schoonmaak;Nederland;51;;www.cleanhuis.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@vgsschoonmaak.nl;VGS Schoonmaak;schoonmaak;Nederland;44;;www.vgsschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@cleaningservicenederland.nl;Cleaning Service Nederland;schoonmaak;Nederland;53;;www.cleaningservicenederland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:18
+info@multinorm.nl;Multinorm Schoonmaak;schoonmaak;Nederland;120;;www.multinorm.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@snelschoonmaak.nl;Snel Schoonmaak;schoonmaak;Nederland;75;;www.snelschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@mainstay.nl;Mainstay Facility Services;schoonmaak;Nederland;95;;www.mainstay.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@besafe.nl;BeSafe Schoonmaak;schoonmaak;Nederland;45;;www.besafe.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@fmnederland.nl;Facilities Management Nederland;schoonmaak;Nederland;110;;www.fmnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@ataxy.nl;Ataxy Schoonmaak;schoonmaak;Nederland;130;;www.ataxy.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@trojeschoonmaak.nl;Troje Schoonmaak;schoonmaak;Nederland;55;;www.trojeschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@psh.nl;Professional Services Holland;schoonmaak;Nederland;100;;www.psh.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:21
+info@sillus.nl;Sillus Facility Services;schoonmaak;Nederland;35;;www.sillus.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:22
+info@bouwplus.nl;Bouwplus Facilities;schoonmaak;Nederland;65;;www.bouwplus.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:22
+info@megafacility.nl;Mega Facility Services;schoonmaak;Nederland;180;;www.megafacility.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:22
+info@netwerq.nl;Netwerq Schoonmaak;schoonmaak;Nederland;105;;www.netwerq.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:22
+info@demi.nl;Demi Facility Services;schoonmaak;Nederland;48;;www.demi.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:22
+info@conceptschoonmaak.nl;Concept Schoonmaak;schoonmaak;Nederland;58;;www.conceptschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:22
+contact@iss.nl;ISS Nederland;schoonmaak;Nederland;80;;www.iss.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@korber-facilities.nl;Körber Facilities;schoonmaak;Nederland;45;;www.korber-facilities.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@tharpa.nl;Tharpa Schoonmaak;schoonmaak;Nederland;18;;www.tharpa.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@ansi.nl;ANSI Facilities;schoonmaak;Nederland;30;;www.ansi.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@schoonmaaklokaal.nl;Schoonmaaklokaal;schoonmaak;Nederland;14;;www.schoonmaaklokaal.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@hollands-schoonmaak.nl;Schoonmaakservice Hollands;schoonmaak;Nederland;13;;www.hollands-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@systemat.nl;Systemat Facilities;schoonmaak;Nederland;32;;www.systemat.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:28
+info@schoonmaakbedrijfdijk.nl;Schoonmaakbedrijf Dijk;schoonmaak;Nederland;15;;www.schoonmaakbedrijfdijk.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@orteccleaning.nl;ORTEC Cleaning Services;schoonmaak;Nederland;35;;www.orteccleaning.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@zuiver-schoonmaak.nl;Schoonmaakbedrijf Zuiver;schoonmaak;Nederland;18;;www.zuiver-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@euroserve.nl;Euroserve Facilities;schoonmaak;Nederland;28;;www.euroserve.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@bsmschoonmaak.nl;BSM Schoonmaak;schoonmaak;Nederland;12;;www.bsmschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@interserve.nl;Interserve Facility Services;schoonmaak;Nederland;30;;www.interserve.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@abraxasfacilitair.nl;Abraxas Facilitair;schoonmaak;Nederland;20;;www.abraxasfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@kiemdicht.nl;Kiemdicht Schoonmaak;schoonmaak;Nederland;11;;www.kiemdicht.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@heliosschoon.nl;Schoonmaakbedrijf Helios;schoonmaak;Nederland;19;;www.heliosschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@fah.nl;Facilitair Advies Holland;schoonmaak;Nederland;17;;www.fah.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@perfectoschoon.nl;Schoonmaakbedrijf Perfecto;schoonmaak;Nederland;15;;www.perfectoschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@schoonmaakabc.nl;Schoonmaak ABC;schoonmaak;Nederland;9;;www.schoonmaakabc.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@spotschoon.nl;Schoonmaakbedrijf Spot;schoonmaak;Nederland;11;;www.spotschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@impact-schoon.nl;Schoonmaakbedrijf Impact;schoonmaak;Nederland;12;;www.impact-schoon.nl;60;0;discovered;;ai_discovery;2026-03-30 19:12:00
+info@intendis.nl;Intendis Services;schoonmaak;Nederland;52;;www.intendis.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@europrofessional.nl;Europrofessional;schoonmaak;Nederland;38;;www.europrofessional.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@affinity-services.nl;Affinity Services;schoonmaak;Nederland;42;;www.affinity-services.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@terpstra-schoonmaak.nl;Schoonmaakbedrijf Terpstra;schoonmaak;Nederland;16;;www.terpstra-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@serviscom.nl;Serviscom;schoonmaak;Nederland;48;;www.serviscom.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@rcs-schoonmaak.nl;Regional Cleaning Services;schoonmaak;Nederland;32;;www.rcs-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@soup-services.nl;Schoonmaak en Onderhoud Professionals;schoonmaak;Nederland;20;;www.soup-services.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@faciliteit-nl.nl;Facilitair Nederland;schoonmaak;Nederland;30;;www.faciliteit-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@gbse.nl;Gebouwbeheer & Schoonmaak Experts;schoonmaak;Nederland;19;;www.gbse.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@schoonmaak-holland.nl;Schoonmaak Holland;schoonmaak;Nederland;21;;www.schoonmaak-holland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@primefm.nl;Prime Facility Management;schoonmaak;Nederland;50;;www.primefm.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@apsfm.nl;APS Facility Services;schoonmaak;Nederland;41;;www.apsfm.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@fpp-services.nl;Facility Plus Professionals;schoonmaak;Nederland;46;;www.fpp-services.nl;60;0;discovered;;ai_discovery;2026-03-30 19:25:08
+info@theodoor-gilissen.nl;Theodoor Gilissen;schoonmaak;Nederland;85;;www.theodoor-gilissen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@poort-schoonmaak.nl;Poort Schoonmaak;schoonmaak;Nederland;55;;www.poort-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@cleenprofessionals.nl;Cleen Professionals;schoonmaak;Nederland;70;;www.cleenprofessionals.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@fsg-nl.nl;Facility Solutions Group;schoonmaak;Nederland;130;;www.fsg-nl.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@clean-logistics.nl;Clean Logistics;schoonmaak;Nederland;60;;www.clean-logistics.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@bosmans-schoonmaak.nl;Schoonmaakbedrijf Bosmans;schoonmaak;Nederland;48;;www.bosmans-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@hago-facility.nl;Hago Facility;schoonmaak;Nederland;80;;www.hago-facility.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@vandermeer-schoonmaak.nl;Schoonmaak van der Meer;schoonmaak;Nederland;42;;www.vandermeer-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@kcp-services.nl;Kimberly-Clark Professional Services;schoonmaak;Nederland;105;;www.kcp-services.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@fbg-groningen.nl;Facilitair Bedrijf Groningen;schoonmaak;Nederland;35;;www.fbg-groningen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@eurochem-clean.nl;Eurochem Cleaning Services;schoonmaak;Nederland;75;;www.eurochem-clean.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@fml-limburg.nl;Facilitair Management Limburg;schoonmaak;Nederland;65;;www.fml-limburg.nl;60;0;discovered;;ai_discovery;2026-03-30 19:38:11
+info@ablschoonmaak.nl;ABL Schoonmaakbedrijf;schoonmaak;Nederland;60;;www.ablschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@brinkhuisschoonmaak.nl;Brinkhuis Schoonmaak;schoonmaak;Nederland;55;;www.brinkhuisschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@mertens-fd.nl;Mertens Facilitaire Diensten;schoonmaak;Nederland;120;;www.mertens-fd.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@hygienist.nl;Hygienist Schoonmaakbedrijf;schoonmaak;Nederland;70;;www.hygienist.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@vandevenschoonmaak.nl;Van de Ven Schoonmaak;schoonmaak;Nederland;65;;www.vandevenschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@garantiebedrijf.nl;Garantiebedrijf Schoonmaak;schoonmaak;Nederland;55;;www.garantiebedrijf.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@eertefacilitaire.nl;Eerste Facilitaire;schoonmaak;Nederland;80;;www.eertefacilitaire.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@facilitaironderhoudplus.nl;Facilitair Onderhoud Plus;schoonmaak;Nederland;75;;www.facilitaironderhoudplus.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@schoonmakenopmaat.nl;Schoonmaken op Maat;schoonmaak;Nederland;50;;www.schoonmakenopmaat.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@concessus.nl;Concessus Schoonmaak;schoonmaak;Nederland;35;;www.concessus.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@poortfacilitair.nl;Poort Facilitaire Diensten;schoonmaak;Nederland;60;;www.poortfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:23
+info@schoonmaaktexel.nl;Schoonmaak Texel;schoonmaak;Nederland;20;;www.schoonmaaktexel.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:24
+info@schoonmaakbedrijfpon.nl;Schoonmaakbedrijf Pon;schoonmaak;Nederland;35;;www.schoonmaakbedrijfpon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:42
+info@greencarefacilities.nl;GreenCare Facilities;schoonmaak;Nederland;85;;www.greencarefacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:42
+info@amsfacilitair.nl;Amsterdam Facilitair;schoonmaak;Nederland;110;;www.amsfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:42
+info@cleantime.nl;Cleantime Services;schoonmaak;Nederland;52;;www.cleantime.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:42
+info@schoonmaakbedrijfdtijd.nl;Schoonmaakbedrijf De Tijd;schoonmaak;Nederland;28;;www.schoonmaakbedrijfdtijd.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@fmsupport.nl;FM Support Nederland;schoonmaak;Nederland;21;;www.fmsupport.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@schoonservicejdr.nl;Schoonservice Jan de Ridder;schoonmaak;Nederland;16;;www.schoonservicejdr.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@oostfm.nl;Oost Facility Management;schoonmaak;Nederland;24;;www.oostfm.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@metropoliscleaning.nl;Metropolis Cleaning;schoonmaak;Nederland;42;;www.metropoliscleaning.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@fsnnoord.nl;Facility Services Noord;schoonmaak;Nederland;29;;www.fsnnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@cleanandshine.nl;Clean & Shine;schoonmaak;Nederland;31;;www.cleanandshine.nl;60;0;discovered;;ai_discovery;2026-03-30 20:18:01
+info@anios.nl;Anios Facility Services;schoonmaak;Nederland;120;;www.anios.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@greenyardschoonmaak.nl;Greenyard Schoonmaak;schoonmaak;Nederland;110;;www.greenyardschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@maxxumschoonmaak.nl;Maxxum Schoonmaak;schoonmaak;Nederland;65;;www.maxxumschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@parnassia-facilities.nl;Parnassia Facility Services;schoonmaak;Nederland;80;;www.parnassia-facilities.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@cleankings.nl;Cleankings Nederland;schoonmaak;Nederland;42;;www.cleankings.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@intermark-services.nl;Intermark Services;schoonmaak;Nederland;115;;www.intermark-services.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@hoetink.nl;Hoetink Schoonmaak;schoonmaak;Nederland;68;;www.hoetink.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@mohr-schoonmaak.nl;Mohr Schoonmaakbedrijf;schoonmaak;Nederland;52;;www.mohr-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@fsu.nl;Facilitaire Services Utrecht;schoonmaak;Nederland;78;;www.fsu.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@proserve.nl;Proserve Facility Management;schoonmaak;Nederland;88;;www.proserve.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@tsm.nl;Technische Schoonmaak Middelaar;schoonmaak;Nederland;35;;www.tsm.nl;60;0;discovered;;ai_discovery;2026-03-30 20:31:10
+info@sterkschoon.nl;Sterkschoon;schoonmaak;Nederland;120;;www.sterkschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@tuntum.nl;Tuntum Schoonmaak;schoonmaak;Nederland;95;;www.tuntum.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@jantjebuurman.nl;Jantje Buurman Schoonmaak;schoonmaak;Nederland;75;;www.jantjebuurman.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@falconfacility.nl;Falcon Facility Services;schoonmaak;Nederland;140;;www.falconfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@gdlschoonmaak.nl;GDL Schoonmaak;schoonmaak;Nederland;65;;www.gdlschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@interflexschoon.nl;Interflex Schoonmaak;schoonmaak;Nederland;55;;www.interflexschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@assetline.nl;Assetline Schoonmaak;schoonmaak;Nederland;125;;www.assetline.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@favry.nl;Favry Facility Services;schoonmaak;Nederland;175;;www.favry.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@primairschoon.nl;Primair Schoonmaak;schoonmaak;Nederland;85;;www.primairschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@inhouse-fm.nl;Inhouse Facility Management;schoonmaak;Nederland;95;;www.inhouse-fm.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@mertensfacility.nl;Mertens Facility Services;schoonmaak;Nederland;100;;www.mertensfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@multiservefacility.nl;Multiserve Facility;schoonmaak;Nederland;75;;www.multiservefacility.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@hygeiaschoon.nl;Hygeia Schoonmaak;schoonmaak;Nederland;85;;www.hygeiaschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:30
+info@diamantschoon.nl;Diamant Schoonmaak;schoonmaak;Nederland;70;;www.diamantschoon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:31
+info@serviceplusclean.nl;Service Plus Cleaning;schoonmaak;Nederland;60;;www.serviceplusclean.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:31
+info@schoonmaakned.nl;Schoonmaak Nederland;schoonmaak;Nederland;95;;www.schoonmaakned.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@cobolschoonmaak.nl;Cobol Schoonmaak;schoonmaak;Nederland;55;;www.cobolschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@integrafs.nl;Integra Facility Services;schoonmaak;Nederland;88;;www.integrafs.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@wegener-schoonmaak.nl;Schoonmaakbedrijf Wegener;schoonmaak;Nederland;41;;www.wegener-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@hyservice.nl;Hy-service Schoonmaak;schoonmaak;Nederland;37;;www.hyservice.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@decoservices.nl;Deco Facility Services;schoonmaak;Nederland;62;;www.decoservices.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@groepjansenschoonmaak.nl;Groep Jansen Schoonmaak;schoonmaak;Nederland;44;;www.groepjansenschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@bsgschoonmaak.nl;BSG Schoonmaak;schoonmaak;Nederland;47;;www.bsgschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:49
+info@facet-facility.nl;Facet Facility Services;schoonmaak;Nederland;110;;www.facet-facility.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:52
+info@afco.nl;Afco Schoonmaakbedrijf;schoonmaak;Nederland;65;;www.afco.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:52
+info@cleaningdirect.nl;Cleaning Direct Holland;schoonmaak;Nederland;90;;www.cleaningdirect.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:52
+info@facilitairholland.nl;Facilitair Holland;schoonmaak;Nederland;0;;www.facilitairholland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:52
+info@qualityservices.nl;Quality Services Holland;schoonmaak;Nederland;42;;www.qualityservices.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:52
+info@schoonmaakproper.nl;Schoonmaakbedrijf Proper;schoonmaak;Nederland;30;;www.schoonmaakproper.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@barnetschoonmaak.nl;Barnet Schoonmaak;schoonmaak;Nederland;35;;www.barnetschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@helderingpierson.nl;Heldring & Pierson;schoonmaak;Nederland;50;;www.helderingpierson.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@defaamschoonmaak.nl;De Faam Schoonmaak;schoonmaak;Nederland;28;;www.defaamschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@pcsschoonmaak.nl;PCS Schoonmaak;schoonmaak;Nederland;20;;www.pcsschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@euroclearfacilitair.nl;Euroclear Facilitair;schoonmaak;Nederland;18;;www.euroclearfacilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@stadtschoonmaak.nl;Stadtschoonmaak;schoonmaak;Nederland;24;;www.stadtschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@nordlease.nl;Nordlease Facilitair;schoonmaak;Nederland;55;;www.nordlease.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@axisfacility.nl;Axis Facility Services;schoonmaak;Nederland;35;;www.axisfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@vandenbergcleaning.nl;Cleaning Services van den Berg;schoonmaak;Nederland;21;;www.vandenbergcleaning.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@schooonmaakelite.nl;Schoonmaak Elite;schoonmaak;Nederland;19;;www.schoonmaakelite.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:58
+info@keurig-schoonmaak.nl;Schoonmaakbedrijf Keurig;schoonmaak;Nederland;12;;www.keurig-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@scn-noord.nl;Schoonmaak Centrum Noord;schoonmaak;Nederland;16;;www.scn-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@kleanit.nl;Kleanit Facility Services;schoonmaak;Nederland;28;;www.kleanit.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@impro.nl;Impro Facility Services;schoonmaak;Nederland;70;;www.impro.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@schoonmaaklimburg.nl;Schoonmaak Limburg;schoonmaak;Nederland;19;;www.schoonmaaklimburg.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@sso-schoonmaak.nl;Schoonmaak Service Oost;schoonmaak;Nederland;21;;www.sso-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@ssn-specialist.nl;Schoonmaak Specialist Nederland;schoonmaak;Nederland;38;;www.ssn-specialist.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@hyperion.nl;Hyperion Facility Services;schoonmaak;Nederland;82;;www.hyperion.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@spw-schoonmaak.nl;Schoonmaak Professionals West;schoonmaak;Nederland;31;;www.spw-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:38:13
+info@dussek.nl;Dussek Schoonmaakdiensten;schoonmaak;Nederland;38;;www.dussek.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@maesschoonmaak.nl;Maes Schoonmaak;schoonmaak;Nederland;32;;www.maesschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@heutsschoonmaak.nl;Heuts Schoonmaak;schoonmaak;Nederland;18;;www.heutsschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@alpina-schoonmaak.nl;Schoonmaakbedrijf Alpina;schoonmaak;Nederland;20;;www.alpina-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@forma-facilitair.nl;FORMA Facilitaire Diensten;schoonmaak;Nederland;28;;www.forma-facilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@cleanline-services.nl;Cleanline Services;schoonmaak;Nederland;16;;www.cleanline-services.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@brovad.nl;Brovad Schoonmaak;schoonmaak;Nederland;19;;www.brovad.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@primefacilities.nl;Prime Facilities;schoonmaak;Nederland;14;;www.primefacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@neos-schoonmaak.nl;Neos Schoonmaak;schoonmaak;Nederland;17;;www.neos-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@prn-schoonmaak.nl;Professioneel Reinigen Nederland;schoonmaak;Nederland;15;;www.prn-schoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@sanidienst.nl;Sanidienst Schoonmaak;schoonmaak;Nederland;23;;www.sanidienst.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@dynafacil.nl;Dynafacil;schoonmaak;Nederland;29;;www.dynafacil.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@hygiene-facilitair.nl;Hygiëne & Facilitair Services;schoonmaak;Nederland;27;;www.hygiene-facilitair.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:22
+info@facilitorium.nl;Facilitair Nederland;schoonmaak;Nederland;65;;www.facilitorium.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@pietervaneijk.nl;Pieter van Eijk Schoonmaak;schoonmaak;Nederland;50;;www.pietervaneijk.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@accentschoonmaak.nl;Accent Schoonmaak;schoonmaak;Nederland;40;;www.accentschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@jbsfacility.nl;JBS Facility Services;schoonmaak;Nederland;80;;www.jbsfacility.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@euroklean.nl;Euroclean Nederland;schoonmaak;Nederland;65;;www.euroklean.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@swartservices.nl;Loodgieter en Schoonmaak Swart;schoonmaak;Nederland;35;;www.swartservices.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@sgbschoonmaak.nl;SGB Schoonmaak;schoonmaak;Nederland;50;;www.sgbschoonmaak.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@horizonfacilities.nl;Horizon Facilities;schoonmaak;Nederland;90;;www.horizonfacilities.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@reinigingsimpel.nl;Reiniging Simpel;schoonmaak;Nederland;35;;www.reinigingsimpel.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@bzb-facilities.nl;BZB Facilities;schoonmaak;Nederland;75;;www.bzb-facilities.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@haarlemplus.nl;Schoonmaak Haarlem Plus;schoonmaak;Nederland;25;;www.haarlemplus.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43
+info@vaneck-fm.nl;Van Eck Facility Management;schoonmaak;Nederland;50;;www.vaneck-fm.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:43

@@ -1,33 +1,12 @@
 ﻿email;company;sector;location;vehicles;phone;website;score;ai_score;status;contact_person;source;created_at
 info@vangansewinkel.nl;Van Gansewinkel;afvalverwerking;Nederland;380;;www.vangansewinkel.nl;60;92;discovered;;ai_discovery;2026-03-23 09:09:06
+info@sims.nl;Sims Lifecycle Services;afvalverwerking;Nederland;180;;www.sims.nl;60;92;discovered;;ai_discovery;2026-03-23 15:42:00
 info@sita.nl;Sita;afvalverwerking;Nederland;320;;www.sita.nl;60;91;discovered;;ai_discovery;2026-03-23 09:09:06
+info@nha.nl;Noord-Holland Afval;afvalverwerking;Nederland;99;;www.nha.nl;60;91;discovered;;ai_discovery;2026-03-23 09:19:54
 info@aeb.nl;AEB;afvalverwerking;Nederland;280;;www.aeb.nl;60;90;discovered;;ai_discovery;2026-03-23 09:09:06
-info@circulus.nl;Circulus;afvalverwerking;Nederland;72;;www.circulus.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@defryskegea.nl;De Fryske Gea;afvalverwerking;Nederland;65;;www.defryskegea.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@aebamsterdam.nl;AEB Amsterdam;afvalverwerking;Nederland;110;;www.aebamsterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@hvcnet.nl;HVC;afvalverwerking;Nederland;88;;www.hvcnet.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@fiwaz.nl;Afvalscheidingsbedrijf Fiwaz;afvalverwerking;Nederland;52;;www.fiwaz.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@bergmanrecycling.nl;Bergman Recycling;afvalverwerking;Nederland;67;;www.bergmanrecycling.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@afvalverwerkingcl.nl;Afvalverwerking Limburg;afvalverwerking;Nederland;89;;www.afvalverwerkingcl.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@cleanaway.nl;Cleanaway;afvalverwerking;Nederland;105;;www.cleanaway.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@schenk-recycling.nl;Schenk Recycling;afvalverwerking;Nederland;61;;www.schenk-recycling.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@ecoloop.nl;EcoLoop;afvalverwerking;Nederland;55;;www.ecoloop.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@avon.nl;Afvalverwerking Oost Nederland;afvalverwerking;Nederland;68;;www.avon.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@verbrink.nl;Verbrink Recycling;afvalverwerking;Nederland;91;;www.verbrink.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@deltaafval.nl;Delta Afval;afvalverwerking;Nederland;73;;www.deltaafval.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@nha.nl;Noord-Holland Afval;afvalverwerking;Nederland;99;;www.nha.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@central-recycling.nl;Central Recycling;afvalverwerking;Nederland;54;;www.central-recycling.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@avu.nl;Afvalstoffenverwerking Utrecht;afvalverwerking;Nederland;87;;www.avu.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@afvalzorg.nl;Afvalzorg;afvalverwerking;Nederland;120;;www.afvalzorg.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@acvgroep.nl;ACV Groep;afvalverwerking;Nederland;75;;www.acvgroep.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
+info@afvalzorg.nl;Afvalzorg;afvalverwerking;Nederland;120;;www.afvalzorg.nl;60;90;discovered;;ai_discovery;2026-03-23 09:19:54
+info@verbrink.nl;Verbrink Recycling;afvalverwerking;Nederland;91;;www.verbrink.nl;60;89;discovered;;ai_discovery;2026-03-23 09:19:54
 info@simsrecycling.nl;Sims Recycling;afvalverwerking;Nederland;110;;www.simsrecycling.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@milieudienstenneerd.nl;Milieudiensten Noord;afvalverwerking;Nederland;65;;www.milieudienstenneerd.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@isvag.nl;ISVAG;afvalverwerking;Nederland;80;;www.isvag.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@tventemilieu.nl;Twente Milieu;afvalverwerking;Nederland;70;;www.tventemilieu.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@gasgroningen.nl;Gemeente Afval Service;afvalverwerking;Nederland;55;;www.gasgroningen.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@meerlanden.nl;Meerlanden;afvalverwerking;Nederland;85;;www.meerlanden.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@steenbrink.nl;Steenbrink;afvalverwerking;Nederland;75;;www.steenbrink.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
-info@westlandinfra.nl;Westland Infra;afvalverwerking;Nederland;65;;www.westlandinfra.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
 info@duurzaamnz.nl;Duurzaam Noord-Holland;afvalverwerking;Nederland;60;;www.duurzaamnz.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
 info@wecycle.nl;Wecycle;afvalverwerking;Nederland;55;;www.wecycle.nl;60;80;discovered;;ai_discovery;2026-03-23 09:19:54
 info@waste2clean.nl;Waste2Clean;afvalverwerking;Nederland;85;;www.waste2clean.nl;60;80;discovered;;ai_discovery;2026-03-23 09:37:35
@@ -97,6 +76,42 @@ info@od-noord.nl;OD-Noord;afvalverwerking;Nederland;88;;www.od-noord.nl;60;80;di
 info@urm-nl.nl;URM;afvalverwerking;Nederland;125;;www.urm-nl.nl;60;80;discovered;;ai_discovery;2026-03-23 09:57:23
 info@af-flevoland.nl;Afvalverwerking Flevoland;afvalverwerking;Nederland;65;;www.af-flevoland.nl;60;80;discovered;;ai_discovery;2026-03-23 09:57:23
 info@gag.nl;Gemeente Afvalbeheer Gelderland;afvalverwerking;Nederland;140;;www.gag.nl;60;80;discovered;;ai_discovery;2026-03-23 09:57:23
+info@gad.nl;GAD;afvalverwerking;Nederland;110;;www.gad.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:44
+info@deboerrecycling.nl;De Boer Recycling;afvalverwerking;Nederland;140;;www.deboerrecycling.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:44
+info@attero.nl;Attero;afvalverwerking;Nederland;200;;www.attero.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:44
+info@mdrijnmond.nl;Milieudiensten Rijnmond;afvalverwerking;Nederland;85;;www.mdrijnmond.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:44
+info@atesrecycling.nl;ATES Recycling;afvalverwerking;Nederland;60;;www.atesrecycling.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:44
+info@rpsafval.nl;RPS Afval;afvalverwerking;Nederland;65;;www.rpsafval.nl;60;80;discovered;;ai_discovery;2026-03-23 10:16:44
+info@milieudiensten-twente.nl;Milieudiensten Twente;afvalverwerking;Nederland;55;;www.milieudiensten-twente.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@westland-afval.nl;Westland Afvalverwerking;afvalverwerking;Nederland;72;;www.westland-afval.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@daad.nl;DAAD Drechtsteden;afvalverwerking;Nederland;95;;www.daad.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@gafv-flevoland.nl;Gemeente Afvalverwerking Flevoland;afvalverwerking;Nederland;52;;www.gafv-flevoland.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@schenk.nl;Schenk;afvalverwerking;Nederland;88;;www.schenk.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@avnh.nl;Afvalverwerking Noord-Holland;afvalverwerking;Nederland;67;;www.avnh.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@afvalenergiesuid.nl;AfvalEnergie Zuid;afvalverwerking;Nederland;62;;www.afvalenergiesuid.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@afvalparkstad.nl;Afvalverwerking Parkstad;afvalverwerking;Nederland;51;;www.afvalparkstad.nl;60;80;discovered;;ai_discovery;2026-03-23 10:17:16
+info@afvalmeerland.nl;Afval+ Meerlanden;afvalverwerking;Nederland;75;;www.afvalmeerland.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@bvagroep.nl;Bva Groep;afvalverwerking;Nederland;65;;www.bvagroep.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@asv.nl;Afvalservice Vlaardingen;afvalverwerking;Nederland;55;;www.asv.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@msn-afval.nl;Milieu Service Nederland;afvalverwerking;Nederland;70;;www.msn-afval.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@purefoods.nl;Purefoods;afvalverwerking;Nederland;85;;www.purefoods.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@twente-milieu.nl;Twente Milieu;afvalverwerking;Nederland;75;;www.twente-milieu.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@bergman-recycling.nl;Bergman Recycling;afvalverwerking;Nederland;95;;www.bergman-recycling.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@waste2change.nl;Waste2Change;afvalverwerking;Nederland;85;;www.waste2change.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@circulusberkel.nl;Circulus Berkel;afvalverwerking;Nederland;92;;www.circulusberkel.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@wase.nl;WASE;afvalverwerking;Nederland;87;;www.wase.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@avzh.nl;Afvalverwerking Zuid-Holland;afvalverwerking;Nederland;156;;www.avzh.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@defryskemarren.nl;De Fryske Marren;afvalverwerking;Nederland;72;;www.defryskemarren.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@depotec.nl;Depotec;afvalverwerking;Nederland;58;;www.depotec.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@rad-bv.nl;RAD bv;afvalverwerking;Nederland;81;;www.rad-bv.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@afvalnederlands.nl;Afvalpark Nederlandse Recycling;afvalverwerking;Nederland;76;;www.afvalnederlands.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@mnh.nl;Milieubedrijf Noord-Holland;afvalverwerking;Nederland;103;;www.mnh.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@abr.nl;Afvalbehandeling Rijnmond;afvalverwerking;Nederland;127;;www.abr.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@gftgroningen.nl;GFT Groningen;afvalverwerking;Nederland;69;;www.gftgroningen.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@cbd.nl;Containerbedrijf Drenthe;afvalverwerking;Nederland;96;;www.cbd.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@dfw.nl;Afvalverwerkingsmaatschappij de Fryske Wâlden;afvalverwerking;Nederland;55;;www.dfw.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@cleanservice.nl;Clean Service;afvalverwerking;Nederland;88;;www.cleanservice.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
+info@rsh.nl;Recycling Services Holland;afvalverwerking;Nederland;74;;www.rsh.nl;60;80;discovered;;ai_discovery;2026-03-23 10:36:17
 info@renewi.com;Renewi;afvalverwerking;Amsterdam;450;;www.renewi.com;0;80;new;;ai_knowledge;2026-03-18 12:44:59
 info@waste2go.nl;Waste2Go;afvalverwerking;Utrecht;85;;www.waste2go.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:59
 info@cyclusgroep.nl;Cyclus Groep;afvalverwerking;Rotterdam;120;;www.cyclusgroep.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:59
@@ -111,14 +126,27 @@ info@martensrecycling.nl;Martens Recycling;afvalverwerking;Nijmegen;52;;www.mart
 info@puurrecycling.nl;Puur Recycling;afvalverwerking;Amersfoort;58;;www.puurrecycling.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:59
 info@westernwaste.nl;Western Waste Solutions;afvalverwerking;IJmuiden;62;;www.westernwaste.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:59
 info@ecovista.nl;Ecovista Recycling;afvalverwerking;Zaandam;54;;www.ecovista.nl;0;80;new;;ai_knowledge;2026-03-18 12:44:59
+info@meerlanden.nl;Meerlanden;afvalverwerking;Nederland;85;;www.meerlanden.nl;60;79;discovered;;ai_discovery;2026-03-23 09:19:54
 info@mwhglobal.nl;MWH Global Netherlands;afvalverwerking;Nederland;52;;www.mwhglobal.nl;60;78;discovered;;ai_discovery;2026-03-23 09:09:06
+info@aebamsterdam.nl;AEB Amsterdam;afvalverwerking;Nederland;110;;www.aebamsterdam.nl;60;78;discovered;;ai_discovery;2026-03-23 09:19:54
+info@avu.nl;Afvalstoffenverwerking Utrecht;afvalverwerking;Nederland;87;;www.avu.nl;60;78;discovered;;ai_discovery;2026-03-23 09:19:54
 info@fortunaafval.nl;Fortuna Afvalverwerking;afvalverwerking;Nederland;95;;www.fortunaafval.nl;60;77;discovered;;ai_discovery;2026-03-23 09:09:06
 info@avaafval.nl;AVA Afvalverwerking;afvalverwerking;Nederland;55;;www.avaafval.nl;60;77;discovered;;ai_discovery;2026-03-23 09:09:06
+info@cleanaway.nl;Cleanaway;afvalverwerking;Nederland;105;;www.cleanaway.nl;60;77;discovered;;ai_discovery;2026-03-23 09:19:54
+info@acvgroep.nl;ACV Groep;afvalverwerking;Nederland;75;;www.acvgroep.nl;60;76;discovered;;ai_discovery;2026-03-23 09:19:54
+info@isvag.nl;ISVAG;afvalverwerking;Nederland;80;;www.isvag.nl;60;76;discovered;;ai_discovery;2026-03-23 09:19:54
 info@mbrrotterdam.nl;Milieubedrijf Rotterdam;afvalverwerking;Nederland;150;;www.mbrrotterdam.nl;60;75;discovered;;ai_discovery;2026-03-23 09:09:06
+info@deltaafval.nl;Delta Afval;afvalverwerking;Nederland;73;;www.deltaafval.nl;60;75;discovered;;ai_discovery;2026-03-23 09:19:54
+info@avon.nl;Afvalverwerking Oost Nederland;afvalverwerking;Nederland;68;;www.avon.nl;60;74;discovered;;ai_discovery;2026-03-23 09:19:54
+info@steenbrink.nl;Steenbrink;afvalverwerking;Nederland;75;;www.steenbrink.nl;60;74;discovered;;ai_discovery;2026-03-23 09:19:54
 info@afvalunie.nl;Afvalunie;afvalverwerking;Nederland;82;;www.afvalunie.nl;60;72;discovered;;ai_discovery;2026-03-23 09:09:06
+info@hvcnet.nl;HVC;afvalverwerking;Nederland;88;;www.hvcnet.nl;60;72;discovered;;ai_discovery;2026-03-23 09:19:54
+info@ecoloop.nl;EcoLoop;afvalverwerking;Nederland;55;;www.ecoloop.nl;60;72;discovered;;ai_discovery;2026-03-23 09:19:54
+info@tventemilieu.nl;Twente Milieu;afvalverwerking;Nederland;70;;www.tventemilieu.nl;60;72;discovered;;ai_discovery;2026-03-23 09:19:54
 info@wijreinigen.nl;Wij Reinigen;afvalverwerking;Nederland;88;;www.wijreinigen.nl;60;71;discovered;;ai_discovery;2026-03-23 09:09:06
 info@twentemilieu.nl;Twente Milieu;afvalverwerking;Nederland;78;;www.twentemilieu.nl;60;71;discovered;;ai_discovery;2026-03-23 09:09:06
 info@rova.nl;ROVA;afvalverwerking;Nederland;71;;www.rova.nl;60;71;discovered;;ai_discovery;2026-03-23 09:09:06
+info@afvalverwerkingcl.nl;Afvalverwerking Limburg;afvalverwerking;Nederland;89;;www.afvalverwerkingcl.nl;60;71;discovered;;ai_discovery;2026-03-23 09:19:54
 info@omrin.nl;Omrin;afvalverwerking;Nederland;85;;www.omrin.nl;60;70;discovered;;ai_discovery;2026-03-23 09:09:06
 info@gemeentebedrijfarnhem.nl;Gemeentebedrijf Arnhem;afvalverwerking;Nederland;72;;www.gemeentebedrijfarnhem.nl;60;70;discovered;;ai_discovery;2026-03-23 09:09:06
 info@drystack.nl;Drystack;afvalverwerking;Nederland;45;;www.drystack.nl;60;70;discovered;;ai_discovery;2026-03-23 09:09:06
@@ -130,6 +158,7 @@ info@azsf.nl;Afvalverwerking Zuidwest Friesland;afvalverwerking;Nederland;32;;ww
 info@westlandafval.nl;Westland Afvalverwerking;afvalverwerking;Nederland;48;;www.westlandafval.nl;60;70;discovered;;ai_discovery;2026-03-23 09:09:06
 info@wijrecyclen.nl;Wij Recyclen;afvalverwerking;Nederland;43;;www.wijrecyclen.nl;60;70;discovered;;ai_discovery;2026-03-23 09:19:54
 info@westlandrecycling.nl;Westland Recycling;afvalverwerking;Nederland;42;;www.westlandrecycling.nl;60;70;discovered;;ai_discovery;2026-03-23 09:19:54
+info@central-recycling.nl;Central Recycling;afvalverwerking;Nederland;54;;www.central-recycling.nl;60;70;discovered;;ai_discovery;2026-03-23 09:19:54
 info@kringloopamsterdam.nl;Kringloop Amsterdam;afvalverwerking;Nederland;45;;www.kringloopamsterdam.nl;60;70;discovered;;ai_discovery;2026-03-23 09:19:54
 info@milieucentrale.nl;Milieu Centrale;afvalverwerking;Nederland;40;;www.milieucentrale.nl;60;70;discovered;;ai_discovery;2026-03-23 09:19:54
 info@defryskermarren.nl;De Fryske Marren;afvalverwerking;Nederland;50;;www.defryskermarren.nl;60;70;discovered;;ai_discovery;2026-03-23 09:19:54
@@ -144,6 +173,23 @@ info@weedbijters.nl;Weedbijters;afvalverwerking;Nederland;45;;www.weedbijters.nl
 info@groenekracht.nl;Groene Kracht;afvalverwerking;Nederland;50;;www.groenekracht.nl;60;70;discovered;;ai_discovery;2026-03-23 09:57:18
 info@nwrecycling.nl;Noord-West Recycling;afvalverwerking;Nederland;48;;www.nwrecycling.nl;60;70;discovered;;ai_discovery;2026-03-23 09:57:18
 info@ecocollect.nl;Eco Collect;afvalverwerking;Nederland;50;;www.ecocollect.nl;60;70;discovered;;ai_discovery;2026-03-23 09:57:18
+info@circularq.nl;Circularq;afvalverwerking;Nederland;45;;www.circularq.nl;60;70;discovered;;ai_discovery;2026-03-23 10:16:44
+info@acnh.nl;Afvalstoffencentrum Noord-Holland;afvalverwerking;Nederland;40;;www.acnh.nl;60;70;discovered;;ai_discovery;2026-03-23 10:16:44
+info@ecodiensten.nl;Eco Diensten;afvalverwerking;Nederland;50;;www.ecodiensten.nl;60;70;discovered;;ai_discovery;2026-03-23 10:16:44
+info@weeee.nl;Weeee Afvalverwerking;afvalverwerking;Nederland;35;;www.weeee.nl;60;70;discovered;;ai_discovery;2026-03-23 10:16:44
+info@kaakkesrecycling.nl;Kaakkes Recycling;afvalverwerking;Nederland;45;;www.kaakkesrecycling.nl;60;70;discovered;;ai_discovery;2026-03-23 10:16:44
+info@recyclingplus.nl;Recycling Plus;afvalverwerking;Nederland;40;;www.recyclingplus.nl;60;70;discovered;;ai_discovery;2026-03-23 10:16:44
+info@circulaire-economie.nl;CirculaireEconomie BV;afvalverwerking;Nederland;38;;www.circulaire-economie.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@afvalstoffen-deboon.nl;Afvalstoffenhandel de Boon;afvalverwerking;Nederland;28;;www.afvalstoffen-deboon.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@nvatbv.nl;NV Afvalverwerkingsbedrijf Twente;afvalverwerking;Nederland;48;;www.nvatbv.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@afvalrecycling-limburg.nl;Afvalrecycling Limburg;afvalverwerking;Nederland;35;;www.afvalrecycling-limburg.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@bmcrecycling.nl;BMC Recycling;afvalverwerking;Nederland;45;;www.bmcrecycling.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@gft-groningen.nl;GFT Groningen;afvalverwerking;Nederland;32;;www.gft-groningen.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@sterksel-recycling.nl;Sterksel Recycling;afvalverwerking;Nederland;28;;www.sterksel-recycling.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@circularsolutions.nl;Circular Economy Solutions;afvalverwerking;Nederland;41;;www.circularsolutions.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@purewaste.nl;Pure Waste;afvalverwerking;Nederland;35;;www.purewaste.nl;60;70;discovered;;ai_discovery;2026-03-23 10:17:16
+info@schenk-afval.nl;Schenk Afvalverwerking;afvalverwerking;Nederland;45;;www.schenk-afval.nl;60;70;discovered;;ai_discovery;2026-03-23 10:36:17
+info@awa.nl;Afvalwerkplaats Amsterdam;afvalverwerking;Nederland;50;;www.awa.nl;60;70;discovered;;ai_discovery;2026-03-23 10:36:17
 info@afvalverwerkingnoord.nl;Afvalverwerking Noord;afvalverwerking;Groningen;45;;www.afvalverwerkingnoord.nl;0;70;new;;ai_knowledge;2026-03-18 12:44:59
 info@dkgmilieu.nl;DKG Milieu;afvalverwerking;Apeldoorn;40;;www.dkgmilieu.nl;0;70;new;;ai_knowledge;2026-03-18 12:44:59
 info@argorecycling.nl;ARGO Recycling;afvalverwerking;Maastricht;50;;www.argorecycling.nl;0;70;new;;ai_knowledge;2026-03-18 12:44:59
@@ -158,66 +204,21 @@ info@recyclepoint.nl;RecyclePoint Netherlands;afvalverwerking;Delfzijl;33;;www.r
 info@cure.nl;Cure;afvalverwerking;Nederland;95;;www.cure.nl;60;69;discovered;;ai_discovery;2026-03-23 09:09:06
 info@ecotrash.nl;EcoTrash;afvalverwerking;Nederland;62;;www.ecotrash.nl;60;69;discovered;;ai_discovery;2026-03-23 09:09:06
 info@amf.nl;Afvalstoffenmaatschappij Fryslân;afvalverwerking;Nederland;68;;www.amf.nl;60;68;discovered;;ai_discovery;2026-03-23 09:09:06
+info@circulus.nl;Circulus;afvalverwerking;Nederland;72;;www.circulus.nl;60;68;discovered;;ai_discovery;2026-03-23 09:19:54
+info@milieudienstenneerd.nl;Milieudiensten Noord;afvalverwerking;Nederland;65;;www.milieudienstenneerd.nl;60;68;discovered;;ai_discovery;2026-03-23 09:19:54
+info@westlandinfra.nl;Westland Infra;afvalverwerking;Nederland;65;;www.westlandinfra.nl;60;66;discovered;;ai_discovery;2026-03-23 09:19:54
 info@cyclus.nl;Cyclus;afvalverwerking;Nederland;58;;www.cyclus.nl;60;65;discovered;;ai_discovery;2026-03-23 09:09:06
+info@bergmanrecycling.nl;Bergman Recycling;afvalverwerking;Nederland;67;;www.bergmanrecycling.nl;60;65;discovered;;ai_discovery;2026-03-23 09:19:54
+info@gasgroningen.nl;Gemeente Afval Service;afvalverwerking;Nederland;55;;www.gasgroningen.nl;60;64;discovered;;ai_discovery;2026-03-23 09:19:54
+info@defryskegea.nl;De Fryske Gea;afvalverwerking;Nederland;65;;www.defryskegea.nl;60;62;discovered;;ai_discovery;2026-03-23 09:19:54
+info@fiwaz.nl;Afvalscheidingsbedrijf Fiwaz;afvalverwerking;Nederland;52;;www.fiwaz.nl;60;62;discovered;;ai_discovery;2026-03-23 09:19:54
+info@schenk-recycling.nl;Schenk Recycling;afvalverwerking;Nederland;61;;www.schenk-recycling.nl;60;60;discovered;;ai_discovery;2026-03-23 09:19:54
 info@recyclageplus.nl;Recyclage Plus;afvalverwerking;Nederland;0;;www.recyclageplus.nl;60;40;discovered;;ai_discovery;2026-03-23 09:19:54
 info@rd4.nl;RD4;afvalverwerking;Nederland;0;;www.rd4.nl;60;40;discovered;;ai_discovery;2026-03-23 09:37:35
 info@afvalverwerking-brabant.nl;Afvalverwerking Brabant;afvalverwerking;Nederland;0;;www.afvalverwerking-brabant.nl;60;40;discovered;;ai_discovery;2026-03-23 09:37:49
+info@ram-afvalservice.nl;RAM;afvalverwerking;Nederland;0;;www.ram-afvalservice.nl;60;40;discovered;;ai_discovery;2026-03-23 10:36:17
+info@belrec.nl;BelRec;afvalverwerking;Nederland;0;;www.belrec.nl;60;40;discovered;;ai_discovery;2026-03-23 10:36:17
 info@restcontainersafvalverwerking.nl;Rest Containers & Afvalverwerking;afvalverwerking;Veenendaal;0;;;0;40;new;;openstreetmap;2026-03-18 12:44:59
-info@gad.nl;GAD;afvalverwerking;Nederland;110;;www.gad.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@circularq.nl;Circularq;afvalverwerking;Nederland;45;;www.circularq.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@deboerrecycling.nl;De Boer Recycling;afvalverwerking;Nederland;140;;www.deboerrecycling.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@attero.nl;Attero;afvalverwerking;Nederland;200;;www.attero.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@mdrijnmond.nl;Milieudiensten Rijnmond;afvalverwerking;Nederland;85;;www.mdrijnmond.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@acnh.nl;Afvalstoffencentrum Noord-Holland;afvalverwerking;Nederland;40;;www.acnh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@ecodiensten.nl;Eco Diensten;afvalverwerking;Nederland;50;;www.ecodiensten.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@atesrecycling.nl;ATES Recycling;afvalverwerking;Nederland;60;;www.atesrecycling.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@weeee.nl;Weeee Afvalverwerking;afvalverwerking;Nederland;35;;www.weeee.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@rpsafval.nl;RPS Afval;afvalverwerking;Nederland;65;;www.rpsafval.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@kaakkesrecycling.nl;Kaakkes Recycling;afvalverwerking;Nederland;45;;www.kaakkesrecycling.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@recyclingplus.nl;Recycling Plus;afvalverwerking;Nederland;40;;www.recyclingplus.nl;60;0;discovered;;ai_discovery;2026-03-23 10:16:44
-info@circulaire-economie.nl;CirculaireEconomie BV;afvalverwerking;Nederland;38;;www.circulaire-economie.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@afvalstoffen-deboon.nl;Afvalstoffenhandel de Boon;afvalverwerking;Nederland;28;;www.afvalstoffen-deboon.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@milieudiensten-twente.nl;Milieudiensten Twente;afvalverwerking;Nederland;55;;www.milieudiensten-twente.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@westland-afval.nl;Westland Afvalverwerking;afvalverwerking;Nederland;72;;www.westland-afval.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@nvatbv.nl;NV Afvalverwerkingsbedrijf Twente;afvalverwerking;Nederland;48;;www.nvatbv.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@daad.nl;DAAD Drechtsteden;afvalverwerking;Nederland;95;;www.daad.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@gafv-flevoland.nl;Gemeente Afvalverwerking Flevoland;afvalverwerking;Nederland;52;;www.gafv-flevoland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@afvalrecycling-limburg.nl;Afvalrecycling Limburg;afvalverwerking;Nederland;35;;www.afvalrecycling-limburg.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@schenk.nl;Schenk;afvalverwerking;Nederland;88;;www.schenk.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@avnh.nl;Afvalverwerking Noord-Holland;afvalverwerking;Nederland;67;;www.avnh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@bmcrecycling.nl;BMC Recycling;afvalverwerking;Nederland;45;;www.bmcrecycling.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@gft-groningen.nl;GFT Groningen;afvalverwerking;Nederland;32;;www.gft-groningen.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@afvalenergiesuid.nl;AfvalEnergie Zuid;afvalverwerking;Nederland;62;;www.afvalenergiesuid.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@sterksel-recycling.nl;Sterksel Recycling;afvalverwerking;Nederland;28;;www.sterksel-recycling.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@circularsolutions.nl;Circular Economy Solutions;afvalverwerking;Nederland;41;;www.circularsolutions.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@purewaste.nl;Pure Waste;afvalverwerking;Nederland;35;;www.purewaste.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@afvalparkstad.nl;Afvalverwerking Parkstad;afvalverwerking;Nederland;51;;www.afvalparkstad.nl;60;0;discovered;;ai_discovery;2026-03-23 10:17:16
-info@afvalmeerland.nl;Afval+ Meerlanden;afvalverwerking;Nederland;75;;www.afvalmeerland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@ram-afvalservice.nl;RAM;afvalverwerking;Nederland;0;;www.ram-afvalservice.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@bvagroep.nl;Bva Groep;afvalverwerking;Nederland;65;;www.bvagroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@asv.nl;Afvalservice Vlaardingen;afvalverwerking;Nederland;55;;www.asv.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@schenk-afval.nl;Schenk Afvalverwerking;afvalverwerking;Nederland;45;;www.schenk-afval.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@msn-afval.nl;Milieu Service Nederland;afvalverwerking;Nederland;70;;www.msn-afval.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@awa.nl;Afvalwerkplaats Amsterdam;afvalverwerking;Nederland;50;;www.awa.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@purefoods.nl;Purefoods;afvalverwerking;Nederland;85;;www.purefoods.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@twente-milieu.nl;Twente Milieu;afvalverwerking;Nederland;75;;www.twente-milieu.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@bergman-recycling.nl;Bergman Recycling;afvalverwerking;Nederland;95;;www.bergman-recycling.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@waste2change.nl;Waste2Change;afvalverwerking;Nederland;85;;www.waste2change.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@circulusberkel.nl;Circulus Berkel;afvalverwerking;Nederland;92;;www.circulusberkel.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@wase.nl;WASE;afvalverwerking;Nederland;87;;www.wase.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@avzh.nl;Afvalverwerking Zuid-Holland;afvalverwerking;Nederland;156;;www.avzh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@belrec.nl;BelRec;afvalverwerking;Nederland;0;;www.belrec.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@defryskemarren.nl;De Fryske Marren;afvalverwerking;Nederland;72;;www.defryskemarren.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@depotec.nl;Depotec;afvalverwerking;Nederland;58;;www.depotec.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@rad-bv.nl;RAD bv;afvalverwerking;Nederland;81;;www.rad-bv.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@afvalnederlands.nl;Afvalpark Nederlandse Recycling;afvalverwerking;Nederland;76;;www.afvalnederlands.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@mnh.nl;Milieubedrijf Noord-Holland;afvalverwerking;Nederland;103;;www.mnh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@abr.nl;Afvalbehandeling Rijnmond;afvalverwerking;Nederland;127;;www.abr.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@gftgroningen.nl;GFT Groningen;afvalverwerking;Nederland;69;;www.gftgroningen.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@cbd.nl;Containerbedrijf Drenthe;afvalverwerking;Nederland;96;;www.cbd.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@dfw.nl;Afvalverwerkingsmaatschappij de Fryske Wâlden;afvalverwerking;Nederland;55;;www.dfw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@cleanservice.nl;Clean Service;afvalverwerking;Nederland;88;;www.cleanservice.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
-info@rsh.nl;Recycling Services Holland;afvalverwerking;Nederland;74;;www.rsh.nl;60;0;discovered;;ai_discovery;2026-03-23 10:36:17
 info@grootzevert.nl;Groot Zevert;afvalverwerking;Nederland;95;;www.grootzevert.nl;60;0;discovered;;ai_discovery;2026-03-23 10:50:06
 info@detoekomstgroep.nl;De Toekomst Groep;afvalverwerking;Nederland;75;;www.detoekomstgroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:50:06
 info@nijhuiswaste.nl;Nijhuis Waste;afvalverwerking;Nederland;110;;www.nijhuiswaste.nl;60;0;discovered;;ai_discovery;2026-03-23 10:50:06
@@ -792,7 +793,6 @@ info@recyclingednederland.nl;Recycling Nederland;afvalverwerking;Nederland;105;;
 info@afvaltotaal.nl;Afval Totaal;afvalverwerking;Nederland;65;;www.afvaltotaal.nl;60;0;discovered;;ai_discovery;2026-03-23 15:41:38
 info@groepvandijk.nl;Groep Van Dijk;afvalverwerking;Nederland;120;;www.groepvandijk.nl;60;0;discovered;;ai_discovery;2026-03-23 15:41:38
 info@afvallogistiek-oost.nl;Afvallogistiek Oost;afvalverwerking;Nederland;55;;www.afvallogistiek-oost.nl;60;0;discovered;;ai_discovery;2026-03-23 15:41:38
-info@sims.nl;Sims Lifecycle Services;afvalverwerking;Nederland;180;;www.sims.nl;60;0;discovered;;ai_discovery;2026-03-23 15:42:00
 info@kringloopfriesland.nl;Kringloop Friesland;afvalverwerking;Nederland;45;;www.kringloopfriesland.nl;60;0;discovered;;ai_discovery;2026-03-23 15:42:00
 info@nlav.nl;Noord Limburgse Afvalverwerking;afvalverwerking;Nederland;110;;www.nlav.nl;60;0;discovered;;ai_discovery;2026-03-23 15:42:00
 info@wastesrvcs.nl;Waste Services Holland;afvalverwerking;Nederland;88;;www.wastesrvcs.nl;60;0;discovered;;ai_discovery;2026-03-23 15:42:00
@@ -2298,3 +2298,294 @@ info@rws-afval.nl;Regional Waste Systems;afvalverwerking;Nederland;75;;www.rws-a
 info@greentech-sol.nl;Greentech Solutions;afvalverwerking;Nederland;50;;www.greentech-sol.nl;60;0;discovered;;ai_discovery;2026-03-24 12:09:54
 info@afvalcircuits.nl;Afval Circuits;afvalverwerking;Nederland;110;;www.afvalcircuits.nl;60;0;discovered;;ai_discovery;2026-03-24 12:09:54
 info@odgroningen.nl;Omgevingsdiensten Groningen;afvalverwerking;Nederland;85;;www.odgroningen.nl;60;0;discovered;;ai_discovery;2026-03-24 12:09:54
+info@circulareconomyplastics.nl;Circular Economy Plastics;afvalverwerking;Nederland;120;;www.circulareconomyplastics.nl;60;0;discovered;;ai_discovery;2026-03-30 13:02:30
+info@waarrecycling.nl;Waar Recycling;afvalverwerking;Nederland;110;;www.waarrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 13:02:30
+info@boerwinkel.nl;Boerwinkel;afvalverwerking;Nederland;70;;www.boerwinkel.nl;60;0;discovered;;ai_discovery;2026-03-30 13:02:30
+info@anwb-afval.nl;Afvalverwerkingsbedrijf Noord Holland ANWB;afvalverwerking;Nederland;65;;www.anwb-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 13:02:30
+info@sortera.nl;Sortera;afvalverwerking;Nederland;78;;www.sortera.nl;60;0;discovered;;ai_discovery;2026-03-30 13:02:30
+info@bab.nl;Borsele Afvalverwerkingsbedrijf;afvalverwerking;Nederland;45;;www.bab.nl;60;0;discovered;;ai_discovery;2026-03-30 13:02:30
+afval@almere.nl;Gemeente Almere Afvalverwerking;afvalverwerking;Nederland;65;;www.almere.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@beterpack.nl;Beterpack;afvalverwerking;Nederland;45;;www.beterpack.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@cirkelhuys.nl;Cirkelhuys;afvalverwerking;Nederland;55;;www.cirkelhuys.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@sau.nl;Samenwerking Afvalverwerking Utrecht;afvalverwerking;Nederland;75;;www.sau.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@promelieu.nl;Promé Milieu;afvalverwerking;Nederland;48;;www.promelieu.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@redert.nl;Redert;afvalverwerking;Nederland;0;;www.redert.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@paques.nl;Paques;afvalverwerking;Nederland;82;;www.paques.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@mdijsselland.nl;Milieudiensten IJsselland;afvalverwerking;Nederland;68;;www.mdijsselland.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@akaarecycling.nl;Akaa Recycling;afvalverwerking;Nederland;52;;www.akaarecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 13:25:39
+info@madnoord.nl;MAD Noord;afvalverwerking;Nederland;65;;www.madnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 13:48:44
+info@gazuid.nl;Gemeente Afvalverwerking Zuid;afvalverwerking;Nederland;105;;www.gazuid.nl;60;0;discovered;;ai_discovery;2026-03-30 13:48:44
+info@gftmh.nl;GFT Midden-Holland;afvalverwerking;Nederland;68;;www.gftmh.nl;60;0;discovered;;ai_discovery;2026-03-30 13:48:44
+info@dek.nl;Afvalverwerking De Kempen;afvalverwerking;Nederland;82;;www.dek.nl;60;0;discovered;;ai_discovery;2026-03-30 13:48:44
+info@dak-afval.nl;Dar-Al-Khaleej;afvalverwerking;Nederland;45;;www.dak-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 13:48:44
+info@despree.nl;De Spree Afval;afvalverwerking;Nederland;0;;www.despree.nl;60;0;discovered;;ai_discovery;2026-03-30 13:48:44
+info@circulairnijmegen.nl;Circulair Nijmegen;afvalverwerking;Nederland;85;;www.circulairnijmegen.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:15
+info@anv.nl;Afvalverwerking Noord-Veluwe;afvalverwerking;Nederland;60;;www.anv.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:15
+info@ados.nl;ADOS;afvalverwerking;Nederland;75;;www.ados.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:15
+info@roteb.nl;Roteb;afvalverwerking;Nederland;180;;www.roteb.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:15
+info@amnb.nl;Afvalstoffenmaatschappij Noord-Brabant;afvalverwerking;Nederland;140;;www.amnb.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:15
+info@mbzh.nl;Milieubeheer Zuid-Holland;afvalverwerking;Nederland;135;;www.mbzh.nl;60;0;discovered;;ai_discovery;2026-03-30 14:13:15
+info@hvc-haarlem.nl;HVC (Haarlem Warmte & Comfort);afvalverwerking;Nederland;120;;www.hvc-haarlem.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@wastegroupnl.nl;Waste Services Group;afvalverwerking;Nederland;140;;www.wastegroupnl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@spaarpotnl.nl;Spaarpot Recycling;afvalverwerking;Nederland;85;;www.spaarpotnl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@anvl.nl;Afvalverwerking Noord Limburg;afvalverwerking;Nederland;75;;www.anvl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@awts.nl;AWTS (Afvalwater Technische Services);afvalverwerking;Nederland;65;;www.awts.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@gpo-recycling.nl;GPO (Groep Prognose Ontwikkeling);afvalverwerking;Nederland;105;;www.gpo-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@avfries.nl;Afvalverwerking Friesland;afvalverwerking;Nederland;90;;www.avfries.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@rcn-noord.nl;RCN (Recycling Company Noord);afvalverwerking;Nederland;0;;www.rcn-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@msfland.nl;Milieu Service Flevoland;afvalverwerking;Nederland;80;;www.msfland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@fritsvandijk.nl;Afvalverwerking Frits van Dijk;afvalverwerking;Nederland;55;;www.fritsvandijk.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@rio-recycle.nl;Recyclingindustrie Oost;afvalverwerking;Nederland;100;;www.rio-recycle.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@wsu.nl;Waste Solutions Utrecht;afvalverwerking;Nederland;125;;www.wsu.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@daaz.nl;Duurzame Afval Zuid;afvalverwerking;Nederland;70;;www.daaz.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@rhn.nl;Recycling Holland Noord;afvalverwerking;Nederland;85;;www.rhn.nl;60;0;discovered;;ai_discovery;2026-03-30 14:36:13
+info@circulairnord.nl;Circulair Noord;afvalverwerking;Nederland;42;;www.circulairnord.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@terlinden.nl;Ter Linden;afvalverwerking;Nederland;95;;www.terlinden.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@erfurt.nl;Erfurt;afvalverwerking;Nederland;72;;www.erfurt.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@midgroningen.nl;Mid-Groningen;afvalverwerking;Nederland;54;;www.midgroningen.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@acm.nl;Afvalcentrum Maastricht;afvalverwerking;Nederland;58;;www.acm.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@severnlei.nl;Severnlei;afvalverwerking;Nederland;45;;www.severnlei.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@arnadvies.nl;ARN Advies;afvalverwerking;Nederland;38;;www.arnadvies.nl;60;0;discovered;;ai_discovery;2026-03-30 14:58:44
+info@afvalservicegelderland.nl;Afvalservice Gelderland;afvalverwerking;Nederland;75;;www.afvalservicegelderland.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:01
+info@groeptdeboer.nl;Groep De Boer;afvalverwerking;Nederland;220;;www.groeptdeboer.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:01
+info@kleinwaste.nl;Klein Waste;afvalverwerking;Nederland;65;;www.kleinwaste.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:01
+info@avaafvalverwerking.nl;AVA Afvalverwerking;afvalverwerking;Nederland;105;;www.avaafvalverwerking.nl;60;0;discovered;;ai_discovery;2026-03-30 15:22:01
+info@vdn-afval.nl;VDN Afval;afvalverwerking;Nederland;55;;www.vdn-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:19
+info@ecotechniek.nl;Ecotechniek;afvalverwerking;Nederland;35;;www.ecotechniek.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:19
+info@metallicresources.nl;Metallic Resources;afvalverwerking;Nederland;25;;www.metallicresources.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:19
+info@sorwaste.nl;Sorwaste;afvalverwerking;Nederland;55;;www.sorwaste.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:19
+info@delflandse.nl;Delflandse Afvalverwerking;afvalverwerking;Nederland;78;;www.delflandse.nl;60;0;discovered;;ai_discovery;2026-03-30 15:44:19
+info@steenhovengroep.nl;Steenhovengroep;afvalverwerking;Nederland;125;;www.steenhovengroep.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@rgogroep.nl;RGO Groep;afvalverwerking;Nederland;155;;www.rgogroep.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@westermansafval.nl;Westermans Afval;afvalverwerking;Nederland;72;;www.westermansafval.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@afvaldiensten.nl;Afval+ Diensten;afvalverwerking;Nederland;103;;www.afvaldiensten.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@vuilniswagenholland.nl;Vuilniswagen Holland;afvalverwerking;Nederland;58;;www.vuilniswagenholland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@afvalwagenservices.nl;Afvalwagen Services;afvalverwerking;Nederland;81;;www.afvalwagenservices.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@recyclaat.nl;Recyclaat;afvalverwerking;Nederland;44;;www.recyclaat.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@cleancitylogistiek.nl;CleanCity Logistiek;afvalverwerking;Nederland;77;;www.cleancitylogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@afvalexpertise.nl;Afval Expertise;afvalverwerking;Nederland;55;;www.afvalexpertise.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@greenlogisticsnl.nl;Green Logistics NL;afvalverwerking;Nederland;89;;www.greenlogisticsnl.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@transawayafval.nl;TransAway Afval;afvalverwerking;Nederland;68;;www.transawayafval.nl;60;0;discovered;;ai_discovery;2026-03-30 16:07:32
+info@sludgerefinery.nl;Sludge Refinery;afvalverwerking;Nederland;85;;www.sludgerefinery.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@aardewerkgroep.nl;Aardewerkgroep;afvalverwerking;Nederland;65;;www.aardewerkgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@beseafval.nl;Bese Afvalinzameling;afvalverwerking;Nederland;110;;www.beseafval.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@richigroep.nl;Richi Groep;afvalverwerking;Nederland;105;;www.richigroep.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@dar-ess.nl;Dar-Ess Afvalverwerking;afvalverwerking;Nederland;72;;www.dar-ess.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@bartelinck.nl;Bartelinck Transport;afvalverwerking;Nederland;85;;www.bartelinck.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@afvalinzamelingtwente.nl;Afvalinzameling Twente;afvalverwerking;Nederland;98;;www.afvalinzamelingtwente.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@riothex.nl;Riothex;afvalverwerking;Nederland;112;;www.riothex.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@milieunnh.nl;Milieu Noord Holland;afvalverwerking;Nederland;92;;www.milieunnh.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@daelimrecycling.nl;DAELIM Recycling;afvalverwerking;Nederland;78;;www.daelimrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@milieubedrijnoard.nl;Milieubedrijf Noord;afvalverwerking;Nederland;87;;www.milieubedrijfnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 16:30:23
+info@darbe.nl;Dar.be;afvalverwerking;Nederland;60;;www.darbe.nl;60;0;discovered;;ai_discovery;2026-03-30 16:53:26
+info@slimmeafval.nl;Slimme Afval;afvalverwerking;Nederland;45;;www.slimmeafval.nl;60;0;discovered;;ai_discovery;2026-03-30 16:53:26
+info@deschraper.nl;De Schraper;afvalverwerking;Nederland;35;;www.deschraper.nl;60;0;discovered;;ai_discovery;2026-03-30 16:53:26
+info@beterafval.nl;Beterafval;afvalverwerking;Nederland;40;;www.beterafval.nl;60;0;discovered;;ai_discovery;2026-03-30 16:53:26
+info@feda.nl;Feda;afvalverwerking;Nederland;50;;www.feda.nl;60;0;discovered;;ai_discovery;2026-03-30 16:53:26
+info@aom.nl;Afvalstoffen Overdracht Maatschappij;afvalverwerking;Nederland;140;;www.aom.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:14
+info@mwh.nl;MWH;afvalverwerking;Nederland;90;;www.mwh.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:14
+info@milieucentrumnord.nl;Milieu Centrum Noord;afvalverwerking;Nederland;55;;www.milieucentrumnord.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:14
+info@recyclage.nl;Recyclage Nederland;afvalverwerking;Nederland;145;;www.recyclage.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:14
+info@aeltergroep.nl;Aelter Groep;afvalverwerking;Nederland;95;;www.aeltergroep.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:14
+info@b2brecycling.nl;B2B Recycling;afvalverwerking;Nederland;110;;www.b2brecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:15
+info@gftmanagement.nl;GFT Management;afvalverwerking;Nederland;78;;www.gftmanagement.nl;60;0;discovered;;ai_discovery;2026-03-30 17:16:15
+info@darduurzaam.nl;Dar Duurzaam;afvalverwerking;Nederland;55;;www.darduurzaam.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@afvalservicehartog.nl;Afvalservice Hartog;afvalverwerking;Nederland;38;;www.afvalservicehartog.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@kuhnlogistiek.nl;Kuhn Logistiek;afvalverwerking;Nederland;58;;www.kuhnlogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@milieudienstenfriesland.nl;Milieudiensten Friesland;afvalverwerking;Nederland;54;;www.milieudienstenfriesland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@afvallogistiekdegraaff.nl;Afvallogistiek de Graaff;afvalverwerking;Nederland;36;;www.afvallogistiekdegraaff.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@cleanlease.nl;Cleanlease Afval;afvalverwerking;Nederland;68;;www.cleanlease.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@milieuholdingnord.nl;Milieu Holding Noord;afvalverwerking;Nederland;44;;www.milieuholdingnord.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@avirecycling.nl;AVI Recycling;afvalverwerking;Nederland;51;;www.avirecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@afvalservicewestland.nl;Afvalservice Westland;afvalverwerking;Nederland;33;;www.afvalservicewestland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@vandierentransport.nl;Van Dieren Transport;afvalverwerking;Nederland;47;;www.vandierentransport.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@ngbafval.nl;NGB Afvalverwerking;afvalverwerking;Nederland;56;;www.ngbafval.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@recyclingservice.nl;Recycling Service Nederland;afvalverwerking;Nederland;63;;www.recyclingservice.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@afvalverwerkingmiddelburg.nl;Afvalverwerking Middelburg;afvalverwerking;Nederland;35;;www.afvalverwerkingmiddelburg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:29:28
+info@afvalscheidingsbedrijf.nl;Afvalscheidingsbedrijf.nl;afvalverwerking;Nederland;55;+31 10 217 7700;www.afvalscheidingsbedrijf.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@cureafval.nl;Cure Afval;afvalverwerking;Nederland;70;+31 78 617 1000;www.cureafval.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@samenafval.nl;Samenafval;afvalverwerking;Nederland;40;+31 30 287 5400;www.samenafval.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@gavnorth.nl;gemeente Afval Verwerking Noord Holland;afvalverwerking;Nederland;92;+31 72 548 5000;www.gavnorth.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@porsmetaal.nl;Pors Metaal;afvalverwerking;Nederland;35;+31 20 640 1414;www.porsmetaal.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@timmermans-containers.nl;Containerbedrijf Timmermans;afvalverwerking;Nederland;50;+31 31 835 5000;www.timmermans-containers.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@schrader-recycling.nl;Schrader Recycling;afvalverwerking;Nederland;45;+31 50 585 2500;www.schrader-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@rcvandervelde.nl;Recycling Centrum van der Velde;afvalverwerking;Nederland;35;+31 76 520 9000;www.rcvandervelde.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@mgz.nl;Milieu Groep Zuid;afvalverwerking;Nederland;78;+31 40 232 8000;www.mgz.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@agemgroep.nl;AGEM Afvalverwerking;afvalverwerking;Nederland;62;+31 75 681 5050;www.agemgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 17:42:39
+info@apeldoornse-diensten.nl;Apeldoornse Diensten;afvalverwerking;Nederland;75;;www.apeldoornse-diensten.nl;60;0;discovered;;ai_discovery;2026-03-30 17:55:44
+info@satl.nl;Samenwerking Afvalverwerking Tholen-Liesveld;afvalverwerking;Nederland;45;;www.satl.nl;60;0;discovered;;ai_discovery;2026-03-30 17:55:44
+info@westlandse-afvalverwerking.nl;Westlandse Afvalverwerking;afvalverwerking;Nederland;105;;www.westlandse-afvalverwerking.nl;60;0;discovered;;ai_discovery;2026-03-30 17:55:44
+info@bergvantrachten.nl;Berg van Tr撃ten;afvalverwerking;Nederland;70;;www.bergvantrachten.nl;60;0;discovered;;ai_discovery;2026-03-30 17:55:44
+info@grootbrittenburg.nl;Groot Brittenburg;afvalverwerking;Nederland;70;;www.grootbrittenburg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:49
+info@ecomunicipaal.nl;Ecomunicipaal;afvalverwerking;Nederland;40;;www.ecomunicipaal.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:49
+info@cleantech-solutions.nl;CleanTech Solutions;afvalverwerking;Nederland;55;;www.cleantech-solutions.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:49
+info@milieucentrum.nl;Milieu Centrum Nederland;afvalverwerking;Nederland;48;;www.milieucentrum.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:50
+info@groeneenergie.nl;Groene Energie;afvalverwerking;Nederland;38;;www.groeneenergie.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:50
+info@recyclingcenterholland.nl;Recycling Center Holland;afvalverwerking;Nederland;42;;www.recyclingcenterholland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:50
+info@afval-regio.nl;Afval-Regio;afvalverwerking;Nederland;58;;www.afval-regio.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:50
+info@duurzaamoverijssel.nl;Duurzaam Overijssel;afvalverwerking;Nederland;52;;www.duurzaamoverijssel.nl;60;0;discovered;;ai_discovery;2026-03-30 18:08:50
+info@rud-recycling.nl;RUD Recycling;afvalverwerking;Nederland;85;;www.rud-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@afvalgestalt.nl;Afvalgestalt;afvalverwerking;Nederland;0;;www.afvalgestalt.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@wijnoorholland.nl;Wij Noord-Holland;afvalverwerking;Nederland;40;;www.wijnoorholland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@puinrecycling.nl;Puin Recycling Nederland;afvalverwerking;Nederland;35;;www.puinrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@textielrecyclingnl.nl;Textielrecycling NL;afvalverwerking;Nederland;25;;www.textielrecyclingnl.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@metaalrecyclingbenelux.nl;Metaalrecycling Benelux;afvalverwerking;Nederland;38;;www.metaalrecyclingbenelux.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@plasticrecyclingcenter.nl;Plastic Recycling Center;afvalverwerking;Nederland;32;;www.plasticrecyclingcenter.nl;60;0;discovered;;ai_discovery;2026-03-30 18:22:01
+info@bevogroep.nl;Bevo Groep;afvalverwerking;Nederland;110;;www.bevogroep.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@cpto.nl;CPTO;afvalverwerking;Nederland;60;;www.cpto.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@westermeulen.nl;Westermeulen;afvalverwerking;Nederland;55;;www.westermeulen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@afvalverkgorinchen.nl;Afvalverwerk Gorinchem;afvalverwerking;Nederland;40;;www.afvalverkgorinchen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@afvflevo.nl;Afvalverwerking Flevoland;afvalverwerking;Nederland;70;;www.afvflevo.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@afvalophaalsvc.nl;Afvalophaal Service;afvalverwerking;Nederland;65;;www.afvalophaalsvc.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@afvalrecycle.nl;Afval Recycle Nederland;afvalverwerking;Nederland;90;;www.afvalrecycle.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@groenewoudt.nl;Groenewoudt;afvalverwerking;Nederland;75;;www.groenewoudt.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@rctrecycling.nl;RCT Recycling;afvalverwerking;Nederland;60;;www.rctrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 18:35:10
+info@remexrecycling.nl;Remex Recycling;afvalverwerking;Nederland;55;;www.remexrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@berkafvalverwerking.nl;Berk Afvalverwerking;afvalverwerking;Nederland;45;;www.berkafvalverwerking.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@ofngroep.nl;OFN Groep;afvalverwerking;Nederland;60;;www.ofngroep.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@avingeraar.nl;Avingeraar Recycling;afvalverwerking;Nederland;35;;www.avingeraar.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@milconrecycling.nl;Milcon Recycling;afvalverwerking;Nederland;30;;www.milconrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@fenitecoshred.nl;Fenit Ecoshred;afvalverwerking;Nederland;35;;www.fenitecoshred.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@envirom.nl;Envir-om;afvalverwerking;Nederland;28;;www.envirom.nl;60;0;discovered;;ai_discovery;2026-03-30 18:48:13
+info@afvalverknoord.nl;Afvalverwerking Noord;afvalverwerking;Nederland;65;;www.afvalverknoord.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@wageningen-afval.nl;Wageningen Afvalverwerking;afvalverwerking;Nederland;35;;www.wageningen-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@avel.nl;Afvalverwerking Limburg;afvalverwerking;Nederland;92;;www.avel.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@puurcirculair.nl;Puur Circulair;afvalverwerking;Nederland;50;;www.puurcirculair.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@adr.nl;Afvalstoffendistrict Rijnmond;afvalverwerking;Nederland;125;;www.adr.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@apnh.nl;Afvalprojecten Noord-Holland;afvalverwerking;Nederland;48;;www.apnh.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@reninger.nl;Reninger;afvalverwerking;Nederland;62;;www.reninger.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@agp.nl;Afvalwerkende Groningen Provincie;afvalverwerking;Nederland;54;;www.agp.nl;60;0;discovered;;ai_discovery;2026-03-30 19:01:33
+info@ofz.nl;OFZ;afvalverwerking;Nederland;95;;www.ofz.nl;60;0;discovered;;ai_discovery;2026-03-30 19:14:51
+info@c2csolutions.nl;Cradle to Cradle Solutions;afvalverwerking;Nederland;50;;www.c2csolutions.nl;60;0;discovered;;ai_discovery;2026-03-30 19:14:51
+info@alpro.nl;Alpro;afvalverwerking;Nederland;60;;www.alpro.nl;60;0;discovered;;ai_discovery;2026-03-30 19:14:51
+info@rios-recycling.nl;Rios Recycling;afvalverwerking;Nederland;55;;www.rios-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 19:14:51
+info@duurzaam-nederland.nl;Duurzaam Nederland;afvalverwerking;Nederland;40;;www.duurzaam-nederland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:14:51
+info@bartin.nl;Bartin;afvalverwerking;Nederland;70;;www.bartin.nl;60;0;discovered;;ai_discovery;2026-03-30 19:27:57
+info@afvalcentrumwest.nl;Afval Centrum West;afvalverwerking;Nederland;85;;www.afvalcentrumwest.nl;60;0;discovered;;ai_discovery;2026-03-30 19:27:57
+info@bevo.nl;Bevo;afvalverwerking;Nederland;60;;www.bevo.nl;60;0;discovered;;ai_discovery;2026-03-30 19:27:57
+info@gauw.nl;Gemeente Afvalverwerking Utrecht;afvalverwerking;Nederland;100;;www.gauw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:27:57
+info@waalwijkafval.nl;Waalwijk Afvalverwerking;afvalverwerking;Nederland;35;;www.waalwijkafval.nl;60;0;discovered;;ai_discovery;2026-03-30 19:27:57
+info@gws-waste.nl;Gemeente Waste Services;afvalverwerking;Nederland;38;;www.gws-waste.nl;60;0;discovered;;ai_discovery;2026-03-30 19:27:57
+info@spaapkost.nl;Spaapkost;afvalverwerking;Nederland;42;;www.spaapkost.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@afvalmilieu.nl;Afval & Milieu;afvalverwerking;Nederland;58;;www.afvalmilieu.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@bravilor.nl;Bravilor Waste Services;afvalverwerking;Nederland;72;;www.bravilor.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@twintemuieu.nl;Twente Milieu;afvalverwerking;Nederland;54;;www.twintemilieu.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@waardemilieu.nl;Waarde Milieu;afvalverwerking;Nederland;68;;www.waardemilieu.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@veras.nl;VERAS;afvalverwerking;Nederland;79;;www.veras.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@recoservice.nl;RecoService;afvalverwerking;Nederland;38;;www.recoservice.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@avcgroningen.nl;Afvalverwerkingscentrum Groningen;afvalverwerking;Nederland;41;;www.avcgroningen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@mddafval.nl;MDD Afvalverwerking;afvalverwerking;Nederland;35;;www.mddafval.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@agentschapnl.nl;Agentschap NL Afval;afvalverwerking;Nederland;28;;www.agentschapnl.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@roofwaste.nl;RoofwastNederland;afvalverwerking;Nederland;33;;www.roofwaste.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@milko.nl;Milko;afvalverwerking;Nederland;44;;www.milko.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@circularvalue.nl;CircularValue;afvalverwerking;Nederland;52;;www.circularvalue.nl;60;0;discovered;;ai_discovery;2026-03-30 19:41:00
+info@teraa.nl;Afvalverwerking Ter Aa;afvalverwerking;Nederland;120;;www.teraa.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@biovast.nl;Biovast;afvalverwerking;Nederland;35;;www.biovast.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@cyclos-recycling.nl;Cyclos Recycling;afvalverwerking;Nederland;60;;www.cyclos-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@coverwaste.nl;Coverwaste;afvalverwerking;Nederland;70;;www.coverwaste.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@prome.nl;Promé Afvalverwerking;afvalverwerking;Nederland;65;;www.prome.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@wasec.nl;Wasec;afvalverwerking;Nederland;52;;www.wasec.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@afvalnnh.nl;Afval Noord-Holland;afvalverwerking;Nederland;42;;www.afvalnnh.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@rcz.nl;Recycling Centrum Zuid;afvalverwerking;Nederland;38;;www.rcz.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@sorteringoost.nl;Sortering Oost;afvalverwerking;Nederland;44;;www.sorteringoost.nl;60;0;discovered;;ai_discovery;2026-03-30 19:54:20
+info@afvalzorgnooord.nl;Afvalzorg Noord;afvalverwerking;Nederland;48;;www.afvalzorgnooord.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@tweedekamer-afval.nl;Twee de Kamer;afvalverwerking;Nederland;32;;www.tweedekamer-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@gal-afval.nl;Gemeente Afvallogistiek;afvalverwerking;Nederland;78;;www.gal-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@rijnlandrecycling.nl;Rijnland Recycling;afvalverwerking;Nederland;84;;www.rijnlandrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@wijgooingnietweg.nl;Wij Gooien Niet Weg;afvalverwerking;Nederland;42;;www.wijgooingnietweg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@limburgresources.nl;Limburg Resources;afvalverwerking;Nederland;88;;www.limburgresources.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@brakelafval.nl;Brakel Afval;afvalverwerking;Nederland;35;;www.brakelafval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@waterlandrecycling.nl;Waterland Recycling;afvalverwerking;Nederland;46;;www.waterlandrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@circulairgelderland.nl;Circulair Gelderland;afvalverwerking;Nederland;62;;www.circulairgelderland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:07:39
+info@defriesafval.nl;De Fries Afval;afvalverwerking;Nederland;65;;www.defriesafval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@bramafval.nl;Bram Afval;afvalverwerking;Nederland;70;;www.bramafval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@vvdb.nl;VVDB;afvalverwerking;Nederland;95;;www.vvdb.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@containerplus.nl;Container Plus;afvalverwerking;Nederland;65;;www.containerplus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@afvalservicedewaert.nl;Afvalservice de Waert;afvalverwerking;Nederland;48;;www.afvalservicedewaert.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@milieubeheernederland.nl;Milieu Beheer Nederland;afvalverwerking;Nederland;42;;www.milieubeheernederland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@restmil.nl;Restmil;afvalverwerking;Nederland;35;;www.restmil.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@samengroei.nl;Samengroei;afvalverwerking;Nederland;45;;www.samengroei.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@containertransport.nl;Container Transport;afvalverwerking;Nederland;38;;www.containertransport.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@groeneenergierecycling.nl;Groene Energie Recycling;afvalverwerking;Nederland;50;;www.groeneenergierecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@groenelande.nl;Groenelande;afvalverwerking;Nederland;55;;www.groenelande.nl;60;0;discovered;;ai_discovery;2026-03-30 20:20:55
+info@acrplus.nl;ACR+;afvalverwerking;Nederland;65;;www.acrplus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:06
+info@ifam.nl;IFAM;afvalverwerking;Nederland;90;;www.ifam.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:06
+info@greenerws.nl;Greener Waste Solutions;afvalverwerking;Nederland;65;;www.greenerws.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:07
+info@nedwaste.nl;NedWaste Solutions;afvalverwerking;Nederland;80;;www.nedwaste.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:07
+info@cleancityams.nl;Clean City Amsterdam;afvalverwerking;Nederland;150;;www.cleancityams.nl;60;0;discovered;;ai_discovery;2026-03-30 20:34:07
+info@dar-ec.nl;Dar.e.c;afvalverwerking;Nederland;65;;www.dar-ec.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@doesburg-afval.nl;Doesburg Afval;afvalverwerking;Nederland;35;;www.doesburg-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@erfmerk.nl;Erfmerk Abfallwirtschaft;afvalverwerking;Nederland;55;;www.erfmerk.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@huibrotmans.nl;Huib Rotmans;afvalverwerking;Nederland;60;;www.huibrotmans.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@milbat.nl;Milbat;afvalverwerking;Nederland;88;;www.milbat.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@neem.nl;Nature & Environment;afvalverwerking;Nederland;50;;www.neem.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@omn.nl;OMN Recycling;afvalverwerking;Nederland;78;;www.omn.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@petje.nl;Petje Afvalverwerking;afvalverwerking;Nederland;42;;www.petje.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@rco.nl;RCO Recycling;afvalverwerking;Nederland;0;;www.rco.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@slr.nl;SLR Recycling;afvalverwerking;Nederland;58;;www.slr.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@twenterand.nl;Twenterand Afvalverwerking;afvalverwerking;Nederland;72;;www.twenterand.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@uitzending-afval.nl;Uitzending Afvalverwerking;afvalverwerking;Nederland;48;;www.uitzending-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@weee.nl;Weee Recycling;afvalverwerking;Nederland;51;;www.weee.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@wekela.nl;Wekela Afvalverwerking;afvalverwerking;Nederland;44;;www.wekela.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@zoetermeer-afval.nl;Zoetermeer Afvalverwerking;afvalverwerking;Nederland;62;;www.zoetermeer-afval.nl;60;0;discovered;;ai_discovery;2026-03-30 20:47:27
+info@grootbrittannierecycling.nl;Groot Brittannië Recycling;afvalverwerking;Nederland;80;;www.grootbrittannierecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:39
+info@degroeneveqer.nl;De Groene Veger;afvalverwerking;Nederland;65;;www.degroeneveqer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@dewatering.nl;Afvalstoffenbedrijf de Watering;afvalverwerking;Nederland;45;;www.dewatering.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@ecodan.nl;Ecodan;afvalverwerking;Nederland;75;;www.ecodan.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@rpsrecycling.nl;RPS Recycling;afvalverwerking;Nederland;95;;www.rpsrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@westeinde.nl;Westeinde Recycling;afvalverwerking;Nederland;60;;www.westeinde.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@dinlogistiek.nl;DIN Logistiek;afvalverwerking;Nederland;110;;www.dinlogistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@recyclingkempenland.nl;Recycling Kempenland;afvalverwerking;Nederland;75;;www.recyclingkempenland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@afvalserviceoverijssel.nl;Afvalservice Overijssel;afvalverwerking;Nederland;80;;www.afvalserviceoverijssel.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@rbu.nl;Reinigingsbedrijf Utrecht;afvalverwerking;Nederland;120;;www.rbu.nl;60;0;discovered;;ai_discovery;2026-03-30 21:00:40
+info@maven-recycling.nl;Maven Recycling;afvalverwerking;Nederland;62;;www.maven-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@ecn-circulariteit.nl;ECN Circulariteit;afvalverwerking;Nederland;40;;www.ecn-circulariteit.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@suez-recycling.nl;Suez Recycling;afvalverwerking;Nederland;130;;www.suez-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@midden-holland.nl;Milieubeheer Midden-Holland;afvalverwerking;Nederland;50;;www.midden-holland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@recycling-logistiek.nl;Recycling Logistiek Nederland;afvalverwerking;Nederland;60;;www.recycling-logistiek.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@waste-experts.nl;Waste Experts;afvalverwerking;Nederland;48;;www.waste-experts.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@darpolymers.nl;Dar Polymers;afvalverwerking;Nederland;38;;www.darpolymers.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@plastic-convert.nl;Plastic Convert;afvalverwerking;Nederland;44;;www.plastic-convert.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@matiere-recycling.nl;Matière Recycling;afvalverwerking;Nederland;56;;www.matiere-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@nlafval.nl;NLAfval;afvalverwerking;Nederland;68;;www.nlafval.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@ecowaste-solutions.nl;EcoWaste Solutions;afvalverwerking;Nederland;42;;www.ecowaste-solutions.nl;60;0;discovered;;ai_discovery;2026-03-30 21:14:38
+info@cirkelkade.nl;Cirkelkade;afvalverwerking;Nederland;65;;www.cirkelkade.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@afvalgebiedoost.nl;Afvalgebied Oost;afvalverwerking;Nederland;75;;www.afvalgebiedoost.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@avrwij.nl;AVR Afvalverwerking;afvalverwerking;Nederland;120;;www.avrwij.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@waste2raw.nl;Waste2Raw;afvalverwerking;Nederland;65;;www.waste2raw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@biomeer.nl;BioMeer;afvalverwerking;Nederland;50;;www.biomeer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@kerstensrecycling.nl;Kerstens Recycling;afvalverwerking;Nederland;60;;www.kerstensrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@afvalwestbrabant.nl;Afval West Brabant;afvalverwerking;Nederland;85;;www.afvalwestbrabant.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@reisgidsafval.nl;Reisgids Afvalverwerking;afvalverwerking;Nederland;55;;www.reisgidsafval.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@westergaardrecycling.nl;Westergaard Recycling;afvalverwerking;Nederland;75;;www.westergaardrecycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@afvalcentrumzo.nl;Afvalcentrum Zuidoost;afvalverwerking;Nederland;90;;www.afvalcentrumzo.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@totalafval.nl;Total Afvalverwerking;afvalverwerking;Nederland;110;;www.totalafval.nl;60;0;discovered;;ai_discovery;2026-03-30 21:27:48
+info@afvalcentralnederland.nl;Afval Centraal;afvalverwerking;Nederland;65;;www.afvalcentralnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@cyclus-noord.nl;Cyclus Noord;afvalverwerking;Nederland;50;;www.cyclus-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@westland-recycling.nl;Westland Recycling;afvalverwerking;Nederland;55;;www.westland-recycling.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@afvalwaterland.nl;Afvalverwerking Waterland;afvalverwerking;Nederland;40;;www.afvalwaterland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@milieucentraalwest.nl;Milieu Centraal West;afvalverwerking;Nederland;35;;www.milieucentraalwest.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@grtgroep.nl;GRT Groep;afvalverwerking;Nederland;110;;www.grtgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@adrijnmond.nl;Afvalstoffendienst Rijnmond;afvalverwerking;Nederland;120;;www.adrijnmond.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@derompert.nl;De Rompert;afvalverwerking;Nederland;75;;www.derompert.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@affaldekos.nl;Affaldekos;afvalverwerking;Nederland;45;;www.affaldekos.nl;60;0;discovered;;ai_discovery;2026-03-30 21:41:05
+info@afval-services.nl;Afval-Services;afvalverwerking;Nederland;35;;www.afval-services.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@vdnmilieu.nl;VDN Milieu;afvalverwerking;Nederland;28;;www.vdnmilieu.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@circularij.nl;Circularij;afvalverwerking;Nederland;42;;www.circularij.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@milieubedrijfgroningen.nl;Milieubedrijf Groningen;afvalverwerking;Nederland;38;;www.milieubedrijfgroningen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@wasteconsultants.nl;Waste Consultants;afvalverwerking;Nederland;22;;www.wasteconsultants.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@dekleinearrde.nl;De Kleine Aarde;afvalverwerking;Nederland;18;;www.dekleinearrde.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@afvalconcernnnoord.nl;Afvalconcern Noord;afvalverwerking;Nederland;52;;www.afvalconcernnnoord.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@recyclingcentral.nl;Recycling Central;afvalverwerking;Nederland;31;;www.recyclingcentral.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@arngroep.nl;ARN Groep;afvalverwerking;Nederland;73;;www.arngroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@cycligroep.nl;Cycli Groep;afvalverwerking;Nederland;44;;www.cycligroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@milieuexperts.nl;Milieu Experts;afvalverwerking;Nederland;25;;www.milieuexperts.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@gooiafval.nl;Gooi Afval;afvalverwerking;Nederland;33;;www.gooiafval.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@limurgmilieu.nl;Limburg Milieu;afvalverwerking;Nederland;47;;www.limurgmilieu.nl;60;0;discovered;;ai_discovery;2026-03-30 21:54:17
+info@agg.nl;Afvalstoffen Gemeente Groningen;afvalverwerking;Nederland;75;;www.agg.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:36
+info@vanachem.nl;Vanachem;afvalverwerking;Nederland;60;;www.vanachem.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:36
+info@declerq.nl;De Clerq;afvalverwerking;Nederland;85;;www.declerq.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:37
+info@aif.nl;Afvalinzameling Friesland;afvalverwerking;Nederland;65;;www.aif.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:37
+info@atradiusafval.nl;Atradius Afval;afvalverwerking;Nederland;80;;www.atradiusafval.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:37
+info@hulswit.nl;Hulswit;afvalverwerking;Nederland;35;;www.hulswit.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:37
+info@erfvoost.nl;Erfv Oost;afvalverwerking;Nederland;58;;www.erfvoost.nl;60;0;discovered;;ai_discovery;2026-03-30 22:07:37

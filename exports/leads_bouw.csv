@@ -1,12 +1,14 @@
 ﻿email;company;sector;location;vehicles;phone;website;score;ai_score;status;contact_person;source;created_at
 info@bamgroup.nl;Royal BAM Group;bouw;Utrecht;400;;www.bamgroup.nl;0;98;new;;ai_knowledge;2026-03-18 14:19:23
 info@ballastnedam.nl;Ballast Nedam;bouw;Amsterdam;350;;www.ballastnedam.nl;0;97;new;;ai_knowledge;2026-03-18 10:36:21
+info@koppert.nl;Koppert Construct;bouw;Nederland;160;;www.koppertconstruct.nl;60;96;discovered;;ai_discovery;2026-03-23 10:13:38
 info@volkerwessels.nl;Volker Wessels;bouw;Amsterdam;400;;www.volkerwessels.nl;0;96;new;;ai_knowledge;2026-03-18 10:36:12
 info@besix.nl;Besix Nederland;bouw;Amsterdam;140;;www.besix.nl;0;96;new;;ai_knowledge;2026-03-18 10:36:21
 info@bamgroup.com;BAM Construct;bouw;Utrecht;200;;www.bamgroup.com;0;96;new;;ai_knowledge;2026-03-18 11:44:53
 info@vangeldergroup.nl;Van Gelder Group;bouw;Groningen;280;;www.vangeldergroup.nl;0;96;new;;ai_knowledge;2026-03-18 12:04:53
 info@vobisinfra.nl;Vobis Infra;bouw;Utrecht;165;;www.vobisinfra.nl;0;96;new;;ai_knowledge;2026-03-18 14:19:23
 info@visser-smit.nl;Visser & Smit Hanab;bouw;Nederland;210;;www.visser-smit.nl;60;95;discovered;;ai_discovery;2026-03-23 09:34:34
+info@verheijden.nl;Koninklijke Verheijden;bouw;Nederland;110;;www.verheijden.nl;60;95;discovered;;ai_discovery;2026-03-23 10:33:06
 info@ixas.nl;IXAS;bouw;Rotterdam;130;;www.ixas.nl;0;95;new;;ai_knowledge;2026-03-18 10:36:12
 info@damen.nl;Damen Shipyards;bouw;Gorinchem;200;;www.damen.nl;0;95;new;;ai_knowledge;2026-03-18 10:36:13
 info@hollandsebouw.nl;Hollandse Bouw;bouw;Rotterdam;130;;www.hollandsebouw.nl;0;95;new;;ai_knowledge;2026-03-18 13:53:44
@@ -16,6 +18,10 @@ info@bamnatie.nl;BAM Natie;bouw;Nederland;180;;www.bamnatie.nl;60;94;discovered;
 info@vosbv.nl;Koninklijke Vos Logistics;bouw;Nederland;200;;www.vosbv.nl;60;94;discovered;;ai_discovery;2026-03-23 09:34:34
 info@emslandgroep.nl;Emsland Groep;bouw;Nederland;130;;www.emslandgroep.nl;60;94;discovered;;ai_discovery;2026-03-23 09:34:34
 info@bam.eu;Koninklijke Bam Groep;bouw;Nederland;220;;www.bam.eu;60;94;discovered;;ai_discovery;2026-03-23 09:54:11
+info@hazemeyer.nl;Hazemeyer;bouw;Nederland;140;;www.hazemeyer.nl;60;94;discovered;;ai_discovery;2026-03-23 10:13:38
+info@zijlstra.nl;Zijlstra Bouwbedrijf;bouw;Nederland;95;;www.zijlstra.nl;60;94;discovered;;ai_discovery;2026-03-23 10:13:38
+contact@bam.nl;Koninklijke BAM Groep;bouw;Nederland;175;;www.bam.nl;60;94;discovered;;ai_discovery;2026-03-23 10:14:06
+info@marconi.nl;Marconi;bouw;Nederland;95;;www.marconi.nl;60;94;discovered;;ai_discovery;2026-03-23 10:33:06
 info@heijmans.nl;Heijmans;bouw;Rosmalen;380;;www.heijmans.nl;0;94;new;;ai_knowledge;2026-03-18 10:36:12
 info@boskalis.nl;Boskalis;bouw;Papendrecht;320;;www.boskalis.nl;0;94;new;;ai_knowledge;2026-03-18 10:36:12
 info@muddebouw.nl;Aannemersbedrijf Rotterdam;bouw;Rotterdam;100;0 0 24 24;https://www.muddebouw.nl/lp/aannemersbedrijf-rotterdam/;0;94;new;;web_scrape;2026-03-18 10:36:13
@@ -36,6 +42,7 @@ info@rebelgroup.nl;Rebelgroup;bouw;Nederland;135;;www.rebelgroup.nl;60;93;discov
 info@boskalisciviel.nl;Boskalis Infratech;bouw;Nederland;125;;www.boskalisciviel.nl;60;93;discovered;;ai_discovery;2026-03-23 09:07:45
 info@schippergroep.nl;Schipper Groep;bouw;Nederland;165;;www.schippergroep.nl;60;93;discovered;;ai_discovery;2026-03-23 09:34:34
 info@bergman-constructions.nl;Bergman Constructions;bouw;Nederland;125;;www.bergman-constructions.nl;60;93;discovered;;ai_discovery;2026-03-23 09:34:34
+info@bamgroep.nl;Koninklijke Bam Groep;bouw;Nederland;130;;www.bamgroep.nl;60;93;discovered;;ai_discovery;2026-03-23 10:33:05
 info@duravermeer.nl;Dura Vermeer;bouw;Rotterdam;320;;www.duravermeer.nl;0;93;new;;ai_knowledge;2026-03-18 10:36:12
 info@vandewalle.nl;Van de Walle Groep;bouw;Gouda;200;;www.vandewalle.nl;0;93;new;;ai_knowledge;2026-03-18 10:36:12
 info@witteveenbos.nl;Witteveen+Bos;bouw;Deventer;160;;www.witteveenbos.nl;0;93;new;;ai_knowledge;2026-03-18 10:36:13
@@ -47,6 +54,7 @@ info@bamciviel.nl;Bam Civiel;bouw;Amsterdam;95;;www.bamciviel.nl;0;93;new;;ai_kn
 info@hakkers.nl;Hakkers Bouwgroep;bouw;Breda;120;;www.hakkers.nl;0;93;new;;ai_knowledge;2026-03-18 12:04:53
 info@taigabouw.nl;Taiga Bouw;bouw;Amsterdam;110;;www.taigabouw.nl;0;93;new;;ai_knowledge;2026-03-18 14:19:23
 info@janssendejong.nl;Janssen de Jong;bouw;Nederland;150;;www.janssendejong.nl;60;92;discovered;;ai_discovery;2026-03-23 09:34:22
+info@herge-civiel.nl;Hergé Civiel;bouw;Nederland;120;;www.herge-civiel.nl;60;92;discovered;;ai_discovery;2026-03-23 10:13:38
 info@bam.nl;Bam Bouw;bouw;Utrecht;450;;www.bam.nl;0;92;new;;ai_knowledge;2026-03-18 10:36:12
 info@savoybouw.nl;Savoy Bouw;bouw;Amsterdam;120;;www.savoybouw.nl;0;92;new;;ai_knowledge;2026-03-18 10:36:12
 info@volkerwessels.com;VolkerWessels;bouw;Amsterdam;160;;www.volkerwessels.com;0;92;new;;ai_knowledge;2026-03-18 11:44:53
@@ -63,6 +71,7 @@ info@icopal.nl;ICOPAL Nederland;bouw;Nederland;95;;www.icopal.nl;60;91;discovere
 info@cofra.nl;Cofra Saboq;bouw;Nederland;105;;www.cofra.nl;60;91;discovered;;ai_discovery;2026-03-23 09:07:45
 info@vinciconstruction.nl;Vinci Construction Nederland;bouw;Nederland;125;;www.vinciconstruction.nl;60;91;discovered;;ai_discovery;2026-03-23 09:07:49
 info@hegemangroep.nl;Hegeman Groep;bouw;Nederland;145;;www.hegemangroep.nl;60;91;discovered;;ai_discovery;2026-03-23 09:34:34
+info@gouwbouw.nl;Gouw Bouw;bouw;Nederland;85;;www.gouwbouw.nl;60;91;discovered;;ai_discovery;2026-03-23 10:13:38
 info@ballast-nedam.nl;Ballast Nedam;bouw;Amsterdam;250;;www.ballast-nedam.nl;0;91;new;;ai_knowledge;2026-03-18 10:36:12
 info@tinde.nl;Tinde;bouw;Amsterdam;110;;www.tinde.nl;0;91;new;;ai_knowledge;2026-03-18 10:36:12
 info@mourik.nl;Mourik;bouw;Ridderkerk;180;;www.mourik.nl;0;91;new;;ai_knowledge;2026-03-18 10:36:12
@@ -100,6 +109,7 @@ info@levvel.nl;Levvel;bouw;Nederland;105;;www.levvel.nl;60;80;discovered;;ai_dis
 info@aertsbouw.nl;Bouwbedrijf Aerts;bouw;Nederland;80;;www.aertsbouw.nl;60;80;discovered;;ai_discovery;2026-03-23 09:34:34
 info@vinci-construction.nl;Vinci Construction;bouw;Nederland;130;;www.vinci-construction.nl;60;80;discovered;;ai_discovery;2026-03-23 09:54:11
 info@schipholvastgoed.nl;Schiphol Vastgoed;bouw;Nederland;85;;www.schipholvastgoed.nl;60;80;discovered;;ai_discovery;2026-03-23 09:54:11
+info@ziegler-bouw.nl;Ziegler Bouwbedrijf;bouw;Nederland;55;;www.ziegler-bouw.nl;60;80;discovered;;ai_discovery;2026-03-23 10:14:06
 info@hbgcivil.nl;HBG Civil;bouw;Gouda;150;;www.hbgcivil.nl;0;80;new;;ai_knowledge;2026-03-18 10:36:12
 info@mertensbouwgroep.nl;Mertens Bouwgroep;bouw;Eindhoven;85;;www.mertensbouwgroep.nl;0;80;new;;ai_knowledge;2026-03-18 10:36:13
 info@vanlaerebouw.nl;Van Laere Bouw;bouw;Oss;75;;www.vanlaerebouw.nl;0;80;new;;ai_knowledge;2026-03-18 10:36:21
@@ -138,6 +148,11 @@ info@gebruders-janssen.nl;Gebr. Janssen;bouw;Nederland;58;;www.gebruders-janssen
 info@gemeente-bouw.nl;Gemeente Infrastructuur;bouw;Nederland;85;;www.gemeente-bouw.nl;60;79;discovered;;ai_discovery;2026-03-23 09:34:34
 info@betoninfra.nl;Beton Infra;bouw;Nederland;85;;www.betoninfra.nl;60;79;discovered;;ai_discovery;2026-03-23 09:34:34
 info@rwsbouw.nl;RWS Bouw;bouw;Nederland;78;;www.rwsbouw.nl;60;79;discovered;;ai_discovery;2026-03-23 09:54:12
+info@raaijen.nl;Raaijen Civiel;bouw;Nederland;70;;www.raaijen.nl;60;79;discovered;;ai_discovery;2026-03-23 10:13:38
+info@khoury.nl;Aannemingsbedrijf Khoury;bouw;Nederland;60;;www.khoury.nl;60;79;discovered;;ai_discovery;2026-03-23 10:14:06
+info@ebobouw.nl;Ebo Bouw;bouw;Nederland;85;;www.ebobouw.nl;60;79;discovered;;ai_discovery;2026-03-23 10:33:06
+info@stevingroep.nl;Stevin Groep;bouw;Nederland;80;;www.stevingroep.nl;60;79;discovered;;ai_discovery;2026-03-23 10:33:06
+info@wiering.nl;Wiering Grondwerk;bouw;Nederland;75;;www.wiering.nl;60;79;discovered;;ai_discovery;2026-03-23 10:33:06
 info@koopgeo.nl;Koop Geotechniek;bouw;Rotterdam;85;;www.koopgeo.nl;0;79;new;;ai_knowledge;2026-03-18 10:36:12
 info@duurzaambouw.nl;Duurzaam Bouw;bouw;Den Haag;65;;www.duurzaambouw.nl;0;79;new;;ai_knowledge;2026-03-18 10:36:13
 info@sif.nl;Sif Holdings;bouw;Leidschendam;120;;www.sif.nl;0;79;new;;ai_knowledge;2026-03-18 10:36:21
@@ -172,6 +187,8 @@ info@mercon.nl;Koninklijke Mercon;bouw;Nederland;88;;www.mercon.nl;60;78;discove
 info@wareco.nl;Wareco;bouw;Nederland;75;;www.wareco.nl;60;78;discovered;;ai_discovery;2026-03-23 09:34:34
 info@puurinfra.nl;Puur Infra;bouw;Nederland;110;;www.puurinfra.nl;60;78;discovered;;ai_discovery;2026-03-23 09:34:34
 info@colijn.nl;Wegenbouwbedrijf Colijn;bouw;Nederland;62;;www.colijn.nl;60;78;discovered;;ai_discovery;2026-03-23 09:54:10
+info@vosconstruction.nl;Koninklijke Vos;bouw;Nederland;70;;www.vosconstruction.nl;60;78;discovered;;ai_discovery;2026-03-23 10:14:06
+info@janssen-groep.nl;Janssen Groep;bouw;Nederland;70;;www.janssen-groep.nl;60;78;discovered;;ai_discovery;2026-03-23 10:33:05
 info@blokkerbouw.nl;Blokker Bouw;bouw;Purmerend;72;;www.blokkerbouw.nl;0;78;new;;ai_knowledge;2026-03-18 10:36:21
 info@ruwac.nl;Ruwac Bouw;bouw;Arnhem;61;;www.ruwac.nl;0;78;new;;ai_knowledge;2026-03-18 10:36:21
 info@smetinfra.nl;Smet Infra;bouw;Ede;85;;www.smetinfra.nl;0;78;new;;ai_knowledge;2026-03-18 11:03:01
@@ -195,6 +212,10 @@ info@vanrompuy.nl;Aannemers Van Rompuy;bouw;Nederland;59;;www.vanrompuy.nl;60;77
 info@vanlaarhoven.nl;Aannemersbedrijf Van Laarhoven;bouw;Nederland;67;;www.vanlaarhoven.nl;60;77;discovered;;ai_discovery;2026-03-23 09:16:37
 info@timmermannsbouwgroep.nl;Timmermans Bouwgroep;bouw;Nederland;52;;www.timmermannsbouwgroep.nl;60;77;discovered;;ai_discovery;2026-03-23 09:16:43
 info@debondt.nl;Aannemer De Bondt;bouw;Nederland;58;;www.debondt.nl;60;77;discovered;;ai_discovery;2026-03-23 09:54:10
+info@machinalebouw.nl;Machinale Bouw;bouw;Nederland;65;;www.machinalebouw.nl;60;77;discovered;;ai_discovery;2026-03-23 10:13:38
+info@ctn.nl;Civiel Techniek Noord;bouw;Nederland;55;;www.civiel-techniek-noord.nl;60;77;discovered;;ai_discovery;2026-03-23 10:13:38
+info@huijbregts-bouw.nl;Huijbregts Bouwbedrijf;bouw;Nederland;55;;www.huijbregts-bouw.nl;60;77;discovered;;ai_discovery;2026-03-23 10:14:06
+info@patongroep.nl;Paton Groep;bouw;Nederland;70;;www.patongroep.nl;60;77;discovered;;ai_discovery;2026-03-23 10:33:06
 info@rohde-schimmel.nl;Rohde & Schimmel;bouw;Nunspeet;65;;www.rohde-schimmel.nl;0;77;new;;ai_knowledge;2026-03-18 10:36:21
 info@royalhaskoningdhv.nl;Royal HaskoningDHV;bouw;Nijmegen;75;;www.royalhaskoningdhv.nl;0;77;new;;ai_knowledge;2026-03-18 11:03:01
 info@plegt-vovlo.nl;Plegt-Vovlo;bouw;Groningen;55;;www.plegt-vovlo.nl;0;77;new;;ai_knowledge;2026-03-18 11:03:01
@@ -210,6 +231,13 @@ info@reijmers.nl;Reijmers Bouwgroep;bouw;Nederland;65;;www.reijmers.nl;60;76;dis
 info@vsh-group.nl;Visser & Smit Hanab;bouw;Nederland;75;;www.vsh-group.nl;60;76;discovered;;ai_discovery;2026-03-23 09:16:43
 info@gdi-nederland.nl;GDI Integrated Facility Services;bouw;Nederland;70;;www.gdi-nederland.nl;60;76;discovered;;ai_discovery;2026-03-23 09:34:22
 info@aannemerboers.nl;Aannemersbedrijf Boers;bouw;Nederland;52;;www.aannemerboers.nl;60;76;discovered;;ai_discovery;2026-03-23 09:54:10
+info@tenbrinke.nl;Ten Brinke Groep;bouw;Nederland;80;;www.tenbrinke.nl;60;76;discovered;;ai_discovery;2026-03-23 10:13:38
+info@breedbelt.nl;Breedbelt;bouw;Nederland;55;;www.breedbelt.nl;60;76;discovered;;ai_discovery;2026-03-23 10:13:38
+info@voorbij.nl;Voorbij Contracting;bouw;Nederland;80;;www.voorbij.nl;60;76;discovered;;ai_discovery;2026-03-23 10:14:06
+info@taqabouw.nl;Taqa-bouw;bouw;Nederland;55;;www.taqabouw.nl;60;76;discovered;;ai_discovery;2026-03-23 10:14:06
+info@kwsgroup.nl;KWS Group;bouw;Nederland;60;;www.kwsgroup.nl;60;76;discovered;;ai_discovery;2026-03-23 10:33:05
+info@combinatiebandia.nl;Combinatie B&A;bouw;Nederland;70;;www.combinatiebandia.nl;60;76;discovered;;ai_discovery;2026-03-23 10:33:06
+info@meeuwsenbouw.nl;Meeuwsen Bouwgroep;bouw;Nederland;90;;www.meeuwsenbouw.nl;60;76;discovered;;ai_discovery;2026-03-23 10:33:06
 info@zijlstragroep.nl;Zijlstra Groep;bouw;Leeuwarden;140;;www.zijlstragroep.nl;0;76;new;;ai_knowledge;2026-03-18 10:36:12
 info@beverbouw.nl;Bever Bouw;bouw;Groningen;70;;www.beverbouw.nl;0;76;new;;ai_knowledge;2026-03-18 10:36:13
 info@verheijdenbouw.nl;Verheijden Bouw;bouw;Breda;55;;www.verheijdenbouw.nl;0;76;new;;ai_knowledge;2026-03-18 10:36:13
@@ -278,6 +306,32 @@ info@spaanmaalderij.nl;Spaan Maalderij;bouw;Nederland;45;;www.spaanmaalderij.nl;
 info@aannemersbedrijfderidder.nl;Aannemersbedrijf de Ridder;bouw;Nederland;50;;www.aannemersbedrijfderidder.nl;60;75;discovered;;ai_discovery;2026-03-23 09:54:11
 info@quaere.nl;Quaere;bouw;Nederland;40;;www.quaere.nl;60;75;discovered;;ai_discovery;2026-03-23 09:54:11
 info@steenenco.nl;Steen & Co;bouw;Nederland;48;;www.steenenco.nl;60;75;discovered;;ai_discovery;2026-03-23 09:54:11
+info@degroot-bouw.nl;Aannemersbedrijf De Groot;bouw;Nederland;50;;www.degroot-bouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:38
+info@deboerbouw.nl;De Boer Bouw;bouw;Nederland;45;;www.deboerbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:38
+info@vanbeekgroep.nl;Van Beek Groep;bouw;Nederland;75;;www.vanbeekgroep.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:38
+info@pietersbouwtechniek.nl;Pieters Bouwtechniek;bouw;Nederland;50;;www.pietersbouwtechniek.nl;60;75;discovered;;ai_discovery;2026-03-23 10:13:38
+info@dykema.nl;Dykema Bouwbedrijf;bouw;Nederland;50;;www.dykema.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@aannemingsmitsmit.nl;Aannemingsbedrijf Smit;bouw;Nederland;45;;www.aannemingsmitsmit.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@spaarnwoude.nl;Spaarnwoude Projecten;bouw;Nederland;65;;www.spaarnwoude.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@mtechbouw.nl;MTech Bouw;bouw;Nederland;40;;www.mtechbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@dekroon-bouw.nl;Aannemersbedrijf De Kroon;bouw;Nederland;35;;www.dekroon-bouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@akkerbouw.nl;Akkerbouw;bouw;Nederland;50;;www.akkerbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@rohaanbouw.nl;Rohaan Bouwgroep;bouw;Nederland;45;;www.rohaanbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@wessels-bouw.nl;Bouwcombinatie Wessels;bouw;Nederland;50;;www.wessels-bouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:14:06
+info@sif-holding.nl;Sif Holding;bouw;Nederland;45;;www.sif-holding.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@janssenprecisie.nl;Janssen Precisie;bouw;Nederland;35;;www.janssenprecisie.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@ecocem.nl;Ecocem;bouw;Nederland;30;;www.ecocem.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@hbminfra.nl;HBM Infra;bouw;Nederland;50;;www.hbminfra.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@vanderlely.nl;Van der Lely;bouw;Nederland;45;;www.vanderlely.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@kolkco.nl;Kolk en Co;bouw;Nederland;55;;www.kolk-co.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@samaranch.nl;Samaranch;bouw;Nederland;25;;www.samaranch.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@gmbbouw.nl;GMB Bouw;bouw;Nederland;44;;www.gmbbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:05
+info@baetens.nl;Baetens Grond- en Waterbouw;bouw;Nederland;50;;www.baetens.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:06
+info@sturingbouw.nl;Sturing Bouw;bouw;Nederland;45;;www.sturingbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:06
+info@blik-bouw.nl;Grond- en Wegenbouw Blik;bouw;Nederland;40;;www.blik-bouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:06
+info@jvanerp.nl;Bouwmaterialen J. van Erp;bouw;Nederland;35;;www.jvanerp.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:06
+info@sintbouw.nl;Sint Bouw;bouw;Nederland;50;;www.sintbouw.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:06
+info@acools.nl;A. Cools Bouwbedrijf;bouw;Nederland;45;;www.acools.nl;60;75;discovered;;ai_discovery;2026-03-23 10:33:06
 info@smetbouw.nl;Smet Bouw;bouw;Breda;95;;www.smetbouw.nl;0;75;new;;ai_knowledge;2026-03-18 10:36:12
 info@vangeestbouw.nl;Van Geest Bouw;bouw;Arnhem;90;;www.vangeestbouw.nl;0;75;new;;ai_knowledge;2026-03-18 10:36:12
 info@croonelektra.nl;Croon Elektra;bouw;Den Haag;45;;www.croonelektra.nl;0;75;new;;ai_knowledge;2026-03-18 10:36:13
@@ -358,6 +412,10 @@ info@intermate.nl;Intermate;bouw;Nederland;55;;www.intermate.nl;60;74;discovered
 info@diekemabouw.nl;Diekema Bouw;bouw;Nederland;55;;www.diekemabouw.nl;60;74;discovered;;ai_discovery;2026-03-23 09:34:34
 info@koninklijkewegenbouw.nl;Koninklijke Wegenbouw;bouw;Nederland;75;;www.koninklijkewegenbouw.nl;60;74;discovered;;ai_discovery;2026-03-23 09:54:10
 info@abt.nl;ABT Onderneming;bouw;Nederland;80;;www.abt.nl;60;74;discovered;;ai_discovery;2026-03-23 09:54:11
+info@pzem.nl;PZEM;bouw;Nederland;65;;www.pzem.nl;60;74;discovered;;ai_discovery;2026-03-23 10:13:38
+info@techniekbouw.nl;Techniekbouw Amsterdam;bouw;Nederland;70;;www.techniekbouw.nl;60;74;discovered;;ai_discovery;2026-03-23 10:14:06
+info@tebra.nl;Tebra;bouw;Nederland;65;;www.tebra.nl;60;74;discovered;;ai_discovery;2026-03-23 10:33:06
+info@apeldoornsegroep.nl;Apeldoornse Groep;bouw;Nederland;65;;www.apeldoornsegroep.nl;60;74;discovered;;ai_discovery;2026-03-23 10:33:06
 info@brouwerbouw.nl;Brouwer Bouw;bouw;Groningen;51;;www.brouwerbouw.nl;0;74;new;;ai_knowledge;2026-03-18 10:36:22
 info@tavnederland.nl;TAV Nederland;bouw;Almelo;95;;www.tavnederland.nl;0;74;new;;ai_knowledge;2026-03-18 11:25:56
 info@grondmij.nl;Grondmij;bouw;Arnhem;55;;www.grondmij.nl;0;74;new;;ai_knowledge;2026-03-18 11:44:53
@@ -390,12 +448,14 @@ info@dijkstra.nl;Aannemersbedrijf Dijkstra;bouw;Nederland;52;;www.dijkstra.nl;60
 info@heidemij.nl;Heidemij Advies;bouw;Nederland;65;;www.heidemij.nl;60;72;discovered;;ai_discovery;2026-03-23 09:34:22
 info@sliedrecht-civil.nl;Sliedrecht Civil;bouw;Nederland;70;;www.sliedrecht-civil.nl;60;72;discovered;;ai_discovery;2026-03-23 09:34:34
 info@bve.nl;Boele & van Eesteren;bouw;Nederland;70;;www.bve.nl;60;72;discovered;;ai_discovery;2026-03-23 09:54:11
+info@verstraeten.nl;Verstraeten Groep;bouw;Nederland;52;;www.verstraeten.nl;60;72;discovered;;ai_discovery;2026-03-23 10:33:05
 info@konvest.nl;Konvest Groep;bouw;Groningen;95;;www.konvest.nl;0;72;new;;ai_knowledge;2026-03-18 10:36:21
 info@twence.nl;Twence;bouw;Hengelo;52;;www.twence.nl;0;72;new;;ai_knowledge;2026-03-18 10:36:21
 info@jansenbouwgroep.nl;Jansen Bouwgroep;bouw;Tilburg;60;;www.jansenbouwgroep.nl;0;72;new;;ai_knowledge;2026-03-18 11:44:53
 info@kwggroep.nl;KWG Groep;bouw;Groningen;88;;www.kwggroep.nl;0;72;new;;ai_knowledge;2026-03-18 12:04:59
 info@cleijnebouw.nl;Cleijne Bouw;bouw;Amsterdam;55;;www.cleijnebouw.nl;0;72;new;;ai_knowledge;2026-03-18 13:53:44
 info@visserensmit.nl;Visser & Smit Hanab;bouw;Nederland;90;;www.visserensmit.nl;60;71;discovered;;ai_discovery;2026-03-23 09:54:09
+info@moonen-bouw.nl;Bouwbedrijf Moonen;bouw;Nederland;60;;www.moonen-bouw.nl;60;71;discovered;;ai_discovery;2026-03-23 10:14:06
 info@huybregts.nl;Huybregts Bouwbedrijf;bouw;Tilburg;80;;www.huybregts.nl;0;71;new;;ai_knowledge;2026-03-18 10:36:13
 info@bongers.nl;Gebouw- en Grondwerken Bongers;bouw;Nijmegen;85;;www.bongers.nl;0;71;new;;ai_knowledge;2026-03-18 11:26:06
 info@akerslootbouw.nl;Akersloot Bouw;bouw;Beverwijk;72;;www.akerslootbouw.nl;0;71;new;;ai_knowledge;2026-03-18 12:04:53
@@ -416,9 +476,11 @@ info@scholtz-civiel.nl;Scholtz Civiel;bouw;Nederland;65;;www.scholtz-civiel.nl;6
 info@psvbouw.nl;PSV Bouw & Infra;bouw;Purmerend;95;;www.psvbouw.nl;0;69;new;;ai_knowledge;2026-03-18 14:19:23
 info@devriesinfra.nl;De Vries Infra;bouw;Slochteren;102;;www.devriesinfra.nl;0;68;new;;ai_knowledge;2026-03-18 14:19:23
 info@renova.nl;Renova;bouw;Nederland;60;;www.renova.nl;60;67;discovered;;ai_discovery;2026-03-23 09:54:11
+info@blombouw.nl;Blom Bouwbedrijf;bouw;Nederland;55;;www.blombouw.nl;60;67;discovered;;ai_discovery;2026-03-23 10:33:06
 info@voorbijgroep.nl;Voorbij Groep;bouw;Nederland;70;;www.voorbijgroep.nl;60;66;discovered;;ai_discovery;2026-03-23 09:54:09
 info@dreso.nl;Drees & Sommer;bouw;Amsterdam;45;;www.dreso.nl;0;66;new;;ai_knowledge;2026-03-18 13:53:44
 info@gemeentebouw.nl;Gemeente Bouw;bouw;Nederland;55;;www.gemeentebouw.nl;60;65;discovered;;ai_discovery;2026-03-23 09:54:11
+info@metatoy.nl;Metatoy Groep;bouw;Nederland;60;;www.metatoy.nl;60;65;discovered;;ai_discovery;2026-03-23 10:33:06
 info@octsloopenasbest.nl;Home;bouw;Eindhoven;6;019-04-11;https://www.octsloopenasbest.nl/;0;65;new;;web_scrape;2026-03-18 10:36:13
 info@cscsport.nl;Vragen over aanleg, onderhoud of kosten van een kunstgrasveld?;bouw;Den Bosch;20;026-03-16 20;https://csconderhoud.nl/contact-met-csc-onderhoud/;0;65;new;;web_scrape;2026-03-18 10:36:14
 info@logistiek020.nl;BQ Duiker: een eeuw lang een op en top Amsterdams bedrijf;bouw;Amsterdam;20;024-06-19;https://logistiek020.nl/bq-duiker-een-eeuw-lang-een-op-en-top-amsterdams-bedrijf/;0;65;new;;web_scrape;2026-03-18 10:36:22
@@ -1193,68 +1255,6 @@ info@komperda.nl;CONTACT;bouw;Deventer;0;026-03-14;https://www.komperda.nl/conta
 info@harlemanbv.nl;Contact;bouw;Deventer;0;022-05-05;https://www.harlemanbv.nl/contact/;0;45;new;;web_scrape;2026-03-18 10:36:23
 info@tbgrondengroen.nl;Home;bouw;Deventer;0;025-03-23;https://tbgrondengroen.nl/;0;45;new;;web_scrape;2026-03-18 10:36:23
 info@opusbouwgroep.nl;OPUS Bouwgroep;bouw;Apeldoorn;0;;www.opusbouwgroep.nl;0;45;new;;ai_knowledge;2026-03-18 11:03:01
-info@koppert.nl;Koppert Construct;bouw;Nederland;160;;www.koppertconstruct.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@hazemeyer.nl;Hazemeyer;bouw;Nederland;140;;www.hazemeyer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@herge-civiel.nl;Hergé Civiel;bouw;Nederland;120;;www.herge-civiel.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@zijlstra.nl;Zijlstra Bouwbedrijf;bouw;Nederland;95;;www.zijlstra.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@gouwbouw.nl;Gouw Bouw;bouw;Nederland;85;;www.gouwbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@pzem.nl;PZEM;bouw;Nederland;65;;www.pzem.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@tenbrinke.nl;Ten Brinke Groep;bouw;Nederland;80;;www.tenbrinke.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@breedbelt.nl;Breedbelt;bouw;Nederland;55;;www.breedbelt.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@raaijen.nl;Raaijen Civiel;bouw;Nederland;70;;www.raaijen.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@degroot-bouw.nl;Aannemersbedrijf De Groot;bouw;Nederland;50;;www.degroot-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@machinalebouw.nl;Machinale Bouw;bouw;Nederland;65;;www.machinalebouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@ctn.nl;Civiel Techniek Noord;bouw;Nederland;55;;www.civiel-techniek-noord.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@deboerbouw.nl;De Boer Bouw;bouw;Nederland;45;;www.deboerbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@vanbeekgroep.nl;Van Beek Groep;bouw;Nederland;75;;www.vanbeekgroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@pietersbouwtechniek.nl;Pieters Bouwtechniek;bouw;Nederland;50;;www.pietersbouwtechniek.nl;60;0;discovered;;ai_discovery;2026-03-23 10:13:38
-info@vosconstruction.nl;Koninklijke Vos;bouw;Nederland;70;;www.vosconstruction.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@khoury.nl;Aannemingsbedrijf Khoury;bouw;Nederland;60;;www.khoury.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@dykema.nl;Dykema Bouwbedrijf;bouw;Nederland;50;;www.dykema.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@ziegler-bouw.nl;Ziegler Bouwbedrijf;bouw;Nederland;55;;www.ziegler-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@aannemingsmitsmit.nl;Aannemingsbedrijf Smit;bouw;Nederland;45;;www.aannemingsmitsmit.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@spaarnwoude.nl;Spaarnwoude Projecten;bouw;Nederland;65;;www.spaarnwoude.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-contact@bam.nl;Koninklijke BAM Groep;bouw;Nederland;175;;www.bam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@voorbij.nl;Voorbij Contracting;bouw;Nederland;80;;www.voorbij.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@mtechbouw.nl;MTech Bouw;bouw;Nederland;40;;www.mtechbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@dekroon-bouw.nl;Aannemersbedrijf De Kroon;bouw;Nederland;35;;www.dekroon-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@akkerbouw.nl;Akkerbouw;bouw;Nederland;50;;www.akkerbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@techniekbouw.nl;Techniekbouw Amsterdam;bouw;Nederland;70;;www.techniekbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@huijbregts-bouw.nl;Huijbregts Bouwbedrijf;bouw;Nederland;55;;www.huijbregts-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@moonen-bouw.nl;Bouwbedrijf Moonen;bouw;Nederland;60;;www.moonen-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@rohaanbouw.nl;Rohaan Bouwgroep;bouw;Nederland;45;;www.rohaanbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@wessels-bouw.nl;Bouwcombinatie Wessels;bouw;Nederland;50;;www.wessels-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@taqabouw.nl;Taqa-bouw;bouw;Nederland;55;;www.taqabouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:14:06
-info@sif-holding.nl;Sif Holding;bouw;Nederland;45;;www.sif-holding.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@janssenprecisie.nl;Janssen Precisie;bouw;Nederland;35;;www.janssenprecisie.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@bamgroep.nl;Koninklijke Bam Groep;bouw;Nederland;130;;www.bamgroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@ecocem.nl;Ecocem;bouw;Nederland;30;;www.ecocem.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@hbminfra.nl;HBM Infra;bouw;Nederland;50;;www.hbminfra.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@janssen-groep.nl;Janssen Groep;bouw;Nederland;70;;www.janssen-groep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@vanderlely.nl;Van der Lely;bouw;Nederland;45;;www.vanderlely.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@kolkco.nl;Kolk en Co;bouw;Nederland;55;;www.kolk-co.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@kwsgroup.nl;KWS Group;bouw;Nederland;60;;www.kwsgroup.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@samaranch.nl;Samaranch;bouw;Nederland;25;;www.samaranch.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@verstraeten.nl;Verstraeten Groep;bouw;Nederland;52;;www.verstraeten.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@gmbbouw.nl;GMB Bouw;bouw;Nederland;44;;www.gmbbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:05
-info@ebobouw.nl;Ebo Bouw;bouw;Nederland;85;;www.ebobouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@marconi.nl;Marconi;bouw;Nederland;95;;www.marconi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@verheijden.nl;Koninklijke Verheijden;bouw;Nederland;110;;www.verheijden.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@tebra.nl;Tebra;bouw;Nederland;65;;www.tebra.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@baetens.nl;Baetens Grond- en Waterbouw;bouw;Nederland;50;;www.baetens.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@sturingbouw.nl;Sturing Bouw;bouw;Nederland;45;;www.sturingbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@blombouw.nl;Blom Bouwbedrijf;bouw;Nederland;55;;www.blombouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@combinatiebandia.nl;Combinatie B&A;bouw;Nederland;70;;www.combinatiebandia.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@metatoy.nl;Metatoy Groep;bouw;Nederland;60;;www.metatoy.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@blik-bouw.nl;Grond- en Wegenbouw Blik;bouw;Nederland;40;;www.blik-bouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@jvanerp.nl;Bouwmaterialen J. van Erp;bouw;Nederland;35;;www.jvanerp.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@stevingroep.nl;Stevin Groep;bouw;Nederland;80;;www.stevingroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@meeuwsenbouw.nl;Meeuwsen Bouwgroep;bouw;Nederland;90;;www.meeuwsenbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@wiering.nl;Wiering Grondwerk;bouw;Nederland;75;;www.wiering.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@apeldoornsegroep.nl;Apeldoornse Groep;bouw;Nederland;65;;www.apeldoornsegroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@sintbouw.nl;Sint Bouw;bouw;Nederland;50;;www.sintbouw.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@acools.nl;A. Cools Bouwbedrijf;bouw;Nederland;45;;www.acools.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
-info@patongroep.nl;Paton Groep;bouw;Nederland;70;;www.patongroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:33:06
 info@vincinederland.nl;Vinci Construction Nederland;bouw;Nederland;110;;www.vincinederland.nl;60;0;discovered;;ai_discovery;2026-03-23 10:46:59
 info@skaevehuizen.nl;Skaeve Huizen Bouw;bouw;Nederland;45;;www.skaevehuizen.nl;60;0;discovered;;ai_discovery;2026-03-23 10:46:59
 info@cobagroep.nl;Coba Groep;bouw;Nederland;85;;www.cobagroep.nl;60;0;discovered;;ai_discovery;2026-03-23 10:46:59
@@ -3570,3 +3570,288 @@ info@bonckbouw.nl;Bonck Bouw;bouw;Nederland;65;;www.bonckbouw.nl;60;0;discovered
 info@kemker.nl;Bouwservice Kemker;bouw;Nederland;33;;www.kemker.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:01
 info@habraken.nl;Bouwbedrijf Habraken;bouw;Nederland;44;;www.habraken.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:01
 info@copernica.nl;Copernica Bouw;bouw;Nederland;39;;www.copernica.nl;60;0;discovered;;ai_discovery;2026-03-24 12:11:01
+info@wayssfreytag.nl;Wayss & Freytag;bouw;Nederland;75;;www.wayssfreytag.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:16
+info@duravermeergroep.nl;Dura Vermeer Groep;bouw;Nederland;115;;www.duravermeergroep.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:16
+info@grijsen.nl;Bouwbedrijf Grijsen;bouw;Nederland;40;;www.grijsen.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:16
+info@skalda.nl;Skalda;bouw;Nederland;38;;www.skalda.nl;60;0;discovered;;ai_discovery;2026-03-30 12:59:16
+info@aannemersbedrijfros.nl;Aannemersbedrijf Roos;bouw;Nederland;45;;www.aannemersbedrijfros.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@advoco.nl;Advoco Infra;bouw;Nederland;75;;www.advoco.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@huibregts.nl;Huibregts Bouw;bouw;Nederland;50;;www.huibregts.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@ipgbouw.nl;IPG Bouw;bouw;Nederland;75;;www.ipgbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@jansen-kemper.nl;Jansen-Kemper;bouw;Nederland;85;;www.jansen-kemper.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@kik-infra.nl;Kik Infra;bouw;Nederland;95;;www.kik-infra.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@kws-infra.nl;KWS Infra;bouw;Nederland;105;;www.kws-infra.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@lepelgroep.nl;Lepel Groep;bouw;Nederland;55;;www.lepelgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@lindengroep.nl;Linden Groep;bouw;Nederland;120;;www.lindengroep.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:29
+info@maximbouw.nl;Maxim Bouw;bouw;Nederland;60;;www.maximbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:30
+info@megbouw.nl;MEG Bouw;bouw;Nederland;45;;www.megbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:30
+info@moernaut.nl;Moernaut Bouw;bouw;Nederland;55;;www.moernaut.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:30
+info@nnof.nl;NNOF Infra;bouw;Nederland;100;;www.nnof.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:30
+info@ossenveld.nl;Ossenveld Infra;bouw;Nederland;75;;www.ossenveld.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:30
+info@planmet.nl;Planmet Bouw;bouw;Nederland;55;;www.planmet.nl;60;0;discovered;;ai_discovery;2026-03-30 13:22:30
+info@deboerprefab.nl;De Boer Prefab;bouw;Nederland;42;;www.deboerprefab.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:29
+info@jvanderlinde.nl;Aannemersbedrijf J van der Linde;bouw;Nederland;28;;www.jvanderlinde.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:29
+info@mulderenbouw.nl;Tegelzetterij en Bouwbedrijf Mulder;bouw;Nederland;22;;www.mulderenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:29
+info@inbobouw.nl;Inbo Bouwgroep;bouw;Nederland;51;;www.inbobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:29
+info@nuykenbouw.nl;Nuyken Bouw;bouw;Nederland;44;;www.nuykenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:29
+info@goudkustenbouw.nl;Goudkusten Bouw;bouw;Nederland;29;;www.goudkustenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 13:45:29
+info@boskaliswestminster.nl;Boskalis Westminster;bouw;Nederland;90;;www.boskaliswestminster.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:04
+info@smecnederland.nl;SMEC Nederland;bouw;Nederland;30;;www.smecnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 14:10:04
+info@aannemingsbedrijfvisser.nl;Aannemingsbedrijf Visser;bouw;Nederland;45;;www.aannemingsbedrijfvisser.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@kondor-wessels.nl;Kondor Wessels;bouw;Nederland;65;;www.kondor-wessels.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@booneizenga.nl;Boon Eizenga;bouw;Nederland;50;;www.booneizenga.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@tbbs.nl;Technisch Bouwbureau Scholten;bouw;Nederland;35;;www.tbbs.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@konvn.nl;Konvn Bouw;bouw;Nederland;42;;www.konvn.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@vandenbergbouwgroep.nl;Van den Berg Bouwgroep;bouw;Nederland;38;;www.vandenbergbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@spaansengroep.nl;Spaansen Groep;bouw;Nederland;62;;www.spaansengroep.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@bouwenaantoekomst.nl;Bouwen aan de toekomst;bouw;Nederland;44;;www.bouwenaantoekomst.nl;60;0;discovered;;ai_discovery;2026-03-30 14:33:01
+info@remoconstructions.nl;Remo Constructions;bouw;Nederland;55;;www.remoconstructions.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@gcegroup.nl;GCE Group;bouw;Nederland;140;;www.gcegroup.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@aanbos.nl;Aannemingsbedrijf Bos;bouw;Nederland;38;;www.aanbos.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@jdewit.nl;J. de Wit & Zn;bouw;Nederland;35;;www.jdewit.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@gebrvos.nl;Gebr. Vos;bouw;Nederland;28;;www.gebrvos.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@harderwijk-bouw.nl;Harderwijk Bouw;bouw;Nederland;31;;www.harderwijk-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@aandeboer.nl;Aannemingsbedrijf De Boer;bouw;Nederland;22;;www.aandeboer.nl;60;0;discovered;;ai_discovery;2026-03-30 14:55:32
+info@vinciconstructies.nl;Vinci Construction;bouw;Nederland;220;;www.vinciconstructies.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@martinsciviel.nl;Martens Civiel;bouw;Nederland;65;;www.martinsciviel.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@grxholding.nl;GRX Holding;bouw;Nederland;78;;www.grxholding.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@totalconstruct.nl;Total Construct;bouw;Nederland;52;;www.totalconstruct.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@aannemersderidder.nl;Aannemersbedrijf De Ridder;bouw;Nederland;48;;www.aannemersderidder.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@bouwbedrijfvanloon.nl;Bouwbedrijf Van Loon;bouw;Nederland;56;;www.bouwbedrijfvanloon.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@becobouw.nl;Beco Bouwbedrijf;bouw;Nederland;44;;www.becobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@gebrjansenb.nl;Gebr. Jansen Bouw;bouw;Nederland;51;;www.gebrjansenb.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@moersebouw.nl;Moerse Bouwgroep;bouw;Nederland;48;;www.moersebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 15:18:48
+info@sauer.nl;Sauer Ondernemingen;bouw;Nederland;145;;www.sauer.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:00
+info@grubbebouw.nl;Grube Bouw;bouw;Nederland;88;;www.grubbebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:00
+info@visbeen.nl;Visbeen Architecten;bouw;Nederland;50;;www.visbeen.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:00
+info@cottaar.nl;Cottaar Bouw;bouw;Nederland;78;;www.cottaar.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:00
+info@verweijbouw.nl;Verweij Bouw;bouw;Nederland;105;;www.verweijbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:00
+info@deboeribouw.nl;De Boer Bouwbedrijf;bouw;Nederland;68;;www.deboerbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 15:41:00
+info@tebouw.nl;Tebouw;bouw;Nederland;78;;www.tebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@cobebouw.nl;Cobe Bouw;bouw;Nederland;110;;www.cobebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@debever.nl;Aannemingsbedrijf De Bever;bouw;Nederland;88;;www.debever.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@huijtsbouw.nl;Huijts Bouw;bouw;Nederland;105;;www.huijtsbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@bkbouw.nl;BK Bouw;bouw;Nederland;92;;www.bkbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@coolsbouwgroep.nl;Cools Bouwgroep;bouw;Nederland;135;;www.coolsbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@refrescobouw.nl;Refresco Bouw;bouw;Nederland;68;;www.refrescobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@konincklijkebeelen.nl;Koninklijke Beelen;bouw;Nederland;145;;www.konincklijkebeelen.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@aannemesbouw.nl;Aannemersbedrijf Bouw;bouw;Nederland;56;;www.aannemesbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@meulenbeltbouw.nl;Meulenbelt Bouw;bouw;Nederland;98;;www.meulenbeltbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@blauwhoffbouw.nl;Blauwhoff Bouw;bouw;Nederland;125;;www.blauwhoffbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@collinverbrugge.nl;Collin & Verbrugge;bouw;Nederland;82;;www.collinverbrugge.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@watersaat.nl;Watersaat;bouw;Nederland;156;;www.watersaat.nl;60;0;discovered;;ai_discovery;2026-03-30 16:04:16
+info@combinatiespaan.nl;Combinatie Spaan;bouw;Nederland;120;;www.combinatiespaan.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@bakkeraanneming.nl;Aannemingsbedrijf Bakker;bouw;Nederland;65;;www.bakkeraanneming.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@geerse.nl;Uitvoeringsbedrijf Geerse;bouw;Nederland;55;;www.geerse.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@dixit.nl;Aanneming Maatschappij Dixit;bouw;Nederland;92;;www.dixit.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@bergstra.nl;Bouwbedrijf Bergstra;bouw;Nederland;52;;www.bergstra.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@boelestaalman.nl;Aanneming Boele & Staalman;bouw;Nederland;71;;www.boelestaalman.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@gebruikerplug.nl;Aanneming Gebr. Plug;bouw;Nederland;51;;www.gebruikerplug.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@wisse.nl;Bouwbedrijf Wisse;bouw;Nederland;95;;www.wisse.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@aanemingtilburg.nl;Aanneming Tilburg;bouw;Nederland;67;;www.aanemingtilburg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@josbouw.nl;Jos Bouw;bouw;Nederland;74;;www.josbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:27:11
+info@groepdemons.nl;Groep de Mos;bouw;Nederland;75;;www.groepdemons.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:15
+info@benthem.nl;Benthem Crouwel;bouw;Nederland;40;;www.benthem.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:15
+info@herosbouw.nl;Heros Bouwmaatschappij;bouw;Nederland;48;;www.herosbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 16:50:15
+info@westrikinfra.nl;Westrik Infra;bouw;Nederland;55;;www.westrikinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@smeetsinfra.nl;Smeets Infra;bouw;Nederland;88;;www.smeetsinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@wgv-bouw.nl;Bouwcombinatie WGV;bouw;Nederland;68;;www.wgv-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@bakgroep.nl;Bak Groep;bouw;Nederland;82;;www.bakgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@trefacht.nl;Trefacht;bouw;Nederland;48;;www.trefacht.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@hockersmuhle.nl;Hockersmühle;bouw;Nederland;71;;www.hockersmuhle.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@bonnetinfra.nl;Bonnet Infra;bouw;Nederland;45;;www.bonnetinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 17:12:59
+info@schildergroep.nl;Schilder Groep;bouw;Nederland;85;;www.schildergroep.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@smet.nl;Smet;bouw;Nederland;70;;www.smet.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@gekamat.nl;Gekamat;bouw;Nederland;55;;www.gekamat.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@poortamsterdam.nl;Poort Amsterdam;bouw;Nederland;50;;www.poortamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@slob.nl;Bouwbedrijf Slob;bouw;Nederland;32;;www.slob.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@bvg.nl;Bouw- en Vastgoedgroep;bouw;Nederland;45;;www.bvg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@lanters.nl;Gebr. Lanters;bouw;Nederland;28;;www.lanters.nl;60;0;discovered;;ai_discovery;2026-03-30 17:26:19
+info@sennekerbouw.nl;Senneker Bouw;bouw;Nederland;45;;www.sennekerbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@gwn.nl;Gemeente Werken Noord;bouw;Nederland;35;;www.gwn.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@koopconstruct.nl;Koop Construct;bouw;Nederland;35;;www.koopconstruct.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@ankerjip.nl;Ankerjip Bouw;bouw;Nederland;36;;www.ankerjip.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@maesbouw.nl;Maes Bouw;bouw;Nederland;39;;www.maesbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@webobouw.nl;Webo Bouw;bouw;Nederland;37;;www.webobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@schreudersbouw.nl;Schreuders Bouw;bouw;Nederland;46;;www.schreudersbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@dijkmanbouw.nl;Dijkman Bouw;bouw;Nederland;41;;www.dijkmanbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@kroonenbouw.nl;Kroonen Bouw;bouw;Nederland;43;;www.kroonenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@bakkerhellema.nl;Bakker Hellema;bouw;Nederland;38;;www.bakkerhellema.nl;60;0;discovered;;ai_discovery;2026-03-30 17:39:25
+info@kuijpersinfra.nl;Kuijpers Infra;bouw;Nederland;75;;www.kuijpersinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@kwd.nl;Koninklijke Volker Wessels;bouw;Nederland;110;;www.kwd.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@rotaengineering.nl;Rota Engineering;bouw;Nederland;50;;www.rotaengineering.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@aannemingskoop.nl;Aannemingsbedrijf Koop;bouw;Nederland;45;;www.aannemingskoop.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@heitkampinfra.nl;Heitkamp Infra;bouw;Nederland;60;;www.heitkampinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@heijkamp.nl;Gebr. Heijkamp;bouw;Nederland;55;;www.heijkamp.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@dewildeconstruct.nl;De Wilde Construct;bouw;Nederland;30;;www.dewildeconstruct.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:34
+info@bogert-civiel.nl;Bogert Civiel;bouw;Nederland;45;;www.bogert-civiel.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:35
+info@borssum.nl;Aannemingsbedrijf Borssum;bouw;Nederland;38;;www.borssum.nl;60;0;discovered;;ai_discovery;2026-03-30 17:52:35
+info@spaansebulkstoffen.nl;Spaansebulkstoffen;bouw;Nederland;45;;www.spaansebulkstoffen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@vbb.nl;Vastgoed Bouw Beheer;bouw;Nederland;40;;www.vbb.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@verbekebouw.nl;Verbeke Groep;bouw;Nederland;50;;www.verbekebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@eurekobouw.nl;Eureko Bouw;bouw;Nederland;48;;www.eurekobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@aannemerijboer.nl;Aannemersbedrijf Boer;bouw;Nederland;35;;www.aannemerijboer.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@tauwindra.nl;Tauw Infra;bouw;Nederland;44;;www.tauwindra.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@colenbouw.nl;Colen Bouw;bouw;Nederland;62;;www.colenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@femkebouw.nl;Femke Bouw;bouw;Nederland;38;;www.femkebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@groenewegeninfra.nl;Groenewegen Infra;bouw;Nederland;48;;www.groenewegeninfra.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@bergstrabouw.nl;Bergstra Bouw;bouw;Nederland;52;;www.bergstrabouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:05:47
+info@macke.nl;Macke;bouw;Nederland;150;;www.macke.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@bouwcombinatievos.nl;Bouwcombinatie Vos;bouw;Nederland;85;;www.bouwcombinatievos.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@d2s.nl;Advies- en Ingenieursgroep D2S;bouw;Nederland;75;;www.d2s.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@bvrs.nl;Bouw- en Grondverzet Raederstichting;bouw;Nederland;95;;www.bvrs.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@puurgrondwerk.nl;Puur Grondwerk;bouw;Nederland;105;;www.puurgrondwerk.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@vanspronsen.nl;Van Spronsen Bouw;bouw;Nederland;88;;www.vanspronsen.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@fijkstra.nl;Fijkstra & Partners;bouw;Nederland;80;;www.fijkstra.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@thomas-bouw.nl;Aannemersbedrijf Thomas;bouw;Nederland;76;;www.thomas-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@mesuad.nl;Mesuad Bouw;bouw;Nederland;82;;www.mesuad.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@bouwgroepbaak.nl;Bouwgroep Baak;bouw;Nederland;78;;www.bouwgroepbaak.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@fomec.nl;Fomec Infra;bouw;Nederland;142;;www.fomec.nl;60;0;discovered;;ai_discovery;2026-03-30 18:18:51
+info@structurebouw.nl;Structure Bouw;bouw;Nederland;85;;www.structurebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@zzec.nl;ZZEC Bouw;bouw;Nederland;55;;www.zzec.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@ribx.nl;Ribx Bouw;bouw;Nederland;48;;www.ribx.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@grebouw.nl;Gré Bouw;bouw;Nederland;36;;www.grebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@heertsbouw.nl;Heerts Bouw;bouw;Nederland;67;;www.heertsbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@enderouw.nl;Bouwbedrijf Ender;bouw;Nederland;43;;www.enderouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@swindonbouw.nl;Swindon Bouw;bouw;Nederland;74;;www.swindonbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@mastbouw.nl;Mast Bouw;bouw;Nederland;53;;www.mastbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@woningbouw.nl;Woning Bouw Groep;bouw;Nederland;88;;www.woningbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@gidgroep.nl;Gid Groep;bouw;Nederland;76;;www.gidgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@vianenbouw.nl;Bouwcombinatie Vianen;bouw;Nederland;34;;www.vianenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@hoekloobouw.nl;Hoek Loos Bouw;bouw;Nederland;45;;www.hoekloobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:32:01
+info@rvo-nederland.nl;RVO Nederland;bouw;Nederland;120;;www.rvo-nederland.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@spaanenburg.nl;Spaanenburg Bouw;bouw;Nederland;95;;www.spaanenburg.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@nieuwenhuizenbouw.nl;Nieuwenhuizen Bouw;bouw;Nederland;65;;www.nieuwenhuizenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@konvexp.nl;Konvexp;bouw;Nederland;45;;www.konvexp.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@huet.nl;Aannemingsbedrijf Huet;bouw;Nederland;70;;www.huet.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@vanechtelt.nl;Bouwbedrijf Van Echtelt;bouw;Nederland;60;;www.vanechtelt.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@sbnbouw.nl;SBN Bouw;bouw;Nederland;80;;www.sbnbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@talusan.nl;Talusan;bouw;Nederland;140;;www.talusan.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@vandervlugtconstruct.nl;Vandervlugt Construct;bouw;Nederland;75;;www.vandervlugtconstruct.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@hollandseebouw.nl;Hollandse Bouwmaatschappij;bouw;Nederland;100;;www.hollandseebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:45:05
+info@roos-aanbouw.nl;Aannemingsbedrijf A. Roos;bouw;Nederland;45;;www.roos-aanbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:13
+info@robacon.nl;Robacon;bouw;Nederland;55;;www.robacon.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:13
+info@teunissen-bouw.nl;Bouwbedrijf Teunissen;bouw;Nederland;42;;www.teunissen-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:13
+info@jpvandeleuur.nl;J.P. van de Leur;bouw;Nederland;68;;www.jpvandeleuur.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:13
+info@woonbouwgroep.nl;Woonbouwgroep;bouw;Nederland;78;;www.woonbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 18:58:13
+info@maesinfra.nl;Maes Infra;bouw;Nederland;140;;www.maesinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@smet-groep.nl;Smet Groep;bouw;Nederland;110;;www.smet-groep.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@tenhove.nl;Ten Hove;bouw;Nederland;75;;www.tenhove.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@bloklandbouw.nl;Blokland Bouw;bouw;Nederland;92;;www.bloklandbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@verhoevengroep.nl;Aannemingsbedrijf Verhoeven;bouw;Nederland;105;;www.verhoevengroep.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@boskalowski.nl;Boskalowski;bouw;Nederland;78;;www.boskalowski.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@wesselink.nl;Wesselink;bouw;Nederland;82;;www.wesselink.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@siemonsbouw.nl;Siemons Bouw;bouw;Nederland;71;;www.siemonsbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:11:44
+info@boon-ontwikkeling.nl;Boon Eiendomsontwikkeling;bouw;Nederland;45;;www.boon-ontwikkeling.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:50
+info@schilderswerke.nl;Schilders Werke;bouw;Nederland;75;;www.schilderswerke.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@rotje.nl;Rotjé;bouw;Nederland;95;;www.rotje.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@breinfra.nl;BRE Infra;bouw;Nederland;110;;www.breinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@vid-bouw.nl;Vereenigde Infra Diensten;bouw;Nederland;0;;www.vid-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@hbkinfra.nl;HBK Infra;bouw;Nederland;125;;www.hbkinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@oerlemansbouw.nl;Oerlemans Bouw;bouw;Nederland;55;;www.oerlemansbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@engelbouw.nl;Engel Bouw;bouw;Nederland;67;;www.engelbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@wesselsbouwgroep.nl;Wessels Bouwgroep;bouw;Nederland;91;;www.wesselsbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@adviesbebouw.nl;Advies en Beheer Bouw;bouw;Nederland;48;;www.adviesbebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@steenhotelbouw.nl;Steenhotel Bouw;bouw;Nederland;58;;www.steenhotelbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:24:51
+info@spaansbabdesarco.nl;Spaans Babdesarco;bouw;Nederland;120;;www.spaansbabdesarco.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@meelfabriekverbruggen.nl;Meelfabriek Verbruggen;bouw;Nederland;45;;www.meelfabriekverbruggen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@raattransportbeton.nl;Raat Transportbeton;bouw;Nederland;55;;www.raattransportbeton.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@spenglergrondverzet.nl;Spengler Grondverzet;bouw;Nederland;50;;www.spenglergrondverzet.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@ecobouw.nl;Ecobouw;bouw;Nederland;40;;www.ecobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@debackergroep.nl;De Backer Groep;bouw;Nederland;90;;www.debackergroep.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@sika.nl;Sika Nederland;bouw;Nederland;35;;www.sika.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@mabes.nl;Mabes;bouw;Nederland;62;;www.mabes.nl;60;0;discovered;;ai_discovery;2026-03-30 19:37:55
+info@holzmannconstruct.nl;Holzmann Construct;bouw;Nederland;70;;www.holzmannconstruct.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@kootinfra.nl;Koot Infra;bouw;Nederland;160;;www.kootinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@hellerbouw.nl;Heller Bouw;bouw;Nederland;92;;www.hellerbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@tonschultebouw.nl;Ton Schulte Bouw;bouw;Nederland;55;;www.tonschultebouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@jansenbonthuis.nl;Bouwbedrijf Jansen en Bonthuis;bouw;Nederland;82;;www.jansenbonthuis.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@bouwgroepanieuwland.nl;Bouwgroep Nieuwland;bouw;Nederland;98;;www.bouwgroepanieuwland.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@rabobouw.nl;Rabobank Bouwbedrijf;bouw;Nederland;115;;www.rabobouw.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@kroese.nl;Aannemersbedrijf Kroese;bouw;Nederland;69;;www.kroese.nl;60;0;discovered;;ai_discovery;2026-03-30 19:51:06
+info@deschans.nl;Consortium De Schans;bouw;Nederland;80;;www.deschans.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@combinatieaeb.nl;Combinatie AEB;bouw;Nederland;90;;www.combinatieaeb.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@technischbouw.nl;Technisch Bouwbedrijf;bouw;Nederland;60;;www.technischbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@aanndevries.nl;Aannemingsbedrijf De Vries;bouw;Nederland;50;;www.aanndevries.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@vanessenbouw.nl;Van Essen Bouw;bouw;Nederland;52;;www.vanessenbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@gbsnederland.nl;Gebouw Services Nederland;bouw;Nederland;48;;www.gbsnederland.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@demeeuwbouw.nl;De Meeuw Bouwbedrijf;bouw;Nederland;42;;www.demeeuwbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:04:24
+info@schielandbouw.nl;Schieland Bouw;bouw;Nederland;95;;www.schielandbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@ceesvandjkbouw.nl;Cees van Dijk Bouw;bouw;Nederland;65;;www.ceesvandjkbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@knipscheer.nl;Knipscheer Bouwmaatschappij;bouw;Nederland;42;;www.knipscheer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@rdmbouwgroep.nl;RDM Bouwgroep;bouw;Nederland;67;;www.rdmbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@volkerstevin.nl;Volker Stevin;bouw;Nederland;165;;www.volkerstevin.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@demex.nl;Demex Groep;bouw;Nederland;38;;www.demex.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@aabbwoerden.nl;Aankoop- en Bouwbedrijf Woerden;bouw;Nederland;28;;www.aabbwoerden.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@wessels-grondverzet.nl;Grondverzet Wessels;bouw;Nederland;72;;www.wessels-grondverzet.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@westerman-infra.nl;Westerman Infra;bouw;Nederland;82;;www.westerman-infra.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@mobicon.nl;Mobicon Bouw;bouw;Nederland;35;;www.mobicon.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@bouwen-plus.nl;Bouwen Plus;bouw;Nederland;41;;www.bouwen-plus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:17:44
+info@zzpr.nl;ZZPR;bouw;Nederland;45;;www.zzpr.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@mijnhardt.nl;Mijnhardt;bouw;Nederland;80;;www.mijnhardt.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@noy.nl;Aannemersbedrijf Noy;bouw;Nederland;50;;www.noy.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@boschmabouw.nl;Boschma Bouw;bouw;Nederland;35;;www.boschmabouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@hultink.nl;Hultink Beheer;bouw;Nederland;70;;www.hultink.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@wegstroy.nl;Wegstroy;bouw;Nederland;40;;www.wegstroy.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@bessac.nl;Bessac;bouw;Nederland;65;;www.bessac.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@ploeg.nl;Ploeg;bouw;Nederland;50;;www.ploeg.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@drostbeheer.nl;Drost Beheer;bouw;Nederland;35;;www.drostbeheer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:30:54
+info@paanbouwgroep.nl;Paan Bouwgroep;bouw;Nederland;140;;www.paanbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@castricumbouw.nl;Castricum Bouw;bouw;Nederland;55;;www.castricumbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@bouwbedrijfvrolijk.nl;Bouwbedrijf Vrolijk;bouw;Nederland;50;;www.bouwbedrijfvrolijk.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@damenbouwgroep.nl;Damen Bouwgroep;bouw;Nederland;85;;www.damenbouwgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@koopaanemers.nl;Koop Aannemers;bouw;Nederland;95;;www.koopaanemers.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@bpdbouw.nl;BPD Bouw;bouw;Nederland;110;;www.bpdbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@rabobouwdiensten.nl;Rabobank Bouw Diensten;bouw;Nederland;65;;www.rabobouwdiensten.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@vanderwalle-infra.nl;VAN DER WALLE INFRA;bouw;Nederland;130;;www.vanderwalle-infra.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@dehaas-bouw.nl;Bouwbedrijf de Haas;bouw;Nederland;60;;www.dehaas-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@faberaanemers.nl;Aannemers Faber;bouw;Nederland;85;;www.faberaanemers.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@teertstra-bouw.nl;Bouwbedrijf Teertstra;bouw;Nederland;70;;www.teertstra-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@vdmbouw.nl;VDM Bouw;bouw;Nederland;95;;www.vdmbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:44:14
+info@smn.nl;Schilders Maatschappij Nederland;bouw;Nederland;120;;www.smn.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@bouwbedrijnrijnmond.nl;Bouwbedrijf Rijnmond;bouw;Nederland;95;;www.bouwbedrijfrijnmond.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@gmsbouw.nl;GMS Bouw;bouw;Nederland;88;;www.gmsbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@eijkelkampbouw.nl;Eijkelkamp Bouw;bouw;Nederland;92;;www.eijkelkampbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@staaybouw.nl;Staay Bouw;bouw;Nederland;102;;www.staaybouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@aivianen.nl;Advies- en Ingenieursbureau Vianen;bouw;Nederland;65;;www.aivianen.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@meeuwisse.nl;Bouwbedrijf Meeuwisse;bouw;Nederland;142;;www.meeuwisse.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@rauwersbouw.nl;Rauwers Bouw;bouw;Nederland;87;;www.rauwersbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@schoofbouw.nl;Schoof Bouw;bouw;Nederland;91;;www.schoofbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 20:57:32
+info@wegenbouwscholte.nl;Wegenbouw Scholte;bouw;Nederland;65;;www.wegenbouwscholte.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@aannemersdeboer.nl;Aannemersbedrijf de Boer;bouw;Nederland;55;;www.aannemersdeBoer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@bouwgroepkuipers.nl;Bouwgroep Kuipers;bouw;Nederland;45;;www.bouwgroepkuipers.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@wytemanbouw.nl;Wyteman Bouw;bouw;Nederland;40;;www.wytemanbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@aannemersvisser.nl;Aannemersbedrijf Visser;bouw;Nederland;35;;www.aannemersvisser.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@aanemingblokhuis.nl;Aanneming Blokhuis;bouw;Nederland;38;;www.aanemingblokhuis.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@aannemerssmit.nl;Aannemersbedrijf Smit;bouw;Nederland;32;;www.aannemerssmit.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@aanemingdewit.nl;Aanneming De Wit;bouw;Nederland;30;;www.aanemingdewit.nl;60;0;discovered;;ai_discovery;2026-03-30 21:10:36
+info@tycaert.nl;Tycaert Bouwbedrijf;bouw;Nederland;65;;www.tycaert.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@demol-bouw.nl;Bouwbedrijf De Mol;bouw;Nederland;52;;www.demol-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@senerator.nl;Senerator Bouw;bouw;Nederland;68;;www.senerator.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@willemse-bouw.nl;Gebroeders Willemse;bouw;Nederland;72;;www.willemse-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@vanalphen-bouw.nl;Bouwbedrijf van Alphen;bouw;Nederland;54;;www.vanalphen-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@decock-bouw.nl;Aanneming De Cock;bouw;Nederland;48;;www.decock-bouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@scholtensbouw.nl;Bouwbedrijf Scholtens;bouw;Nederland;51;;www.scholtensbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:24:41
+info@linc.nl;Linc;bouw;Nederland;85;;www.linc.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@volkerwesselsrail.nl;VolkerWessels Rail;bouw;Nederland;160;;www.volkerwesselsrail.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@dracogroep.nl;Combinatie Draco;bouw;Nederland;65;;www.dracogroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@hakkersbouw.nl;Hakkers Bouw;bouw;Nederland;58;;www.hakkersbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@jandenul.nl;Jan de Nul;bouw;Nederland;135;;www.jandenul.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@debokbouw.nl;Aannemersbedrijf Bouwburo de Bok;bouw;Nederland;45;;www.debokbouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@hhcc.nl;HHCC Bouwgroep;bouw;Nederland;55;;www.hhcc.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@buitelaar.nl;Buitelaar;bouw;Nederland;92;;www.buitelaar.nl;60;0;discovered;;ai_discovery;2026-03-30 21:37:56
+info@bodemplus.nl;Bodem+ Groep;bouw;Nederland;95;;www.bodemplus.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@roodconstructeurs.nl;Rood Constructeurs;bouw;Nederland;78;;www.roodconstructeurs.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@heitman.nl;Heitman Bouw;bouw;Nederland;52;;www.heitman.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@aebinfra.nl;AEB Infra;bouw;Nederland;98;;www.aebinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@wagenborgww.nl;Wagenborg Nedlift;bouw;Nederland;110;;www.wagenborgww.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@sipinfra.nl;Samenwerking Infraprojecten;bouw;Nederland;92;;www.sipinfra.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@ceflabouw.nl;Cefla Bouw;bouw;Nederland;56;;www.ceflabouw.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@besgroep.nl;BES-Groep;bouw;Nederland;75;;www.besgroep.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@aannemingmartens.nl;Aanneming Martens;bouw;Nederland;38;;www.aannemingmartens.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@renovatietb.nl;Renovatie Technisch Bureau;bouw;Nederland;42;;www.renovatietb.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@bouwitech.nl;Bouwitech Groep;bouw;Nederland;68;;www.bouwitech.nl;60;0;discovered;;ai_discovery;2026-03-30 21:51:05
+info@bouwenwerken.nl;Bouwen Werken;bouw;Nederland;50;;www.bouwenwerken.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:25
+info@kooleciviel.nl;Koole Civiel;bouw;Nederland;135;;www.kooleciviel.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:25
+info@kbb.nl;Koninklijke Vereenigde KBB;bouw;Nederland;95;;www.kbb.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:25
+info@akkerenpartners.nl;Akker & Partners;bouw;Nederland;72;;www.akkerenpartners.nl;60;0;discovered;;ai_discovery;2026-03-30 22:04:25

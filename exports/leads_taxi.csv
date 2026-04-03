@@ -13,6 +13,8 @@ info@flixbus.nl;Flixbus;taxi;Nederland;300;020-5801830;www.flixbus.nl;60;96;disc
 info@gvb.nl;GVB Diensten;taxi;Amsterdam;900;020-9011911;www.gvb.nl;0;96;new;;ai_knowledge;2026-03-18 12:24:51
 info@transvision.nl;Transvision;taxi;Nederland;450;;www.transvision.nl;60;95;discovered;;ai_discovery;2026-03-23 09:08:46
 info@utrechttaxi.nl;Utrecht Taxi;taxi;Nederland;400;030-2822222;www.utrechttaxi.nl;60;95;discovered;;ai_discovery;2026-03-23 09:18:05
+info@bredataxi.nl;Breda Taxi;taxi;Nederland;190;076-5144444;www.bredataxi.nl;60;95;discovered;;ai_discovery;2026-03-23 09:18:06
+info@taxiamersfoort.nl;Taxi Centrale Amersfoort;taxi;Nederland;170;033-463 4633;taxiamersfoort.nl;60;95;discovered;;ai_discovery;2026-03-23 09:18:10
 info@ret.nl;RET Rotterdam;taxi;Rotterdam;650;010-4566911;www.ret.nl;0;95;new;;ai_knowledge;2026-03-18 12:24:51
 info@europcar.nl;Europcar Nederland;taxi;Nederland;2000;;www.europcar.nl;60;94;discovered;;ai_discovery;2026-03-23 09:04:42
 info@dewaard-taxi.nl;De Waard Taxiservice;taxi;Nederland;150;020-6912222;www.dewaard-taxi.nl;60;94;discovered;;ai_discovery;2026-03-23 09:08:41
@@ -34,12 +36,14 @@ info@groningentaxis.nl;Groningen Taxis;taxi;Nederland;350;;www.groningentaxis.nl
 info@taxiapeldoorn.nl;Taxi Service Apeldoorn;taxi;Nederland;210;;www.taxiapeldoorn.nl;60;93;discovered;;ai_discovery;2026-03-23 09:08:46
 info@groningenstaxi.nl;Groningen Taxi;taxi;Nederland;350;050-3001234;www.groningenstaxi.nl;60;93;discovered;;ai_discovery;2026-03-23 09:18:05
 info@eindhoventaxi.nl;Eindhoven Taxi;taxi;Nederland;350;040-2447777;www.eindhoventaxi.nl;60;93;discovered;;ai_discovery;2026-03-23 09:18:06
+info@fiks.nl;Fiks Taxi;taxi;Nederland;180;050-318 3000;fiks.nl;60;93;discovered;;ai_discovery;2026-03-23 09:18:10
 info@breng.nl;Breng Utrecht;taxi;Utrecht;470;030-2889898;www.breng.nl;0;93;new;;ai_knowledge;2026-03-18 12:24:51
 info@avis.nl;Avis Nederland;taxi;Nederland;1600;;www.avis.nl;60;92;discovered;;ai_discovery;2026-03-23 09:04:42
 info@kras-taxis.nl;KRAS Taxis Haarlem;taxi;Nederland;220;;www.kras-taxis.nl;60;92;discovered;;ai_discovery;2026-03-23 09:08:46
 info@gelderlandbus.nl;Gelderlandbus;taxi;Nederland;520;;www.gelderlandbus.nl;60;92;discovered;;ai_discovery;2026-03-23 09:08:46
 info@maastrichttaxi.nl;Maastricht Taxi;taxi;Nederland;280;043-3216666;www.maastrichttaxi.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:06
 info@amstaxiservice.nl;AMS Airport Taxi;taxi;Nederland;280;020-6946000;www.amstaxiservice.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:06
+info@enschedetaxi.nl;Enschede Taxi;taxi;Nederland;155;053-4835555;www.enschedetaxi.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:06
 info@natuurtaxi.nl;NatuurTaxi;taxi;Nederland;280;030-254 2541;natuurtaxi.nl;60;92;discovered;;ai_discovery;2026-03-23 09:18:10
 info@taxieindhoven.nl;Taxi Eindhoven;taxi;Nederland;150;;www.taxieindhoven.nl;60;91;discovered;;ai_discovery;2026-03-23 09:04:42
 info@taxidenhaa.nl;Taxi Den Haag;taxi;Nederland;140;;www.taxidenhaa.nl;60;91;discovered;;ai_discovery;2026-03-23 09:04:42
@@ -48,24 +52,14 @@ info@yellowcab-groningen.nl;Yellow Cab Groningen;taxi;Nederland;200;050-5003333;
 info@goldentaxi.nl;Golden Taxi Utrecht;taxi;Nederland;170;030-2314444;www.goldentaxi.nl;60;91;discovered;;ai_discovery;2026-03-23 09:08:41
 info@hermestaxiservice.nl;Hermes Taxiservice;taxi;Nederland;350;;www.hermestaxiservice.nl;60;91;discovered;;ai_discovery;2026-03-23 09:08:46
 info@dtz-taxis.nl;DTZ Taxis;taxi;Nederland;280;;www.dtz-taxis.nl;60;91;discovered;;ai_discovery;2026-03-23 09:08:46
+info@daantaxi.nl;Daan Taxi;taxi;Nederland;200;010-404 0404;daantaxi.nl;60;91;discovered;;ai_discovery;2026-03-23 09:18:10
+info@brutaxi.nl;BRU Taxi Den Haag;taxi;Nederland;160;070-363 6363;brutaxi.nl;60;91;discovered;;ai_discovery;2026-03-23 09:18:10
 info@ebs.nl;EBS Eindhoven;taxi;Eindhoven;380;040-2407777;www.ebs.nl;0;91;new;;ai_knowledge;2026-03-18 12:24:51
 info@yellowcab.nl;Yellow Cab Amsterdam;taxi;Nederland;200;;www.yellowcab.nl;60;90;discovered;;ai_discovery;2026-03-23 09:04:42
 info@maxitaxi.nl;Maxi Taxi Amsterdam;taxi;Nederland;200;020-6792000;www.maxitaxi.nl;60;90;discovered;;ai_discovery;2026-03-23 09:08:41
 info@taxiutrecht.nl;Taxi Centrale Utrecht;taxi;Utrecht;280;030-2333333;www.taxiutrecht.nl;0;90;new;;ai_knowledge;2026-03-18 12:24:51
 info@rtctaxi.nl;Rotterdam Taxi Centrale;taxi;Rotterdam;350;010-4133333;www.rtctaxi.nl;0;90;new;;ai_knowledge;2026-03-18 12:24:51
 info@dgtc.nl;Den Haag Taxi Centrale;taxi;Den Haag;300;070-3888888;www.dgtc.nl;0;90;new;;ai_knowledge;2026-03-18 12:24:51
-info@daantaxi.nl;Daan Taxi;taxi;Nederland;200;010-404 0404;daantaxi.nl;60;89;discovered;;ai_discovery;2026-03-23 09:18:10
-info@bredataxi.nl;Breda Taxi;taxi;Nederland;190;076-5144444;www.bredataxi.nl;60;88;discovered;;ai_discovery;2026-03-23 09:18:06
-info@fiks.nl;Fiks Taxi;taxi;Nederland;180;050-318 3000;fiks.nl;60;87;discovered;;ai_discovery;2026-03-23 09:18:10
-info@brutaxi.nl;BRU Taxi Den Haag;taxi;Nederland;160;070-363 6363;brutaxi.nl;60;87;discovered;;ai_discovery;2026-03-23 09:18:10
-info@haarllemtaxi.nl;Haarlem Taxi;taxi;Nederland;160;023-5411111;www.haarlemtaxi.nl;60;86;discovered;;ai_discovery;2026-03-23 09:18:06
-info@enschedetaxi.nl;Enschede Taxi;taxi;Nederland;155;053-4835555;www.enschedetaxi.nl;60;84;discovered;;ai_discovery;2026-03-23 09:18:06
-info@delftaxi.nl;Delft Taxi Service;taxi;Nederland;140;015-2145555;www.delftaxi.nl;60;82;discovered;;ai_discovery;2026-03-23 09:18:06
-info@dordrechttaxi.nl;Dordrecht Taxi;taxi;Nederland;130;078-6141414;www.dordrechttaxi.nl;60;81;discovered;;ai_discovery;2026-03-23 09:18:06
-info@a-taxi.nl;A-Taxi Arnhem;taxi;Nederland;150;026-442 2222;a-taxi.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:10
-info@vantagetaxi.nl;Vantage Taxi;taxi;Nederland;140;020-404 0404;vantagetaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:10
-info@taxiamersfoort.nl;Taxi Centrale Amersfoort;taxi;Nederland;170;033-463 4633;taxiamersfoort.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:10
-info@citytaxi.nl;City Taxi Groningen;taxi;Nederland;125;050-500 5000;citytaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 09:18:10
 info@taxidrost.nl;Taxibedrijf Drost;taxi;Nederland;85;010-413 3333;www.taxidrost.nl;60;80;discovered;;ai_discovery;2026-03-23 09:35:48
 info@taximaas.nl;Taxi Service Maas;taxi;Nederland;120;043-325 8888;www.taximaas.nl;60;80;discovered;;ai_discovery;2026-03-23 09:35:48
 info@taxidekroon.nl;Taxibedrijf de Kroon;taxi;Nederland;95;030-231 2222;www.taxidekroon.nl;60;80;discovered;;ai_discovery;2026-03-23 09:35:48
@@ -111,6 +105,55 @@ info@taxialmere.nl;Taxicentrale Almere;taxi;Nederland;145;036-534-5346;www.taxia
 info@pinktaxi.nl;PinkTaxi Amsterdam;taxi;Nederland;85;020-611-6100;www.pinktaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 09:55:38
 delivery@swapfiets.nl;Swapfiets Delivery;taxi;Nederland;300;020-776-7676;www.swapfiets.nl;60;80;discovered;;ai_discovery;2026-03-23 09:55:38
 info@taxidordrecht.nl;Taxicentrale Dordrecht;taxi;Nederland;110;078-614-6146;www.taxidordrecht.nl;60;80;discovered;;ai_discovery;2026-03-23 09:55:38
+info@taxiamsterdam.nl;Taxi Amsterdam;taxi;Nederland;450;;www.taxiamsterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@taxisrotterdam.nl;Taxis Rotterdam;taxi;Nederland;320;;www.taxisrotterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@taxidenhag.nl;Taxi Den Haag;taxi;Nederland;250;;www.taxidenhag.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@gronigattexi.nl;Groningen Taxi;taxi;Nederland;180;;www.gronigattexi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@hermestaxicentrale.nl;Hermes Taxicentrale;taxi;Nederland;340;;www.hermestaxicentrale.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@ziekenhuisvervoerplus.nl;Ziekenhuisvervoer Plus;taxi;Nederland;95;;www.ziekenhuisvervoerplus.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@taxi2airport.nl;Taxi2Airport;taxi;Nederland;140;;www.taxi2airport.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@deenvervoer.nl;Deen Vervoer;taxi;Nederland;110;;www.deenvervoer.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@econosto.nl;Econosto Vervoer;taxi;Nederland;85;;www.econosto.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@taxiboys.nl;Taxiboys;taxi;Nederland;120;;www.taxiboys.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@tcao.nl;Taxi Centrale Amsterdam Oost;taxi;Nederland;95;;www.tcao.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@beat.nl;Beat;taxi;Nederland;1800;;www.beat.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:04
+info@rottertaxi.nl;Rotterdam Taxicentrale;taxi;Nederland;280;;www.rottertaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@denhaag-taxi.nl;Den Haag Taxi;taxi;Nederland;220;;www.denhaag-taxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@utrechtaxicentral.nl;Utrecht Taxi Central;taxi;Nederland;180;;www.utrechtaxicentral.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@eindhovenaxi.nl;Eindhoven Taxi Services;taxi;Nederland;150;;www.eindhoventaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@groningencentrale.nl;Groningen Taxi Centrale;taxi;Nederland;120;;www.groningencentrale.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@syntus.nl;Syntus;taxi;Nederland;380;;www.syntus.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@hermestaxiamsterdam.nl;Hermes Taxi Amsterdam;taxi;Nederland;200;;www.hermestaxiamsterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@ziezotaxi.nl;Ziezo Taxi;taxi;Nederland;180;;www.ziezotaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@drivix.nl;Drivix Shuttle Services;taxi;Nederland;95;;www.drivix.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+support@blablacar.nl;BlaBlaCar Nederland;taxi;Nederland;4000;;www.blablacar.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@taxigroepmaastricht.nl;Taxigroep Maastricht;taxi;Nederland;110;;www.taxigroepmaastricht.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@noordzeetaxi.nl;Noordzee Taxi;taxi;Nederland;90;;www.noordzeetaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@groenerij.nl;Groene Rij;taxi;Nederland;65;;www.groenerij.nl;60;80;discovered;;ai_discovery;2026-03-23 10:15:31
+info@centraletaxirotterdam.nl;Centrale Taxi Rotterdam;taxi;Nederland;600;010-411 8888;www.centraletaxirotterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@taxidirectdenhaag.nl;Taxi Direct Den Haag;taxi;Nederland;500;070-315 0515;www.taxidirectdenhaag.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@vdl.nl;VDL Groningen;taxi;Nederland;400;050-368 3683;www.vdl.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@taximarechaussee.nl;Taxi Marechaussee;taxi;Nederland;300;020-316 0316;www.taximarechaussee.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@aataxis.nl;Amsterdam Airport Taxis;taxi;Nederland;250;020-496 6666;www.aataxis.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@citytaxirotterdam.nl;City Taxi Rotterdam;taxi;Nederland;280;010-433 3333;www.citytaxirotterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@taxidemaas.nl;Taxi de Maas;taxi;Nederland;220;010-414 4141;www.taxidemaas.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@frieslandtaxi.nl;Friesland Taxi;taxi;Nederland;180;058-212 1212;www.frieslandtaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@taxistandard.nl;TaxiStandard;taxi;Nederland;320;020-677 0000;www.taxistandard.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@elitetaxiamsterdam.nl;Elite Taxi Amsterdam;taxi;Nederland;240;020-634 6969;www.elitetaxiamsterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@taxisdenbosch.nl;Taxi Service Den Bosch;taxi;Nederland;190;073-614 6147;www.taxisdenbosch.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:31
+info@centralerotterdam.nl;Centrale Taxicentrale Rotterdam;taxi;Nederland;600;010-411 8888;www.centralerotterdam.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@tcu.nl;Taxi Centrale Utrecht;taxi;Nederland;500;030-2330000;www.tcu.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@centraledenhaag.nl;Centrale Taxi Den Haag;taxi;Nederland;400;070-354 6060;www.centraledenhaag.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@harlemtaxi.nl;Haarlem Taxicentrale;taxi;Nederland;250;023-531 7777;www.harlemtaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@nijenegen-taxi.nl;Nijmegen Taxibedrijf;taxi;Nederland;280;024-323 2323;www.nijmegen-taxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+klantenservice@ret.nl;RET Rotterdam;taxi;Nederland;850;010-489 8900;www.ret.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@lwtaxi.nl;Leeuwarden Taxicentrale;taxi;Nederland;200;058-212 2121;www.lwtaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@schipholtaxi.nl;Schiphol Taxi Centrale;taxi;Nederland;900;020-653 0500;www.schipholtaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@ratcabs.nl;Rotterdam Airport Taxi;taxi;Nederland;350;010-711 6060;www.ratcabs.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@drechtstedentaxi.nl;Drechtsteden Taxi;taxi;Nederland;180;078-631 8888;www.drechtstedentaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@hiltaxi.nl;Hiltaxi;taxi;Nederland;160;035-685 5555;www.hiltaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@leidentaxi.nl;Leiden Taxicentrale;taxi;Nederland;170;071-512 2222;www.leidentaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
+info@vlissingentaxi.nl;Vlissingen Taxi;taxi;Nederland;110;0118-412 222;www.vlissingentaxi.nl;60;80;discovered;;ai_discovery;2026-03-23 10:34:33
 support@uber.com;Uber Nederland;taxi;Amsterdam;5000;;www.uber.com;0;80;new;;ai_knowledge;2026-03-18 12:24:51
 info@tcataxis.nl;TCA Taxi Amsterdam;taxi;Amsterdam;450;020-6777777;www.tcataxis.nl;0;80;new;;ai_knowledge;2026-03-18 12:24:51
 info@tceindhoven.nl;Taxicentrale Eindhoven;taxi;Eindhoven;200;040-2111111;www.tceindhoven.nl;0;80;new;;ai_knowledge;2026-03-18 12:24:51
@@ -187,12 +230,17 @@ info@taxitilburg.nl;Taxi Tilburg;taxi;Nederland;160;013-5350000;www.taxitilburg.
 info@stadstaxi-zwolle.nl;Stadstaxi Zwolle;taxi;Nederland;130;038-4216666;www.stadstaxi-zwolle.nl;60;79;discovered;;ai_discovery;2026-03-23 09:08:41
 info@taxienschede.nl;Taxibedrijf Enschede;taxi;Nederland;160;;www.taxienschede.nl;60;79;discovered;;ai_discovery;2026-03-23 09:08:46
 info@leeuwardentaxi.nl;Leeuwarden Taxi;taxi;Nederland;180;058-2127777;www.leeuwardentaxi.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:06
+info@haarllemtaxi.nl;Haarlem Taxi;taxi;Nederland;160;023-5411111;www.haarlemtaxi.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:06
+info@delftaxi.nl;Delft Taxi Service;taxi;Nederland;140;015-2145555;www.delftaxi.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:06
+info@dordrechttaxi.nl;Dordrecht Taxi;taxi;Nederland;130;078-6141414;www.dordrechttaxi.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:06
 info@groningen-airport-taxi.nl;Groningen Airport Taxi;taxi;Nederland;75;050-3002000;www.groningen-airport-taxi.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:06
+info@a-taxi.nl;A-Taxi Arnhem;taxi;Nederland;150;026-442 2222;a-taxi.nl;60;79;discovered;;ai_discovery;2026-03-23 09:18:10
 info@damenchauffeurs.nl;Damen Chauffeurs;taxi;Amsterdam;120;020-6611111;www.damenchauffeurs.nl;0;79;new;;ai_knowledge;2026-03-18 12:24:51
 info@taxizuidholland.nl;Taxi Zuid-Holland;taxi;Nederland;140;079-3614444;www.taxizuidholland.nl;60;78;discovered;;ai_discovery;2026-03-23 09:08:41
 info@rtt-transfers.nl;Rotterdam Airport Transfers;taxi;Nederland;95;010-4133200;www.rtt-transfers.nl;60;78;discovered;;ai_discovery;2026-03-23 09:18:06
 info@zwolletaxi.nl;Zwolle Taxi;taxi;Nederland;160;038-4210999;www.zwolletaxi.nl;60;78;discovered;;ai_discovery;2026-03-23 09:18:06
 info@hengelotaxi.nl;Hengelo Taxi;taxi;Nederland;105;074-2927777;www.hengelotaxi.nl;60;78;discovered;;ai_discovery;2026-03-23 09:18:06
+info@vantagetaxi.nl;Vantage Taxi;taxi;Nederland;140;020-404 0404;vantagetaxi.nl;60;78;discovered;;ai_discovery;2026-03-23 09:18:10
 info@taxigroningen.nl;Taxi Groningen;taxi;Nederland;90;;www.taxigroningen.nl;60;77;discovered;;ai_discovery;2026-03-23 09:04:42
 info@tcatax.nl;TCA Taxi Amsterdam;taxi;Nederland;800;020-6777777;www.tcatax.nl;60;77;discovered;;ai_discovery;2026-03-23 09:08:41
 info@taxiwatertuin.nl;TaxiBedrijf De Watertuin;taxi;Nederland;120;;www.taxiwatertuin.nl;60;77;discovered;;ai_discovery;2026-03-23 09:08:46
@@ -200,6 +248,7 @@ info@delphitaxi.nl;Delphi Taxi;taxi;Nederland;85;;www.delphitaxi.nl;60;76;discov
 info@taxi2000.nl;Taxi 2000;taxi;Nederland;600;020-6700000;www.taxi2000.nl;60;76;discovered;;ai_discovery;2026-03-23 09:08:41
 info@bolswardtaxi.nl;Bolsward Taxi;taxi;Nederland;120;0515-573333;www.bolswardtaxi.nl;60;76;discovered;;ai_discovery;2026-03-23 09:18:06
 info@ams-private.nl;Amsterdam Private Transfers;taxi;Nederland;85;020-4196969;www.ams-private.nl;60;76;discovered;;ai_discovery;2026-03-23 09:18:06
+info@citytaxi.nl;City Taxi Groningen;taxi;Nederland;125;050-500 5000;citytaxi.nl;60;76;discovered;;ai_discovery;2026-03-23 09:18:10
 info@taxivdgraaf.nl;Taxibedrijf van de Graaf;taxi;Nederland;75;0229-216666;www.taxivdgraaf.nl;60;75;discovered;;ai_discovery;2026-03-23 09:08:41
 info@almelotaxi.nl;Almelo Taxi;taxi;Nederland;110;0546-811111;www.almelotaxi.nl;60;75;discovered;;ai_discovery;2026-03-23 09:18:06
 info@haarlemtaxi.nl;Haarlem Taxi Bedrijf;taxi;Nederland;65;023-531 3131;www.haarlemtaxi.nl;60;75;discovered;;ai_discovery;2026-03-23 09:35:48
@@ -213,61 +262,12 @@ info@wageningentaxi.nl;Wageningen Taxi;taxi;Nederland;65;0317-416666;www.wagenin
 info@staxi.nl;Staxi;taxi;Nederland;95;070-324 3243;staxi.nl;60;71;discovered;;ai_discovery;2026-03-23 09:18:10
 info@alphentaxi.nl;Taxibedrijf Alphen aan den Rijn;taxi;Nederland;45;0172-418 888;www.alphentaxi.nl;60;70;discovered;;ai_discovery;2026-03-23 09:35:48
 info@leidtaxi.nl;Leiden Taxi Centrale;taxi;Nederland;50;071-512 4444;www.leidtaxi.nl;60;70;discovered;;ai_discovery;2026-03-23 09:35:48
+info@teldaride.nl;Teldaride;taxi;Nederland;45;;www.teldaride.nl;60;70;discovered;;ai_discovery;2026-03-23 10:15:04
 info@volendam-taxi.nl;Volendam Taxi Service;taxi;Volendam;45;;www.volendam-taxi.nl;0;70;new;;ai_knowledge;2026-03-18 12:41:03
 info@harlingen-taxi.nl;Harlingen Taxi Centrale;taxi;Harlingen;35;;www.harlingen-taxi.nl;0;70;new;;ai_knowledge;2026-03-18 12:41:03
 info@taxibedrijfloon.nl;Taxibedrijf Loon;taxi;Loon op Zand;45;;www.taxibedrijfloon.nl;0;70;new;;ai_knowledge;2026-03-18 13:26:58
 contact@uber.com;Uber;taxi;Nederland;5000;;www.uber.com;60;58;discovered;;ai_discovery;2026-03-23 09:08:41
 info@vbnh.nl;Vervoersbedrijf Noord-Holland;taxi;Alkmaar;0;072-5102020;www.vbnh.nl;0;40;new;;ai_knowledge;2026-03-18 13:26:58
-info@taxiamsterdam.nl;Taxi Amsterdam;taxi;Nederland;450;;www.taxiamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@taxisrotterdam.nl;Taxis Rotterdam;taxi;Nederland;320;;www.taxisrotterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@taxidenhag.nl;Taxi Den Haag;taxi;Nederland;250;;www.taxidenhag.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@gronigattexi.nl;Groningen Taxi;taxi;Nederland;180;;www.gronigattexi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@hermestaxicentrale.nl;Hermes Taxicentrale;taxi;Nederland;340;;www.hermestaxicentrale.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@ziekenhuisvervoerplus.nl;Ziekenhuisvervoer Plus;taxi;Nederland;95;;www.ziekenhuisvervoerplus.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@taxi2airport.nl;Taxi2Airport;taxi;Nederland;140;;www.taxi2airport.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@deenvervoer.nl;Deen Vervoer;taxi;Nederland;110;;www.deenvervoer.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@econosto.nl;Econosto Vervoer;taxi;Nederland;85;;www.econosto.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@taxiboys.nl;Taxiboys;taxi;Nederland;120;;www.taxiboys.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@tcao.nl;Taxi Centrale Amsterdam Oost;taxi;Nederland;95;;www.tcao.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@teldaride.nl;Teldaride;taxi;Nederland;45;;www.teldaride.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@beat.nl;Beat;taxi;Nederland;1800;;www.beat.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:04
-info@rottertaxi.nl;Rotterdam Taxicentrale;taxi;Nederland;280;;www.rottertaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@denhaag-taxi.nl;Den Haag Taxi;taxi;Nederland;220;;www.denhaag-taxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@utrechtaxicentral.nl;Utrecht Taxi Central;taxi;Nederland;180;;www.utrechtaxicentral.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@eindhovenaxi.nl;Eindhoven Taxi Services;taxi;Nederland;150;;www.eindhoventaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@groningencentrale.nl;Groningen Taxi Centrale;taxi;Nederland;120;;www.groningencentrale.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@syntus.nl;Syntus;taxi;Nederland;380;;www.syntus.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@hermestaxiamsterdam.nl;Hermes Taxi Amsterdam;taxi;Nederland;200;;www.hermestaxiamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@ziezotaxi.nl;Ziezo Taxi;taxi;Nederland;180;;www.ziezotaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@drivix.nl;Drivix Shuttle Services;taxi;Nederland;95;;www.drivix.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-support@blablacar.nl;BlaBlaCar Nederland;taxi;Nederland;4000;;www.blablacar.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@taxigroepmaastricht.nl;Taxigroep Maastricht;taxi;Nederland;110;;www.taxigroepmaastricht.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@noordzeetaxi.nl;Noordzee Taxi;taxi;Nederland;90;;www.noordzeetaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@groenerij.nl;Groene Rij;taxi;Nederland;65;;www.groenerij.nl;60;0;discovered;;ai_discovery;2026-03-23 10:15:31
-info@centraletaxirotterdam.nl;Centrale Taxi Rotterdam;taxi;Nederland;600;010-411 8888;www.centraletaxirotterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@taxidirectdenhaag.nl;Taxi Direct Den Haag;taxi;Nederland;500;070-315 0515;www.taxidirectdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@vdl.nl;VDL Groningen;taxi;Nederland;400;050-368 3683;www.vdl.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@taximarechaussee.nl;Taxi Marechaussee;taxi;Nederland;300;020-316 0316;www.taximarechaussee.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@aataxis.nl;Amsterdam Airport Taxis;taxi;Nederland;250;020-496 6666;www.aataxis.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@citytaxirotterdam.nl;City Taxi Rotterdam;taxi;Nederland;280;010-433 3333;www.citytaxirotterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@taxidemaas.nl;Taxi de Maas;taxi;Nederland;220;010-414 4141;www.taxidemaas.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@frieslandtaxi.nl;Friesland Taxi;taxi;Nederland;180;058-212 1212;www.frieslandtaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@taxistandard.nl;TaxiStandard;taxi;Nederland;320;020-677 0000;www.taxistandard.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@elitetaxiamsterdam.nl;Elite Taxi Amsterdam;taxi;Nederland;240;020-634 6969;www.elitetaxiamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@taxisdenbosch.nl;Taxi Service Den Bosch;taxi;Nederland;190;073-614 6147;www.taxisdenbosch.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:31
-info@centralerotterdam.nl;Centrale Taxicentrale Rotterdam;taxi;Nederland;600;010-411 8888;www.centralerotterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@tcu.nl;Taxi Centrale Utrecht;taxi;Nederland;500;030-2330000;www.tcu.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@centraledenhaag.nl;Centrale Taxi Den Haag;taxi;Nederland;400;070-354 6060;www.centraledenhaag.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@harlemtaxi.nl;Haarlem Taxicentrale;taxi;Nederland;250;023-531 7777;www.harlemtaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@nijenegen-taxi.nl;Nijmegen Taxibedrijf;taxi;Nederland;280;024-323 2323;www.nijmegen-taxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-klantenservice@ret.nl;RET Rotterdam;taxi;Nederland;850;010-489 8900;www.ret.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@lwtaxi.nl;Leeuwarden Taxicentrale;taxi;Nederland;200;058-212 2121;www.lwtaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@schipholtaxi.nl;Schiphol Taxi Centrale;taxi;Nederland;900;020-653 0500;www.schipholtaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@ratcabs.nl;Rotterdam Airport Taxi;taxi;Nederland;350;010-711 6060;www.ratcabs.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@drechtstedentaxi.nl;Drechtsteden Taxi;taxi;Nederland;180;078-631 8888;www.drechtstedentaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@hiltaxi.nl;Hiltaxi;taxi;Nederland;160;035-685 5555;www.hiltaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@leidentaxi.nl;Leiden Taxicentrale;taxi;Nederland;170;071-512 2222;www.leidentaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
-info@vlissingentaxi.nl;Vlissingen Taxi;taxi;Nederland;110;0118-412 222;www.vlissingentaxi.nl;60;0;discovered;;ai_discovery;2026-03-23 10:34:33
 info@tcaamsterdam.nl;TCA Taxi Amsterdam;taxi;Nederland;450;020-677 7777;www.tcaamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:26
 info@taxidefaksevrienden.nl;Taxi De Fakse Vrienden;taxi;Nederland;280;070-330 3300;www.taxidefaksevrienden.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:26
 info@ctu.nl;Centraal Taxibedrijf Utrecht;taxi;Nederland;320;030-290 2900;www.ctu.nl;60;0;discovered;;ai_discovery;2026-03-23 10:48:26
@@ -1746,3 +1746,180 @@ info@devries-reizen.nl;Reisorganisatie De Vries;taxi;Nederland;28;070-367 3673;w
 info@djoeka-taxi.nl;Djoeka Taxi;taxi;Nederland;150;020-6969696;www.djoeka-taxi.nl;60;0;discovered;;ai_discovery;2026-03-24 12:12:30
 info@savoytaxi.nl;Savoy Taxi;taxi;Nederland;180;020-6778888;www.savoytaxi.nl;60;0;discovered;;ai_discovery;2026-03-24 12:12:30
 info@tcshertogenbosch.nl;Taxi Centrale 's-Hertogenbosch;taxi;Nederland;140;073-6140000;www.tcshertogenbosch.nl;60;0;discovered;;ai_discovery;2026-03-24 12:12:30
+info@centraaletaxirotterdam.nl;Centrale Taxi Rotterdam;taxi;Nederland;320;010-413 3000;www.centraaletaxirotterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 13:00:46
+info@airportbus.nl;Rotterdam Airportbus;taxi;Nederland;120;010-450 0450;www.airportbus.nl;60;0;discovered;;ai_discovery;2026-03-30 13:00:46
+info@utaxi-plus.nl;Utrecht Taxi Plus;taxi;Nederland;95;030-2950950;www.utaxi-plus.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@rpt.nl;Rotterdam Port Taxi;taxi;Nederland;240;010-4133333;www.rpt.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@nedcar-transfer.nl;NedCar Transfer;taxi;Nederland;85;075-6288111;www.nedcar-transfer.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@amshuttle.nl;Amsterdam Shuttle Service;taxi;Nederland;220;020-4197777;www.amshuttle.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@rshuttle.nl;Rotterdam Shuttle;taxi;Nederland;165;010-4163333;www.rshuttle.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@dhcity-taxi.nl;Den Haag City Taxi;taxi;Nederland;175;070-3880880;www.dhcity-taxi.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@gse.nl;Groningen Shuttle Express;taxi;Nederland;95;050-3122222;www.gse.nl;60;0;discovered;;ai_discovery;2026-03-30 13:23:57
+info@taxihelmond.nl;Taxi Helmond;taxi;Nederland;110;0492-545454;www.taxihelmond.nl;60;0;discovered;;ai_discovery;2026-03-30 13:47:03
+info@knacktaxi.nl;Knack;taxi;Nederland;500;020-5540000;www.knacktaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 14:11:31
+info@centralestaxi.nl;Centrale Taxi Utrecht;taxi;Nederland;400;030-291 8888;www.centralestaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:29
+info@rotaxxi.nl;Rotterdam Taxi;taxi;Nederland;350;010-413 0413;www.rotaxxi.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:29
+info@lijnbus.nl;Lijnbus;taxi;Nederland;120;038-331 0000;www.lijnbus.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:29
+info@beeldengeluidvervoer.nl;Beeld & Geluid Vervoer;taxi;Nederland;150;035-677 5555;www.beeldengeluidvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:29
+info@taxiharl.nl;Taxicentrale Haarlem;taxi;Nederland;180;023-531 3131;www.taxiharl.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:29
+info@v-toren.nl;V-Toren;taxi;Nederland;250;020-406 4020;www.v-toren.nl;60;0;discovered;;ai_discovery;2026-03-30 14:34:29
+info@ebs-bus.nl;EBS Elburg;taxi;Nederland;150;0525-682222;www.ebs-bus.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:01
+info@meridian.nl;Meridian;taxi;Nederland;350;030-2859000;www.meridian.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:01
+info@avansvervoer.nl;Avans Vervoer;taxi;Nederland;80;076-5200200;www.avansvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 14:57:01
+info@ctrc.nl;Centrale Taxi Rotterdam;taxi;Nederland;600;010-411 8888;www.ctrc.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:16
+info@teltaxi.nl;TelTaxi Nederland;taxi;Nederland;800;075-612 1212;www.teltaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:16
+info@taxismeets.nl;Taxi Smeets;taxi;Nederland;95;046-475 8888;www.taxismeets.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:16
+info@taxikamstra.nl;Taxibedrijf Kamstra;taxi;Nederland;120;058-213 2121;www.taxikamstra.nl;60;0;discovered;;ai_discovery;2026-03-30 15:20:16
+info@ovychauffeur.nl;Ovy Chauffeursdiensten;taxi;Nederland;95;030-286 1234;www.ovychauffeur.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:32
+info@aamtaxi.nl;Amsterdam Airport Taxis;taxi;Nederland;280;020-653 2705;www.aamtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:32
+info@cablio.nl;Cablio;taxi;Nederland;250;;www.cablio.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:32
+info@volante.nl;Volanté Chauffeursdiensten;taxi;Nederland;75;020-665 5000;www.volante.nl;60;0;discovered;;ai_discovery;2026-03-30 15:42:33
+info@haarloemtaxi.nl;Haarlem Taxi Service;taxi;Nederland;140;023-5424242;www.haarloemtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@tcn-noord.nl;Taxicentrale Amsterdam Noord;taxi;Nederland;200;020-6939393;www.tcn-noord.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@middelland.nl;Vervoersbedrijf Middelland;taxi;Nederland;175;030-2560256;www.middelland.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@devrievervoer.nl;De Vries Vervoer;taxi;Nederland;85;050-3104310;www.devrievervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@taxiloon.nl;Taxibedrijf Loon;taxi;Nederland;155;010-2202200;www.taxiloon.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+reservations@aathotel.nl;Amsterdam Airport Taxi;taxi;Nederland;220;020-6455555;www.aathotel.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@tsn-taxi.nl;Taxicentrales Samenwerking Nederland;taxi;Nederland;1200;020-6777777;www.tsn-taxi.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@zhvervoerplus.nl;Ziekenhuisvervoer Plus;taxi;Nederland;95;070-3800380;www.zhvervoerplus.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@bejaardentaxi.nl;Bejaardentaxi Nederland;taxi;Nederland;180;033-4646464;www.bejaardentaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 16:05:49
+info@taxirotterdamcentrum.nl;Taxi Rotterdam Centrum;taxi;Nederland;140;;www.taxirotterdamcentrum.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxicentrum-almelo.nl;Taxi Centrum Almelo;taxi;Nederland;85;;www.taxicentrum-almelo.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxibedrijf-zwolle.nl;Taxibedrijf Zwolle;taxi;Nederland;105;;www.taxibedrijf-zwolle.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxiservice-tilburg.nl;Taxi Service Tilburg;taxi;Nederland;130;;www.taxiservice-tilburg.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxichauffeurs-breda.nl;Taxichauffeurs Breda;taxi;Nederland;95;;www.taxichauffeurs-breda.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxibedrijf-denbosch.nl;Taxibedrijf Den Bosch;taxi;Nederland;105;;www.taxibedrijf-denbosch.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxypro-nijmegen.nl;TaxyPro Nijmegen;taxi;Nederland;120;;www.taxypro-nijmegen.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@taxiservice-apeldoorn.nl;Taxi Service Apeldoorn;taxi;Nederland;115;;www.taxiservice-apeldoorn.nl;60;0;discovered;;ai_discovery;2026-03-30 16:28:40
+info@eemlandtaxi.nl;Eemlandtaxi;taxi;Nederland;50;035-5411111;www.eemlandtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 16:51:41
+info@intravelservices.nl;Internatinal Travel Services;taxi;Nederland;45;020-6161516;www.intravelservices.nl;60;0;discovered;;ai_discovery;2026-03-30 16:51:41
+info@goairportshuttle.nl;GO Airport Shuttle;taxi;Nederland;65;020-5200000;www.goairportshuttle.nl;60;0;discovered;;ai_discovery;2026-03-30 16:51:41
+info@schipholhotelshuttle.nl;Schiphol Hotel Shuttle;taxi;Nederland;40;020-6550000;www.schipholhotelshuttle.nl;60;0;discovered;;ai_discovery;2026-03-30 16:51:41
+info@valiantvervoer.nl;Valiant Vervoer;taxi;Nederland;55;078-6132020;www.valiantvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 16:51:41
+info@etaxi.nl;EasyTaxi (nu eTaxi);taxi;Nederland;1800;;www.etaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@duinenkkroon.nl;Duin & Kroon;taxi;Nederland;220;070-303 3030;www.duinenkkroon.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@unitedtaxi.nl;United Taxi Utrecht;taxi;Nederland;250;030-290 2900;www.unitedtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@citytaxi-groningen.nl;Citytaxi Groningen;taxi;Nederland;180;050-503 5050;www.citytaxi-groningen.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@taxibedrijfnijmegen.nl;TaxiBedrijf Nijmegen;taxi;Nederland;165;024-324 2424;www.taxibedrijfnijmegen.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@taxiexpress-almelo.nl;TaxiExpress Almelo;taxi;Nederland;75;0546-810 810;www.taxiexpress-almelo.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@devrijheid.nl;Busvervoer De Vrijheid;taxi;Nederland;120;058-213 2132;www.devrijheid.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@reisvervoer-adriaan.nl;Reisvervoer Adriaan;taxi;Nederland;65;015-256 2562;www.reisvervoer-adriaan.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@taxipro-haarlem.nl;TaxiPro Haarlem;taxi;Nederland;130;023-532 5325;www.taxipro-haarlem.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@trambour.nl;Personenvervoer Trambour;taxi;Nederland;45;020-680 6800;www.trambour.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@citybus-breda.nl;CityBus Breda;taxi;Nederland;110;076-565 5656;www.citybus-breda.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@shuttleholland.nl;Shuttle Holland;taxi;Nederland;205;010-203 2030;www.shuttleholland.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@vervoer-express-zwolle.nl;Vervoer Express Zwolle;taxi;Nederland;140;038-421 4214;www.vervoer-express-zwolle.nl;60;0;discovered;;ai_discovery;2026-03-30 17:14:27
+info@degotaxi.nl;Dego Taxi;taxi;Nederland;240;040-211 2222;www.degotaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 17:27:44
+info@erix.nl;Erix Taxiservice;taxi;Nederland;200;020-676 7777;www.erix.nl;60;0;discovered;;ai_discovery;2026-03-30 17:27:44
+info@taxiza.nl;TaxiZa;taxi;Nederland;350;020-6888 6888;www.taxiza.nl;60;0;discovered;;ai_discovery;2026-03-30 17:27:44
+info@citytaxizwolle.nl;City Taxi Zwolle;taxi;Nederland;130;038-424 2424;www.citytaxizwolle.nl;60;0;discovered;;ai_discovery;2026-03-30 17:27:44
+info@amicaab.nl;AmiCaab;taxi;Nederland;320;020-203 8888;www.amicaab.nl;60;0;discovered;;ai_discovery;2026-03-30 17:27:44
+info@corstjens.nl;Corstjens Taxibedrijf;taxi;Nederland;150;050-3183333;www.corstjens.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@daaltaxi.nl;Daal Taxi;taxi;Nederland;300;070-3888888;www.daaltaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@citybus.nl;Citybus Utrecht;taxi;Nederland;180;030-2330000;www.citybus.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@bustouristiek.nl;Bustouristiek Holland;taxi;Nederland;120;020-6688200;www.bustouristiek.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@vonktouringcars.nl;Vonk Touringcars;taxi;Nederland;45;0114-371944;www.vonktouringcars.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@beckertouringcars.nl;Becker Touringcars;taxi;Nederland;80;0320-242424;www.beckertouringcars.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@travelsafe.nl;Travelsafe Vervoer;taxi;Nederland;150;020-6166100;www.travelsafe.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@ebusco.nl;Groep Ebusco;taxi;Nederland;50;0493-319319;www.ebusco.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@pouwvervoer.nl;Pouw Vervoer;taxi;Nederland;90;013-4671000;www.pouwvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@dattaxi.nl;DAT Taxiservices;taxi;Nederland;140;015-2126666;www.dattaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 17:40:52
+info@taxicentralelimburg.nl;Taxi Centrale Limburg;taxi;Nederland;320;043-3216666;www.taxicentralelimburg.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:00
+info@everstaxicentrale.nl;Evers Taxicentrale;taxi;Nederland;240;026-4431111;www.everstaxicentrale.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:00
+info@taxiblaak.nl;Taxi Rotterdam Blaak;taxi;Nederland;165;010-4113333;www.taxiblaak.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:00
+info@calfijn.nl;Calfijn Vervoer;taxi;Nederland;95;023-5240000;www.calfijn.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:00
+info@royaltaxi.nl;Royal Taxi;taxi;Nederland;220;020-5643636;www.royaltaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 17:54:00
+info@limburgotaxi.nl;Limburg Taxiservice;taxi;Nederland;120;;www.limburgtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:08
+info@clixtax.nl;ClixTax;taxi;Nederland;340;;www.clixtax.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:08
+info@amstaxiservices.nl;Amsterdam Taxi Services;taxi;Nederland;320;;www.amstaxiservices.nl;60;0;discovered;;ai_discovery;2026-03-30 18:07:08
+info@ambassadorservices.nl;Ambassador Services;taxi;Nederland;150;020-622 2555;www.ambassadorservices.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:16
+info@goldenride.nl;Golden Ride;taxi;Nederland;120;020-673 6000;www.goldenride.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:16
+info@mobipoint.nl;Mobipoint;taxi;Nederland;2200;;www.mobipoint.nl;60;0;discovered;;ai_discovery;2026-03-30 18:20:16
+info@taxizeeuw.nl;Taxi Zeeuw;taxi;Nederland;120;;www.taxizeeuw.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:26
+info@ns-bus.nl;NS Buschauffeurs;taxi;Nederland;500;;www.ns-bus.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:26
+info@secoaches.nl;Southeastern Coaches;taxi;Nederland;95;;www.secoaches.nl;60;0;discovered;;ai_discovery;2026-03-30 18:33:26
+info@duss.nl;Duss Taxicentrale;taxi;Nederland;350;030-2960000;www.duss.nl;60;0;discovered;;ai_discovery;2026-03-30 18:46:32
+info@antares.nl;Antares Transport Group;taxi;Nederland;220;030-6029800;www.antares.nl;60;0;discovered;;ai_discovery;2026-03-30 18:46:32
+info@taxi-gouda.nl;Taxi Gouda;taxi;Nederland;75;0182-525000;www.taxi-gouda.nl;60;0;discovered;;ai_discovery;2026-03-30 18:46:32
+dispatch@taxisecure.nl;TaxiSecure Amsterdam;taxi;Nederland;180;020-694 1234;www.taxisecure.nl;60;0;discovered;;ai_discovery;2026-03-30 18:59:39
+info@tulipstaxiamsterdam.nl;Tulips Taxi Amsterdam;taxi;Nederland;140;020-611 1211;www.tulipstaxiamsterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 18:59:40
+info@groenetaxi.nl;Groene Taxi Amsterdam;taxi;Nederland;85;020-305 0305;www.groenetaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 18:59:40
+info@taxi24enschede.nl;Taxi 24/7 Enschede;taxi;Nederland;105;053-432 4321;www.taxi24enschede.nl;60;0;discovered;;ai_discovery;2026-03-30 18:59:40
+info@maasvlei-taxi.nl;Maasvlei Taxi Venlo;taxi;Nederland;85;077-354 3549;www.maasvlei-taxi.nl;60;0;discovered;;ai_discovery;2026-03-30 18:59:40
+support@gett.com;Gett;taxi;Nederland;2000;;www.gett.com/nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@knmttaxi.nl;KNMT Taxiservice;taxi;Nederland;220;020-5307070;www.knmttaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@zvbreda.nl;Ziekenvervoer Breda;taxi;Nederland;120;076-5432100;www.zvbreda.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@lekkertaxi.nl;Lekker Taxi;taxi;Nederland;150;020-6124444;www.lekkertaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@miljoemobility.nl;Miljø Mobility;taxi;Nederland;200;;www.miljoemobility.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@tcgouda.nl;Taxicentrale Gouda;taxi;Nederland;55;0182-512555;www.tcgouda.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@duinenrkoon.nl;Duin & Kroon Vervoer;taxi;Nederland;90;023-5321000;www.duinenrkoon.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@oostvervoer.nl;Oost Vervoer;taxi;Nederland;110;026-4426666;www.oostvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 19:13:08
+info@goldtaxirotterdam.nl;Gold Taxi Rotterdam;taxi;Nederland;280;;www.goldtaxirotterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@alfataxi.nl;Alfa Taxi Haarlem;taxi;Nederland;140;;www.alfataxi.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@taxiservice-arnhem.nl;TaxiService Arnhem;taxi;Nederland;130;;www.taxiservice-arnhem.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@maxitaxi-almere.nl;Maxi Taxi Almere;taxi;Nederland;120;;www.maxitaxi-almere.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@taxi2000-breda.nl;Taxi 2000 Breda;taxi;Nederland;110;;www.taxi2000-breda.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@rtmcoach.nl;Rotterdam Coach Service;taxi;Nederland;95;;www.rtmcoach.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@stadsvervoer.nl;Stadsvervoer Utrecht;taxi;Nederland;280;;www.stadsvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@limburg-reizen.nl;Limburg Reizen;taxi;Nederland;85;;www.limburg-reizen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@nh-vervoer.nl;Noord-Holland Vervoer;taxi;Nederland;125;;www.nh-vervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@zht-service.nl;Zuidhollandse Taxiservice;taxi;Nederland;100;;www.zht-service.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@rtm-airport.nl;Rotterdam Airport Transfers;taxi;Nederland;75;;www.rtm-airport.nl;60;0;discovered;;ai_discovery;2026-03-30 19:26:16
+info@taxivan.nl;TaxiVan Amsterdam;taxi;Nederland;320;020-6180700;www.taxivan.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@nyx.nl;Nyx Mobility;taxi;Nederland;280;020-3004900;www.nyx.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@driveo.nl;Driveo;taxi;Nederland;150;020-5057800;www.driveo.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@groengeeletaxis.nl;Groen Gele Taxi's Rotterdam;taxi;Nederland;380;010-4136999;www.groengeeletaxis.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@yellowcabdenhaag.nl;Yellow Cab Den Haag;taxi;Nederland;250;070-3801234;www.yellowcabdenhaag.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@bremsvervoer.nl;Brems Vervoer;taxi;Nederland;180;010-4126161;www.bremsvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@delijnbaanvervoer.nl;De Lijnbaan Vervoer;taxi;Nederland;95;010-4847474;www.delijnbaanvervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@protraxi.nl;Professional Transport Solutions;taxi;Nederland;165;030-2888999;www.protraxi.nl;60;0;discovered;;ai_discovery;2026-03-30 19:39:21
+info@taxibox.nl;TaxiBox Rotterdam;taxi;Nederland;350;010-4133133;www.taxibox.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:37
+info@taxi-shertogenbosch.nl;Taxi 's-Hertogenbosch;taxi;Nederland;350;073-6133133;www.taxi-shertogenbosch.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:37
+info@taxiamsterdamnl.nl;Taxi Amsterdam Noord;taxi;Nederland;400;020-6341111;www.taxiamsterdamnl.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:37
+info@taxihoorn.nl;Taxi Hoorn;taxi;Nederland;140;0229-216161;www.taxihoorn.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:37
+info@taxivlaardingen.nl;Taxi Vlaardingen;taxi;Nederland;160;010-4355353;www.taxivlaardingen.nl;60;0;discovered;;ai_discovery;2026-03-30 19:52:37
+info@dittaxi.nl;DIT Taxi Utrecht;taxi;Nederland;150;;www.dittaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:09
+info@cityhopperbus.nl;CityHopper;taxi;Nederland;35;;www.cityhopperbus.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:09
+info@treintaxi.nl;Trein Taxi;taxi;Nederland;220;;www.treintaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:09
+info@volendam-vervoer.nl;Volendam Vervoer;taxi;Nederland;35;;www.volendam-vervoer.nl;60;0;discovered;;ai_discovery;2026-03-30 20:19:09
+info@rotaxe.nl;Rotterdam Taxi Centrale;taxi;Nederland;600;010-4133333;www.rotaxe.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:21
+info@groningengroepdetaxi.nl;Groningen Taxi Centrale;taxi;Nederland;250;050-3198888;www.groningengroepdetaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:21
+info@faamtaxi.nl;FAAM Taxi Amsterdam;taxi;Nederland;180;020-7707070;www.faamtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:21
+info@kauffmann.nl;Taxibedrijf Kauffmann;taxi;Nederland;95;020-6167777;www.kauffmann.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:21
+support@didiglobal.nl;Didi Netherlands;taxi;Nederland;1500;;www.didiglobal.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:21
+info@amsterdam-brt.nl;Amsterdam BRT;taxi;Nederland;200;020-5550555;www.amsterdam-brt.nl;60;0;discovered;;ai_discovery;2026-03-30 20:32:21
+info@lyft.nl;Lyft Netherlands;taxi;Nederland;2200;;www.lyft.nl;60;0;discovered;;ai_discovery;2026-03-30 20:45:41
+info@transpolis.nl;Transpolis;taxi;Nederland;280;;www.transpolis.nl;60;0;discovered;;ai_discovery;2026-03-30 20:58:55
+info@govi.nl;GOVI;taxi;Nederland;200;;www.govi.nl;60;0;discovered;;ai_discovery;2026-03-30 20:58:55
+info@whimapp.com;Whim Mobility;taxi;Nederland;150;;www.whimapp.com;60;0;discovered;;ai_discovery;2026-03-30 20:58:55
+info@goldencabs.nl;Golden Cabs Amsterdam;taxi;Nederland;200;020-618 2888;www.goldencabs.nl;60;0;discovered;;ai_discovery;2026-03-30 21:12:53
+info@privatetransfer.nl;Amsterdam Private Transfer;taxi;Nederland;95;020-589 5678;www.privatetransfer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:12:53
+info@dewagen.nl;Taxibedrijf de Wagen;taxi;Nederland;130;070-324 2424;www.dewagen.nl;60;0;discovered;;ai_discovery;2026-03-30 21:12:53
+info@citytransfer.nl;City Transfer Amsterdam;taxi;Nederland;85;020-333 4444;www.citytransfer.nl;60;0;discovered;;ai_discovery;2026-03-30 21:12:53
+info@umcu.nl;UMC Utrecht;taxi;Nederland;350;;www.umcu.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:04
+info@taxicentraledenhaaag.nl;TaxiCentrale Den Haag;taxi;Nederland;310;;www.taxicentraledenhaaag.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:04
+info@hertogenbosch-taxi.nl;'s-Hertogenbosch Taxi;taxi;Nederland;120;;www.hertogenbosch-taxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:04
+info@utrechtstudent.nl;Utrecht Student Transport;taxi;Nederland;45;;www.utrechtstudent.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:04
+info@amsterdamexecutive.nl;Amsterdam Executive Travel;taxi;Nederland;35;;www.amsterdamexecutive.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:04
+info@rottmdampremium.nl;Rotterdam Premium Transport;taxi;Nederland;28;;www.rottmdampremium.nl;60;0;discovered;;ai_discovery;2026-03-30 21:26:04
+info@taxinu-rotterdam.nl;TaxiNu Rotterdam;taxi;Nederland;150;;www.taxinu-rotterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:21
+info@taxiservice-amsterdam.nl;Taxi Service Amsterdam;taxi;Nederland;95;;www.taxiservice-amsterdam.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:21
+info@nadorst.nl;Nadorst;taxi;Nederland;160;;www.nadorst.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:21
+info@hellas-taxi.nl;Taxibedrijf Hellas;taxi;Nederland;140;;www.hellas-taxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:21
+info@ovo.nl;Openbaarvervoer Overijssel;taxi;Nederland;220;;www.ovo.nl;60;0;discovered;;ai_discovery;2026-03-30 21:39:21
+info@ehtaxi.nl;Eindhoven Taxi Centrale;taxi;Nederland;200;040-211 7111;www.ehtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@leidschendamtaxi.nl;Leidschendam Taxi;taxi;Nederland;85;070-320 4444;www.leidschendamtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@groenewiel.nl;Groene Wiel Transport;taxi;Nederland;95;020-612 3000;www.groenewiel.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@connexxion-taxi.nl;Connexxion Taxiservices;taxi;Nederland;220;035-548 2000;www.connexxion-taxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@ziekenvervoerdirect.nl;Ziekenvervoer Direct;taxi;Nederland;110;030-280 2800;www.ziekenvervoerdirect.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@luxeairport.nl;Luxe Airport Transfer;taxi;Nederland;65;020-347 5500;www.luxeairport.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@hollandtaxiexpress.nl;Holland Taxi Express;taxi;Nederland;130;010-290 0099;www.hollandtaxiexpress.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@rijnmondtaxi.nl;Rijnmond Taxicentrale;taxi;Nederland;155;010-413 0000;www.rijnmondtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@haagsataxi.nl;Haagse Taxi Centrale;taxi;Nederland;185;070-360 3636;www.haagsataxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@schipholairporttaxi.nl;Schiphol Airport Taxi;taxi;Nederland;420;020-653 5151;www.schipholairporttaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@viptransferholland.nl;VIP Transfer Holland;taxi;Nederland;55;020-400 4000;www.viptransferholland.nl;60;0;discovered;;ai_discovery;2026-03-30 21:52:31
+info@damenlimousine.nl;Damen Limousine Service;taxi;Nederland;85;;www.damenlimousine.nl;60;0;discovered;;ai_discovery;2026-03-30 22:05:50
+info@fairtaxi.nl;FairTaxi;taxi;Nederland;200;;www.fairtaxi.nl;60;0;discovered;;ai_discovery;2026-03-30 22:05:50
+info@goldentaxi-utrecht.nl;Golden Taxi Utrecht;taxi;Nederland;95;;www.goldentaxi-utrecht.nl;60;0;discovered;;ai_discovery;2026-03-30 22:05:50
+info@rottaxiservice.nl;Rotterdam Airport Taxi;taxi;Nederland;150;;www.rottaxiservice.nl;60;0;discovered;;ai_discovery;2026-03-30 22:05:51
+info@eindhoventransfer.nl;Eindhoven Airport Transfer;taxi;Nederland;120;;www.eindhoventransfer.nl;60;0;discovered;;ai_discovery;2026-03-30 22:05:51
