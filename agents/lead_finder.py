@@ -339,14 +339,11 @@ class LeadFinder:
         all_results.extend(kvk_leads)
         log.info(f"[DISCOVER] Phase 3B: {len(kvk_leads)} lead (OpenKVK)")
 
-        # ── PHASE 4: AI bilgi bankası (Claude) ──
-        if config.USE_AI_LEADS:
-            log.info("[DISCOVER] PHASE 4: AI bilgi bankası...")
-            ai_leads = self._ai_bulk_lead_search(sector)
-            all_results.extend(ai_leads)
-            log.info(f"[DISCOVER] Phase 4: {len(ai_leads)} lead (AI)")
-        else:
-            log.info("[DISCOVER] PHASE 4: AI devredışı (Economic Mode)")
+        # ── PHASE 4: Ekstra web kaynakları (AI-free) ──
+        log.info("[DISCOVER] PHASE 4: Ekstra web kaynakları (Kompas + deep scan)...")
+        extra_leads = self._extra_web_sources(sector)
+        all_results.extend(extra_leads)
+        log.info(f"[DISCOVER] Phase 4: {len(extra_leads)} lead (web kaynakları)")
 
         # ── PHASE 5: Şehir bazlı web araması (shared hosting koruması) ──
         log.info("[DISCOVER] PHASE 5: Şehir bazlı web araması...")
@@ -382,13 +379,13 @@ class LeadFinder:
                     verified.append(lead)  # Yine de tut ama skoru düşür
             all_results = verified
 
-        # ── PHASE 7: AI toplu doğrulama ──
+        # ── PHASE 7: Kural tabanlı doğrulama (AI-free) ──
         unscored = [l for l in all_results if not l.get("score") or l.get("score", 0) < 40]
-        if config.USE_AI_LEADS and unscored and len(unscored) <= 50:
-            log.info(f"[DISCOVER] PHASE 7: {len(unscored)} lead AI doğrulama...")
-            self._batch_validate_with_ai(unscored)
+        if unscored:
+            log.info(f"[DISCOVER] PHASE 7: {len(unscored)} lead kural tabanlı doğrulama...")
+            self._rule_based_validate(unscored)
         else:
-            log.info("[DISCOVER] PHASE 7: AI doğrulama devredışı veya gerek yok")
+            log.info("[DISCOVER] PHASE 7: Doğrulama gerek yok — tüm lead'ler skorlu")
 
         # ── Veritabanına kaydet ──
         saved = 0
@@ -785,102 +782,146 @@ class LeadFinder:
     # PHASE 4: AI BULK LEAD SEARCH
     # ══════════════════════════════════════════════════════════════
 
-    def _ai_bulk_lead_search(self, sector: str) -> list[dict]:
-        """Claude'a sektör bilgisi vererek bilinen şirketlerin listesini iste."""
+    def _extra_web_sources(self, sector: str) -> list[dict]:
+        """Phase 4: Ekstra web kaynakları — Kompas.nl, deep city scan, email enrichment. AI kullanmaz."""
         results = []
-        sector_nl = {
-            "transport": "transport en vrachtvervoer",
-            "bouw": "bouw en constructie",
-            "schoonmaak": "schoonmaak en facilitair",
-            "logistiek": "logistiek en warehousing",
-            "koerier": "koeriers en pakketdiensten",
-            "thuiszorg": "thuiszorg en wijkverpleging",
-            "taxi": "taxi en personenvervoer",
-            "installatiebedrijf": "installatie en techniek",
-            "catering": "catering en horeca",
-            "beveiliging": "beveiliging en security",
-            "groenvoorziening": "groenvoorziening en hoveniers",
-            "loodgieter": "loodgieters en sanitair",
-            "elektricien": "elektriciens en elektrotechniek",
-        }.get(sector, sector)
 
-        prompt = f"""Je bent een B2B sales researcher voor FleetTrack Holland (GPS fleet tracking).
-Genereer een lijst van ECHTE Nederlandse bedrijven in de sector: {sector_nl}
+        # ── 4A: Kompas.nl ──
+        kompas_leads = self._scrape_kompas(sector)
+        results.extend(kompas_leads)
 
-BELANGRIJK: Geef ALLEEN echte bedrijven die daadwerkelijk bestaan in Nederland.
-Voor elk bedrijf, geef:
-- Bedrijfsnaam
-- Vermoedelijke website (format: bedrijfsnaam.nl)
-- Vermoedelijk e-mailadres (meestal info@bedrijfsnaam.nl)
-- Stad
-- Geschatte vlootgrootte
+        # ── 4B: Ekstra şehirlerde derin tarama (ilk 5'te taranmayan şehirler) ──
+        extra_cities = random.sample(DUTCH_CITIES[20:], min(5, len(DUTCH_CITIES[20:])))
+        for city in extra_cities:
+            try:
+                city_leads = self._search_city(sector, city)
+                results.extend(city_leads)
+                if city_leads:
+                    log.info(f"[EXTRA] {city}: {len(city_leads)} lead")
+            except Exception as e:
+                log.debug(f"[EXTRA] {city} hatası: {e}")
+            time.sleep(2)
 
-Geef minimaal 25 bedrijven, maximaal 50.
+        # ── 4C: Mevcut lead'lerin website'lerinden email zenginleştirme ──
+        enriched = 0
+        leads_without_email = [l for l in results if not l.get("email") and l.get("website")]
+        for lead in leads_without_email[:20]:
+            try:
+                contacts = self._extract_contacts_from_website(lead["website"])
+                if contacts.get("email"):
+                    email = contacts["email"].lower()
+                    if email not in self._found_emails and not db.lead_exists(email):
+                        lead["email"] = email
+                        self._found_emails.add(email)
+                        enriched += 1
+                if contacts.get("phone") and not lead.get("phone"):
+                    lead["phone"] = contacts["phone"]
+            except Exception:
+                pass
+            time.sleep(0.5)
 
-Antwoord ALLEEN als JSON array:
-[
-  {{"company_name": "...", "email": "info@...nl", "website": "www...nl", "city": "...", "estimated_vehicles": 10, "phone": ""}},
-  ...
-]"""
+        if enriched:
+            log.info(f"[EXTRA] {enriched} lead email ile zenginleştirildi")
 
-        try:
-            payload = {
-                "model": config.CLAUDE_MODEL,
-                "max_tokens": 4000,
-                "messages": [{"role": "user", "content": prompt}],
-            }
-
-            # API Guard ile korumalı çağrı (rate limit + retry + circuit breaker)
-            resp = api_guard.call(payload, self._headers, timeout=60)
-            self._stats["ai_calls"] += 1
-
-            if not resp or not resp.ok:
-                log.warning(f"[AI-BULK] API hata: {resp.status_code if resp else 'guard blocked'}")
-                return results
-
-            raw = resp.json()["content"][0]["text"]
-            json_str = raw
-            if "```json" in raw:
-                json_str = raw.split("```json")[1].split("```")[0]
-            elif "```" in raw:
-                json_str = raw.split("```")[1].split("```")[0]
-
-            companies = json.loads(json_str.strip())
-            if not isinstance(companies, list):
-                return results
-
-            for comp in companies:
-                email = (comp.get("email") or "").strip().lower()
-                if not email or not self._is_valid_email(email):
-                    continue
-                if email in self._found_emails or db.lead_exists(email):
-                    self._stats["leads_duplicate"] += 1
-                    continue
-
-                self._found_emails.add(email)
-                results.append({
-                    "company_name": comp.get("company_name", ""),
-                    "email": email,
-                    "phone": comp.get("phone", ""),
-                    "website": comp.get("website", ""),
-                    "estimated_vehicles": comp.get("estimated_vehicles", ""),
-                    "sector": sector,
-                    "location": comp.get("city", "Nederland"),
-                    "score": 55,
-                    "is_good_lead": True,
-                    "source": "ai_knowledge",
-                    "contact_person": comp.get("contact_person", ""),
-                })
-
-            log.info(f"[AI-BULK] {len(results)} lead AI bilgi bankasından bulundu ({sector})")
-
-        except json.JSONDecodeError:
-            log.warning("[AI-BULK] JSON decode hatası")
-        except Exception as e:
-            self._stats["errors"] += 1
-            log.error(f"[AI-BULK] Hata: {e}")
-
+        log.info(f"[EXTRA] Toplam {len(results)} ekstra lead bulundu")
         return results
+
+    def _scrape_kompas(self, sector: str) -> list[dict]:
+        """Kompas.nl bedrijvenregister — ek dizin kaynağı."""
+        results = []
+        search_term = SECTOR_MAP_TELEFOONBOEK.get(sector, sector)
+        cities = ["rotterdam", "amsterdam", "utrecht", "eindhoven", "den-haag",
+                  "groningen", "tilburg", "breda", "arnhem", "nijmegen"]
+
+        for city in cities:
+            try:
+                url = f"https://www.kompas.nl/zoek/{search_term}/{city}/"
+                resp = self._safe_get(url, timeout=12)
+                if not resp or not resp.ok:
+                    continue
+
+                self._stats["directories_scraped"] += 1
+                companies = self._extract_directory_listings(resp.text, url)
+                for comp in companies:
+                    if comp.get("email") and comp["email"] not in self._found_emails:
+                        if not db.lead_exists(comp["email"]):
+                            self._found_emails.add(comp["email"])
+                            comp["sector"] = sector
+                            comp["location"] = city.replace("-", " ").title()
+                            comp["source"] = "kompas"
+                            comp["score"] = 60
+                            results.append(comp)
+                time.sleep(0.8)
+            except Exception as e:
+                self._stats["errors"] += 1
+                log.debug(f"[KOMPAS] Hata: {city}/{sector} — {e}")
+
+        log.info(f"[KOMPAS] {len(results)} lead bulundu")
+        return results
+
+    def _rule_based_validate(self, leads: list[dict]):
+        """Phase 7: Kural tabanlı lead doğrulama — AI kullanmaz, skor hesaplar."""
+        for lead in leads:
+            score = lead.get("score", 30)
+
+            email = (lead.get("email") or "").lower()
+            website = lead.get("website") or ""
+            phone = lead.get("phone") or ""
+            company = lead.get("company_name") or ""
+
+            # Email kalitesi
+            if email:
+                if email.startswith("info@"):
+                    score += 10  # info@ genelde doğru
+                elif email.startswith(("contact@", "sales@", "office@")):
+                    score += 8
+                if email.endswith(".nl"):
+                    score += 5  # Hollanda domain
+                if email.endswith((".com", ".eu")):
+                    score += 3
+                # Email domain ile website domain eşleşiyor mu?
+                if website:
+                    email_domain = email.split("@")[-1]
+                    web_domain = urlparse(website).netloc.replace("www.", "")
+                    if email_domain == web_domain:
+                        score += 10  # Güçlü eşleşme
+
+            # Veri zenginliği
+            if website and website.startswith("http"):
+                score += 5
+            if phone and len(phone) >= 8:
+                score += 5
+            if company and len(company) > 3:
+                score += 3
+            if lead.get("estimated_vehicles"):
+                score += 3
+            if lead.get("contact_person"):
+                score += 5
+
+            # Kaynak güvenilirliği
+            source = lead.get("source", "")
+            if source in ("detelefoongids", "telefoonboek", "goudengids"):
+                score += 10  # Resmi dizinler güvenilir
+            elif source in ("kvk", "bedrijvenpagina"):
+                score += 8
+            elif source == "openstreetmap":
+                score += 2  # Tahmin bazlı
+            elif source == "kompas":
+                score += 7
+
+            # MX doğrulama sonucunu kontrol et
+            if email and self._verify_mx(email):
+                score += 5
+
+            lead["score"] = min(score, 100)
+
+        validated = sum(1 for l in leads if l.get("score", 0) >= 40)
+        log.info(f"[VALIDATE] {validated}/{len(leads)} lead skoru 40+ (kural tabanlı)")
+
+    def _ai_bulk_lead_search(self, sector: str) -> list[dict]:
+        """Eski AI bulk arama — artık _extra_web_sources kullanılıyor. Geriye uyumluluk için tutuldu."""
+        log.info(f"[AI-BULK] AI devre dışı — _extra_web_sources kullanılıyor")
+        return self._extra_web_sources(sector)
 
     # ══════════════════════════════════════════════════════════════
     # PHASE 5: ŞEHİR BAZLI WEB ARAMASI

@@ -2366,11 +2366,11 @@ def _automation_loop():
                 total_discovered = 0
 
                 # ═══════════════════════════════════════════════════
-                # PHASE 1: AI LEAD KEŞFİ
+                # PHASE 1: WEB LEAD KEŞFİ (AI-free)
                 # ═══════════════════════════════════════════════════
                 try:
-                    _automation_state["last_action"] = "Phase 1: AI ile lead keşfi..."
-                    _auto_log("🔍 Phase 1: AI lead keşfi başlıyor")
+                    _automation_state["last_action"] = "Phase 1: Web scraping ile lead keşfi..."
+                    _auto_log("🔍 Phase 1: Web lead keşfi başlıyor (AI-free)")
 
                     for sector in list(config.SECTORS):
                         if not _automation_state["running"]:
@@ -2380,13 +2380,13 @@ def _automation_loop():
                             continue
 
                         try:
-                            _automation_state["last_action"] = f"Phase 1: {sector} — AI aranıyor ({total_discovered} bulundu)"
-                            _auto_log(f"🔍 AI arama: {sector}")
-                            ai_leads = lead_finder._ai_bulk_lead_search(sector)
+                            _automation_state["last_action"] = f"Phase 1: {sector} — web taranıyor ({total_discovered} bulundu)"
+                            _auto_log(f"🔍 Web arama: {sector}")
+                            web_leads = lead_finder._extra_web_sources(sector)
 
-                            if ai_leads:
+                            if web_leads:
                                 saved = 0
-                                for nl in ai_leads:
+                                for nl in web_leads:
                                     email = nl.get("email", "")
                                     if email and not db.lead_exists(email):
                                         try:
@@ -2398,7 +2398,7 @@ def _automation_loop():
                                                 vehicles=str(nl.get("estimated_vehicles", "")),
                                                 website=nl.get("website", ""),
                                                 phone=nl.get("phone", ""),
-                                                source="ai_discovery",
+                                                source="web_discovery",
                                             )
                                             saved += 1
                                         except Exception:
@@ -2407,11 +2407,11 @@ def _automation_loop():
                                 _auto_log(f"✅ {sector}: {saved} yeni lead bulundu! (toplam: {total_discovered})")
                                 _automation_state["last_action"] = f"Phase 1: {sector} — {saved} lead! (toplam: {total_discovered})"
                             else:
-                                _auto_log(f"⚠️ {sector}: lead bulunamadı (API yanıt boş)")
+                                _auto_log(f"⚠️ {sector}: lead bulunamadı")
                         except Exception as e:
                             _auto_log(f"❌ {sector} hatası: {e}", "error")
 
-                        # Rate limit koruması: sektörler arası yeterli bekleme
+                        # Sektörler arası bekleme
                         time.sleep(8)
 
                     _auto_log(f"📊 Phase 1 TAMAM: {total_discovered} lead keşfedildi")
@@ -3074,11 +3074,11 @@ def cron_run_cycle():
     cycle = _automation_state["cycle"]
     _auto_log(f"═══ CRON Cycle {cycle} BAŞLADI ═══")
 
-    # ═══ PHASE 1: AI LEAD KEŞFİ ═══
+    # ═══ PHASE 1: WEB LEAD KEŞFİ (AI-free) ═══
     total_discovered = 0
     try:
-        _automation_state["last_action"] = f"Cron Cycle {cycle}: Phase 1 — AI lead keşfi"
-        _auto_log("🔍 Phase 1: AI lead keşfi başlıyor")
+        _automation_state["last_action"] = f"Cron Cycle {cycle}: Phase 1 — Web lead keşfi"
+        _auto_log("🔍 Phase 1: Web lead keşfi başlıyor (AI-free)")
 
         sectors_to_search = list(config.SECTORS)
         for sector in sectors_to_search:
@@ -3087,13 +3087,13 @@ def cron_run_cycle():
                 continue
 
             try:
-                _auto_log(f"🔍 AI arama: {sector}")
-                _automation_state["last_action"] = f"Phase 1: {sector} — AI aranıyor"
-                ai_leads = lead_finder._ai_bulk_lead_search(sector)
+                _auto_log(f"🔍 Web arama: {sector}")
+                _automation_state["last_action"] = f"Phase 1: {sector} — web taranıyor"
+                web_leads = lead_finder._extra_web_sources(sector)
 
-                if ai_leads:
+                if web_leads:
                     saved = 0
-                    for nl in ai_leads:
+                    for nl in web_leads:
                         email = nl.get("email", "")
                         if email and not db.lead_exists(email):
                             try:
@@ -3105,7 +3105,7 @@ def cron_run_cycle():
                                     vehicles=str(nl.get("estimated_vehicles", "")),
                                     website=nl.get("website", ""),
                                     phone=nl.get("phone", ""),
-                                    source="ai_discovery",
+                                    source="web_discovery",
                                 )
                                 saved += 1
                             except Exception:
@@ -3117,7 +3117,7 @@ def cron_run_cycle():
             except Exception as e:
                 _auto_log(f"❌ {sector} hatası: {e}", "error")
 
-            time.sleep(5)  # Rate limit koruması
+            time.sleep(5)  # Sektörler arası bekleme
 
         results["phase_1_discover"] = {"total_discovered": total_discovered}
         _auto_log(f"📊 Phase 1 TAMAM: {total_discovered} lead keşfedildi")
