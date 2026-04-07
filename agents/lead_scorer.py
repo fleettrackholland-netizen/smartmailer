@@ -93,66 +93,9 @@ class LeadScorer:
         return all_scores
 
     def _score_single_batch(self, leads: list[dict]) -> list[dict]:
-        """Tek batch'i Claude'a gönder ve puanla."""
-
-        leads_text = ""
-        for idx, lead in enumerate(leads, 1):
-            email = lead.get("Email") or lead.get("email") or "?"
-            company = lead.get("Company") or lead.get("company") or "Onbekend"
-            sector = lead.get("Sector") or lead.get("sector") or "onbekend"
-            location = lead.get("Location") or lead.get("location") or "onbekend"
-            vehicles = lead.get("Vehicles") or lead.get("vehicles") or "onbekend"
-            website = lead.get("Website") or lead.get("website") or ""
-
-            leads_text += f"""
-Lead #{idx}:
-- Email: {email}
-- Bedrijf: {company}
-- Sector: {sector}
-- Locatie: {location}
-- Voertuigen: {vehicles}
-- Website: {website}
-"""
-
-        user_prompt = f"Beoordeel de volgende {len(leads)} leads:\n{leads_text}"
-
-        log.info(f"[LeadScorer] {len(leads)} lead puanlanıyor...")
-
-        payload = {
-            "model": config.CLAUDE_MODEL,
-            "max_tokens": 1500,
-            "system": SCORING_PROMPT,
-            "messages": [{"role": "user", "content": user_prompt}],
-        }
-
-        try:
-            resp = api_guard.call(payload, self._headers, timeout=45)
-            if not resp or not resp.ok:
-                log.error(f"[LeadScorer] API hatası: {resp.status_code if resp else 'guard blocked'}")
-                return self._fallback_scores(leads)
-
-            raw = resp.json()["content"][0]["text"]
-
-            # JSON parse
-            json_str = raw
-            if "```json" in raw:
-                json_str = raw.split("```json")[1].split("```")[0]
-            elif "```" in raw:
-                json_str = raw.split("```")[1].split("```")[0]
-
-            data = json.loads(json_str.strip())
-            scores = data.get("scores", [])
-
-            for s in scores:
-                priority = s.get("priority", "medium")
-                log.info(f"[LeadScorer] {s['email']}: {s['score']}/100 "
-                         f"({priority}) — {s.get('reason', '')[:60]}")
-
-            return scores
-
-        except Exception as e:
-            log.warning(f"[LeadScorer] AI scoring başarısız ({e}), fallback kullanılıyor")
-            return self._fallback_scores(leads)
+        """Rule-based scoring — AI kullanmadan hızlı puanlama."""
+        log.info(f"[LeadScorer] {len(leads)} lead puanlanıyor (rule-based, AI-free)...")
+        return self._fallback_scores(leads)
 
     def _fallback_scores(self, leads: list[dict]) -> list[dict]:
         """AI ulaşılamadığında basit kural tabanlı scoring."""
