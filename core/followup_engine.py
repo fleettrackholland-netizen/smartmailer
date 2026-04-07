@@ -398,13 +398,26 @@ class FollowUpEngine:
 
         result = json.loads(json_str.strip())
 
-        # Unsubscribe footer ekle (her follow-up'a)
+        # Unsubscribe footer ekle (her follow-up'a) — Hollandse wettelijke footer
         unsub_url = config.UNSUBSCRIBE_URL
         footer_html = (
             f'<br><hr style="border:none;border-top:1px solid #eee;margin:20px 0">'
             f'<p style="font-size:11px;color:#999;line-height:1.4">'
             f'{config.COMPANY_NAME}<br>'
             f'<a href="{unsub_url}" style="color:#999">Uitschrijven</a></p>'
+            f'<p style="margin:8px 0 4px;font-size:11px;color:#999;line-height:1.5;">'
+            f'<a href="{unsub_url}" style="color:#999;text-decoration:underline;">'
+            f'Afmelden voor dit project</a> &#8729; '
+            f'<a href="{unsub_url}" style="color:#999;text-decoration:underline;">'
+            f'Afmelden voor alle meldingen</a></p>'
+            f'<p style="margin:0 0 4px;font-size:11px;color:#999;line-height:1.5;">'
+            f'Hulp nodig? Beantwoord deze e-mail en ons team neemt contact met u op.</p>'
+            f'<p style="margin:0;font-size:11px;color:#999;line-height:1.5;">'
+            f'&copy; 2026 Rotterdam<br/>'
+            f'<a href="https://www.fleettrackholland.nl/voorwaarden" '
+            f'style="color:#999;text-decoration:underline;">Servicevoorwaarden</a> &#8729; '
+            f'<a href="https://www.fleettrackholland.nl/privacy" '
+            f'style="color:#999;text-decoration:underline;">Privacybeleid</a></p>'
         )
         result["body_html"] = result.get("body_html", "") + footer_html
 

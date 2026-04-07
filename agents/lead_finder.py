@@ -340,10 +340,13 @@ class LeadFinder:
         log.info(f"[DISCOVER] Phase 3B: {len(kvk_leads)} lead (OpenKVK)")
 
         # ── PHASE 4: AI bilgi bankası (Claude) ──
-        log.info("[DISCOVER] PHASE 4: AI bilgi bankası...")
-        ai_leads = self._ai_bulk_lead_search(sector)
-        all_results.extend(ai_leads)
-        log.info(f"[DISCOVER] Phase 4: {len(ai_leads)} lead (AI)")
+        if config.USE_AI_LEADS:
+            log.info("[DISCOVER] PHASE 4: AI bilgi bankası...")
+            ai_leads = self._ai_bulk_lead_search(sector)
+            all_results.extend(ai_leads)
+            log.info(f"[DISCOVER] Phase 4: {len(ai_leads)} lead (AI)")
+        else:
+            log.info("[DISCOVER] PHASE 4: AI devredışı (Economic Mode)")
 
         # ── PHASE 5: Şehir bazlı web araması (shared hosting koruması) ──
         log.info("[DISCOVER] PHASE 5: Şehir bazlı web araması...")
@@ -381,9 +384,11 @@ class LeadFinder:
 
         # ── PHASE 7: AI toplu doğrulama ──
         unscored = [l for l in all_results if not l.get("score") or l.get("score", 0) < 40]
-        if unscored and len(unscored) <= 50:
+        if config.USE_AI_LEADS and unscored and len(unscored) <= 50:
             log.info(f"[DISCOVER] PHASE 7: {len(unscored)} lead AI doğrulama...")
             self._batch_validate_with_ai(unscored)
+        else:
+            log.info("[DISCOVER] PHASE 7: AI doğrulama devredışı veya gerek yok")
 
         # ── Veritabanına kaydet ──
         saved = 0

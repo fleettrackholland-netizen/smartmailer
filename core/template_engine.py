@@ -587,6 +587,33 @@ DEFAULT_CTA_TEXT = "Bekijk tarieven →"
 DEFAULT_UNSUB_URL = "https://www.fleettrackholland.nl/unsubscribe"
 
 
+def _build_legal_footer(unsub_url: str = "") -> str:
+    """Wettelijke footer — Hollands, voor onder elke e-mail."""
+    url = unsub_url or DEFAULT_UNSUB_URL
+    return (
+        '<table cellspacing="0" cellpadding="0" border="0" role="presentation" '
+        'width="100%" align="center" style="table-layout:fixed;width:100%;">' 
+        '<tbody><tr><td style="padding:16px 30px 24px;text-align:center;">'
+        '<p style="margin:0 0 6px;font-size:11px;color:#807b7b;'
+        'font-family:Montserrat,Arial,Helvetica,sans-serif;line-height:1.5;">'
+        f'<a href="{url}" style="color:#807b7b;text-decoration:underline;">'
+        'Afmelden voor dit project</a> &#8729; '
+        f'<a href="{url}" style="color:#807b7b;text-decoration:underline;">'
+        'Afmelden voor alle meldingen</a></p>'
+        '<p style="margin:0 0 6px;font-size:11px;color:#807b7b;'
+        'font-family:Montserrat,Arial,Helvetica,sans-serif;line-height:1.5;">'
+        'Hulp nodig? Beantwoord deze e-mail en ons team neemt contact met u op.</p>'
+        '<p style="margin:0;font-size:11px;color:#807b7b;'
+        'font-family:Montserrat,Arial,Helvetica,sans-serif;line-height:1.5;">'
+        '&copy; 2026 Rotterdam<br/>'
+        '<a href="https://www.fleettrackholland.nl/voorwaarden" '
+        'style="color:#807b7b;text-decoration:underline;">Servicevoorwaarden</a> &#8729; '
+        '<a href="https://www.fleettrackholland.nl/privacy" '
+        'style="color:#807b7b;text-decoration:underline;">Privacybeleid</a></p>'
+        '</td></tr></tbody></table>'
+    )
+
+
 class TemplateEngine:
     """Email şablon motoru v5 — Template rotasyon + sektör eşleştirme."""
 
@@ -676,11 +703,15 @@ class TemplateEngine:
                     "img_fmb140": IMAGES["fmb140"],
                     "img_fmc650": IMAGES["fmc650"],
                 }
-            return template["html"].format(**format_kwargs)
+            html = template["html"].format(**format_kwargs)
+            # Wettelijke footer injecteren vóór </body>
+            legal = _build_legal_footer(unsubscribe_url or DEFAULT_UNSUB_URL)
+            html = html.replace('</body>', legal + '</body>')
+            return html
         except KeyError as e:
             log.warning(f"Template render hatası ({template_id}): {e}")
             minimal = TEMPLATES["fleet_minimal"]
-            return minimal["html"].format(
+            html = minimal["html"].format(
                 body_content=body_html,
                 company_name=company_name or "Geachte heer/mevrouw",
                 cta_url=cta_url or DEFAULT_CTA_URL,
@@ -693,6 +724,9 @@ class TemplateEngine:
                 img_fmc650=IMAGES["fmc650"],
                 headline=headline,
             )
+            legal = _build_legal_footer(unsubscribe_url or DEFAULT_UNSUB_URL)
+            html = html.replace('</body>', legal + '</body>')
+            return html
 
     def preview(self, template_id: str, sample_content: str = None) -> str:
         """Şablon önizlemesi oluştur."""
@@ -716,7 +750,7 @@ class TemplateEngine:
         )
 
         try:
-            return template["html"].format(
+            html = template["html"].format(
                 body_content=content,
                 company_name="Uw Bedrijf",
                 cta_url=DEFAULT_CTA_URL,
@@ -729,6 +763,9 @@ class TemplateEngine:
                 img_fmc650=IMAGES["fmc650"],
                 headline="Bespaar tot 25% op uw vlootkosten",
             )
+            legal = _build_legal_footer(DEFAULT_UNSUB_URL)
+            html = html.replace('</body>', legal + '</body>')
+            return html
         except KeyError:
             return "<p>Preview rendering mislukt</p>"
 

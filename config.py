@@ -14,6 +14,9 @@ class Config:
     GEMINI_MODEL       = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
     ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY", "")
     CLAUDE_MODEL       = "claude-haiku-4-5-20251001"
+    USE_AI_LEADS       = os.getenv("USE_AI_LEADS", "true").lower() == "true"
+    USE_AI_COPYWRITER  = os.getenv("USE_AI_COPYWRITER", "true").lower() == "true"
+    USE_AI_SCORING     = os.getenv("USE_AI_SCORING", "true").lower() == "true"
 
     # ─── BREVO ───────────────────────────────────────────────────
     BREVO_API_KEY      = os.getenv("BREVO_API_KEY", "")
@@ -37,7 +40,7 @@ class Config:
     HUMAN_REVIEW       = os.getenv("HUMAN_REVIEW", "false").lower() == "true"
     DELAY_MIN          = int(os.getenv("DELAY_MIN", "15"))
     DELAY_MAX          = int(os.getenv("DELAY_MAX", "35"))
-    DAILY_SEND_LIMIT   = int(os.getenv("DAILY_SEND_LIMIT", "650"))
+    DAILY_SEND_LIMIT   = int(os.getenv("DAILY_SEND_LIMIT", "200"))
     MONTHLY_SEND_LIMIT = int(os.getenv("MONTHLY_SEND_LIMIT", "20000"))
 
     # ─── PERFORMANCE ─────────────────────────────────────────────

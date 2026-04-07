@@ -2426,22 +2426,25 @@ def _automation_loop():
                 # ═══════════════════════════════════════════════════
                 # PHASE 2: LEAD PUANLAMA
                 # ═══════════════════════════════════════════════════
-                try:
-                    _automation_state["last_action"] = "Phase 2: Lead puanlama..."
-                    _auto_log("📊 Phase 2: Lead puanlama başlıyor")
-                    unscored = db.get_all_leads()
-                    unscored_leads = [l for l in unscored if not l.get("ai_score") or l.get("ai_score", 0) == 0]
-                    if unscored_leads:
-                        batch = unscored_leads[:20]
-                        scores = lead_scorer.score_batch(batch)
-                        for s in scores:
-                            db.update_lead_ai_score(s["email"], s.get("score", 50), s.get("reason", ""))
-                        _auto_log(f"✅ {len(scores)} lead puanlandı")
-                        _automation_state["last_action"] = f"Phase 2: {len(scores)} lead puanlandı"
-                    else:
-                        _auto_log("ℹ️ Puanlanacak lead yok")
-                except Exception as e:
-                    _auto_log(f"❌ Phase 2 HATA: {e}", "error")
+                if config.USE_AI_SCORING:
+                    try:
+                        _automation_state["last_action"] = "Phase 2: Lead puanlama..."
+                        _auto_log("📊 Phase 2: Lead puanlama başlıyor")
+                        unscored = db.get_all_leads()
+                        unscored_leads = [l for l in unscored if not l.get("ai_score") or l.get("ai_score", 0) == 0]
+                        if unscored_leads:
+                            batch = unscored_leads[:20]
+                            scores = lead_scorer.score_batch(batch)
+                            for s in scores:
+                                db.update_lead_ai_score(s["email"], s.get("score", 50), s.get("reason", ""))
+                            _auto_log(f"✅ {len(scores)} lead puanlandı")
+                            _automation_state["last_action"] = f"Phase 2: {len(scores)} lead puanlandı"
+                        else:
+                            _auto_log("ℹ️ Puanlanacak lead yok")
+                    except Exception as e:
+                        _auto_log(f"❌ Phase 2 HATA: {e}", "error")
+                else:
+                    _auto_log("📊 Phase 2: AI puanlama devredışı (Economic Mode)")
 
                 gc.collect()
                 if not _automation_state["running"]:
@@ -2450,19 +2453,22 @@ def _automation_loop():
                 # ═══════════════════════════════════════════════════
                 # PHASE 2.5: DÜŞÜK SKORLU LEAD'LERİ YENİDEN PUANLA
                 # ═══════════════════════════════════════════════════
-                try:
-                    _automation_state["last_action"] = "Phase 2.5: Düşük skorlu leadleri revize..."
-                    low_score_leads = db.get_leads_for_rescoring(min_score=90, limit=10)
-                    if low_score_leads:
-                        _auto_log(f"🔄 Phase 2.5: {len(low_score_leads)} düşük skorlu lead revize ediliyor")
-                        rescored = lead_scorer.score_batch(low_score_leads)
-                        for s in rescored:
-                            db.update_lead_ai_score(s["email"], s.get("score", 50), s.get("reason", ""))
-                        _auto_log(f"✅ {len(rescored)} lead yeniden puanlandı")
-                    else:
-                        _auto_log("ℹ️ Revize edilecek lead yok")
-                except Exception as e:
-                    _auto_log(f"❌ Phase 2.5 HATA: {e}", "error")
+                if config.USE_AI_SCORING:
+                    try:
+                        _automation_state["last_action"] = "Phase 2.5: Düşük skorlu leadleri revize..."
+                        low_score_leads = db.get_leads_for_rescoring(min_score=90, limit=10)
+                        if low_score_leads:
+                            _auto_log(f"🔄 Phase 2.5: {len(low_score_leads)} düşük skorlu lead revize ediliyor")
+                            rescored = lead_scorer.score_batch(low_score_leads)
+                            for s in rescored:
+                                db.update_lead_ai_score(s["email"], s.get("score", 50), s.get("reason", ""))
+                            _auto_log(f"✅ {len(rescored)} lead yeniden puanlandı")
+                        else:
+                            _auto_log("ℹ️ Revize edilecek lead yok")
+                    except Exception as e:
+                        _auto_log(f"❌ Phase 2.5 HATA: {e}", "error")
+                else:
+                    _auto_log("📊 Phase 2.5: AI revize devredışı (Economic Mode)")
 
                 gc.collect()
                 if not _automation_state["running"]:

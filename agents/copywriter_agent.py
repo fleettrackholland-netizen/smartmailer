@@ -314,6 +314,11 @@ lengte en onderwerpstijl. Pas je aan op basis van wat WERKT.
         except (ValueError, TypeError):
             v_count = 0
 
+        # --- ECONOMIC MODE CHECK ---
+        if not config.USE_AI_COPYWRITER:
+            log.info(f"[Copywriter] Economic Mode: Using static template for {company}")
+            return self._static_fallback(company, sector, v_count, accent_color, ctx)
+
         if v_count > 0:
             monthly = v_count * 9.99
             price_hint = (f"Bij {v_count} voertuigen: €{monthly:.2f}/maand — all-in. "
