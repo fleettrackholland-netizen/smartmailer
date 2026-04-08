@@ -571,6 +571,70 @@ def brevo_webhook():
         return jsonify({"status": "error", "message": str(e)}), 500
 
 
+# ─── UNSUBSCRIBE ENDPOINT ──────────────────────────────────────
+# FleetTrack sitesindeki /unsubscribe sayfası buraya POST atar.
+# GET: direkt ziyaret → FleetTrack sitesine yönlendir.
+@app.route("/unsubscribe", methods=["GET", "POST", "OPTIONS"])
+def handle_unsubscribe():
+    """Uitschrijven verzoek — FleetTrack Holland website POST atar."""
+
+    # OPTIONS preflight (CORS)
+    if request.method == "OPTIONS":
+        resp = jsonify({"status": "ok"})
+        resp.headers["Access-Control-Allow-Origin"] = "*"
+        resp.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+        resp.headers["Access-Control-Allow-Headers"] = "Content-Type"
+        return resp, 204
+
+    if request.method == "GET":
+        # Direkt browser ziyareti → FleetTrack sitesine yonlendir
+        email_param = request.args.get("email", "")
+        redirect_url = "https://www.fleettrackholland.nl/unsubscribe"
+        if email_param:
+            redirect_url += f"?email={email_param}"
+        from flask import redirect as flask_redirect
+        return flask_redirect(redirect_url, 302)
+
+    # POST — JSON body: {"email": "xxx@yyy.com"}
+    try:
+        _init_agents()
+        data = request.get_json(force=True) or {}
+        email = (data.get("email") or "").strip().lower()
+
+        if not email or "@" not in email:
+            resp = jsonify({"success": False, "error": "Ongeldig e-mailadres"})
+            resp.headers["Access-Control-Allow-Origin"] = "*"
+            return resp, 400
+
+        # DB'ye unsubscribe kaydet
+        if db:
+            try:
+                db.add_opt_out(email, reason="website_unsubscribe")
+                db.cancel_pending_followups(email)
+                db.record_event(email, "unsubscribe", metadata={"source": "website"})
+            except Exception as db_err:
+                log.error(f"[UNSUB] DB hatasi: {db_err}")
+                resp = jsonify({"success": False, "error": "Database fout"})
+                resp.headers["Access-Control-Allow-Origin"] = "*"
+                return resp, 500
+        else:
+            log.error("[UNSUB] DB mevcut degil.")
+            resp = jsonify({"success": False, "error": "Service tijdelijk niet beschikbaar"})
+            resp.headers["Access-Control-Allow-Origin"] = "*"
+            return resp, 503
+
+        log.info(f"[UNSUB] Uitgeschreven: {email}")
+        resp = jsonify({"success": True, "email": email, "message": "Succesvol uitgeschreven"})
+        resp.headers["Access-Control-Allow-Origin"] = "*"
+        return resp, 200
+
+    except Exception as e:
+        log.error(f"[UNSUB] Hata: {e}")
+        resp = jsonify({"success": False, "error": str(e)})
+        resp.headers["Access-Control-Allow-Origin"] = "*"
+        return resp, 500
+
+
 @app.route("/api/stats/events", methods=["GET"])
 def get_event_stats():
     """Email event istatistikleri — open rate, click rate, bounce rate."""
