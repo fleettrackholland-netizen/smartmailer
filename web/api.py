@@ -3102,7 +3102,7 @@ def cron_run_cycle():
     CRON JOB İLE TETİKLENEN PİPELİNE.
     Passenger WSGI'da background threadler ölüyor, bu yüzden
     pipeline her 10 dakikada bir cron job ile çağrılır.
-    
+
     Kullanım: curl https://app.fleettrackholland.nl/cron/run-cycle?secret=fleettrack2026
     """
     import gc
@@ -3115,6 +3115,13 @@ def cron_run_cycle():
         req_secret = (request.json or {}).get("secret", "") if request.is_json else ""
     if req_secret != deploy_secret:
         return jsonify({"error": "Unauthorized"}), 403
+
+    # SAFETY PAUSE — bounce-rate remediation in progress. Set env SAFETY_PAUSE=false to resume.
+    if os.environ.get("SAFETY_PAUSE", "true").lower() == "true":
+        return jsonify({
+            "status": "paused",
+            "reason": "SAFETY_PAUSE active. Resume by setting env SAFETY_PAUSE=false and restarting.",
+        })
 
     results = {
         "started_at": datetime.now().isoformat(),
