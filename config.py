@@ -26,12 +26,14 @@ class Config:
     BREVO_SMTP_PASS    = os.getenv("BREVO_SMTP_PASS", "")
 
     # ─── GÖNDEREN ────────────────────────────────────────────────
-    SENDER_NAME        = os.getenv("SENDER_NAME", "Fleet Track Holland")
-    SENDER_EMAIL       = os.getenv("SENDER_EMAIL", "")
-    COMPANY_NAME       = os.getenv("COMPANY_NAME", "FleetTrack Holland B.V.")
+    SENDER_NAME        = os.getenv("SENDER_NAME", "Agah Dogan")
+    SENDER_EMAIL       = os.getenv("SENDER_EMAIL", "agah@fleettrackholland.nl")
+    SENDER_TITLE       = os.getenv("SENDER_TITLE", "Eigenaar — Fleet Track Holland")
+    SENDER_LINKEDIN    = os.getenv("SENDER_LINKEDIN", "")
+    COMPANY_NAME       = os.getenv("COMPANY_NAME", "Fleet Track Holland B.V.")
     COMPANY_KVK        = os.getenv("COMPANY_KVK", "")
     COMPANY_ADDRESS    = os.getenv("COMPANY_ADDRESS", "")
-    COMPANY_PHONE      = os.getenv("COMPANY_PHONE", "")
+    COMPANY_PHONE      = os.getenv("COMPANY_PHONE", "+31627246429")
     COMPANY_WEBSITE    = os.getenv("COMPANY_WEBSITE", "https://www.fleettrackholland.nl")
     UNSUBSCRIBE_URL    = os.getenv("UNSUBSCRIBE_URL", "https://app.fleettrackholland.nl/unsubscribe")
     BCC_EMAIL          = os.getenv("BCC_EMAIL", "sales@fleettrackholland.nl")
@@ -44,7 +46,8 @@ class Config:
     MONTHLY_SEND_LIMIT = int(os.getenv("MONTHLY_SEND_LIMIT", "20000"))
 
     # ─── PERFORMANCE ─────────────────────────────────────────────
-    QC_MIN_SCORE       = int(os.getenv("QC_MIN_SCORE", "90"))
+    QC_MIN_SCORE       = int(os.getenv("QC_MIN_SCORE", "70"))
+    QC_MIN_FLOOR       = int(os.getenv("QC_MIN_FLOOR", "50"))
     QC_MAX_RETRIES     = int(os.getenv("QC_MAX_RETRIES", "5"))
     PARALLEL_WORKERS   = int(os.getenv("PARALLEL_WORKERS", "5"))
     FOLLOWUP_ENABLED   = os.getenv("FOLLOWUP_ENABLED", "true").lower() == "true"

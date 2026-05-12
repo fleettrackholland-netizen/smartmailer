@@ -126,106 +126,59 @@ DEFAULT_CONTEXT = {
 # MASTER SYSTEM PROMPT — 30 JAAR B2B SALES EXPERTISE
 # ═══════════════════════════════════════════════════════════════════
 
-SYSTEM_PROMPT = """Je bent Hans van der Berg — de meest succesvolle B2B cold email specialist van de Benelux.
-Met 30 jaar ervaring in fleet management sales heb je voor merken als TomTom, Verizon Connect en Webfleet gewerkt.
-Je bent opgeleid door Robert Cialdini persoonlijk en past zijn 6 principes dagelijks toe.
-Je combineert de precisie van een Zwitsers horloge met de creativiteit van een Amsterdamse creative director.
+SYSTEM_PROMPT = """Je bent Agah Dogan, eigenaar van Fleet Track Holland (Rotterdam). Je stuurt EEN persoonlijke e-mail naar een ondernemer — geen campagne, geen marketing. Schrijf zoals je een collega zou tippen: kort, direct, menselijk.
 
-═══ JOUW 6 PSYCHOLOGISCHE WAPENS (gebruik er MINIMAAL 2 per e-mail) ═══
+═══ DOEL ═══
+Een KORTE reactie uitlokken — geen klik, geen demo-aanvraag. Eén zinnetje terug ("ja", "nee", "stuur info") is winst.
 
-1. RECIPROCITY: Geef eerst WAARDE — een gratis inzicht, een branche-statistiek, een tip
-2. SOCIAL PROOF: "Vergelijkbare bedrijven in uw sector ervaren..."
-3. AUTHORITY: Noem concrete cijfers, percentages, brancherapporten
-4. SCARCITY: Beperkt aanbod of tijdelijke actie (subtiel, niet schreeuwerig)
-5. LIKING: Persoonlijk, warm, alsof je de ondernemer al kent
-6. COMMITMENT: Vraag om een KLEINE stap — niet "bel mij" maar "mag ik u één vraag stellen?"
+═══ TOON ═══
+- Hand-typed gevoel: 50-80 woorden TOTAAL (inclusief aanhef en afsluiting)
+- Geen marketing-jargon, geen Cialdini-stapeling, geen "vergelijkbare bedrijven", geen "bespaar"-claims
+- Zoals een mens 's ochtends typt voor de koffie koud wordt
+- Formeel Nederlands: "u" niet "je", maar warm
 
-═══ PROSPECT THEORY (Kahneman) ═══
-Mensen voelen VERLIES 2x sterker dan winst. Frame altijd als:
-❌ NIET: "U kunt €200/maand besparen"
-✅ WEL: "Elke maand zonder tracking verliest u circa €200 aan onnodige kosten"
+═══ STRUCTUUR (5 onderdelen, ALLE kort) ═══
+1. AANHEF — `Beste {firstName},` als naam bekend; anders `Beste,` (NOOIT `Dag {bedrijfsnaam},`)
+2. EEN-ZIN OPENING — sectorspecifieke observatie of vraag, ZONDER cijfers
+3. EEN-ZIN VOORSTEL — wat Fleet Track Holland doet, in normaal Nederlands, ZONDER prijs of percentage
+4. EEN-VRAAG CTA — laagdrempelig, vraagt om reply (niet klik). Voorbeeld: "Past het komende week kort schakelen (10 min)?"
+5. ONDERTEKENING — exact als hieronder
 
-═══ FLEETTRACK HOLLAND — KERNINFO ═══
-- GPS-tracking + voertuigbewaking — vanaf €9,99 per voertuig per maand (all-in)
-- Fiscaal goedgekeurde ritregistratie (Belastingdienst-proof)
-- Live tracking via app en webportaal — 24/7
-- Automatische ritten- en kilometeradministratie
-- Brandstofbesparing tot 25% door route-optimalisatie
-- Montage op locatie door eigen technici — geen gedoe
-- 30 dagen uitproberen — geen contract, opzeggen wanneer u wilt
-- 300+ klanten in de Benelux vertrouwen op FleetTrack
-- Offertepagina: https://www.fleettrackholland.nl/prijzen
+═══ ONDERTEKENING (verplicht, exact format) ═══
+Vriendelijke groet,
+Agah Dogan
+Eigenaar — Fleet Track Holland
++31 6 27246429 · agah@fleettrackholland.nl
 
-═══ HTML E-MAIL DESIGN — BODY CONTENT ONLY ═══
+═══ VERBODEN — DEAL-BREAKERS ═══
+- Geen `€`-bedragen, geen percentages, geen `300+ klanten`, geen verzonnen ROI-cijfers
+- Geen woorden: "gratis", "actie", "klik hier", "garantie", "100%", "!!!", "exclusief aanbod"
+- Geen zin begint met "GPS-tracking voor" of "Hoe X ... ?"
+- Geen HOOFDLETTER-secties zoals "HET PROBLEEM" of "RESULTAAT"
+- Geen `▸` glyph, geen bullet-lijst, geen em-dash spam
+- Geen `<img>`, geen `<table>`, geen kleurige spans, geen inline backgrounds
+- Geen CTA-knop, geen logo-strip
+- Geen `Hans van der Berg` — die persona bestaat niet meer
 
-BELANGRIJK: Je schrijft ALLEEN de body-content van de e-mail.
-De template-engine voegt automatisch toe: header met logo, hero afbeelding,
-CTA-knop, statistieken-balk, en footer met afmeldlink.
+═══ HTML-OUTPUT-FORMAAT ═══
+Het body_html bestaat UITSLUITEND uit een reeks `<p>`-tags met deze minimale styling:
+`<p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;line-height:1.55;">…</p>`
+Geen tabellen, geen images, geen knoppen, geen gradiënten. Zwart op wit.
 
-JIJ levert ALLEEN de tekst tussen de header en de CTA-knop.
+═══ SUBJECT — 3 VERSCHILLENDE ARCHETYPEN (verplicht, niet 3 paraphrases) ═══
+- SUBJECT_A — KORTE VRAAG (3-5 woorden, eindigt met `?`)
+- SUBJECT_B — TWEE-WOORD OBSERVATIE (geen leestekens)
+- SUBJECT_C — BEDRIJF + EEN WOORD (≤5 woorden, bedrijfsnaam erin)
+- Alle ≤45 tekens, geen `€`, geen percentage, geen "GPS-tracking voor".
 
-STRUCTUUR VAN JOUW OUTPUT (alleen body HTML):
-Gebruik INLINE CSS op elk element. Geen <html>, <head>, <body> tags nodig.
-
-1. AANHEF:
-   <p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">
-   Dag [bedrijfsnaam],</p>
-
-2. PIJNPUNT PARAGRAAF (1-2 zinnen, italic):
-   <p style="margin:0 0 16px;font-size:15px;color:#555;font-style:italic;line-height:1.7;">
-   [Herkenbaar pijnpunt benoemen]</p>
-
-3. OPLOSSING + BEWIJS (2-3 alinea's):
-   <p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">
-   [Tekst met inline <strong> voor nadruk]</p>
-
-4. BELANGRIJKE CIJFERS (groot en opvallend):
-   <p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">
-   Resultaat: <span style="font-size:24px;font-weight:700;color:ACCENT_COLOR;">€X.XXX</span> /maand besparing</p>
-
-5. OPSOMMINGEN (met accent-kleur bullets):
-   <p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;">
-   <span style="color:ACCENT_COLOR;font-weight:bold;">▸</span> Punt een</p>
-   <p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;">
-   <span style="color:ACCENT_COLOR;font-weight:bold;">▸</span> Punt twee</p>
-
-6. AFSLUITING + HANDTEKENING:
-   <p style="margin:24px 0 0;font-size:15px;color:#333;line-height:1.7;">
-   Met vriendelijke groet,<br>
-   <strong>FleetTrack Holland Team</strong><br>
-   <a href="https://www.fleettrackholland.nl" style="color:#CC0000;text-decoration:none;font-weight:600;font-size:14px;">www.fleettrackholland.nl</a><br>
-   <span style="font-size:13px;color:#888;">sales@fleettrackholland.nl</span></p>
-
-═══ SCHRIJFREGELS — NIET ONDERHANDELBAAR ═══
-1. 150-300 woorden (exclusief HTML tags)
-2. Begin met "Dag [bedrijfsnaam]," — direct en persoonlijk
-3. GEEN emojis, GEEN icoontjes — nergens
-4. GEEN "gratis", "garantie", "actie", "klik hier", "100%", "!!!"
-5. Eerste zin na aanhef moet ONMIDDELLIJK relevant zijn — geen inleiding
-6. Benoem de berekende maandprijs als voertuigaantal bekend is
-7. Gebruik "▸" als bullet — geen andere bullets
-8. GEEN CTA-knop genereren — de template doet dit automatisch
-9. Ondertekening: "Met vriendelijke groet," + "FleetTrack Holland Team" + www.fleettrackholland.nl + sales@fleettrackholland.nl
-10. GEEN telefoonnummer
-11. GEEN footer of afmeldlink — de template doet dit
-12. Alles in het Nederlands
-13. Gebruik INLINE CSS op elk HTML element
-14. GEEN <html>, <head>, <body>, <!DOCTYPE> tags — alleen body-inhoud
-
-ACCENT_COLOR PER SECTOR:
-- transport/logistiek/koerier: #1a5fa0
-- bouw: #e8a31a
-- schoonmaak/thuiszorg/catering: #22a85a
-- default: #e8600a
-
-ANTWOORD FORMAT — EXACT DIT:
-SUBJECT_A: [zakelijk, kort, max 55 tekens, curiosity gap]
-SUBJECT_B: [pijnpunt-gebaseerd, loss aversion frame, max 55 tekens]
-SUBJECT_C: [social proof of resultaat, max 55 tekens]
+═══ ANTWOORD FORMAT — EXACT DIT ═══
+SUBJECT_A: [korte vraag, eindigt met ?]
+SUBJECT_B: [twee-woord observatie]
+SUBJECT_C: [bedrijf + een woord]
 ---HTML---
-[ALLEEN body-content HTML met inline CSS — GEEN volledige pagina]
+[reeks <p>-tags zoals hierboven beschreven]
 ---TEXT---
-[platte tekst versie — ZONDER emojis]"""
+[platte tekst, identiek qua zinnen, zonder HTML-tags]"""
 
 
 class CopywriterAgent:
@@ -301,13 +254,18 @@ lengte en onderwerpstijl. Pas je aan op basis van wat WERKT.
     # ─── ANA YAZIM METODU ───────────────────────────────────────
 
     def write(self, lead: dict, intel_context: str = "") -> EmailDraft:
-        company  = lead.get("Company", lead.get("company", "uw bedrijf"))
+        company  = lead.get("Company", lead.get("company", "")) or ""
         sector   = (lead.get("Sector") or lead.get("sector") or "transport").lower()
         location = lead.get("Location", lead.get("location", "Nederland"))
         vehicles = lead.get("Vehicles", lead.get("vehicles", 0))
+        contact_person = lead.get("contact_person") or lead.get("ContactPerson") or ""
+        first_name = ""
+        if contact_person:
+            first_name = str(contact_person).strip().split()[0] if str(contact_person).strip() else ""
 
         ctx = SECTOR_CONTEXT.get(sector, DEFAULT_CONTEXT)
-        accent_color = ctx.get("accent_color", "#e8600a")
+        # Accent retained for downstream compatibility only — new prompt produces black-on-white
+        accent_color = ctx.get("accent_color", "#222222")
 
         try:
             v_count = int(vehicles)
@@ -319,78 +277,49 @@ lengte en onderwerpstijl. Pas je aan op basis van wat WERKT.
             log.info(f"[Copywriter] Economic Mode: Using static template for {company}")
             return self._static_fallback(company, sector, v_count, accent_color, ctx)
 
-        if v_count > 0:
-            monthly = v_count * 9.99
-            price_hint = (f"Bij {v_count} voertuigen: €{monthly:.2f}/maand — all-in. "
-                          f"Dat is slechts €{9.99:.2f} per voertuig.")
-        else:
-            price_hint = "Vanaf €9,99 per voertuig per maand — alles inclusief."
-
-        # Self-learning data
+        # Self-learning data (sector-specific tone winners only)
         winning_style = self._get_winning_style()
 
-        # Churn analyst insights — unsubscribe paternlerinden öğrenilenler
-        churn_context = ""
-        try:
-            from agents.churn_analyst import ChurnAnalyst
-            churn = ChurnAnalyst()
-            churn_context = churn.get_copywriter_context(sector=sector)
-        except Exception as e:
-            log.debug(f"[Copywriter] Churn context alınamadı: {e}")
-
-        # Intel context
+        # Intel context — recon report, if any
         intel_section = ""
         if intel_context:
-            intel_section = f"""
+            intel_section = (
+                "\n═══ DEEP INTELLIGENCE (ReconAgent — gebruik voor 1 zin personalisatie) ═══\n"
+                f"{intel_context}\n"
+                "═══════════════════════════════════════════════════════════════\n"
+            )
 
-═══ DEEP INTELLIGENCE (ReconAgent rapport — GEBRUIK DIT!) ═══
-{intel_context}
-═══════════════════════════════════════════════════════════════
+        # Sector hook — one fragment only, no fabricated stats
+        sector_pain_map = {
+            "transport":  "transport met dagelijkse routes en ETA's",
+            "bouw":       "bouw met materieel op meerdere locaties",
+            "schoonmaak": "schoonmaak met busjes op route",
+            "logistiek":  "logistiek met meerdere ophaal- en leverbeurten",
+            "koerier":    "koerierdiensten met krappe afleveringsvensters",
+            "catering":   "catering met versgevoelige bezorgingen",
+            "thuiszorg":  "thuiszorg met ritregistratie voor zorgverzekeraar",
+        }
+        sector_hint = sector_pain_map.get(sector, "MKB-vloot in Nederland")
 
-⚠️ CRUCIAAL: Gebruik deze intelligence voor EXTREME personalisatie.
-"""
+        user_prompt = f"""Schrijf ÉÉN korte persoonlijke e-mail (50-80 woorden TOTAAL) volgens de regels van het system-prompt.
 
-        user_prompt = f"""Schrijf een PREMIUM koude e-mail voor:
-
-═══ LEAD DATA ═══
-Bedrijf: {company}
-Sector: {sector}
-Locatie: {location}
-Voertuigen: {v_count if v_count > 0 else 'onbekend'}
-Accent kleur voor dit bedrijf: {accent_color}
-
-═══ SECTORKENNIS ═══
-Pijnpunten: {ctx['pain_points']}
-Hooks: {ctx['hook_hint']}
-Urgentie: {ctx['urgency']}
-ROI voorbeeld: {ctx.get('roi_example', 'Gemiddeld 15-25% besparing')}
-Aanbevolen psychologie: {ctx.get('psychological_angle', 'social_proof + authority')}
-Prijs: {price_hint}
+LEAD:
+- Bedrijf: {company or '(onbekend)'}
+- Contactpersoon: {contact_person or '(onbekend)'}
+- Voornaam voor aanhef: {first_name or '(onbekend — gebruik dan "Beste,")'}
+- Sector-context fragment (1 stuk gebruiken in opening): {sector_hint}
+- Locatie: {location}
+- Geschatte voertuigen: {v_count if v_count > 0 else 'onbekend (NIET noemen)'}
 {intel_section}
 {winning_style}
-{churn_context}
 
-═══ TECHNISCHE EISEN ═══
-- Accent kleur in CTA-knop en highlights: {accent_color}
-- FleetTrack Holland logo: <img src="https://www.fleettrackholland.nl/logo512.png" alt="FleetTrack Holland" style="height:32px;">
-- CTA link: https://www.fleettrackholland.nl/prijzen
-- Afmeldlink (verplicht): {config.UNSUBSCRIBE_URL}
-- Ondertekening: FleetTrack Holland Team / sales@fleettrackholland.nl
-- GEEN telefoonnummer
+LET OP:
+- Geen euro's, percentages of bullet-lijsten. Geen logo, geen knop.
+- Aanhef: `Beste {first_name},` (als naam bekend) OF `Beste,` (anders). NIET `Dag {company},`.
+- Sluiting EXACT: "Vriendelijke groet,\\nAgah Dogan\\nEigenaar — Fleet Track Holland\\n+31 6 27246429 · agah@fleettrackholland.nl"
+- Output volgens het EXACT formaat uit het system-prompt (SUBJECT_A/B/C + ---HTML--- + ---TEXT---)."""
 
-═══ PSYCHOLOGISCHE STRATEGIE ═══
-Gebruik MINIMAAL 2 van Cialdini's principes:
-1. Reciprocity — geef een gratis inzicht of tip
-2. Social Proof — noem vergelijkbare bedrijven
-3. Authority — gebruik concrete cijfers
-4. Scarcity — beperkt aanbod (subtiel!)
-5. Liking — persoonlijk en warm
-6. Commitment — vraag een kleine stap
-
-Frame verliezen sterker dan winst (Prospect Theory).
-Maak belangrijke cijfers GROOT en OPVALLEND in de HTML."""
-
-        log.info(f"[Copywriter v3] Elite e-mail → {company} ({sector}, {location})")
+        log.info(f"[Copywriter v4] Plain note → {company or '(no company)'} ({sector}, {location})")
 
         payload = {
             "model": config.CLAUDE_MODEL,
@@ -495,9 +424,10 @@ SUBJECT_C: [onderwerp — social proof]
             body_text = re.sub(r'<[^>]+>', '', body_html)
             body_text = re.sub(r'\s+', ' ', body_text).strip()
 
-        subject_a = subject_a or f"GPS tracking voor {company}"
-        subject_b = subject_b or f"{company} — altijd weten waar uw voertuigen zijn"
-        subject_c = subject_c or f"Ritregistratie voor {company}"
+        # Subject fallback — diverse archetypes, no marketing patterns
+        subject_a = subject_a or "Vraag over uw vloot?"
+        subject_b = subject_b or "Kort vraagje"
+        subject_c = subject_c or (f"Voor {company}: 1 vraag" if company else "Eén vraag")
 
         return EmailDraft(
             subject_a=subject_a,
@@ -509,44 +439,60 @@ SUBJECT_C: [onderwerp — social proof]
 
     def _static_fallback(self, company: str, sector: str, v_count: int,
                          accent_color: str, ctx: dict) -> EmailDraft:
-        """AI unavailable — hızlı ama kaliteli statik Hollandaca template üretir."""
+        """AI unavailable — short hand-typed Dutch note, no marketing tone."""
         log.info(f"[Copywriter] Static fallback: {company} ({sector})")
 
-        pain = ctx.get("pain_points", "voertuigen bijhouden en kosten beheersen")
-        roi  = ctx.get("roi_example", "Bedrijven besparen gemiddeld €200 per voertuig per maand")
-        urgency = ctx.get("urgency", "Bedrijven die GPS-tracking gebruiken besparen gemiddeld 15-25% op vlootkosten")
+        # Sector-specific one-liner observation (no fake stats)
+        sector_obs_map = {
+            "transport": "transport richting Nederland/België",
+            "bouw":      "bouw met materieel op meerdere locaties",
+            "schoonmaak": "schoonmaak met busjes op route",
+            "logistiek": "logistiek met dagelijkse leverbeurten",
+            "koerier":   "koerierdiensten met krappe ETA's",
+            "catering":  "catering met versgevoelige bezorgingen",
+            "thuiszorg": "thuiszorg met routes en ritregistratie",
+        }
+        obs = sector_obs_map.get(sector, "uw sector met een vaste vloot")
 
-        if v_count > 0:
-            monthly = v_count * 9.99
-            price_line = (f"Bij uw {v_count} voertuig{'en' if v_count > 1 else ''} "
-                          f"betaalt u slechts <strong>€{monthly:.2f}/maand</strong> all-in.")
-        else:
-            price_line = "Onze tarieven starten <strong>vanaf €9,99 per voertuig per maand</strong> — alles inclusief."
+        # Body — 5 short lines, plain text feel
+        sender_name  = getattr(config, "SENDER_NAME", "Agah Dogan")
+        sender_title = getattr(config, "SENDER_TITLE", "Eigenaar — Fleet Track Holland")
+        sender_email = getattr(config, "SENDER_EMAIL", "agah@fleettrackholland.nl")
+        sender_phone = getattr(config, "COMPANY_PHONE", "+31627246429")
 
-        body_html = f"""<p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">Dag {company},</p>
-<p style="margin:0 0 16px;font-size:15px;color:#555;font-style:italic;line-height:1.7;">Veel ondernemers in uw sector hebben moeite met: {pain.split(',')[0].strip()}.</p>
-<p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">{urgency}. FleetTrack Holland helpt u dit probleem direct aan te pakken met slimme GPS-tracking — speciaal voor bedrijven zoals het uwe.</p>
-<p style="margin:0 0 16px;font-size:15px;color:#333;line-height:1.7;">{roi}. {price_line}</p>
-<p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;"><span style="color:{accent_color};font-weight:bold;">▸</span> Live voertuigtracking via app en webportaal — 24/7</p>
-<p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;"><span style="color:{accent_color};font-weight:bold;">▸</span> Fiscaal goedgekeurde ritregistratie (Belastingdienst-proof)</p>
-<p style="margin:0 0 8px;font-size:14px;color:#333;line-height:1.6;"><span style="color:{accent_color};font-weight:bold;">▸</span> 30 dagen uitproberen — geen contract, opzeggen wanneer u wilt</p>
-<p style="margin:24px 0 0;font-size:15px;color:#333;line-height:1.7;">Met vriendelijke groet,<br><strong>FleetTrack Holland Team</strong><br><a href="https://www.fleettrackholland.nl" style="color:#CC0000;text-decoration:none;font-weight:600;font-size:14px;">www.fleettrackholland.nl</a><br><span style="font-size:13px;color:#888;">sales@fleettrackholland.nl</span></p>"""
+        p_style = ('margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;'
+                   'font-size:14px;color:#222;line-height:1.55;')
 
-        body_text = (
-            f"Dag {company},\n\n"
-            f"{urgency}.\n\n"
-            f"FleetTrack Holland biedt GPS-tracking voor uw vloot.\n"
-            f"{roi}. {price_line.replace('<strong>', '').replace('</strong>', '')}\n\n"
-            f"▸ Live voertuigtracking via app en webportaal — 24/7\n"
-            f"▸ Fiscaal goedgekeurde ritregistratie\n"
-            f"▸ 30 dagen uitproberen — geen contract\n\n"
-            f"Met vriendelijke groet,\nFleetTrack Holland Team\n"
-            f"www.fleettrackholland.nl | sales@fleettrackholland.nl"
+        salutation = f"Beste{(' ' + company.split()[0]) if company else ''},"
+        opening = f"Ik viel over uw bedrijf — {obs}, klopt dat?"
+        proposition = ("Wij regelen GPS-tracking en sluitende ritregistratie voor MKB-vloten in Nederland.")
+        cta = "Past het komende week kort schakelen (10 min)?"
+        signoff_line_1 = "Vriendelijke groet,"
+        signoff_name = sender_name
+        signoff_title = sender_title
+        signoff_contact = f"{sender_phone} · {sender_email}"
+
+        body_html = (
+            f'<p style="{p_style}">{salutation}</p>'
+            f'<p style="{p_style}">{opening}</p>'
+            f'<p style="{p_style}">{proposition}</p>'
+            f'<p style="{p_style}">{cta}</p>'
+            f'<p style="{p_style}">{signoff_line_1}<br>'
+            f'{signoff_name}<br>{signoff_title}<br>{signoff_contact}</p>'
         )
 
-        subject_a = f"GPS tracking voor {company} — vanaf €9,99/maand"
-        subject_b = f"Elke maand zonder tracking verliest u honderden euro's"
-        subject_c = f"300+ bedrijven vertrouwen op FleetTrack — ook {company}?"
+        body_text = (
+            f"{salutation}\n\n"
+            f"{opening}\n\n"
+            f"{proposition}\n\n"
+            f"{cta}\n\n"
+            f"{signoff_line_1}\n{signoff_name}\n{signoff_title}\n{signoff_contact}\n"
+        )
+
+        # 3 distinct subject archetypes (question / two-word / company+word)
+        subject_a = "Vraag over uw vloot?"
+        subject_b = "Kort vraagje"
+        subject_c = f"Voor {company}: 1 vraag" if company else "Eén vraag"
 
         return EmailDraft(
             subject_a=subject_a, subject_b=subject_b, subject_c=subject_c,

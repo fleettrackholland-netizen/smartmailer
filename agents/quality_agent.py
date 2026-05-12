@@ -41,60 +41,50 @@ class QCResult:
     feedback: str = ""     # AI'dan yapıcı geri bildirim
 
 
-AI_QC_PROMPT = """Je bent Maria van Dijk — 30 jaar ervaring als email deliverability specialist en marketing QC expert.
-Je hebt voor de grootste e-commerce en B2B bedrijven van Europa gewerkt.
-Je kent elke spam filter, elke inbox-regel, en elke psychologische trigger uit je hoofd.
-Je beoordeelt e-mails met de precisie van een horlogemaker en de strengheid van een Michelin-inspecteur.
+AI_QC_PROMPT = """Je bent een email deliverability + cold-outreach QC reviewer.
+Beoordeel deze KORTE persoonlijke e-mail (50-80 woorden) op 10 criteria. Score per criterium 0-10.
 
-Beoordeel de volgende zakelijke cold e-mail op 12 criteria.
-Geef per criterium een score van 0-10 en een kort commentaar.
-
-CRITERIA:
-1. spam_risk: Kans dat spam filters triggeren (10 = geen risico, 0 = direct in spam)
-   - LET OP: "gratis montage", "gratis uitproberen" zijn ACCEPTABEL in B2B context
-   - Onacceptabel: "GRATIS!!!", "KLIK HIER", "$$$", overmatig hoofdletters, te veel links
-2. professionalism: Toon en stijl — klinkt het als een echte 30-jarige sales professional?
-3. personalization: Bedrijfsnaam, sectorspecifieke pijnpunten, relevante cijfers
-4. cta_effectiveness: Is de CTA duidelijk, aantrekkelijk, en laagdrempelig?
-5. subject_quality: Is het onderwerp kort (<55 tekens), intrigerend, en spam-vrij?
-6. value_proposition: Wordt de waarde in de eerste 2 zinnen duidelijk?
-7. length_appropriate: 200-350 woorden voor body (niet te kort, niet te lang)
-8. compliance: AVG/GDPR (afmeldlink, geen misleidende beloftes)
-9. grammar_dutch: Nederlandse taalcorrectheid — moet perfect zijn
-10. visual_hierarchy: Zijn belangrijke elementen groter/opvallender? Font-hiërarchie aanwezig?
-11. psychological_triggers: Worden minimaal 2 Cialdini-principes toegepast?
-    (reciprocity, social proof, authority, scarcity, liking, commitment)
-12. golden_ratio_design: Volgt de e-mail een visuele balans? Header/body proportie?
-    - Bevat het: accent-kleuren, witruimte, scanbare structuur?
+CRITERIA (let op: dit is 1-op-1 plain-text outreach, GEEN newsletter):
+1. spam_risk: Klinkt het als marketing of als een echte persoon?
+   - Onacceptabel: euro-bedragen in body, percentages, "gratis", "actie", "klik hier", ALL-CAPS, !!! , overmatig links
+2. plain_feel: Voelt het hand-typed? (geen <table>, geen <img>, geen knoppen, geen kleurige spans)
+3. brevity: 50-80 woorden TOTAAL inclusief aanhef en afsluiting (10 = perfect, 0 = >150 of <30)
+4. personal_salutation: "Beste {firstName}," of "Beste,". NOOIT "Dag {company},".
+5. one_cta_reply: EEN vraag die om reply vraagt — geen "klik op de link", geen "vraag offerte aan", geen knop.
+6. subject_diversity: 3 onderwerpen MOETEN drie verschillende archetypes zijn (vraag / observatie / bedrijf+woord). 3 paraphrases = score 2.
+7. subject_quality: <=45 tekens, geen euro-teken, geen %, geen "GPS-tracking voor X".
+8. signature_exact: Bevat "Agah Dogan", "Eigenaar - Fleet Track Holland", telefoon "+31 6 27246429", "agah@fleettrackholland.nl". Geen "Hans van der Berg".
+9. dutch_grammar: Vlekkeloos zakelijk Nederlands, formeel "u".
+10. no_fake_specifics: GEEN verzonnen cijfers ("EUR 2340/maand", "23% diefstal", "87% bestelt niet meer", "300+ klanten"). Generieke value framing OK; specifieke ROI claims fail.
 
 ANTWOORD EXACT IN DIT JSON FORMAT:
 {
     "scores": {
-        "spam_risk": {"score": 8, "comment": "..."},
-        "professionalism": {"score": 9, "comment": "..."},
-        "personalization": {"score": 7, "comment": "..."},
-        "cta_effectiveness": {"score": 8, "comment": "..."},
-        "subject_quality": {"score": 7, "comment": "..."},
-        "value_proposition": {"score": 8, "comment": "..."},
-        "length_appropriate": {"score": 9, "comment": "..."},
-        "compliance": {"score": 10, "comment": "..."},
-        "grammar_dutch": {"score": 9, "comment": "..."},
-        "visual_hierarchy": {"score": 8, "comment": "..."},
-        "psychological_triggers": {"score": 7, "comment": "..."},
-        "golden_ratio_design": {"score": 8, "comment": "..."}
+        "spam_risk":         {"score": 8, "comment": "..."},
+        "plain_feel":        {"score": 9, "comment": "..."},
+        "brevity":           {"score": 9, "comment": "..."},
+        "personal_salutation": {"score": 9, "comment": "..."},
+        "one_cta_reply":     {"score": 8, "comment": "..."},
+        "subject_diversity": {"score": 7, "comment": "..."},
+        "subject_quality":   {"score": 8, "comment": "..."},
+        "signature_exact":   {"score": 10, "comment": "..."},
+        "dutch_grammar":     {"score": 9, "comment": "..."},
+        "no_fake_specifics": {"score": 9, "comment": "..."}
     },
-    "total_score": 83,
+    "total_score": 86,
     "passed": true,
     "issues": ["lijst van serieuze problemen"],
     "improvements": ["concrete verbetersugesties"],
-    "summary": "Korte samenvatting van de beoordeling"
-}"""
+    "summary": "Korte samenvatting"
+}
+
+Note: total_score is sum of all 10 scores * 1 (max 100). passed = total_score >= 70."""
 
 
 class QualityAgent:
 
-    MAX_WORDS = 220
-    MIN_WORDS = 40
+    MAX_WORDS = 100   # was 220 — new style is 50-80
+    MIN_WORDS = 35    # was 40 — keep slight buffer
 
     def __init__(self):
         self._headers = {
@@ -231,10 +221,10 @@ E-MAIL TEKST:
             issues.append("Net bir CTA bulunamadı")
             score -= 20
 
-        # 7. Afmelden
+        # 7. Afmelden — soft check. Template footer + Brevo List-Unsubscribe header zorlu.
         if "afmelden" not in body_lower and "unsubscribe" not in body_lower:
-            issues.append("Afmelden linki eksik — AVG zorunlu!")
-            score -= 30
+            warnings.append("Afmelden in body afwezig — template/footer moet header List-Unsubscribe leveren")
+            score -= 5
 
         # 8. Link sayısı
         link_count = body_lower.count("http")

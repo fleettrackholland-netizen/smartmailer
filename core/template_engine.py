@@ -663,70 +663,55 @@ class TemplateEngine:
                cta_url: str = None, cta_text: str = None,
                unsubscribe_url: str = None, sector: str = "",
                headline: str = "") -> str:
-        """İçeriği en uygun şablona yerleştir."""
-        template_id = self.get_best_template(sector) if sector else self._active_template
-        template = TEMPLATES.get(template_id, TEMPLATES["fleet_corporate"])
+        """
+        Plain-text-feel wrapper. Cold-outreach success requires looking like a
+        hand-typed 1:1 note — NOT a newsletter. Hero images, gradient CTA buttons,
+        product galleries, stats banners are intentionally OMITTED.
 
-        if not headline:
-            headline = f"Slim vlootbeheer voor {company_name}" if company_name else "Slim vlootbeheer begint hier"
+        Legacy TEMPLATES dict and sector wrappers are preserved at module level
+        for the /api/templates preview endpoint, but render() always emits the
+        plain wrapper now. To re-enable a marketing newsletter look, route via
+        preview(template_id) directly.
+        """
+        unsub = unsubscribe_url or DEFAULT_UNSUB_URL
 
+        # Import config here (circular-import safe).
         try:
-            # Brevo templates use different placeholder sets
-            if template_id == "brevo_product":
-                # Product template only has unsubscribe_url and cta_url
-                format_kwargs = {
-                    "unsubscribe_url": unsubscribe_url or DEFAULT_UNSUB_URL,
-                    "cta_url": cta_url or DEFAULT_CTA_URL,
-                }
-            elif template_id in ("brevo_official", "brevo_official_v2"):
-                # Official / V2 template has headline, body, cta, unsubscribe
-                format_kwargs = {
-                    "body_content": body_html,
-                    "company_name": company_name or "Geachte heer/mevrouw",
-                    "cta_url": cta_url or DEFAULT_CTA_URL,
-                    "cta_text": cta_text or DEFAULT_CTA_TEXT,
-                    "unsubscribe_url": unsubscribe_url or DEFAULT_UNSUB_URL,
-                    "headline": headline,
-                }
-            else:
-                # Legacy templates use all placeholders including images
-                format_kwargs = {
-                    "body_content": body_html,
-                    "company_name": company_name or "Geachte heer/mevrouw",
-                    "cta_url": cta_url or DEFAULT_CTA_URL,
-                    "cta_text": cta_text or DEFAULT_CTA_TEXT,
-                    "unsubscribe_url": unsubscribe_url or DEFAULT_UNSUB_URL,
-                    "headline": headline,
-                    "logo_url": IMAGES["logo"],
-                    "img_fmc130": IMAGES["fmc130"],
-                    "img_fmb920": IMAGES["fmb920"],
-                    "img_fmb140": IMAGES["fmb140"],
-                    "img_fmc650": IMAGES["fmc650"],
-                }
-            html = template["html"].format(**format_kwargs)
-            # Wettelijke footer injecteren vóór </body>
-            legal = _build_legal_footer(unsubscribe_url or DEFAULT_UNSUB_URL)
-            html = html.replace('</body>', legal + '</body>')
-            return html
-        except KeyError as e:
-            log.warning(f"Template render hatası ({template_id}): {e}")
-            minimal = TEMPLATES["fleet_minimal"]
-            html = minimal["html"].format(
-                body_content=body_html,
-                company_name=company_name or "Geachte heer/mevrouw",
-                cta_url=cta_url or DEFAULT_CTA_URL,
-                cta_text=cta_text or DEFAULT_CTA_TEXT,
-                unsubscribe_url=unsubscribe_url or DEFAULT_UNSUB_URL,
-                logo_url=IMAGES["logo"],
-                img_fmc130=IMAGES["fmc130"],
-                img_fmb920=IMAGES["fmb920"],
-                img_fmb140=IMAGES["fmb140"],
-                img_fmc650=IMAGES["fmc650"],
-                headline=headline,
-            )
-            legal = _build_legal_footer(unsubscribe_url or DEFAULT_UNSUB_URL)
-            html = html.replace('</body>', legal + '</body>')
-            return html
+            from config import config as _cfg
+            company_legal = getattr(_cfg, "COMPANY_NAME", "Fleet Track Holland B.V.")
+            company_kvk   = getattr(_cfg, "COMPANY_KVK", "") or ""
+            company_addr  = getattr(_cfg, "COMPANY_ADDRESS", "") or ""
+        except Exception:
+            company_legal = "Fleet Track Holland B.V."
+            company_kvk = ""
+            company_addr = ""
+
+        kvk_line = f" · KvK {company_kvk}" if company_kvk else ""
+        addr_line = f" · {company_addr}" if company_addr else ""
+
+        # Plain wrapper — no images, no CTA button, no gradient.
+        title = (headline or "Korte vraag").replace("<", "&lt;")
+        html = (
+            '<!DOCTYPE html>'
+            '<html lang="nl"><head>'
+            '<meta charset="UTF-8">'
+            '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+            f'<title>{title}</title>'
+            '</head>'
+            '<body style="margin:0;padding:0;background:#ffffff;'
+            'font-family:Arial,Helvetica,sans-serif;color:#222222;">'
+            '<div style="max-width:600px;margin:0 auto;padding:24px 20px;">'
+            f'{body_html}'
+            '<hr style="border:none;border-top:1px solid #eeeeee;margin:24px 0 12px;">'
+            '<p style="margin:0;font-size:11px;color:#888888;line-height:1.5;'
+            'font-family:Arial,Helvetica,sans-serif;">'
+            f'{company_legal}{kvk_line}{addr_line}<br>'
+            'U ontvangt deze e-mail als eigenaar van het genoemde bedrijf. '
+            f'<a href="{unsub}" style="color:#888888;text-decoration:underline;">Afmelden</a>'
+            '</p>'
+            '</div></body></html>'
+        )
+        return html
 
     def preview(self, template_id: str, sample_content: str = None) -> str:
         """Şablon önizlemesi oluştur."""

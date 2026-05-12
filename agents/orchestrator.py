@@ -266,6 +266,33 @@ class Orchestrator:
             })
             return
 
+        # 3.5 — Post-AI content pattern enforcement (safety net).
+        # Reject if forbidden patterns (€, %, "gratis", "GPS-tracking voor X", etc.) slipped through.
+        try:
+            ok_patterns, pattern_issues = self.compliance.check_content_patterns(
+                subject=draft.chosen_subject,
+                body_text=draft.body_text,
+            )
+        except AttributeError:
+            ok_patterns, pattern_issues = True, []  # older compliance agent
+        if not ok_patterns:
+            log.warning(f"[PATTERN-REJECT] {company} — {pattern_issues}")
+            stats.skipped_quality += 1
+            db.save_draft(email, {
+                "subject_a": draft.subject_a,
+                "subject_b": draft.subject_b,
+                "subject_c": draft.subject_c,
+                "chosen_subject": draft.chosen_subject,
+                "body_html": draft.body_html,
+                "body_text": draft.body_text,
+                "qc_score": qc.score,
+                "qc_passed": False,
+                "qc_issues": pattern_issues,
+                "qc_method": "pattern",
+                "auto_fix_retries": retries,
+            })
+            return
+
         # 4. A/B Test — konu seçimi
         variant, chosen_subject = self.ab_test.select_variant(
             draft.subject_a, draft.subject_b, draft.subject_c

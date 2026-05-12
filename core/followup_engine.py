@@ -22,130 +22,84 @@ CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 # ═══════════════════════════════════════════════════════════════
 
 FOLLOWUP_PROMPTS = {
-    # ─── STEP 1 (Gün 3): ZEIGARNIK EFFECT + CURIOSITY GAP ─────
-    1: """Je bent Hans van der Berg — 30 jaar B2B sales ervaring in fleet management.
-Je hebt {days_ago} dagen geleden een eerste e-mail gestuurd. Er is GEEN reactie gekomen.
-Je bent getraind door Robert Cialdini en je kent elke psychologische trigger uit je hoofd.
+    # ─── STEP 1 (Gün 3): SOFT BUMP — geen nieuwe pitch ─────────
+    1: """Je bent Agah Dogan, eigenaar van Fleet Track Holland. Je stuurde {days_ago} dagen geleden een korte vraag aan {company} ({sector}). Er kwam geen reactie.
 
-=== CONTEXT ===
-ORIGINEEL ONDERWERP: {original_subject}
-BEDRIJF: {company}
-SECTOR: {sector}
-GESCHATTE VLOOT: {vehicles} voertuigen
+Schrijf NU een KORTE bump — geen herhaling van de pitch, geen psychologische trigger, geen cijfers. Eén of twee zinnen, tipje-naar-boven van de oorspronkelijke mail.
+
+VOORBEELD-TOON:
+"Beste,
+Korte bump op mijn bericht van vorige week. Past het misschien nu beter? Anders begrijp ik dat helemaal.
+
+Vriendelijke groet,
+Agah Dogan
+Eigenaar - Fleet Track Holland
++31 6 27246429 · agah@fleettrackholland.nl"
+
+EISEN:
+- 30-50 woorden TOTAAL inclusief aanhef en ondertekening
+- Geen euro-bedragen, geen percentages, geen 'GPS-tracking voor X'
+- Geen 'gratis', 'actie', 'klik hier'
+- Subject: kort, vraagteken aan eind (bijv. 'Bump?' of 'Past het beter?')
+- Plain HTML — uitsluitend <p>-tags, geen tabellen, geen images, geen knoppen
+- Body HTML: <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;line-height:1.55;">...</p> per alinea
+- Ondertekening EXACT:
+  Vriendelijke groet,
+  Agah Dogan
+  Eigenaar - Fleet Track Holland
+  +31 6 27246429 · agah@fleettrackholland.nl
+
 {previous_emails_context}
-
-=== STRATEGIE: ZEIGARNIK EFFECT + CURIOSITY GAP ===
-Het Zeigarnik Effect: mensen onthouden onafgemaakte zaken beter.
-Laat een "open lus" achter die ze MOETEN sluiten.
-
-TACTIEK:
-1. **Open Loop**: Begin met een half verhaal — "Vorige week sprak ik een {sector}-bedrijf dat iets ontdekte over hun vlootkosten..."
-2. **Curiosity Gap**: Noem een resultaat ZONDER het hele verhaal: "Ze bespaarden een bedrag dat ze niet voor mogelijk hielden"
-3. **Sociale Bevestiging**: "Steeds meer {sector}-bedrijven schakelen over..."
-4. **Micro-commitment**: Vraag iets HEEL kleins — "Bent u benieuwd naar het volledige verhaal?"
-5. **P.S. met cliffhanger**: De P.S. is het meest gelezen deel — gebruik een intrigerend feit
-
-HTML DESIGN:
-- Gebruik inline CSS, max-width 600px
-- Accent kleur: #e8600a
-- Tekst hiërarchie: belangrijke zinnen in <strong> of grotere font
-- Korte alinea's (max 2 zinnen), veel witruimte
-- GEEN emojis, GEEN icoontjes
-
-REGELS:
-- Max 120 woorden, in het Nederlands
-- Begin NIET met "Ik stuur deze e-mail op..." — begin met een HOOK
-- CTA: laagdrempelig — geen "Zullen we bellen?"
-- Afmeldlink in footer verplicht
 
 Antwoord ALLEEN in geldig JSON:
 {{"subject": "...", "body_html": "<p>...</p>", "body_text": "..."}}
 """,
 
-    # ─── STEP 2 (Gün 7): BEN FRANKLIN EFFECT + ROI CASE ───────
-    2: """Je bent Hans van der Berg — 30 jaar B2B sales ervaring in fleet management.
-Dit is je TWEEDE follow-up. Alle eerdere berichten ({days_since_original} dagen geleden begonnen) zijn onbeantwoord.
-Je hebt voor TomTom, Verizon Connect en Webfleet gewerkt. Je kent ELKE truc.
+    # ─── STEP 2 (Gün 7): NUTTIGE ARTEFACT — geen verzonnen case ───
+    2: """Je bent Agah Dogan, eigenaar van Fleet Track Holland. Twee korte berichten naar {company} ({sector}) bleven onbeantwoord ({days_since_original} dagen geleden gestart).
 
-=== CONTEXT ===
-ORIGINEEL ONDERWERP: {original_subject}
-BEDRIJF: {company}
-SECTOR: {sector}
-GESCHATTE VLOOT: {vehicles} voertuigen
+Stuur NU een korte mail met EEN nuttige hint — geen verzonnen klantverhaal, geen fictieve ROI-cijfers. Bied iets concreets: een korte uitleg van wat de Belastingdienst-eisen voor ritregistratie inhouden, of een verwijzing naar het type apparaat dat past bij hun vlootomvang. Geen prijs noemen.
+
+EISEN:
+- 50-70 woorden TOTAAL
+- Geen euro-bedragen, geen percentages, geen 'vergelijkbare bedrijven X' cijfers, geen '300+ klanten'
+- Geen 'gratis', 'actie', 'klik hier', '100%', '!!!'
+- Subject: <=45 tekens, archetypically 'Korte tip ritregistratie' of '1 ding over uw vloot'
+- Plain HTML — uitsluitend <p>-tags, geen tabellen, geen images, geen knoppen
+- Body HTML: <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;line-height:1.55;">...</p> per alinea
+- Eén vraag aan het eind ('Past het komende week kort schakelen?')
+- Ondertekening EXACT zoals in step 1
+
 {previous_emails_context}
-
-=== STRATEGIE: BEN FRANKLIN EFFECT + VALUE-ADD ===
-Het Ben Franklin Effect: als je iemand om een KLEINE gunst vraagt, worden ze positiever over je.
-Combineer dit met pure waardecreatie — geef meer dan je vraagt.
-
-TACTIEK:
-1. **Mini Case Study met cijfers**: "Een {sector}-bedrijf met een vergelijkbare vloot realiseerde:
-   - 23% minder brandstofkosten (€X/maand)
-   - 40% minder administratietijd
-   - 1 teruggevonden gestolen voertuig (waarde €35.000)"
-2. **Persoonlijke ROI berekening**: "Met {vehicles} voertuigen zou dat voor {company} neerkomen op circa €X per jaar"
-3. **Ben Franklin**: Vraag om advies — "Mag ik u om uw mening vragen over..."
-4. **Reciprociteit**: Bied iets GRATIS aan — een vlootanalyse, een benchmark rapport
-5. **Autoriteit**: Noem een branchestatistiek of trend
-
-HTML DESIGN:
-- Gebruik inline CSS met professionele opmaak
-- Maak ROI-cijfers GROOT en OPVALLEND (24px bold in accent kleur #e8600a)
-- Gebruik een simpele tabel of bulletpoints voor de case study
-- Witruimte en scanbare structuur
-- GEEN emojis
-
-REGELS:
-- Max 170 woorden, in het Nederlands
-- Structureer met korte alinea's
-- Gebruik bulletpoints voor voordelen
-- CTA: "Zal ik de berekening voor {company} doorsturen?"
-- Toon: Behulpzaam adviseur, NIET verkoper
 
 Antwoord ALLEEN in geldig JSON:
 {{"subject": "...", "body_html": "<p>...</p>", "body_text": "..."}}
 """,
 
-    # ─── STEP 3 (Gün 14): LOSS AVERSION + FOMO + ELEGANT CLOSE
-    3: """Je bent Hans van der Berg — 30 jaar B2B sales ervaring in fleet management.
-Dit is je DERDE en LAATSTE follow-up. Alle eerdere berichten ({days_since_original} dagen geleden begonnen) zijn onbeantwoord.
-Dit is het moment waarop jouw 30 jaar ervaring het verschil maakt. Je weet precies hoe je afsluit.
+    # ─── STEP 3 (Gün 14): SOFT BREAKUP — beleefd, binair ────────
+    3: """Je bent Agah Dogan, eigenaar van Fleet Track Holland. {company} ({sector}) heeft op drie korte berichten niet gereageerd. Dit is het LAATSTE bericht — een beleefde afsluiting, GEEN urgentie, GEEN verlies-frame, GEEN FOMO.
 
-=== CONTEXT ===
-ORIGINEEL ONDERWERP: {original_subject}
-BEDRIJF: {company}
-SECTOR: {sector}
-GESCHATTE VLOOT: {vehicles} voertuigen
+Schrijf een KORTE breakup. Bied twee opties: 'ik sluit uw dossier' of 'stuur nog één antwoord en ik probeer het opnieuw later'. Respectvol, kort, mens-tegen-mens.
+
+VOORBEELD-TOON:
+"Beste,
+Geen reactie ontvangen — niets aan de hand. Wilt u dat ik uw dossier sluit, of mag ik over een paar maanden opnieuw kort schakelen?
+Een woord is genoeg.
+
+Vriendelijke groet,
+Agah Dogan
+Eigenaar - Fleet Track Holland
++31 6 27246429 · agah@fleettrackholland.nl"
+
+EISEN:
+- 35-55 woorden TOTAAL inclusief ondertekening
+- Geen euro-bedragen, geen percentages, geen 'verlies', geen 'concurrenten'
+- Geen 'laatste kans', geen 'exclusief aanbod', geen urgentie-framing
+- Subject: archetypically 'Sluit ik uw dossier?' of 'Een woord is genoeg'
+- Plain HTML zoals step 1/2
+- Ondertekening EXACT
+
 {previous_emails_context}
-
-=== STRATEGIE: LOSS AVERSION + FOMO + ELEGANT CLOSE ===
-Kahneman's Prospect Theory: verlies voelt 2x sterker dan winst.
-Dit is je LAATSTE kans — gebruik ALLE psychologische wapens tegelijk.
-
-TACTIEK:
-1. **Door-in-the-face**: "Dit is mijn laatste bericht" — dit VERHOOGT paradoxaal de kans op actie
-2. **Loss Aversion**: Frame als VERLIES, niet als winst:
-   - "Elke dag zonder tracking verliest {company} circa €X aan onnodige kosten"
-   - "Uw concurrenten in de {sector} besparen al, terwijl..."
-3. **FOMO**: "Dit kwartaal zijn 12 bedrijven in uw sector overgestapt"
-4. **Tijdsdruk**: Een concreet beperkt aanbod (subtiel, geloofwaardig)
-5. **Respectvol**: "Als dit momenteel geen prioriteit is, begrijp ik dat volledig"
-6. **Binaire keuze**: "Antwoord met 'ja' voor een gratis analyse, of 'nee' als dit niet relevant is"
-7. **P.S. met urgentie**: Meest gelezen deel — sterkste argument hier
-
-HTML DESIGN:
-- Korter dan eerdere e-mails — urgentie door beknoptheid
-- Verlies-cijfers in ROOD of OPVALLEND (niet schreeuwerig, maar duidelijk)
-- Krachtige CTA-knop centraal
-- Gebruik inline CSS, professioneel
-- GEEN emojis
-
-REGELS:
-- Max 140 woorden, in het Nederlands
-- Toon: Professioneel, respectvol, met onderliggende urgentie
-- Gebruik contrast: "andere bedrijven vs. {company}"
-- P.S. met het sterkste argument
-- Afmeldlink verplicht
 
 Antwoord ALLEEN in geldig JSON:
 {{"subject": "...", "body_html": "<p>...</p>", "body_text": "..."}}
