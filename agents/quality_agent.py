@@ -53,7 +53,7 @@ CRITERIA (let op: dit is 1-op-1 plain-text outreach, GEEN newsletter):
 5. one_cta_reply: EEN vraag die om reply vraagt — geen "klik op de link", geen "vraag offerte aan", geen knop.
 6. subject_diversity: 3 onderwerpen MOETEN drie verschillende archetypes zijn (vraag / observatie / bedrijf+woord). 3 paraphrases = score 2.
 7. subject_quality: <=45 tekens, geen euro-teken, geen %, geen "GPS-tracking voor X".
-8. signature_exact: Bevat "Agah Dogan", "Eigenaar - Fleet Track Holland", telefoon "+31 6 27246429", "agah@fleettrackholland.nl". Geen "Hans van der Berg".
+8. signature_exact: Bevat "Agah Dogan", "Eigenaar - Fleet Track Holland", telefoon "+31 6 27246429", "sales@fleettrackholland.nl". Geen "Hans van der Berg".
 9. dutch_grammar: Vlekkeloos zakelijk Nederlands, formeel "u".
 10. no_fake_specifics: GEEN verzonnen cijfers ("EUR 2340/maand", "23% diefstal", "87% bestelt niet meer", "300+ klanten"). Generieke value framing OK; specifieke ROI claims fail.
 

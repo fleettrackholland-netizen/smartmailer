@@ -27,7 +27,7 @@ class Config:
 
     # ─── GÖNDEREN ────────────────────────────────────────────────
     SENDER_NAME        = os.getenv("SENDER_NAME", "Agah Dogan")
-    SENDER_EMAIL       = os.getenv("SENDER_EMAIL", "agah@fleettrackholland.nl")
+    SENDER_EMAIL       = os.getenv("SENDER_EMAIL", "sales@fleettrackholland.nl")
     SENDER_TITLE       = os.getenv("SENDER_TITLE", "Eigenaar — Fleet Track Holland")
     SENDER_LINKEDIN    = os.getenv("SENDER_LINKEDIN", "")
     COMPANY_NAME       = os.getenv("COMPANY_NAME", "Fleet Track Holland B.V.")

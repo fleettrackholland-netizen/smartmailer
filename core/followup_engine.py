@@ -34,7 +34,7 @@ Korte bump op mijn bericht van vorige week. Past het misschien nu beter? Anders 
 Vriendelijke groet,
 Agah Dogan
 Eigenaar - Fleet Track Holland
-+31 6 27246429 · agah@fleettrackholland.nl"
++31 6 27246429 · sales@fleettrackholland.nl"
 
 EISEN:
 - 30-50 woorden TOTAAL inclusief aanhef en ondertekening
@@ -47,7 +47,7 @@ EISEN:
   Vriendelijke groet,
   Agah Dogan
   Eigenaar - Fleet Track Holland
-  +31 6 27246429 · agah@fleettrackholland.nl
+  +31 6 27246429 · sales@fleettrackholland.nl
 
 {previous_emails_context}
 
@@ -89,7 +89,7 @@ Een woord is genoeg.
 Vriendelijke groet,
 Agah Dogan
 Eigenaar - Fleet Track Holland
-+31 6 27246429 · agah@fleettrackholland.nl"
++31 6 27246429 · sales@fleettrackholland.nl"
 
 EISEN:
 - 35-55 woorden TOTAAL inclusief ondertekening

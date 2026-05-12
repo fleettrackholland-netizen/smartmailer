@@ -148,7 +148,7 @@ Een KORTE reactie uitlokken — geen klik, geen demo-aanvraag. Eén zinnetje ter
 Vriendelijke groet,
 Agah Dogan
 Eigenaar — Fleet Track Holland
-+31 6 27246429 · agah@fleettrackholland.nl
++31 6 27246429 · sales@fleettrackholland.nl
 
 ═══ VERBODEN — DEAL-BREAKERS ═══
 - Geen `€`-bedragen, geen percentages, geen `300+ klanten`, geen verzonnen ROI-cijfers
@@ -316,7 +316,7 @@ LEAD:
 LET OP:
 - Geen euro's, percentages of bullet-lijsten. Geen logo, geen knop.
 - Aanhef: `Beste {first_name},` (als naam bekend) OF `Beste,` (anders). NIET `Dag {company},`.
-- Sluiting EXACT: "Vriendelijke groet,\\nAgah Dogan\\nEigenaar — Fleet Track Holland\\n+31 6 27246429 · agah@fleettrackholland.nl"
+- Sluiting EXACT: "Vriendelijke groet,\\nAgah Dogan\\nEigenaar — Fleet Track Holland\\n+31 6 27246429 · sales@fleettrackholland.nl"
 - Output volgens het EXACT formaat uit het system-prompt (SUBJECT_A/B/C + ---HTML--- + ---TEXT---)."""
 
         log.info(f"[Copywriter v4] Plain note → {company or '(no company)'} ({sector}, {location})")
@@ -457,7 +457,7 @@ SUBJECT_C: [onderwerp — social proof]
         # Body — 5 short lines, plain text feel
         sender_name  = getattr(config, "SENDER_NAME", "Agah Dogan")
         sender_title = getattr(config, "SENDER_TITLE", "Eigenaar — Fleet Track Holland")
-        sender_email = getattr(config, "SENDER_EMAIL", "agah@fleettrackholland.nl")
+        sender_email = getattr(config, "SENDER_EMAIL", "sales@fleettrackholland.nl")
         sender_phone = getattr(config, "COMPANY_PHONE", "+31627246429")
 
         p_style = ('margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;'
