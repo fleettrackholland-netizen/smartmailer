@@ -3,53 +3,62 @@
    21st Century Design Language
    â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
+/* v3 palette — Linear/Resend-style: single indigo accent, neutral zinc ramp.
+   Variable names preserved for backward-compat (downstream rules untouched).
+   Gradient utilities collapsed to flat indigo tints — no 6-color rainbow. */
 :root {
-    --bg-0: #060610;
-    --bg-1: #0c0c1d;
-    --bg-2: #11112a;
-    --bg-3: #181838;
-    --bg-card: #0f0f24;
-    --bg-card-hover: #14143a;
-    --bg-sidebar: #080815;
-    --bg-modal: rgba(4, 4, 16, 0.85);
-    --border: rgba(255, 255, 255, 0.05);
-    --border-hover: rgba(255, 255, 255, 0.1);
-    --border-active: rgba(124, 92, 252, 0.3);
-    --text-0: #f0f0ff;
-    --text-1: #c8c8e0;
-    --text-2: #8888a8;
-    --text-3: #555570;
-    --purple: #7c5cfc;
-    --purple-glow: rgba(124, 92, 252, 0.15);
-    --green: #00d68f;
-    --green-glow: rgba(0, 214, 143, 0.12);
-    --red: #ff5252;
-    --red-glow: rgba(255, 82, 82, 0.12);
-    --amber: #ffb300;
-    --amber-glow: rgba(255, 179, 0, 0.12);
-    --cyan: #22d3ee;
-    --cyan-glow: rgba(34, 211, 238, 0.12);
-    --orange: #ff7043;
-    --gradient-1: linear-gradient(135deg, #7c5cfc 0%, #a78bfa 100%);
-    --gradient-2: linear-gradient(135deg, #00d68f 0%, #34d399 100%);
-    --gradient-3: linear-gradient(135deg, #ff5252 0%, #f87171 100%);
-    --gradient-4: linear-gradient(135deg, #ffb300 0%, #fbbf24 100%);
-    --gradient-5: linear-gradient(135deg, #22d3ee 0%, #67e8f9 100%);
-    --gradient-6: linear-gradient(135deg, #ff7043 0%, #fb923c 100%);
-    --radius: 14px;
-    --radius-sm: 10px;
+    --bg-0:           #09090b; /* zinc-950 */
+    --bg-1:           #18181b; /* zinc-900 */
+    --bg-2:           #27272a; /* zinc-800 */
+    --bg-3:           #3f3f46; /* zinc-700 */
+    --bg-card:        #18181b;
+    --bg-card-hover:  #27272a;
+    --bg-sidebar:     #09090b;
+    --bg-modal:       rgba(9, 9, 11, 0.88);
+    --border:         rgba(255, 255, 255, 0.08);
+    --border-hover:   rgba(255, 255, 255, 0.16);
+    --border-active:  rgba(99, 102, 241, 0.40);
+    --text-0:         #fafafa; /* zinc-50 */
+    --text-1:         #a1a1aa; /* zinc-400 */
+    --text-2:         #71717a; /* zinc-500 */
+    --text-3:         #52525b; /* zinc-600 */
+    --accent:         #6366f1; /* indigo-500 — single accent */
+    --accent-hover:   #4f46e5; /* indigo-600 */
+    --accent-soft:    rgba(99, 102, 241, 0.12);
+    /* Legacy aliases — kept so 2000+ existing rules keep working */
+    --purple:         #6366f1;
+    --purple-glow:    rgba(99, 102, 241, 0.15);
+    /* Semantic status colors — only for actual success/warn/error, not decoration */
+    --green:          #10b981; /* emerald-500 */
+    --green-glow:     rgba(16, 185, 129, 0.12);
+    --red:            #ef4444; /* red-500 */
+    --red-glow:       rgba(239, 68, 68, 0.12);
+    --amber:          #f59e0b; /* amber-500 */
+    --amber-glow:     rgba(245, 158, 11, 0.12);
+    --cyan:           #06b6d4; /* cyan-500 */
+    --cyan-glow:      rgba(6, 182, 212, 0.12);
+    --orange:         #f97316; /* orange-500 */
+    /* Gradient slots collapsed to subtle accent tints — no rainbow */
+    --gradient-1: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    --gradient-2: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+    --gradient-3: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+    --gradient-4: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+    --gradient-5: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+    --gradient-6: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+    --radius:    10px;
+    --radius-sm: 8px;
     --radius-xs: 6px;
-    --shadow: 0 4px 24px rgba(0,0,0,0.4);
-    --shadow-lg: 0 12px 48px rgba(0,0,0,0.6);
-    --ease: cubic-bezier(0.4, 0, 0.2, 1);
-    /* Tech Lab Theme */
-    --tech-bg: #0a0a1a;
-    --tech-panel: #111125;
-    --tech-accent: #00f3ff;
-    --tech-purple: #7000ff;
-    --tech-floor: #16162a;
-    --tech-grid: rgba(0, 243, 255, 0.08);
-    --tech-glow: rgba(0, 243, 255, 0.2);
+    --shadow:    0 1px 3px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+    --ease:      cubic-bezier(0.4, 0, 0.2, 1);
+    /* Tech Lab Theme (Meeting Room — deprecated, palette neutralized) */
+    --tech-bg:     #09090b;
+    --tech-panel:  #18181b;
+    --tech-accent: #6366f1;
+    --tech-purple: #4f46e5;
+    --tech-floor:  #27272a;
+    --tech-grid:   rgba(99, 102, 241, 0.08);
+    --tech-glow:   rgba(99, 102, 241, 0.20);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
