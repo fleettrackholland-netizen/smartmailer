@@ -1,0 +1,71 @@
+{
+  "snapshot_at": "2026-05-12T08:58:07.139488",
+  "notes": "Pre-redesign baseline. SmartMailer Ultimate DB-side counts only. Brevo dashboard reports 8401 sent / 1095 opens / 1 reply across all channels.",
+  "tables": {
+    "leads": 90006,
+    "sent_log": 213,
+    "followups": 732,
+    "events": 0,
+    "responses": 0,
+    "campaigns": 1,
+    "drafts": 400,
+    "opt_out": 0,
+    "unsubscribes": 0,
+    "agent_learning": 0,
+    "reminders": 0,
+    "churn_reports": 348,
+    "unsubscribe_surveys": 0,
+    "activities": 0
+  },
+  "leads_by_source": {
+    "ai_discovery": 85732,
+    "ai_knowledge": 1989,
+    "bedrijvenpagina": 6,
+    "openstreetmap": 12,
+    "web_scrape": 2267
+  },
+  "followups_by_status_step": [
+    [
+      1,
+      "error",
+      195
+    ],
+    [
+      1,
+      "pending",
+      49
+    ],
+    [
+      2,
+      "error",
+      146
+    ],
+    [
+      2,
+      "pending",
+      98
+    ],
+    [
+      3,
+      "error",
+      75
+    ],
+    [
+      3,
+      "pending",
+      169
+    ]
+  ],
+  "sent_log_window": [
+    "2026-03-18 13:57:07",
+    "2026-03-30 17:07:30",
+    213
+  ],
+  "brevo_reported": {
+    "sent": 8401,
+    "opens": 1095,
+    "replies": 1,
+    "open_rate_pct": 13.03,
+    "reply_rate_pct": 0.0119
+  }
+}

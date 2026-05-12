@@ -3776,6 +3776,62 @@ def auto_deploy():
 def deploy_status():
     return jsonify(_deploy_state)
 
+# ─── ADMIN: QUARANTINE AI-DISCOVERY LEADS ──────────────────────
+_quarantine_state = {
+    "running": False,
+    "last_run": None,
+    "last_status": "never",
+    "last_report": None,
+    "last_error": None,
+}
+
+@app.route("/api/admin/quarantine-ai-discovery", methods=["POST"])
+def quarantine_ai_discovery_endpoint():
+    """Mark source='ai_discovery' leads as status='quarantine'.
+
+    Guarded by DEPLOY_SECRET (X-Deploy-Secret header or JSON body 'secret').
+    Idempotent. Synchronous (single UPDATE; fast).
+    Pass {"dry_run": true} to preview without writing.
+    """
+    deploy_secret = getattr(config, 'DEPLOY_SECRET', 'fleettrack2026')
+    req_secret = request.headers.get("X-Deploy-Secret", "")
+    payload = request.get_json(silent=True) or {}
+    if req_secret != deploy_secret and payload.get("secret") != deploy_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    if _quarantine_state["running"]:
+        return jsonify({"error": "already running"}), 409
+
+    dry_run = bool(payload.get("dry_run", False))
+    _quarantine_state["running"] = True
+    _quarantine_state["last_status"] = "running"
+    _quarantine_state["last_error"] = None
+
+    try:
+        from tools.quarantine_ai_discovery import run as _q_run
+        report = _q_run(dry_run=dry_run)
+        _quarantine_state["last_run"] = datetime.now().isoformat()
+        _quarantine_state["last_status"] = "success"
+        _quarantine_state["last_report"] = report
+        log.info(
+            f"[QUARANTINE] dry_run={dry_run} "
+            f"rows_affected={report.get('rows_affected')} "
+            f"ai_discovery_total={report.get('ai_discovery_total')}"
+        )
+        return jsonify({"status": "success", "report": report})
+    except Exception as e:
+        _quarantine_state["last_status"] = "error"
+        _quarantine_state["last_error"] = str(e)
+        log.error(f"[QUARANTINE] error: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+    finally:
+        _quarantine_state["running"] = False
+
+
+@app.route("/api/admin/quarantine-ai-discovery/status", methods=["GET"])
+def quarantine_ai_discovery_status():
+    return jsonify(_quarantine_state)
+
 # ─── AUTO DATABASE SYNC ──────────────────────────────────────
 def _auto_sync_db():
     """Her 30 dakikada veritabanını GitHub'a otomatik push eder."""

@@ -16,6 +16,15 @@ build/
 venv/
 env/
 
+# Secrets (NEVER commit)
+Login information.txt
+Brevo api.txt
+*.credentials.txt
+*_secret*.txt
+smartmailer_rsa
+*.pem
+*.key
+
 # Data (loglar + database)
 data/logs/
 data/smartmailer_ultimate.db

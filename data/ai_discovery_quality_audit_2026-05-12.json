@@ -1,0 +1,273 @@
+{
+  "audit_at": "2026-05-12T10:00:00",
+  "source": "ai_discovery",
+  "method": "DNS+MX only (no SMTP probe)",
+  "sample_size": 500,
+  "valid_mx": 94,
+  "invalid": 406,
+  "valid_pct": 18.8,
+  "invalid_pct": 81.2,
+  "estimated_total_leads": 85732,
+  "estimated_invalid_full_population": 69614,
+  "estimated_valid_full_population": 16117,
+  "stats": {
+    "checked": 500,
+    "valid_format": 500,
+    "valid_mx": 94,
+    "valid_smtp": 0,
+    "invalid": 406,
+    "disposable": 0
+  },
+  "invalid_samples_top_50": [
+    {
+      "email": "info@rapidcarevervoer.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: rapidcarevervoer.nl"
+    },
+    {
+      "email": "info@glasservicefryslan.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: glasservicefryslan.nl"
+    },
+    {
+      "email": "info@georecycling.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: georecycling.nl"
+    },
+    {
+      "email": "info@garagemichels.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: garagemichels.nl"
+    },
+    {
+      "email": "info@houtwerk-maastricht.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: houtwerk-maastricht.nl"
+    },
+    {
+      "email": "info@zorgnetwerkutrecht.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: zorgnetwerkutrecht.nl"
+    },
+    {
+      "email": "info@degraaddaksystemen.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: degraaddaksystemen.nl"
+    },
+    {
+      "email": "info@glasnijkerk.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: glasnijkerk.nl"
+    },
+    {
+      "email": "info@tuinbedrijfjacobs.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: tuinbedrijfjacobs.nl"
+    },
+    {
+      "email": "info@nexlogistics.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: nexlogistics.nl"
+    },
+    {
+      "email": "info@utairport.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: utairport.nl"
+    },
+    {
+      "email": "info@hermeslogistics.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: hermeslogistics.nl"
+    },
+    {
+      "email": "info@milieudienstutrecht.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: milieudienstutrecht.nl"
+    },
+    {
+      "email": "info@daniels-chauffeur.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: daniels-chauffeur.nl"
+    },
+    {
+      "email": "info@kroonmetselwerk.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: kroonmetselwerk.nl"
+    },
+    {
+      "email": "info@medischvervoernl.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: medischvervoernl.nl"
+    },
+    {
+      "email": "info@elektroverbunt.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: elektroverbunt.nl"
+    },
+    {
+      "email": "info@tuinservicesnh.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: tuinservicesnh.nl"
+    },
+    {
+      "email": "info@patientvervoenenetwerk.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: patientvervoenenetwerk.nl"
+    },
+    {
+      "email": "info@garagevesteegh.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: garagevesteegh.nl"
+    },
+    {
+      "email": "info@facilitairservicenederland.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: facilitairservicenederland.nl"
+    },
+    {
+      "email": "info@gevelwerk-experts.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: gevelwerk-experts.nl"
+    },
+    {
+      "email": "info@parcelbee.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: parcelbee.nl"
+    },
+    {
+      "email": "info@advantainstall.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: advantainstall.nl"
+    },
+    {
+      "email": "info@fleetservicesholland.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: fleetservicesholland.nl"
+    },
+    {
+      "email": "info@bakker-zonen-verhuis.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: bakker-zonen-verhuis.nl"
+    },
+    {
+      "email": "info@autocentrumamsterdam.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: autocentrumamsterdam.nl"
+    },
+    {
+      "email": "info@wooninkinstallatie.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: wooninkinstallatie.nl"
+    },
+    {
+      "email": "info@deboerelektro.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: deboerelektro.nl"
+    },
+    {
+      "email": "info@hengeloverhuizingen.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: hengeloverhuizingen.nl"
+    },
+    {
+      "email": "info@elektro-dewilde.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: elektro-dewilde.nl"
+    },
+    {
+      "email": "info@deexpertiseschilders.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: deexpertiseschilders.nl"
+    },
+    {
+      "email": "info@konijntimmer.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: konijntimmer.nl"
+    },
+    {
+      "email": "info@thuiszorg-haarlem.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: thuiszorg-haarlem.nl"
+    },
+    {
+      "email": "info@nipponglass.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: nipponglass.nl"
+    },
+    {
+      "email": "info@taxi-nb.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: taxi-nb.nl"
+    },
+    {
+      "email": "info@bouwbedrijfsteenberghe.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: bouwbedrijfsteenberghe.nl"
+    },
+    {
+      "email": "info@electroservicenl.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: electroservicenl.nl"
+    },
+    {
+      "email": "info@venrayglass.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: venrayglass.nl"
+    },
+    {
+      "email": "info@wasterecyclingpro.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: wasterecyclingpro.nl"
+    },
+    {
+      "email": "info@graypaul.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: graypaul.nl"
+    },
+    {
+      "email": "info@abraxasfacilitair.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: abraxasfacilitair.nl"
+    },
+    {
+      "email": "info@bis-bedrijven.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: bis-bedrijven.nl"
+    },
+    {
+      "email": "info@krone-elektrotechniek.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: krone-elektrotechniek.nl"
+    },
+    {
+      "email": "info@eindhovenverhuizers.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: eindhovenverhuizers.nl"
+    },
+    {
+      "email": "info@tuinservicebos.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: tuinservicebos.nl"
+    },
+    {
+      "email": "info@keytrade.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: keytrade.nl"
+    },
+    {
+      "email": "info@elitesecurityservices.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: elitesecurityservices.nl"
+    },
+    {
+      "email": "info@metselwerkborgerhoff.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: metselwerkborgerhoff.nl"
+    },
+    {
+      "email": "info@apexautoverhuur.nl",
+      "valid": false,
+      "reason": "MX kaydı bulunamadı: apexautoverhuur.nl"
+    }
+  ]
+}
