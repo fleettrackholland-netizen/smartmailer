@@ -3832,6 +3832,46 @@ def quarantine_ai_discovery_endpoint():
 def quarantine_ai_discovery_status():
     return jsonify(_quarantine_state)
 
+# ─── ADMIN: GENERIC SOURCE-QUALITY AUDIT ───────────────────────
+@app.route("/api/admin/audit-source", methods=["POST"])
+def audit_source_endpoint():
+    """Run an MX-based quality audit on a given lead source.
+
+    Body: {
+      "secret": "<DEPLOY_SECRET>",
+      "source": "csv_import",        # required
+      "sample_size": 500,             # optional, 1..5000, default 500
+      "seed": 42                      # optional, default 42
+    }
+    Returns the full report (no DB writes performed).
+    """
+    deploy_secret = getattr(config, 'DEPLOY_SECRET', 'fleettrack2026')
+    req_secret = request.headers.get("X-Deploy-Secret", "")
+    payload = request.get_json(silent=True) or {}
+    if req_secret != deploy_secret and payload.get("secret") != deploy_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    source = payload.get("source")
+    if not source:
+        return jsonify({"error": "missing 'source' in body"}), 400
+
+    sample_size = int(payload.get("sample_size", 500))
+    seed = int(payload.get("seed", 42))
+
+    try:
+        from tools.audit_lead_source import run as _audit_run
+        report = _audit_run(source=source, sample_size=sample_size, seed=seed)
+        log.info(
+            f"[AUDIT] source={source} sample={sample_size} "
+            f"invalid_pct={report.get('invalid_pct')}"
+        )
+        return jsonify({"status": "success", "report": report})
+    except ValueError as ve:
+        return jsonify({"status": "error", "message": str(ve)}), 400
+    except Exception as e:
+        log.error(f"[AUDIT] error: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+
 # ─── AUTO DATABASE SYNC ──────────────────────────────────────
 def _auto_sync_db():
     """Her 30 dakikada veritabanını GitHub'a otomatik push eder."""
