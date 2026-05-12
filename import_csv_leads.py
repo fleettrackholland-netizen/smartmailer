@@ -3,7 +3,21 @@
 CSV Lead Import Script — Tüm CSV lead'leri veritabanına aktar.
 Duplicate email'ler otomatik birleştirilir (upsert).
 Mevcut veritabanı lead'leri korunur.
+
+LOCKED: 2026-05-12 — csv_import source %77.2 MX-invalid, 77.050 lead quarantine'de.
+Yeni toplu CSV import YASAK. Sadece MX-validated, manuel onaylı listeler girebilir.
+Çalıştırmak için bu bloğu kaldır ve sebebini commit mesajına yaz.
 """
+import sys
+# ── HARD LOCK ──────────────────────────────────────────────────────────────
+_LOCK_MSG = (
+    "DURDURULDU: import_csv_leads.py kilitli (2026-05-12).\n"
+    "csv_import source 77.050 lead quarantine'de (%77.2 MX-invalid).\n"
+    "Yeni CSV import için önce MX audit yapın, sonra kilidi kaldırın."
+)
+print(_LOCK_MSG, file=sys.stderr)
+sys.exit(1)
+# ── LOCK SONU ──────────────────────────────────────────────────────────────
 import os
 import sys
 import csv

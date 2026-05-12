@@ -42,7 +42,7 @@ class Config:
     HUMAN_REVIEW       = os.getenv("HUMAN_REVIEW", "false").lower() == "true"
     DELAY_MIN          = int(os.getenv("DELAY_MIN", "15"))
     DELAY_MAX          = int(os.getenv("DELAY_MAX", "35"))
-    DAILY_SEND_LIMIT   = int(os.getenv("DAILY_SEND_LIMIT", "200"))
+    DAILY_SEND_LIMIT   = int(os.getenv("DAILY_SEND_LIMIT", "100"))  # warm-up: 100/gün başlangıç (05-19)
     MONTHLY_SEND_LIMIT = int(os.getenv("MONTHLY_SEND_LIMIT", "20000"))
 
     # ─── PERFORMANCE ─────────────────────────────────────────────

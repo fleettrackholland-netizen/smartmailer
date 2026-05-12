@@ -400,7 +400,8 @@ class Database:
                   AND u.email IS NULL
                   AND o.email IS NULL
                   AND l.email != ''
-                  AND l.status NOT IN ('excluded', 'opted_out', 'invalid')
+                  AND l.status NOT IN ('excluded', 'opted_out', 'invalid', 'quarantine')
+                  AND l.source = 'web_discovery'
                 ORDER BY l.ai_score DESC, l.score DESC
                 LIMIT ?
             """, (limit,)).fetchall()
