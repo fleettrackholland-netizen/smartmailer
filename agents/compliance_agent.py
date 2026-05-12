@@ -34,7 +34,9 @@ FORBIDDEN_PATTERNS = [
     (re.compile(r"\bGPS-?tracking\s+voor\s+\S", re.IGNORECASE),       "Subject begint met overused pattern 'GPS-tracking voor X'"),
     (re.compile(r"HET\s+PROBLEEM|HET\s+RESULTAAT|DE\s+OPLOSSING"),    "Caps-section headers — newsletter pattern"),
     (re.compile(r"▸"),                                                "Bevat '▸' glyph — banned brochure bullet"),
-    (re.compile(r"Hans\s+van\s+der\s+Berg", re.IGNORECASE),           "Bevat oude persona naam — moet Agah Dogan zijn"),
+    (re.compile(r"Hans\s+van\s+der\s+Berg", re.IGNORECASE),           "Bevat oude persona naam — gebruik corporate signature (Fleet Track Holland)"),
+    (re.compile(r"Agah\s+Dogan", re.IGNORECASE),                      "Persoonlijke afzendernaam niet toegestaan — corporate identity only"),
+    (re.compile(r"\bEigenaar\s*[-—–]\s*Fleet\s+Track", re.IGNORECASE),"Persoonlijke title niet toegestaan — corporate identity only"),
 ]
 
 

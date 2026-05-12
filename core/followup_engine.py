@@ -23,7 +23,7 @@ CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 
 FOLLOWUP_PROMPTS = {
     # ─── STEP 1 (Gün 3): SOFT BUMP — geen nieuwe pitch ─────────
-    1: """Je bent Agah Dogan, eigenaar van Fleet Track Holland. Je stuurde {days_ago} dagen geleden een korte vraag aan {company} ({sector}). Er kwam geen reactie.
+    1: """Je schrijft namens Fleet Track Holland (Rotterdam, NL). Je stuurde {days_ago} dagen geleden een korte vraag aan {company} ({sector}). Er kwam geen reactie.
 
 Schrijf NU een KORTE bump — geen herhaling van de pitch, geen psychologische trigger, geen cijfers. Eén of twee zinnen, tipje-naar-boven van de oorspronkelijke mail.
 
@@ -32,9 +32,9 @@ VOORBEELD-TOON:
 Korte bump op mijn bericht van vorige week. Past het misschien nu beter? Anders begrijp ik dat helemaal.
 
 Vriendelijke groet,
-Agah Dogan
-Eigenaar - Fleet Track Holland
-+31 6 27246429 · sales@fleettrackholland.nl"
+Fleet Track Holland
++31 6 27246429 · sales@fleettrackholland.nl
+www.fleettrackholland.nl"
 
 EISEN:
 - 30-50 woorden TOTAAL inclusief aanhef en ondertekening
@@ -45,9 +45,9 @@ EISEN:
 - Body HTML: <p style="margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;line-height:1.55;">...</p> per alinea
 - Ondertekening EXACT:
   Vriendelijke groet,
-  Agah Dogan
-  Eigenaar - Fleet Track Holland
+  Fleet Track Holland
   +31 6 27246429 · sales@fleettrackholland.nl
+  www.fleettrackholland.nl
 
 {previous_emails_context}
 
@@ -56,7 +56,7 @@ Antwoord ALLEEN in geldig JSON:
 """,
 
     # ─── STEP 2 (Gün 7): NUTTIGE ARTEFACT — geen verzonnen case ───
-    2: """Je bent Agah Dogan, eigenaar van Fleet Track Holland. Twee korte berichten naar {company} ({sector}) bleven onbeantwoord ({days_since_original} dagen geleden gestart).
+    2: """Je schrijft namens Fleet Track Holland (Rotterdam, NL). Twee korte berichten naar {company} ({sector}) bleven onbeantwoord ({days_since_original} dagen geleden gestart).
 
 Stuur NU een korte mail met EEN nuttige hint — geen verzonnen klantverhaal, geen fictieve ROI-cijfers. Bied iets concreets: een korte uitleg van wat de Belastingdienst-eisen voor ritregistratie inhouden, of een verwijzing naar het type apparaat dat past bij hun vlootomvang. Geen prijs noemen.
 
@@ -77,7 +77,7 @@ Antwoord ALLEEN in geldig JSON:
 """,
 
     # ─── STEP 3 (Gün 14): SOFT BREAKUP — beleefd, binair ────────
-    3: """Je bent Agah Dogan, eigenaar van Fleet Track Holland. {company} ({sector}) heeft op drie korte berichten niet gereageerd. Dit is het LAATSTE bericht — een beleefde afsluiting, GEEN urgentie, GEEN verlies-frame, GEEN FOMO.
+    3: """Je schrijft namens Fleet Track Holland (Rotterdam, NL). {company} ({sector}) heeft op drie korte berichten niet gereageerd. Dit is het LAATSTE bericht — een beleefde afsluiting, GEEN urgentie, GEEN verlies-frame, GEEN FOMO.
 
 Schrijf een KORTE breakup. Bied twee opties: 'ik sluit uw dossier' of 'stuur nog één antwoord en ik probeer het opnieuw later'. Respectvol, kort, mens-tegen-mens.
 
@@ -87,9 +87,9 @@ Geen reactie ontvangen — niets aan de hand. Wilt u dat ik uw dossier sluit, of
 Een woord is genoeg.
 
 Vriendelijke groet,
-Agah Dogan
-Eigenaar - Fleet Track Holland
-+31 6 27246429 · sales@fleettrackholland.nl"
+Fleet Track Holland
++31 6 27246429 · sales@fleettrackholland.nl
+www.fleettrackholland.nl"
 
 EISEN:
 - 35-55 woorden TOTAAL inclusief ondertekening

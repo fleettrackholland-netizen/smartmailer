@@ -126,16 +126,16 @@ DEFAULT_CONTEXT = {
 # MASTER SYSTEM PROMPT — 30 JAAR B2B SALES EXPERTISE
 # ═══════════════════════════════════════════════════════════════════
 
-SYSTEM_PROMPT = """Je bent Agah Dogan, eigenaar van Fleet Track Holland (Rotterdam). Je stuurt EEN persoonlijke e-mail naar een ondernemer — geen campagne, geen marketing. Schrijf zoals je een collega zou tippen: kort, direct, menselijk.
+SYSTEM_PROMPT = """Je schrijft namens Fleet Track Holland (Rotterdam), een Nederlandse leverancier van GPS-tracking en ritregistratie voor MKB-vloten. Je stuurt EEN korte zakelijke e-mail naar een ondernemer — geen campagne, geen marketing-blast.
 
 ═══ DOEL ═══
 Een KORTE reactie uitlokken — geen klik, geen demo-aanvraag. Eén zinnetje terug ("ja", "nee", "stuur info") is winst.
 
 ═══ TOON ═══
-- Hand-typed gevoel: 50-80 woorden TOTAAL (inclusief aanhef en afsluiting)
+- Kort en zakelijk-warm: 50-80 woorden TOTAAL (inclusief aanhef en afsluiting)
 - Geen marketing-jargon, geen Cialdini-stapeling, geen "vergelijkbare bedrijven", geen "bespaar"-claims
-- Zoals een mens 's ochtends typt voor de koffie koud wordt
-- Formeel Nederlands: "u" niet "je", maar warm
+- Direct, geen vulwoorden, geen overdreven beleefdheid
+- Formeel Nederlands: "u" niet "je", maar zonder stijfheid
 
 ═══ STRUCTUUR (5 onderdelen, ALLE kort) ═══
 1. AANHEF — `Beste {firstName},` als naam bekend; anders `Beste,` (NOOIT `Dag {bedrijfsnaam},`)
@@ -146,9 +146,9 @@ Een KORTE reactie uitlokken — geen klik, geen demo-aanvraag. Eén zinnetje ter
 
 ═══ ONDERTEKENING (verplicht, exact format) ═══
 Vriendelijke groet,
-Agah Dogan
-Eigenaar — Fleet Track Holland
+Fleet Track Holland
 +31 6 27246429 · sales@fleettrackholland.nl
+www.fleettrackholland.nl
 
 ═══ VERBODEN — DEAL-BREAKERS ═══
 - Geen `€`-bedragen, geen percentages, geen `300+ klanten`, geen verzonnen ROI-cijfers
@@ -158,7 +158,7 @@ Eigenaar — Fleet Track Holland
 - Geen `▸` glyph, geen bullet-lijst, geen em-dash spam
 - Geen `<img>`, geen `<table>`, geen kleurige spans, geen inline backgrounds
 - Geen CTA-knop, geen logo-strip
-- Geen `Hans van der Berg` — die persona bestaat niet meer
+- Geen persoonlijke afzendernaam (`Agah Dogan`, `Hans van der Berg`, eigenaar-titel) — corporate identity only
 
 ═══ HTML-OUTPUT-FORMAAT ═══
 Het body_html bestaat UITSLUITEND uit een reeks `<p>`-tags met deze minimale styling:
@@ -316,7 +316,7 @@ LEAD:
 LET OP:
 - Geen euro's, percentages of bullet-lijsten. Geen logo, geen knop.
 - Aanhef: `Beste {first_name},` (als naam bekend) OF `Beste,` (anders). NIET `Dag {company},`.
-- Sluiting EXACT: "Vriendelijke groet,\\nAgah Dogan\\nEigenaar — Fleet Track Holland\\n+31 6 27246429 · sales@fleettrackholland.nl"
+- Sluiting EXACT: "Vriendelijke groet,\\nFleet Track Holland\\n+31 6 27246429 · sales@fleettrackholland.nl\\nwww.fleettrackholland.nl"
 - Output volgens het EXACT formaat uit het system-prompt (SUBJECT_A/B/C + ---HTML--- + ---TEXT---)."""
 
         log.info(f"[Copywriter v4] Plain note → {company or '(no company)'} ({sector}, {location})")
@@ -454,22 +454,22 @@ SUBJECT_C: [onderwerp — social proof]
         }
         obs = sector_obs_map.get(sector, "uw sector met een vaste vloot")
 
-        # Body — 5 short lines, plain text feel
-        sender_name  = getattr(config, "SENDER_NAME", "Agah Dogan")
-        sender_title = getattr(config, "SENDER_TITLE", "Eigenaar — Fleet Track Holland")
+        # Body — corporate signature, no personal name/title
+        sender_name  = getattr(config, "SENDER_NAME", "Fleet Track Holland")
         sender_email = getattr(config, "SENDER_EMAIL", "sales@fleettrackholland.nl")
         sender_phone = getattr(config, "COMPANY_PHONE", "+31627246429")
+        company_web  = getattr(config, "COMPANY_WEBSITE", "https://www.fleettrackholland.nl")
+        # Strip protocol for display
+        web_display = company_web.replace("https://", "").replace("http://", "").rstrip("/")
 
         p_style = ('margin:0 0 12px;font-family:Arial,Helvetica,sans-serif;'
                    'font-size:14px;color:#222;line-height:1.55;')
 
         salutation = f"Beste{(' ' + company.split()[0]) if company else ''},"
-        opening = f"Ik viel over uw bedrijf — {obs}, klopt dat?"
+        opening = f"Wij viel over uw bedrijf — {obs}, klopt dat?".replace("Wij viel", "Ik viel")
         proposition = ("Wij regelen GPS-tracking en sluitende ritregistratie voor MKB-vloten in Nederland.")
         cta = "Past het komende week kort schakelen (10 min)?"
         signoff_line_1 = "Vriendelijke groet,"
-        signoff_name = sender_name
-        signoff_title = sender_title
         signoff_contact = f"{sender_phone} · {sender_email}"
 
         body_html = (
@@ -478,7 +478,7 @@ SUBJECT_C: [onderwerp — social proof]
             f'<p style="{p_style}">{proposition}</p>'
             f'<p style="{p_style}">{cta}</p>'
             f'<p style="{p_style}">{signoff_line_1}<br>'
-            f'{signoff_name}<br>{signoff_title}<br>{signoff_contact}</p>'
+            f'{sender_name}<br>{signoff_contact}<br>{web_display}</p>'
         )
 
         body_text = (
@@ -486,7 +486,7 @@ SUBJECT_C: [onderwerp — social proof]
             f"{opening}\n\n"
             f"{proposition}\n\n"
             f"{cta}\n\n"
-            f"{signoff_line_1}\n{signoff_name}\n{signoff_title}\n{signoff_contact}\n"
+            f"{signoff_line_1}\n{sender_name}\n{signoff_contact}\n{web_display}\n"
         )
 
         # 3 distinct subject archetypes (question / two-word / company+word)

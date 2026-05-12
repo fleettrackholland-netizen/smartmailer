@@ -26,9 +26,9 @@ class Config:
     BREVO_SMTP_PASS    = os.getenv("BREVO_SMTP_PASS", "")
 
     # ─── GÖNDEREN ────────────────────────────────────────────────
-    SENDER_NAME        = os.getenv("SENDER_NAME", "Agah Dogan")
+    SENDER_NAME        = os.getenv("SENDER_NAME", "Fleet Track Holland")
     SENDER_EMAIL       = os.getenv("SENDER_EMAIL", "sales@fleettrackholland.nl")
-    SENDER_TITLE       = os.getenv("SENDER_TITLE", "Eigenaar — Fleet Track Holland")
+    SENDER_TITLE       = os.getenv("SENDER_TITLE", "")  # corporate identity — no personal title
     SENDER_LINKEDIN    = os.getenv("SENDER_LINKEDIN", "")
     COMPANY_NAME       = os.getenv("COMPANY_NAME", "Fleet Track Holland B.V.")
     COMPANY_KVK        = os.getenv("COMPANY_KVK", "")
