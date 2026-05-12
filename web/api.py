@@ -3872,6 +3872,43 @@ def audit_source_endpoint():
         log.error(f"[AUDIT] error: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
 
+# ─── ADMIN: GENERIC QUARANTINE-BY-SOURCE ───────────────────────
+@app.route("/api/admin/quarantine-source", methods=["POST"])
+def quarantine_source_endpoint():
+    """Mark leads of a given `source` as status='quarantine'.
+
+    Body: {
+      "secret": "<DEPLOY_SECRET>",
+      "source": "csv_import",   # required
+      "dry_run": false          # optional, default false
+    }
+    Idempotent. Synchronous (single UPDATE).
+    """
+    deploy_secret = getattr(config, 'DEPLOY_SECRET', 'fleettrack2026')
+    req_secret = request.headers.get("X-Deploy-Secret", "")
+    payload = request.get_json(silent=True) or {}
+    if req_secret != deploy_secret and payload.get("secret") != deploy_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    source = payload.get("source")
+    if not source:
+        return jsonify({"error": "missing 'source' in body"}), 400
+    dry_run = bool(payload.get("dry_run", False))
+
+    try:
+        from tools.quarantine_source import run as _q_run
+        report = _q_run(source=source, dry_run=dry_run)
+        log.info(
+            f"[QUARANTINE-SRC] source={source} dry_run={dry_run} "
+            f"rows_affected={report.get('rows_affected')}"
+        )
+        return jsonify({"status": "success", "report": report})
+    except ValueError as ve:
+        return jsonify({"status": "error", "message": str(ve)}), 400
+    except Exception as e:
+        log.error(f"[QUARANTINE-SRC] error: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+
 # ─── AUTO DATABASE SYNC ──────────────────────────────────────
 def _auto_sync_db():
     """Her 30 dakikada veritabanını GitHub'a otomatik push eder."""
